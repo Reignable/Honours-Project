@@ -1,26 +1,40 @@
-\documentclass{article}
+\documentclass[a4paper, 12pt]{article}
 
 \title{Initial Project Overview}
-\date{14-09-2016}
 \author{Joe Barrett}
+<<<<<<< Updated upstream
 \usepackage[margin=1in]{geometry}
 %\usepackage{fontspec}
 %\setmainfont{Arial}
 \usepackage{fancyhdr}
+=======
+
+\usepackage{fancyhdr}
+\usepackage{fontspec}
+\usepackage[ddmmyyyy]{datetime}
+\usepackage[margin=1in]{geometry}
+\usepackage[none]{hyphenat}
+
+\setmainfont{Arial}
+
+>>>>>>> Stashed changes
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}
+
 \lhead{Joe Barrett}
 \rhead{40117680}
 \lfoot{BEng Software Engineering}
-\rfoot{\today}
+\cfoot{\today}
+\rfoot{\thepage}
 
 \begin{document}
 	\setcounter{secnumdepth}{-1}
 	\pagenumbering{arabic}
-	\paragraph{\Large Initial Project Overview
+	\section[Heading]{\Large Initial Project Overview
 			\newline
 			SOC10101 Honours Project (40 Credits)
 	}
+<<<<<<< Updated upstream
 	\paragraph{Title of Project:\newline}
 	Calculation of Mountain Bike Suspension Dynamics through Mobile Image Processing
 	\paragraph{\underline{Overview of Project Content and Milestones}}
@@ -31,4 +45,34 @@
 	\paragraph{Information Sources that Provide a Context for the Project:}
 	\paragraph{The Importance of the Project:}
 	\paragraph{The Key Challenge(s) to be Overcome:}
+=======
+	
+	\subsection[Title]{Title of Project:}
+	Calculation of Mountain Bike Suspension Setup through Mobile Image Processing
+	
+	\subsection[Overview]{\underline{Overview of Project Content and Milestones}}
+	Due to the lack of knowledge and complexity regarding rear suspension setup on mountain bikes, many riders have an improper setup which can potentially lead to injury. The purpose of this project will be to design and produce a mobile application capable of providing a suggested rear suspension setup for the user based on images of the bike frame and user provided information. 
+	\subsubsection{Milestones}
+	
+	
+	\subsection[Deliverables]{The Main Deliverable(s):}
+	\begin{itemize}
+		\item An analysis of currently available applications and products in the related area
+		\item A mobile application capable of suggesting a rear suspension setup for the user
+	\end{itemize}
+	
+	\subsection[Audience]{The Target Audience for the Deliverable:}
+	Entry level to intermediate mountain bikers with little to no knowledge of the rear suspension setup process.
+	
+	\subsection[Work]{The Work to be Undertaken:}
+	
+	\subsection[Additional Info]{Additional Information / Knowledge Required:}
+	
+	\subsection[Sources]{Information Sources that Provide a Context for the Project:}
+	
+	\subsection[Importance]{The Importance of the Project:}
+	
+	\subsection[Challenges]{The Key Challenge(s) to be Overcome:}
+	
+>>>>>>> Stashed changes
 \end{document}
