@@ -1,0 +1,30 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+\bibcorporate{IMBA Europe}%
+}{%
+\bibcorporate{IMBA Europe}%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+imbasurv}
+\APACinsertmetastar {%
+imbasurv}%
+\begin{APACrefauthors}%
+\bibcorporate{IMBA Europe}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {IMBA European Mountain Bike Survey} {Imba european mountain
+  bike survey}\ \APACbVolEdTR {}{Survey}.
+\newblock
+\APACaddressInstitution{}{International Mountain Bike Association}.
+\newblock
+\begin{APACrefURL}
+  [{24/09/2015}]\url{http://www.imba-europe.com/sites/default/files/IMBA_INFOGRAPHIC_final.pdf}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

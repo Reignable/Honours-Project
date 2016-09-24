@@ -3,10 +3,15 @@
 \title{Honours Project Dissertation}
 \author{Joe Barrett}
 
+\usepackage[natbibapa]{apacite}
+\bibliographystyle{apacite}
 \usepackage{blindtext}
+\usepackage{eurosym}
 \usepackage{fancyhdr}
 \usepackage{fontspec}
 \usepackage{hyperref}
+\usepackage{url}
+
 \usepackage[ddmmyyyy]{datetime}
 \usepackage[margin=1in]{geometry}
 \usepackage[none]{hyphenat}
@@ -33,6 +38,8 @@
 	\listoffigures
 	\newpage
 	\section{Introduction}
+	\subsection{Context}
+	A survey carried out by the International Mountain Bike Association in 2015 shows the average price of mountain bikes owned in Europe to be \euro2546 (\pounds2206) \cite{imbasurv}. Mountain bikes purchased by beginners or enthusiasts above \pounds1500 tend to have suspension for both the front and rear wheels.
 	\newpage
 	\section{Literature Review}
 	\newpage
@@ -43,6 +50,7 @@
 	\section{Critical Evaluation}
 	\newpage
 	\section{Conclusion}
-	
+	\newpage
+	\bibliography{dissertation.bib}	
 	
 \end{document}
