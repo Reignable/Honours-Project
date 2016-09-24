@@ -5,3 +5,5 @@
 \contentsline {section}{\numberline {4}Results}{8}{section.4}
 \contentsline {section}{\numberline {5}Critical Evaluation}{9}{section.5}
 \contentsline {section}{\numberline {6}Conclusion}{10}{section.6}
+\contentsline {section}{Acronyms}{12}{section*.5}
+\contentsline {section}{Glossary}{12}{section*.7}

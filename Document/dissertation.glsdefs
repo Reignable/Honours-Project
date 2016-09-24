@@ -1,0 +1,30 @@
+\ifglsentryexists{fork}{}%
+{%
+\gls@defglossaryentry{fork}%
+{%
+name={Fork},%
+sort={Fork},%
+type={main},%
+first={Fork},%
+firstplural={Forks},%
+text={Fork},%
+plural={Forks},%
+description={The front suspension unit on a mountain bike.},%
+descriptionplural={The front suspension unit on a mountain bike.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%

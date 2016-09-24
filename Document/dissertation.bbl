@@ -1,6 +1,30 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+\bibcorporate{Giant Manufacturing Co. Ltd.}%
+}{%
+\bibcorporate{Giant Manufacturing Co. Ltd.}%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+giantstance}
+\APACinsertmetastar {%
+giantstance}%
+\begin{APACrefauthors}%
+\bibcorporate{Giant Manufacturing Co. Ltd.}%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {Giant Stance} {Giant stance}\ [Product Listing].
+\newblock
+\begin{APACrefURL}
+  \url{https://www.giant-bicycles.com/en-gb/bikes/model/stance/28553/99239/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 \bibcorporate{IMBA Europe}%
 }{%
 \bibcorporate{IMBA Europe}%
@@ -25,6 +49,89 @@ imbasurv}%
 \begin{APACrefURL}
   [{24/09/2015}]\url{http://www.imba-europe.com/sites/default/files/IMBA_INFOGRAPHIC_final.pdf}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Harker%
+}{%
+Harker%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+roseonline}
+\APACinsertmetastar {%
+roseonline}%
+\begin{APACrefauthors}%
+Harker, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {German brand Rose hopes to bloom in Britain} {German
+  brand rose hopes to bloom in britain}.{\BBCQ}
+\newblock
+\begin{APACrefURL}
+  [{24/09/2016}]\url{http://www.bikebiz.com/news/read/german-brand-rose-hopes-to-bloom-in-britain/08815}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Staff%
+}{%
+Staff%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+ytonline}
+\APACinsertmetastar {%
+ytonline}%
+\begin{APACrefauthors}%
+Staff, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {YT Industries launches consumer-direct sales in North
+  America, Oceania} {Yt industries launches consumer-direct sales in north
+  america, oceania}.{\BBCQ}
+\newblock
+\begin{APACrefURL}
+  [{24/09/2015}]\url{http://www.bicycleretailer.com/industry-news/2015/01/30/yt-industries-launches-consumer-direct-sales-north-america-oceania}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Titlestad%
+, Fairlie-Clarke%
+, Davie%
+, Whittaker%
+\BCBL {}\ \BBA {} Grant%
+}{%
+Titlestad%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2003}}%
+}]{%
+fullsusperf}
+\APACinsertmetastar {%
+fullsusperf}%
+\begin{APACrefauthors}%
+Titlestad, J.%
+, Fairlie-Clarke, T.%
+, Davie, M.%
+, Whittaker, A.%
+\BCBL {}\ \BBA {} Grant, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Experimental Evaluation of Mountain Bike Suspension
+  Systems} {Experimental evaluation of mountain bike suspension
+  systems}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Acta Polytechnica}{43}{}{15-20}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

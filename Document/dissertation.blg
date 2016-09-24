@@ -11,46 +11,57 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: dissertation.bib.bib
+Database file #1: bibliography.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 1 entry,
+Warning--No journal in roseonline
+ptr=1, stack=
+
+---the literal stack isn't empty for entry roseonline
+while executing---line 5079 of file apacite.bst
+Warning--No journal in ytonline
+ptr=1, stack=
+
+---the literal stack isn't empty for entry ytonline
+while executing---line 5079 of file apacite.bst
+You've used 5 entries,
             6951 wiz_defined-function locations,
-            1276 strings with 10866 characters,
-and the built_in function-call counts, 1412 in all, are:
-= -- 167
-> -- 10
-< -- 50
-+ -- 41
-- -- 4
-* -- 84
-:= -- 261
-add.period$ -- 5
-call.type$ -- 1
-change.case$ -- 17
+            1300 strings with 11601 characters,
+and the built_in function-call counts, 7782 in all, are:
+= -- 946
+> -- 67
+< -- 325
++ -- 304
+- -- 14
+* -- 483
+:= -- 1383
+add.period$ -- 21
+call.type$ -- 5
+change.case$ -- 85
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 33
-empty$ -- 77
-format.name$ -- 14
-if$ -- 284
+cite$ -- 12
+duplicate$ -- 185
+empty$ -- 360
+format.name$ -- 106
+if$ -- 1533
 int.to.chr$ -- 0
-int.to.str$ -- 3
+int.to.str$ -- 15
 missing$ -- 0
-newline$ -- 27
-num.names$ -- 8
-pop$ -- 44
+newline$ -- 123
+num.names$ -- 40
+pop$ -- 172
 preamble$ -- 1
-purify$ -- 4
+purify$ -- 20
 quote$ -- 0
-skip$ -- 95
+skip$ -- 545
 stack$ -- 0
-substring$ -- 45
-swap$ -- 18
-text.length$ -- 3
+substring$ -- 326
+swap$ -- 117
+text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 80
-warning$ -- 0
-while$ -- 5
+type$ -- 400
+warning$ -- 2
+while$ -- 36
 width$ -- 0
-write$ -- 28
+write$ -- 143
+(There were 2 error messages)
