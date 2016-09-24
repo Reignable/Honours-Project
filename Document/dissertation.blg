@@ -13,6 +13,21 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bibliography.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No journal in sussmybike
+ptr=1, stack=
+
+---the literal stack isn't empty for entry sussmybike
+while executing---line 5079 of file apacite.bst
+Warning--No journal in foxird
+ptr=1, stack=
+
+---the literal stack isn't empty for entry foxird
+while executing---line 5079 of file apacite.bst
+Warning--No journal in shockwiz
+ptr=1, stack=
+
+---the literal stack isn't empty for entry shockwiz
+while executing---line 5079 of file apacite.bst
 Warning--No journal in roseonline
 ptr=1, stack=
 
@@ -23,45 +38,45 @@ ptr=1, stack=
 
 ---the literal stack isn't empty for entry ytonline
 while executing---line 5079 of file apacite.bst
-You've used 5 entries,
+You've used 8 entries,
             6951 wiz_defined-function locations,
-            1300 strings with 11601 characters,
-and the built_in function-call counts, 7782 in all, are:
-= -- 946
-> -- 67
-< -- 325
-+ -- 304
-- -- 14
-* -- 483
-:= -- 1383
-add.period$ -- 21
-call.type$ -- 5
-change.case$ -- 85
+            1314 strings with 12004 characters,
+and the built_in function-call counts, 11913 in all, are:
+= -- 1465
+> -- 97
+< -- 490
++ -- 450
+- -- 22
+* -- 732
+:= -- 2099
+add.period$ -- 33
+call.type$ -- 8
+change.case$ -- 136
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 185
-empty$ -- 360
-format.name$ -- 106
-if$ -- 1533
+cite$ -- 21
+duplicate$ -- 264
+empty$ -- 555
+format.name$ -- 148
+if$ -- 2367
 int.to.chr$ -- 0
-int.to.str$ -- 15
+int.to.str$ -- 24
 missing$ -- 0
-newline$ -- 123
-num.names$ -- 40
-pop$ -- 172
+newline$ -- 189
+num.names$ -- 64
+pop$ -- 227
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 32
 quote$ -- 0
-skip$ -- 545
+skip$ -- 899
 stack$ -- 0
-substring$ -- 326
-swap$ -- 117
-text.length$ -- 12
+substring$ -- 486
+swap$ -- 173
+text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 400
-warning$ -- 2
-while$ -- 36
+type$ -- 640
+warning$ -- 5
+while$ -- 51
 width$ -- 0
-write$ -- 143
-(There were 2 error messages)
+write$ -- 215
+(There were 5 error messages)

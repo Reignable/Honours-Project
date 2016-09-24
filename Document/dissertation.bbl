@@ -1,6 +1,79 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Aston%
+}{%
+Aston%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+sussmybike}
+\APACinsertmetastar {%
+sussmybike}%
+\begin{APACrefauthors}%
+Aston, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {SussMyBike Data Acquisition - Eurobike 2016} {Sussmybike
+  data acquisition - eurobike 2016}.{\BBCQ}
+\newblock
+\begin{APACrefURL}
+  [{24/09/2016}]\url{http://www.pinkbike.com/news/sussmybike-data-acquisition-eurobike-2016.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Benedict%
+}{%
+Benedict%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+foxird}
+\APACinsertmetastar {%
+foxird}%
+\begin{APACrefauthors}%
+Benedict, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Fox iRD Smartphone App Sets Ups Shocks, Forks For You}
+  {Fox ird smartphone app sets ups shocks, forks for you}.{\BBCQ}
+\newblock
+\begin{APACrefURL}
+  [{24/09/2016}]\url{http://www.bikerumor.com/2012/08/29/fox-ird-smartphone-app-sets-ups-shocks-forks-for-you/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\bibcorporate{Dusty Dynamics}%
+}{%
+\bibcorporate{Dusty Dynamics}%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+shockwiz}
+\APACinsertmetastar {%
+shockwiz}%
+\begin{APACrefauthors}%
+\bibcorporate{Dusty Dynamics}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Introducing Shockwiz} {Introducing shockwiz}.{\BBCQ}
+\newblock
+\begin{APACrefURL} [{24/09/2016}]\url{http://www.shockwiz.com/pages/shockwiz}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 \bibcorporate{Giant Manufacturing Co. Ltd.}%
 }{%
 \bibcorporate{Giant Manufacturing Co. Ltd.}%
