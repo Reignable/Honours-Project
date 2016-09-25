@@ -102,6 +102,93 @@ imbasurv}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Callaham%
+}{%
+Callaham%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+androidusers}
+\APACinsertmetastar {%
+androidusers}%
+\begin{APACrefauthors}%
+Callaham, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Google says there are now 1.4 billion active Android
+  devices worldwide} {Google says there are now 1.4 billion active android
+  devices worldwide}.{\BBCQ}
+\newblock
+\begin{APACrefURL}
+  [{25/09/2016}]\url{http://www.androidcentral.com/google-says-there-are-now-14-billion-active-android-devices-worldwide}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Diaz%
+\ \protect \BOthers {.}}{%
+Diaz%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+fitbit}
+\APACinsertmetastar {%
+fitbit}%
+\begin{APACrefauthors}%
+Diaz, K\BPBI M.%
+, Krupka, D\BPBI J.%
+, Chang, M\BPBI J.%
+, Peacock, J.%
+, Ma, Y.%
+, Goldsmith, J.%
+\BDBL {}Davidson, K\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Fitbit\textregistered: An accurate and reliable device
+  for wireless physical activity tracking} {Fitbit\textregistered: An accurate
+  and reliable device for wireless physical activity tracking}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Cardiology}{185}{}{138-140}.
+\newblock
+\begin{APACrefURL}
+  [{24/09/2016}]\url{http://dx.doi.org.ezproxy.napier.ac.uk/10.1016/j.ijcard.2015.03.038}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Formosa%
+}{%
+Formosa%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+apppopularity}
+\APACinsertmetastar {%
+apppopularity}%
+\begin{APACrefauthors}%
+Formosa, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Social Fitness Apps Storm Cycling World} {Social fitness
+  apps storm cycling world}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Bicycle Retailer and Industry News}{21}{}{28-29}.
+\newblock
+\begin{APACrefURL}
+  [{24/09/2016}]\url{http://search.proquest.com.ezproxy.napier.ac.uk/docview/1018189163?rfr_id=info%3Axri%2Fsid%3Aprimo}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Harker%
 }{%
 Harker%
@@ -147,6 +234,10 @@ Hwang, J\BPBI C\BPBI B.%
 \newblock
 \APACaddressPublisher{1000 West Fulton Market, 4th Floor, Chicago, Illinois,
   60607, USA}{}.
+\newblock
+\begin{APACrefURL}
+  [{25/09/2016}]\url{https://trademarks.justia.com/870/42/shockwiz-87042899.html}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -205,6 +296,34 @@ Titlestad, J.%
   systems}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Acta Polytechnica}{43}{}{15-20}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+West%
+}{%
+West%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+strava}
+\APACinsertmetastar {%
+strava}%
+\begin{APACrefauthors}%
+West, L\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Strava: challenge yourself to greater heights in
+  physical activity/cycling and running} {Strava: challenge yourself to greater
+  heights in physical activity/cycling and running}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{British Journal of Sports Medicine}{49}{}{1024}.
+\newblock
+\begin{APACrefURL}
+  [{24/09/2016}]\url{http://bjsm.bmj.com.ezproxy.napier.ac.uk/content/49/15/1024.full}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

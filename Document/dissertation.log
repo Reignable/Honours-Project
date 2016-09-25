@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.5.22)  25 SEP 2016 12:05
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.9.19)  25 SEP 2016 14:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1042,43 +1042,48 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 [4]
-Overfull \hbox (9.17105pt too wide) in paragraph at lines 46--57
+Overfull \hbox (9.17105pt too wide) in paragraph at lines 46--59
 \EU1/Arial(0)/m/n/12 Starting at around £1000 ([]Giant Manufacturing Co. Ltd.[]
 , []2017[]), enthusiast level mountain
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--57
+Underfull \hbox (badness 10000) in paragraph at lines 46--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--57
+Underfull \hbox (badness 10000) in paragraph at lines 46--59
 
  []
 
 
-Overfull \hbox (2.15881pt too wide) in paragraph at lines 46--57
+Overfull \hbox (2.15881pt too wide) in paragraph at lines 46--59
 \EU1/Arial(0)/m/n/12 It has been proven that using a []FS over a []Hard Tail (H
 T)[] offers a performance advantage
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--57
+Underfull \hbox (badness 10000) in paragraph at lines 46--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--57
+Underfull \hbox (badness 10000) in paragraph at lines 46--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--57
+Underfull \hbox (badness 10000) in paragraph at lines 46--59
 
  []
 
-[5] [6] [7] [8] [9] [10] (./dissertation.bbl
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--59
+
+ []
+
+[5] [6] [7] [8] [9] [10] [11] (./dissertation.bbl
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 24.
 
 
@@ -1105,45 +1110,88 @@ Underfull \hbox (badness 1253) in paragraph at lines 88--103
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--128
+Underfull \hbox (badness 1642) in paragraph at lines 115--129
+\EU1/Arial(0)/m/n/12 worldwide.  Retrieved 25/09/2016, from []$[][][][] [][][] 
+[][][] [] [][][][][][][][][][][][][][][] [] [][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--129
+[][][][][][] [] [][][][][] [] [][][][][][] [] [][][][] [] [][][][] [] [][][] []
+ [][][][][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 175--190
+[]\EU1/Arial(0)/m/n/12 Formosa, N.  (2012).  Social fitness apps storm cycling 
+world.  \EU1/Arial(0)/m/it/12 Bicycle
+ []
+
+
+Underfull \hbox (badness 5077) in paragraph at lines 175--190
+\EU1/Arial(0)/m/it/12 Retailer and Industry News\EU1/Arial(0)/m/n/12 , \EU1/Ari
+al(0)/m/it/12 21\EU1/Arial(0)/m/n/12 , 28-29.  Retrieved 24/09/2016, from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--190
+[]$[][][][] [][][] [][][][][][] [] [][][][][][][][][] [] [][][][] [] [][][][][]
+[][][] [] [][][][][][][] [] [][][] [] [][][] [] [][][][][][][] [] [][][][][][][
+][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--215
 \EU1/Arial(0)/m/n/12 24/09/2016, from []$[][][][] [][][] [][][] [] [][][][][][]
 [][] [] [][][][] [] [][][][] [] [][][][] [] [][][][][][] [] [][][][][][] [] [][
 ][][][] []
  []
 
 
-Underfull \hbox (badness 2717) in paragraph at lines 163--177
+Underfull \hbox (badness 3780) in paragraph at lines 227--242
+[]\EU1/Arial(0)/m/n/12 Hwang, J. C. B.  (2016, 05 19).  \EU1/Arial(0)/m/it/12 S
+hockwiz \EU1/Arial(0)/m/n/12 (Trademark Application No.[]
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 254--268
 \EU1/Arial(0)/m/n/12 oceania.  Retrieved 24/09/2015, from []$[][][][] [][][] []
 [][] [] [][][][][][][][][][][][][][][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--177
+Underfull \hbox (badness 10000) in paragraph at lines 254--268
 [][][][][][][][] [] [][][][][] [] [][][][] [] [][] [] [][] [] [][] [] [][][][][
 ][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][] [] [][][][][][][] []
  []
 
 
-Underfull \hbox (badness 5862) in paragraph at lines 193--209
+Underfull \hbox (badness 5862) in paragraph at lines 284--300
 \EU1/Arial(0)/m/n/12 Experimental evaluation of mountain bike suspension system
 s.  \EU1/Arial(0)/m/it/12 Acta
  []
 
-) [11] (./dissertation.acr) (./dissertation.gls)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
- [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
+
+Underfull \hbox (badness 4899) in paragraph at lines 312--328
+[]\EU1/Arial(0)/m/n/12 West, L. R.  (2015).  Strava: challenge yourself to grea
+ter heights in
+ []
+
+) [12] (./dissertation.acr) (./dissertation.gls)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
+ [13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
  (./dissertation.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 73.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 73.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 75.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 75.
  ) 
 Here is how much of TeX's memory you used:
- 27135 strings out of 493638
- 467195 string characters out of 6146796
- 559483 words of memory out of 5000000
- 30208 multiletter control sequences out of 15000+600000
+ 27155 strings out of 493638
+ 467524 string characters out of 6146796
+ 567484 words of memory out of 5000000
+ 30228 multiletter control sequences out of 15000+600000
  7735 words of font info for 54 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  48i,10n,67p,10388b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (13 pages).
+Output written on dissertation.pdf (14 pages).
