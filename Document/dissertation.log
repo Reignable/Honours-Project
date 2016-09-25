@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.9.19)  24 SEP 2016 18:58
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.5.22)  25 SEP 2016 12:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1058,6 +1058,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--57
  []
 
 
+Overfull \hbox (2.15881pt too wide) in paragraph at lines 46--57
+\EU1/Arial(0)/m/n/12 It has been proven that using a []FS over a []Hard Tail (H
+T)[] offers a performance advantage
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 46--57
 
  []
@@ -1086,20 +1092,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--27
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--99
+Underfull \hbox (badness 10000) in paragraph at lines 64--76
 \EU1/Arial(0)/m/n/12 from []$[][][][][] [][][] [][][] [] [][][][][][] [] [][][]
 [][][][][][] [] [][][][] [] [][] [] [][][] [] [][][][][] [] [][][][][] [] [][][
 ][][][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 111--126
+Underfull \hbox (badness 1253) in paragraph at lines 88--103
 \EU1/Arial(0)/m/n/12 Mountain Bike Association.  Retrieved 24/09/2015, from []$
 [][][][] [][][] [][][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--151
+Underfull \hbox (badness 10000) in paragraph at lines 115--128
 \EU1/Arial(0)/m/n/12 24/09/2016, from []$[][][][] [][][] [][][] [] [][][][][][]
 [][] [] [][][][] [] [][][][] [] [][][][] [] [][][][][][] [] [][][][][][] [] [][
 ][][][] []
@@ -1133,8 +1139,8 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 73.
  ) 
 Here is how much of TeX's memory you used:
  27135 strings out of 493638
- 467150 string characters out of 6146796
- 560484 words of memory out of 5000000
+ 467195 string characters out of 6146796
+ 559483 words of memory out of 5000000
  30208 multiletter control sequences out of 15000+600000
  7735 words of font info for 54 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191

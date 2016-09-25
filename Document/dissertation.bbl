@@ -51,29 +51,6 @@ Benedict, T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-\bibcorporate{Dusty Dynamics}%
-}{%
-\bibcorporate{Dusty Dynamics}%
-}{%
-{\protect \APACyear {2016}}%
-}]{%
-shockwiz}
-\APACinsertmetastar {%
-shockwiz}%
-\begin{APACrefauthors}%
-\bibcorporate{Dusty Dynamics}.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2016}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Introducing Shockwiz} {Introducing shockwiz}.{\BBCQ}
-\newblock
-\begin{APACrefURL} [{24/09/2016}]\url{http://www.shockwiz.com/pages/shockwiz}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 \bibcorporate{Giant Manufacturing Co. Ltd.}%
 }{%
 \bibcorporate{Giant Manufacturing Co. Ltd.}%
@@ -147,6 +124,29 @@ Harker, J.%
 \begin{APACrefURL}
   [{24/09/2016}]\url{http://www.bikebiz.com/news/read/german-brand-rose-hopes-to-bloom-in-britain/08815}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hwang%
+}{%
+Hwang%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+shockwiztrademark}
+\APACinsertmetastar {%
+shockwiztrademark}%
+\begin{APACrefauthors}%
+Hwang, J\BPBI C\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{05}{19}.
+\newblock
+\APACrefbtitle {Shockwiz} {Shockwiz}\ (Trademark Application\ \BNUM\ 87042899).
+\newblock
+\APACaddressPublisher{1000 West Fulton Market, 4th Floor, Chicago, Illinois,
+  60607, USA}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
