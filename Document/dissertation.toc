@@ -1,11 +1,16 @@
 \contentsline {section}{\numberline {1}Introduction}{5}{section.1}
 \contentsline {subsection}{\numberline {1.1}Context}{5}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}The Physics of Mountain Bike Suspension}{6}{subsection.1.2}
-\contentsline {subsubsection}{\numberline {1.2.1}Front Suspension}{6}{subsubsection.1.2.1}
-\contentsline {section}{\numberline {2}Literature Review}{7}{section.2}
-\contentsline {section}{\numberline {3}Approach}{8}{section.3}
-\contentsline {section}{\numberline {4}Results}{9}{section.4}
-\contentsline {section}{\numberline {5}Critical Evaluation}{10}{section.5}
-\contentsline {section}{\numberline {6}Conclusion}{11}{section.6}
-\contentsline {section}{Acronyms}{13}{section*.5}
-\contentsline {section}{Glossary}{13}{section*.7}
+\contentsline {subsection}{\numberline {1.2}Mountain Bike Suspension Concepts}{6}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Travel and Stroke}{6}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Front Suspension}{6}{subsubsection.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.3}Rear Suspension}{6}{subsubsection.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.4}Damping}{7}{subsubsection.1.2.4}
+\contentsline {paragraph}{Compression Damping}{7}{section*.4}
+\contentsline {paragraph}{Rebound Damping}{7}{section*.5}
+\contentsline {section}{\numberline {2}Literature Review}{8}{section.2}
+\contentsline {section}{\numberline {3}Approach}{9}{section.3}
+\contentsline {section}{\numberline {4}Results}{10}{section.4}
+\contentsline {section}{\numberline {5}Critical Evaluation}{11}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{12}{section.6}
+\contentsline {section}{Acronyms}{14}{section*.7}
+\contentsline {section}{Glossary}{14}{section*.9}
