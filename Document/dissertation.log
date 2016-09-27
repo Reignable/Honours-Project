@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.5.22)  27 SEP 2016 13:35
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.9.19)  27 SEP 2016 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1097,76 +1097,93 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 [4]
-Overfull \hbox (9.17105pt too wide) in paragraph at lines 48--61
+Overfull \hbox (9.17105pt too wide) in paragraph at lines 49--62
 \EU1/Arial(0)/m/n/12 Starting at around £1000 ([]Giant Manufacturing Co. Ltd.[]
 , []2017[]), enthusiast level mountain
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--61
+Underfull \hbox (badness 10000) in paragraph at lines 49--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--61
+Underfull \hbox (badness 10000) in paragraph at lines 49--62
 
  []
 
 
-Overfull \hbox (2.15881pt too wide) in paragraph at lines 48--61
+Overfull \hbox (2.15881pt too wide) in paragraph at lines 49--62
 \EU1/Arial(0)/m/n/12 It has been proven that using a []FS over a []Hard Tail (H
 T)[] offers a performance advantage
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--61
+Underfull \hbox (badness 10000) in paragraph at lines 49--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--61
+Underfull \hbox (badness 10000) in paragraph at lines 49--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--61
+Underfull \hbox (badness 10000) in paragraph at lines 49--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--61
+Underfull \hbox (badness 10000) in paragraph at lines 49--62
 
  []
 
 [5]
 File: ../images/3_bike_lev_ratio.jpg Graphic file (type QTm)
  <use  "../images/3_bike_lev_ratio.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 93--108
+Underfull \hbox (badness 10000) in paragraph at lines 94--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--108
+Underfull \hbox (badness 10000) in paragraph at lines 94--109
 
  []
 
 
-Overfull \hbox (14.59851pt too wide) in paragraph at lines 93--108
+Overfull \hbox (14.59851pt too wide) in paragraph at lines 94--109
 \EU1/Arial(0)/m/n/12 size however it can be seen that their suspension hosts dr
 astically different characteristics. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--108
+Underfull \hbox (badness 10000) in paragraph at lines 94--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--108
+Underfull \hbox (badness 10000) in paragraph at lines 94--109
 
  []
 
-[6] [7] [8] [9] [10] [11] [12] [13] (./dissertation.bbl
+[6] [7]
+Overfull \hbox (3.94617pt too wide) in paragraph at lines 114--115
+\EU1/Arial(0)/m/n/12 little can cause the suspension to ”blow through” its trav
+el prematurely potentially leaving
+ []
+
+
+Overfull \hbox (15.14409pt too wide) in paragraph at lines 116--117
+\EU1/Arial(0)/m/n/12 holes. Too much rebound damping causes the suspension to r
+eturn slowly and sometimes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--121
+
+ []
+
+[8] [9] [10] [11] [12] [13] (./dissertation.bbl
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 24.
 
 
@@ -1261,17 +1278,17 @@ ter heights in
  []
 
 ) [14] (./dissertation.acr) (./dissertation.gls)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
  [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
  (./dissertation.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 128.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 128.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 137.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 137.
  ) 
 Here is how much of TeX's memory you used:
  27737 strings out of 493638
  474629 string characters out of 6146796
- 582611 words of memory out of 5000000
+ 582612 words of memory out of 5000000
  30785 multiletter control sequences out of 15000+600000
  7735 words of font info for 54 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
