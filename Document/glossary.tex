@@ -1,4 +1,4 @@
-%Glossary
+%%%%%Basics%%%%%
 \newglossaryentry{fork}{
 	name={Fork},
 	text={fork},
@@ -23,14 +23,51 @@
 	description={A mountain bike with both front and rear suspension}
 }
 
+%%%%%Concepts%%%%%
+\newglossaryentry{stroke}{
+	name={Stroke},
+	text={stroke},
+	description={The distance a shock absorber can compress before bottoming out}
+}
+
 \newglossaryentry{rebounddamping}{
 	name={Rebound Damping},
 	text={rebound damping},
 	description={Controls the speed at which a suspension unit extends once it has been compressed. Less damping means the unit extends faster}
 }
 
+\newglossaryentry{travel}{
+	name={Travel},
+	text={travel},
+	description={The distance a wheel can move before bottoming out}
+}
 
-%Acronyms
+\newglossaryentry{sag}{
+	name={Sag},
+	text={sag},
+	description={The distance which the suspension sits into its travel when the rider is in their neutral position}
+}
+
+%%%%%Suspension Types%%%%%%
+\newglossaryentry{virtpivot}{
+	name={Virtual Pivot Point},
+	text={virtual pivot point},
+	description={A rear suspension utilising an upper and lower link to create a simulated pivot a physical one would be impossible}
+}
+
+\newglossaryentry{horst}{
+	name={Horst Link},
+	text={horst link},
+	description={A suspension system utilising a pivot point located near to and below the rear wheel axle}
+}
+
+\newglossaryentry{singlepiv}{
+	name={Single Pivot},
+	text={single pivot},
+	description={A suspension system which rotates around a physical main pivot point}}
+
+
+%%%%%Acronyms%%%%%
 \newglossaryentry{ht}{
 	type=\acronymtype,
 	name={HT},
@@ -45,4 +82,12 @@
 	description={Full Suspension},
 	first={Full Suspension (FS)\glsadd{fullsus}},
 	see=[Glossary:]{fullsus}
+}
+
+\newglossaryentry{vpp}{
+	type=\acronymtype,
+	name={VPP},
+	description={Virtual Pivot Point},
+	first={Virtual Pivot Point (VPP)\glsadd{virtpivot}},
+	see=[Glossary:]{virtpivot}
 }

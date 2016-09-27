@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.9.19)  27 SEP 2016 15:07
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.5.22)  27 SEP 2016 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1174,8 +1174,14 @@ el prematurely potentially leaving
 
 
 Overfull \hbox (15.14409pt too wide) in paragraph at lines 116--117
-\EU1/Arial(0)/m/n/12 holes. Too much rebound damping causes the suspension to r
-eturn slowly and sometimes
+\EU1/Arial(0)/m/n/12 holes. Too much []rebound damping causes the suspension to
+ return slowly and sometimes
+ []
+
+
+Overfull \hbox (9.58745pt too wide) in paragraph at lines 118--121
+\EU1/Arial(0)/m/n/12 damping circuit making four adjustable damping settings in
+ total. High speed adjustments
  []
 
 
@@ -1286,10 +1292,10 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 137.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 137.
  ) 
 Here is how much of TeX's memory you used:
- 27737 strings out of 493638
- 474629 string characters out of 6146796
- 582612 words of memory out of 5000000
- 30785 multiletter control sequences out of 15000+600000
+ 27947 strings out of 493638
+ 478225 string characters out of 6146796
+ 584070 words of memory out of 5000000
+ 30995 multiletter control sequences out of 15000+600000
  7735 words of font info for 54 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  48i,11n,68p,10385b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
