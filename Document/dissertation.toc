@@ -6,13 +6,14 @@
 \contentsline {subsubsection}{\numberline {1.2.3}Rear Suspension}{6}{subsubsection.1.2.3}
 \contentsline {subsubsection}{\numberline {1.2.4}Sag}{8}{subsubsection.1.2.4}
 \contentsline {subsubsection}{\numberline {1.2.5}Damping}{8}{subsubsection.1.2.5}
-\contentsline {paragraph}{\numberline {1.2.5.1}Compression Damping}{8}{paragraph.1.2.5.1}
-\contentsline {paragraph}{\numberline {1.2.5.2}Rebound Damping}{8}{paragraph.1.2.5.2}
-\contentsline {paragraph}{\numberline {1.2.5.3}High and Low Speed Damping}{8}{paragraph.1.2.5.3}
-\contentsline {section}{\numberline {2}Literature Review}{9}{section.2}
-\contentsline {section}{\numberline {3}Approach}{10}{section.3}
-\contentsline {section}{\numberline {4}Results}{11}{section.4}
-\contentsline {section}{\numberline {5}Critical Evaluation}{12}{section.5}
-\contentsline {section}{\numberline {6}Conclusion}{13}{section.6}
-\contentsline {section}{Acronyms}{15}{section*.5}
-\contentsline {section}{Glossary}{15}{section*.7}
+\contentsline {paragraph}{\numberline {1.2.5.1}Compression Damping}{9}{paragraph.1.2.5.1}
+\contentsline {paragraph}{\numberline {1.2.5.2}Rebound Damping}{9}{paragraph.1.2.5.2}
+\contentsline {paragraph}{\numberline {1.2.5.3}High and Low Speed Damping}{9}{paragraph.1.2.5.3}
+\contentsline {subsubsection}{\numberline {1.2.6}Optimal Setup}{9}{subsubsection.1.2.6}
+\contentsline {section}{\numberline {2}Literature Review}{10}{section.2}
+\contentsline {section}{\numberline {3}Approach}{11}{section.3}
+\contentsline {section}{\numberline {4}Results}{12}{section.4}
+\contentsline {section}{\numberline {5}Critical Evaluation}{13}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{14}{section.6}
+\contentsline {section}{Acronyms}{16}{section*.5}
+\contentsline {section}{Glossary}{16}{section*.7}

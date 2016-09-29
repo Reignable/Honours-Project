@@ -55,6 +55,30 @@ Benedict, T.%
 }{%
 \bibcorporate{Giant Manufacturing Co. Ltd.}%
 }{%
+{\protect \APACyear {2012}}%
+}]{%
+maestroimage}
+\APACinsertmetastar {%
+maestroimage}%
+\begin{APACrefauthors}%
+\bibcorporate{Giant Manufacturing Co. Ltd.}%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+\APACrefbtitle {frame\_maestro.jpg} {frame\_maestro.jpg}\ [Image].
+\newblock
+\begin{APACrefURL}
+  [{29/09/2016}]\url{https://www.giant-bicycles.com/images/technology/2012/frame_maestro.jpg}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\bibcorporate{Giant Manufacturing Co. Ltd.}%
+}{%
+\bibcorporate{Giant Manufacturing Co. Ltd.}%
+}{%
 {\protect \APACyear {2017}}%
 }]{%
 giantstance}

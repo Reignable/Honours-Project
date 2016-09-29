@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.5.22)  27 SEP 2016 16:21
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.5.22)  29 SEP 2016 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1141,55 +1141,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--62
 [5]
 File: ../images/3_bike_lev_ratio.jpg Graphic file (type QTm)
  <use  "../images/3_bike_lev_ratio.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 94--109
+File: ../images/frame_maestro.jpg Graphic file (type QTm)
+
+<use  "../images/frame_maestro.jpg" >
+Underfull \hbox (badness 10000) in paragraph at lines 93--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--109
+Underfull \hbox (badness 10000) in paragraph at lines 93--116
 
  []
 
 
-Overfull \hbox (14.59851pt too wide) in paragraph at lines 94--109
+Overfull \hbox (14.59851pt too wide) in paragraph at lines 93--116
 \EU1/Arial(0)/m/n/12 size however it can be seen that their suspension hosts dr
 astically different characteristics. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--109
+Underfull \hbox (badness 10000) in paragraph at lines 93--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--109
+Underfull \hbox (badness 10000) in paragraph at lines 93--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--116
 
  []
 
 [6] [7]
-Overfull \hbox (3.94617pt too wide) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 117--120
+
+ []
+
+
+Overfull \hbox (3.94617pt too wide) in paragraph at lines 123--124
 \EU1/Arial(0)/m/n/12 little can cause the suspension to ”blow through” its trav
 el prematurely potentially leaving
  []
 
-
-Overfull \hbox (15.14409pt too wide) in paragraph at lines 116--117
+[8]
+Overfull \hbox (15.14409pt too wide) in paragraph at lines 125--126
 \EU1/Arial(0)/m/n/12 holes. Too much []rebound damping causes the suspension to
  return slowly and sometimes
  []
 
 
-Overfull \hbox (9.58745pt too wide) in paragraph at lines 118--121
+Overfull \hbox (9.58745pt too wide) in paragraph at lines 127--130
 \EU1/Arial(0)/m/n/12 damping circuit making four adjustable damping settings in
  total. High speed adjustments
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--121
+Underfull \hbox (badness 10000) in paragraph at lines 127--130
 
  []
 
-[8] [9] [10] [11] [12] [13] (./dissertation.bbl
+[9] [10] [11] [12] [13] [14] (./dissertation.bbl
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 24.
 
 
@@ -1204,100 +1217,107 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--27
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 64--76
+\EU1/Arial(0)/m/n/12 29/09/2016, from []$[][][][][] [][][] [][][] [] [][][][][]
+[] [] [][][][][][][][][] [] [][][][] [] [][][][][][] [] [][][][][][][][][][] []
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--100
 \EU1/Arial(0)/m/n/12 from []$[][][][][] [][][] [][][] [] [][][][][][] [] [][][]
 [][][][][][] [] [][][][] [] [][] [] [][][] [] [][][][][] [] [][][][][] [] [][][
 ][][][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 88--103
+Underfull \hbox (badness 1253) in paragraph at lines 112--127
 \EU1/Arial(0)/m/n/12 Mountain Bike Association.  Retrieved 24/09/2015, from []$
 [][][][] [][][] [][][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 115--129
+Underfull \hbox (badness 1642) in paragraph at lines 139--153
 \EU1/Arial(0)/m/n/12 worldwide.  Retrieved 25/09/2016, from []$[][][][] [][][] 
 [][][] [] [][][][][][][][][][][][][][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--129
+Underfull \hbox (badness 10000) in paragraph at lines 139--153
 [][][][][][] [] [][][][][] [] [][][][][][] [] [][][][] [] [][][][] [] [][][] []
  [][][][][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 175--190
+Underfull \hbox (badness 3364) in paragraph at lines 199--214
 []\EU1/Arial(0)/m/n/12 Formosa, N.  (2012).  Social fitness apps storm cycling 
 world.  \EU1/Arial(0)/m/it/12 Bicycle
  []
 
 
-Underfull \hbox (badness 5077) in paragraph at lines 175--190
+Underfull \hbox (badness 5077) in paragraph at lines 199--214
 \EU1/Arial(0)/m/it/12 Retailer and Industry News\EU1/Arial(0)/m/n/12 , \EU1/Ari
 al(0)/m/it/12 21\EU1/Arial(0)/m/n/12 , 28-29.  Retrieved 24/09/2016, from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--190
+Underfull \hbox (badness 10000) in paragraph at lines 199--214
 []$[][][][] [][][] [][][][][][] [] [][][][][][][][][] [] [][][][] [] [][][][][]
 [][][] [] [][][][][][][] [] [][][] [] [][][] [] [][][][][][][] [] [][][][][][][
 ][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--215
+Underfull \hbox (badness 10000) in paragraph at lines 226--239
 \EU1/Arial(0)/m/n/12 24/09/2016, from []$[][][][] [][][] [][][] [] [][][][][][]
 [][] [] [][][][] [] [][][][] [] [][][][] [] [][][][][][] [] [][][][][][] [] [][
 ][][][] []
  []
 
 
-Underfull \hbox (badness 3780) in paragraph at lines 227--242
+Underfull \hbox (badness 3780) in paragraph at lines 251--266
 []\EU1/Arial(0)/m/n/12 Hwang, J. C. B.  (2016, 05 19).  \EU1/Arial(0)/m/it/12 S
 hockwiz \EU1/Arial(0)/m/n/12 (Trademark Application No.[]
  []
 
 
-Underfull \hbox (badness 2717) in paragraph at lines 254--268
+Underfull \hbox (badness 2717) in paragraph at lines 278--292
 \EU1/Arial(0)/m/n/12 oceania.  Retrieved 24/09/2015, from []$[][][][] [][][] []
 [][] [] [][][][][][][][][][][][][][][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--268
+Underfull \hbox (badness 10000) in paragraph at lines 278--292
 [][][][][][][][] [] [][][][][] [] [][][][] [] [][] [] [][] [] [][] [] [][][][][
 ][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][] [] [][][][][][][] []
  []
 
 
-Underfull \hbox (badness 5862) in paragraph at lines 284--300
+Underfull \hbox (badness 5862) in paragraph at lines 308--324
 \EU1/Arial(0)/m/n/12 Experimental evaluation of mountain bike suspension system
 s.  \EU1/Arial(0)/m/it/12 Acta
  []
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 312--328
+Underfull \hbox (badness 4899) in paragraph at lines 336--352
 []\EU1/Arial(0)/m/n/12 West, L. R.  (2015).  Strava: challenge yourself to grea
 ter heights in
  []
 
-) [14] (./dissertation.acr) (./dissertation.gls)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
- [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
+) [15] (./dissertation.acr) (./dissertation.gls)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
+ [16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
  (./dissertation.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 137.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 137.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 148.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 148.
  ) 
 Here is how much of TeX's memory you used:
- 27947 strings out of 493638
- 478225 string characters out of 6146796
- 584070 words of memory out of 5000000
- 30995 multiletter control sequences out of 15000+600000
+ 27955 strings out of 493638
+ 478378 string characters out of 6146796
+ 585070 words of memory out of 5000000
+ 31002 multiletter control sequences out of 15000+600000
  7735 words of font info for 54 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  48i,11n,68p,10385b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (16 pages).
+Output written on dissertation.pdf (17 pages).

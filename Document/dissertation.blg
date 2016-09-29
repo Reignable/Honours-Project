@@ -38,45 +38,45 @@ ptr=1, stack=
 
 ---the literal stack isn't empty for entry ytonline
 while executing---line 5079 of file apacite.bst
-You've used 12 entries,
+You've used 13 entries,
             6951 wiz_defined-function locations,
-            1345 strings with 13082 characters,
-and the built_in function-call counts, 20167 in all, are:
-= -- 2473
-> -- 162
-< -- 904
-+ -- 889
-- -- 28
-* -- 1286
-:= -- 3631
-add.period$ -- 49
-call.type$ -- 12
-change.case$ -- 208
+            1350 strings with 13198 characters,
+and the built_in function-call counts, 21382 in all, are:
+= -- 2633
+> -- 172
+< -- 942
++ -- 911
+- -- 32
+* -- 1348
+:= -- 3802
+add.period$ -- 53
+call.type$ -- 13
+change.case$ -- 225
 chr.to.int$ -- 0
-cite$ -- 29
-duplicate$ -- 496
-empty$ -- 879
-format.name$ -- 248
-if$ -- 3918
+cite$ -- 31
+duplicate$ -- 528
+empty$ -- 948
+format.name$ -- 262
+if$ -- 4195
 int.to.chr$ -- 0
-int.to.str$ -- 36
+int.to.str$ -- 39
 missing$ -- 0
-newline$ -- 291
-num.names$ -- 96
-pop$ -- 376
+newline$ -- 313
+num.names$ -- 104
+pop$ -- 441
 preamble$ -- 1
-purify$ -- 52
+purify$ -- 56
 quote$ -- 0
-skip$ -- 1388
+skip$ -- 1460
 stack$ -- 0
-substring$ -- 985
-swap$ -- 302
-text.length$ -- 39
+substring$ -- 1011
+swap$ -- 322
+text.length$ -- 42
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 960
+type$ -- 1040
 warning$ -- 5
-while$ -- 90
+while$ -- 95
 width$ -- 0
-write$ -- 333
+write$ -- 357
 (There were 5 error messages)
