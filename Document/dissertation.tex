@@ -8,14 +8,16 @@
 \usepackage{blindtext}
 \usepackage{booktabs}
 \usepackage[ddmmyyyy]{datetime}
+\usepackage{enumitem}
 \usepackage{eurosym}
 \usepackage{fancyhdr}
 \usepackage{fontspec}
 \usepackage[margin=1in]{geometry}
-\usepackage[toc,acronym]{glossaries}
+\usepackage[toc,acronym,nonumberlist]{glossaries}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage[none]{hyphenat}
+\usepackage[nottoc,notlot,notlof]{tocbibind}
 \usepackage[table]{xcolor}
 \usepackage{url}
 
@@ -26,12 +28,17 @@
 
 \lhead{Joe Barrett - 40117680}
 \rhead{SOC10101 Honours Project}
-\cfoot{\thepage}
+\cfoot{}
+\rfoot{\thepage}
 
 \makeglossary
 \loadglsentries{glossary}
 
+\newlist{chapterList}{enumerate}{1}
+\setlist[chapterList]{label=\bfseries Chapter \arabic* - }
+
 \begin{document}
+	\pagenumbering{roman}
 	\setcounter{secnumdepth}{4}
 	\setcounter{tocdepth}{2}
 	\input{../Title/title.tex}
@@ -45,6 +52,7 @@
 	\newpage
 	\listoffigures
 	\newpage
+	\pagenumbering{arabic}
 	\section{Introduction}
 	\input{background}
 	\newpage
