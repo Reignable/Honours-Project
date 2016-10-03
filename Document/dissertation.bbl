@@ -51,6 +51,31 @@ Benedict, T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+\bibcorporate{European Science Foundation}%
+}{%
+\bibcorporate{European Science Foundation}%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+esfmedical}
+\APACinsertmetastar {%
+esfmedical}%
+\begin{APACrefauthors}%
+\bibcorporate{European Science Foundation}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+\APACrefbtitle {Medical Imaging for Improved Patient Care} {Medical imaging for
+  improved patient care}\ [Policy Briefing].
+\newblock
+\begin{APACrefURL}
+  [{03/10/2016}]\url{http://www.esf.org/fileadmin/links/EMRC/ESF_POLICY28_V09_HD.pdf}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 \bibcorporate{Giant Manufacturing Co. Ltd.}%
 }{%
 \bibcorporate{Giant Manufacturing Co. Ltd.}%
@@ -96,6 +121,55 @@ giantstance}%
 \begin{APACrefURL}
   \url{https://www.giant-bicycles.com/en-gb/bikes/model/stance/28553/99239/}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\bibcorporate{Honda Motor Co.}%
+}{%
+\bibcorporate{Honda Motor Co.}%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+hondanightvision}
+\APACinsertmetastar {%
+hondanightvision}%
+\begin{APACrefauthors}%
+\bibcorporate{Honda Motor Co.}%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Honda Develops World's First Intelligent Night Vision
+  System Able to Detect Pedestrians and Provide Driver Cautions-Available on
+  Legend model to be released in Fall 2004} {Honda develops world's first
+  intelligent night vision system able to detect pedestrians and provide driver
+  cautions-available on legend model to be released in fall 2004}{\BBCQ}\
+  [Press Release].
+\newblock
+\begin{APACrefURL}
+  [{03/10/2016}]\url{http://world.honda.com/news/2004/4040824a-eng.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\bibcorporate{Image Analysis Group}%
+}{%
+\bibcorporate{Image Analysis Group}%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+mriimage}
+\APACinsertmetastar {%
+mriimage}%
+\begin{APACrefauthors}%
+\bibcorporate{Image Analysis Group}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACrefbtitle {RAMRI} {Ramri}\ [Image].
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
