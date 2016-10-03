@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.5.22)  2 OCT 2016 16:54
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.5.22)  3 OCT 2016 13:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1115,7 +1115,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \openout9 = `dissertation.lof'.
 
 
-[4] (./background.tex
+[4] (./sections/background.tex
 Overfull \hbox (9.17105pt too wide) in paragraph at lines 4--17
 \EU1/Arial(0)/m/n/12 Starting at around £1000 ([]Giant Manufacturing Co. Ltd.[]
 , []2017[]), enthusiast level mountain
@@ -1163,7 +1163,7 @@ Overfull \hbox (17.8101pt too wide) in paragraph at lines 18--20
 meeting the following objectives: 
  []
 
-) [2] (./physics.tex
+) [2] (./sections/physics.tex
 File: ../images/3_bike_lev_ratio.jpg Graphic file (type QTm)
  <use  "../images/3_bike_lev_ratio.jpg" >
 File: ../images/frame_maestro.jpg Graphic file (type QTm)
@@ -1227,7 +1227,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--69
 
  []
 
-) [6] [7] [8] [9] [10] (./dissertation.bbl
+) (./sections/imageanalysis.tex [6]) [7] [8] [9] [10] [11] (./dissertation.bbl
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 24.
 
 
@@ -1305,44 +1305,44 @@ hockwiz \EU1/Arial(0)/m/n/12 (Trademark Application No.[]
  []
 
 
-Underfull \hbox (badness 2717) in paragraph at lines 278--292
+Underfull \hbox (badness 2717) in paragraph at lines 309--323
 \EU1/Arial(0)/m/n/12 oceania.  Retrieved 24/09/2015, from []$[][][][] [][][] []
 [][] [] [][][][][][][][][][][][][][][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--292
+Underfull \hbox (badness 10000) in paragraph at lines 309--323
 [][][][][][][][] [] [][][][][] [] [][][][] [] [][] [] [][] [] [][] [] [][][][][
 ][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][] [] [][][][][][][] []
  []
 
 
-Underfull \hbox (badness 5862) in paragraph at lines 308--324
+Underfull \hbox (badness 5862) in paragraph at lines 339--355
 \EU1/Arial(0)/m/n/12 Experimental evaluation of mountain bike suspension system
 s.  \EU1/Arial(0)/m/it/12 Acta
  []
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 336--352
+Underfull \hbox (badness 4899) in paragraph at lines 367--383
 []\EU1/Arial(0)/m/n/12 West, L. R.  (2015).  Strava: challenge yourself to grea
 ter heights in
  []
 
-) [11] (./dissertation.acr) (./dissertation.gls)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
- [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
+[12]) [13] (./dissertation.acr) (./dissertation.gls)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
  (./dissertation.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 75.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 75.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 76.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 28335 strings out of 493638
- 484566 string characters out of 6146796
- 592698 words of memory out of 5000000
- 31368 multiletter control sequences out of 15000+600000
+ 28349 strings out of 493638
+ 484920 string characters out of 6146796
+ 594698 words of memory out of 5000000
+ 31378 multiletter control sequences out of 15000+600000
  7735 words of font info for 54 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 48i,11n,68p,10385b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,11n,68p,10385b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (17 pages).
+Output written on dissertation.pdf (19 pages).

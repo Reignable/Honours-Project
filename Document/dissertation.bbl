@@ -265,6 +265,37 @@ Hwang, J\BPBI C\BPBI B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Potter%
+}{%
+Potter%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+costalimagery}
+\APACinsertmetastar {%
+costalimagery}%
+\begin{APACrefauthors}%
+Potter, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Ten years of land cover change on the California coast
+  detected using landsat satellite image analysis: part 1---Marin and San
+  Francisco counties} {Ten years of land cover change on the california coast
+  detected using landsat satellite image analysis: part 1---marin and san
+  francisco counties}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Coastal Conservation}{17}{4}{697--707}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.1007/s11852-013-0255-2}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s11852-013-0255-2} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Staff%
 }{%
 Staff%
@@ -348,6 +379,37 @@ West, L\BPBI R.%
 \begin{APACrefURL}
   [{24/09/2016}]\url{http://bjsm.bmj.com.ezproxy.napier.ac.uk/content/49/15/1024.full}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zuckerberg%
+, Sittig%
+\BCBL {}\ \BBA {} Marlette%
+}{%
+Zuckerberg%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+zuckerberg2011tagging}
+\APACinsertmetastar {%
+zuckerberg2011tagging}%
+\begin{APACrefauthors}%
+Zuckerberg, M.%
+, Sittig, A.%
+\BCBL {}\ \BBA {} Marlette, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{{\APACmonth{05}}~17}{}.
+\newblock
+\APACrefbtitle {Tagging digital media.} {Tagging digital media.}
+\newblock
+\APACaddressPublisher{}{Google Patents}.
+\newblock
+\begin{APACrefURL} \url{https://www.google.com/patents/US7945653}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{US Patent 7,945,653}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
