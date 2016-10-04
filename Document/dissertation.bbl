@@ -200,6 +200,41 @@ imbasurv}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Blake%
+\ \protect \BOthers {.}}{%
+Blake%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+curiositysand}
+\APACinsertmetastar {%
+curiositysand}%
+\begin{APACrefauthors}%
+Blake, D\BPBI F.%
+, Morris, R\BPBI V.%
+, Kocurek, G.%
+, Morrison, S\BPBI M.%
+, Downs, R\BPBI T.%
+, Bish, D.%
+\BDBL {}Sarrazin, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Curiosity at Gale Crater, Mars: Characterization and
+  Analysis of the Rocknest Sand Shadow} {Curiosity at gale crater, mars:
+  Characterization and analysis of the rocknest sand shadow}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Science}{341}{6153}{}.
+\newblock
+\begin{APACrefURL} \url{http://science.sciencemag.org/content/341/6153/1239505}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1126/science.1239505} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Callaham%
 }{%
 Callaham%
@@ -287,6 +322,35 @@ Formosa, N.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Garvin%
+, Malin%
+\BCBL {}\ \BBA {} Minitti%
+}{%
+Garvin%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+curiositygravel}
+\APACinsertmetastar {%
+curiositygravel}%
+\begin{APACrefauthors}%
+Garvin, J\BPBI B.%
+, Malin, M\BPBI C.%
+\BCBL {}\ \BBA {} Minitti, M\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{March}{17}.
+\newblock
+\APACrefbtitle {Sedimentology of Martain Gravels from Mardi Twilight Imaging:
+  Techniques} {Sedimentology of martain gravels from mardi twilight imaging:
+  Techniques}\ \APACbVolEdTR{}{\BTR{}\ \BNUM\ GSFC-E-DAA-TN13878}.
+\newblock
+\begin{APACrefURL} [{04/10/2016}]\url{http://hdl.handle.net/2060/20150001290}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Harker%
 }{%
 Harker%
@@ -339,6 +403,103 @@ Hwang, J\BPBI C\BPBI B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Kim%
+\ \BBA {} Kim%
+}{%
+Kim%
+\ \BBA {} Kim%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+bridgecables}
+\APACinsertmetastar {%
+bridgecables}%
+\begin{APACrefauthors}%
+Kim, S\BHBI W.%
+\BCBT {}\ \BBA {} Kim, N\BHBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Dynamic characteristics of suspension bridge hanger
+  cables using digital image processing} {Dynamic characteristics of suspension
+  bridge hanger cables using digital image processing}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{NDT \& E International}{59}{}{25 - 33}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.sciencedirect.com/science/article/pii/S0963869513000807}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{http://dx.doi.org/10.1016/j.ndteint.2013.05.002}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Liszewski%
+}{%
+Liszewski%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+catphone}
+\APACinsertmetastar {%
+catphone}%
+\begin{APACrefauthors}%
+Liszewski, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Caterpillar's New S60 Is the First Smartphone With FLIR
+  Thermal Imaging Built Right In} {Caterpillar's new s60 is the first
+  smartphone with flir thermal imaging built right in}.{\BBCQ}
+\newblock
+\begin{APACrefURL}
+  [{04/10/2016}]\url{http://gizmodo.com/caterpillars-new-s60-is-the-first-smartphone-with-flir-1759685817}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Masad%
+, Muhunthan%
+, Shashidhar%
+\BCBL {}\ \BBA {} Harman%
+}{%
+Masad%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1999}}%
+}]{%
+concreteanalysis}
+\APACinsertmetastar {%
+concreteanalysis}%
+\begin{APACrefauthors}%
+Masad, E.%
+, Muhunthan, B.%
+, Shashidhar, N.%
+\BCBL {}\ \BBA {} Harman, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Internal Structure Characterization of Asphalt Concrete
+  Using Image Analysis} {Internal structure characterization of asphalt
+  concrete using image analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Computing in Civil
+  Engineering}{13}{2}{88-95}.
+\newblock
+\begin{APACrefURL}
+  \url{http://dx.doi.org/10.1061/(ASCE)0887-3801(1999)13:2(88)}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1061/(ASCE)0887-3801(1999)13:2(88)} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Potter%
 }{%
 Potter%
@@ -367,6 +528,44 @@ Potter, C.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1007/s11852-013-0255-2} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Schröder%
+\ \protect \BOthers {.}}{%
+Schröder%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+curiosityhydrogen}
+\APACinsertmetastar {%
+curiosityhydrogen}%
+\begin{APACrefauthors}%
+Schröder, S.%
+, Meslin, P\BHBI Y.%
+, Gasnault, O.%
+, Maurice, S.%
+, Cousin, A.%
+, Wiens, R.%
+\BDBL {}Vaniman, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Hydrogen detection with ChemCam at Gale crater}
+  {Hydrogen detection with chemcam at gale crater}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Icarus}{249}{}{43 - 61}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.sciencedirect.com/science/article/pii/S001910351400445X}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Special Issue: First Year of MSL}
+\newblock
+\begin{APACrefDOI} \doi{http://dx.doi.org/10.1016/j.icarus.2014.08.029}
+  \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

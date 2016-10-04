@@ -38,50 +38,55 @@ ptr=1, stack=
 
 ---the literal stack isn't empty for entry roseonline
 while executing---line 5079 of file apacite.bst
+Warning--No journal in catphone
+ptr=1, stack=
+
+---the literal stack isn't empty for entry catphone
+while executing---line 5079 of file apacite.bst
 Warning--No journal in ytonline
 ptr=1, stack=
 
 ---the literal stack isn't empty for entry ytonline
 while executing---line 5079 of file apacite.bst
-You've used 18 entries,
+You've used 24 entries,
             6951 wiz_defined-function locations,
-            1383 strings with 14187 characters,
-and the built_in function-call counts, 30472 in all, are:
-= -- 3730
-> -- 231
-< -- 1439
-+ -- 1362
-- -- 48
-* -- 1951
-:= -- 5612
-add.period$ -- 74
-call.type$ -- 18
-change.case$ -- 312
+            1430 strings with 16683 characters,
+and the built_in function-call counts, 44324 in all, are:
+= -- 5384
+> -- 369
+< -- 2145
++ -- 2133
+- -- 60
+* -- 2906
+:= -- 8204
+add.period$ -- 97
+call.type$ -- 24
+change.case$ -- 418
 chr.to.int$ -- 0
-cite$ -- 42
-duplicate$ -- 717
-empty$ -- 1309
-format.name$ -- 350
-if$ -- 5881
+cite$ -- 55
+duplicate$ -- 1131
+empty$ -- 1811
+format.name$ -- 577
+if$ -- 8420
 int.to.chr$ -- 0
-int.to.str$ -- 54
+int.to.str$ -- 72
 missing$ -- 0
-newline$ -- 433
-num.names$ -- 144
-pop$ -- 673
+newline$ -- 608
+num.names$ -- 192
+pop$ -- 860
 preamble$ -- 1
-purify$ -- 78
+purify$ -- 106
 quote$ -- 0
-skip$ -- 1960
+skip$ -- 2770
 stack$ -- 0
-substring$ -- 1485
-swap$ -- 441
-text.length$ -- 57
+substring$ -- 2371
+swap$ -- 663
+text.length$ -- 92
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1440
-warning$ -- 6
-while$ -- 129
+type$ -- 1920
+warning$ -- 7
+while$ -- 210
 width$ -- 0
-write$ -- 494
-(There were 6 error messages)
+write$ -- 717
+(There were 7 error messages)

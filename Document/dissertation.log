@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.9.19)  3 OCT 2016 15:24
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.9.19)  4 OCT 2016 13:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -901,6 +901,12 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks39
+\verbatim@line=\toks40
+\verbatim@in@stream=\read2
+)
 .................................................
 . fontspec info: "no-scripts"
 . 
@@ -928,12 +934,12 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 \openout4 = `dissertation.glo'.
 
 Package glossaries Info: Writing glossary file dissertation.glo on input line 3
-4.
+5.
 \glo@acronym@file=\write5
 \openout5 = `dissertation.acn'.
 
 Package glossaries Info: Writing glossary file dissertation.acn on input line 3
-4.
+5.
  (./glossary.tex)
 \c@chapterListi=\count294
 \enitdp@chapterList=\count295
@@ -941,30 +947,30 @@ Package glossaries Info: Writing glossary file dissertation.acn on input line 3
 (./dissertation.aux)
 \openout1 = `dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 40.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 41.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 41.
  (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 \c@maskedRefs=\count296
 
 (/usr/share/texlive/texmf-dist/tex/latex/apacite/english.apc
@@ -979,58 +985,58 @@ LaTeX Info: Redefining \BHBI on input line 130.
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 40.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 40.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 40.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 40.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 40.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 40.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 40.
-LaTeX Font Info:    Redeclaring math accent \check on input line 40.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 40.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 40.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 40.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 40.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 41.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 41.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 41.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 41.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 41.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 41.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 41.
+LaTeX Font Info:    Redeclaring math accent \check on input line 41.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 41.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 41.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 41.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 41.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 40.
+(Font)              `operators' in the math version `normal' on input line 41.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU1/Arial(0)/m/n on input line 40.
+(Font)                  OT1/cmr/m/n --> EU1/Arial(0)/m/n on input line 41.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 40.
+(Font)              `operators' in the math version `bold' on input line 41.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU1/Arial(0)/m/n on input line 40.
+(Font)                  OT1/cmr/bx/n --> EU1/Arial(0)/m/n on input line 41.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  EU1/Arial(0)/m/n --> EU1/Arial(0)/m/n on input line 40.
+(Font)                  EU1/Arial(0)/m/n --> EU1/Arial(0)/m/n on input line 41.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU1/Arial(0)/m/it on input line 40.
+(Font)                  OT1/cmr/m/it --> EU1/Arial(0)/m/it on input line 41.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU1/Arial(0)/bx/n on input line 40.
+(Font)                  OT1/cmr/bx/n --> EU1/Arial(0)/bx/n on input line 41.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 40.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 41.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 40.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 41.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  EU1/Arial(0)/m/n --> EU1/Arial(0)/bx/n on input line 40
+(Font)                  EU1/Arial(0)/m/n --> EU1/Arial(0)/bx/n on input line 41
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> EU1/Arial(0)/bx/it on input line 40.
+(Font)                  OT1/cmr/bx/it --> EU1/Arial(0)/bx/it on input line 41.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 40.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 41.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 40.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 41.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1068,7 +1074,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 (./dissertation.glsdefs)
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring OFF on input line 40.
+Package hyperref Info: Link coloring OFF on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1078,9 +1084,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count297
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
 
 (./dissertation.out) (./dissertation.out)
 \@outlinefile=\write6
@@ -1227,15 +1233,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--69
 
  []
 
-) (./sections/imageanalysis.tex [6]
-File: ../images/mri.jpg Graphic file (type QTm)
- <use  "../images/mri.jpg" >
-Overfull \hbox (10.38719pt too wide) in paragraph at lines 6--12
- \EU1/Arial(0)/bx/n/12 2.2.1.1 Medical[] \EU1/Arial(0)/m/n/12 Arguably one of t
-he most important uses of image analysis, advances
+) (./sections/imageanalysis.tex
+Overfull \hbox (12.38414pt too wide) in paragraph at lines 2--3
+[]\EU1/Arial(0)/m/n/12 Image Analysis (IA) is the use of various techniques suc
+h as pattern recognition, geometry
  []
 
-) [7] [8] [9] [10] [11] (./dissertation.bbl
+[6]
+Overfull \hbox (0.86609pt too wide) in paragraph at lines 6--15
+\EU1/Arial(0)/m/n/12 the ability to localise and personalise treatments ([]Euro
+pean Science Foundation[], []2007[]).
+ []
+
+
+Overfull \hbox (3.03601pt too wide) in paragraph at lines 18--19
+\EU1/Arial(0)/m/n/12 become more common with the advances in mobile computing a
+nd some manufacturers
+ []
+
+
+Overfull \hbox (11.73132pt too wide) in paragraph at lines 18--19
+\EU1/Arial(0)/m/n/12 aiming their products at an engineering demographic with f
+eatures like improved durability
+ []
+
+)
+Overfull \hbox (13.47546pt too wide) in paragraph at lines 20--63
+ \EU1/Arial(0)/bx/n/12 2.2.1.4 Space[] \EU1/Arial(0)/m/n/12 While some industri
+es make use of satellite imagery to monitor changes
+ []
+
+[7] [8] [9] [10] [11] (./dissertation.bbl
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 24.
 
 
@@ -1269,86 +1297,92 @@ Underfull \hbox (badness 1253) in paragraph at lines 186--201
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 213--227
+Underfull \hbox (badness 1642) in paragraph at lines 248--262
 \EU1/Arial(0)/m/n/12 worldwide.  Retrieved 25/09/2016, from []$[][][][] [][][] 
 [][][] [] [][][][][][][][][][][][][][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--227
+Underfull \hbox (badness 10000) in paragraph at lines 248--262
 [][][][][][] [] [][][][][] [] [][][][][][] [] [][][][] [] [][][][] [] [][][] []
  [][][][][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 273--288
+Underfull \hbox (badness 3364) in paragraph at lines 308--323
 []\EU1/Arial(0)/m/n/12 Formosa, N.  (2012).  Social fitness apps storm cycling 
 world.  \EU1/Arial(0)/m/it/12 Bicycle
  []
 
 
-Underfull \hbox (badness 5077) in paragraph at lines 273--288
+Underfull \hbox (badness 5077) in paragraph at lines 308--323
 \EU1/Arial(0)/m/it/12 Retailer and Industry News\EU1/Arial(0)/m/n/12 , \EU1/Ari
 al(0)/m/it/12 21\EU1/Arial(0)/m/n/12 , 28-29.  Retrieved 24/09/2016, from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--288
+Underfull \hbox (badness 10000) in paragraph at lines 308--323
 []$[][][][] [][][] [][][][][][] [] [][][][][][][][][] [] [][][][] [] [][][][][]
 [][][] [] [][][][][][][] [] [][][] [] [][][] [] [][][][][][][] [] [][][][][][][
 ][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--313
+Underfull \hbox (badness 10000) in paragraph at lines 364--377
 \EU1/Arial(0)/m/n/12 24/09/2016, from []$[][][][] [][][] [][][] [] [][][][][][]
 [][] [] [][][][] [] [][][][] [] [][][][] [] [][][][][][] [] [][][][][][] [] [][
 ][][][] []
  []
 
-
-Underfull \hbox (badness 3780) in paragraph at lines 325--340
+[12]
+Underfull \hbox (badness 3780) in paragraph at lines 389--404
 []\EU1/Arial(0)/m/n/12 Hwang, J. C. B.  (2016, 05 19).  \EU1/Arial(0)/m/it/12 S
 hockwiz \EU1/Arial(0)/m/n/12 (Trademark Application No.[]
  []
 
-[12]
-Underfull \hbox (badness 2717) in paragraph at lines 383--397
+
+Underfull \hbox (badness 1303) in paragraph at lines 450--464
+[]\EU1/Arial(0)/m/n/12 Liszewski, A.  (2016).  Caterpillar’s new s60 is the fir
+st smartphone with flir
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 582--596
 \EU1/Arial(0)/m/n/12 oceania.  Retrieved 24/09/2015, from []$[][][][] [][][] []
 [][] [] [][][][][][][][][][][][][][][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--397
+Underfull \hbox (badness 10000) in paragraph at lines 582--596
 [][][][][][][][] [] [][][][][] [] [][][][] [] [][] [] [][] [] [][] [] [][][][][
 ][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][] [] [][][][][][][] []
  []
 
 
-Underfull \hbox (badness 5862) in paragraph at lines 413--429
+Underfull \hbox (badness 5862) in paragraph at lines 612--628
 \EU1/Arial(0)/m/n/12 Experimental evaluation of mountain bike suspension system
 s.  \EU1/Arial(0)/m/it/12 Acta
  []
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 441--457
+Underfull \hbox (badness 4899) in paragraph at lines 640--656
 []\EU1/Arial(0)/m/n/12 West, L. R.  (2015).  Strava: challenge yourself to grea
 ter heights in
  []
 
 ) [13] (./dissertation.acr) (./dissertation.gls)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
  [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
  (./dissertation.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 76.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 76.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 77.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 77.
  ) 
 Here is how much of TeX's memory you used:
- 28367 strings out of 493638
- 485231 string characters out of 6146796
- 593699 words of memory out of 5000000
- 31395 multiletter control sequences out of 15000+600000
+ 28447 strings out of 493638
+ 486635 string characters out of 6146796
+ 595489 words of memory out of 5000000
+ 31474 multiletter control sequences out of 15000+600000
  7735 words of font info for 54 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  48i,11n,68p,10385b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
