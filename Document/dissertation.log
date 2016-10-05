@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.9.19)  4 OCT 2016 13:26
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.5.22)  5 OCT 2016 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -857,11 +857,6 @@ tly
 )
 \Hy@SectionHShift=\skip82
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
-Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
-\langwohyphens=\language81
-LaTeX Info: Redefining \_ on input line 43.
-)
 (/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has section divisions on input line 50.
@@ -1122,158 +1117,111 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 [4] (./sections/background.tex
-Overfull \hbox (9.17105pt too wide) in paragraph at lines 4--17
-\EU1/Arial(0)/m/n/12 Starting at around £1000 ([]Giant Manufacturing Co. Ltd.[]
-, []2017[]), enthusiast level mountain
+File: ../images/2016_Giant_Reign_Advanced_275_0.jpg Graphic file (type QTm)
+
+<use  "../images/2016_Giant_Reign_Advanced_275_0.jpg" >
+Overfull \hbox (23.78787pt too wide) in paragraph at lines 9--10
+ [][] 
+ []
+
+File: ../images/2017_GIANT_FATHOM_1.jpg Graphic file (type QTm)
+<use  "../images/2017_GIANT_FATHOM_1.jpg" >
+Overfull \hbox (23.78787pt too wide) in paragraph at lines 13--14
+ [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--17
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--17
-
- []
-
-
-Overfull \hbox (2.15881pt too wide) in paragraph at lines 4--17
-\EU1/Arial(0)/m/n/12 It has been proven that using a []FS over a []Hard Tail (H
-T)[] offers a performance advantage
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--17
+Underfull \hbox (badness 10000) in paragraph at lines 4--30
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--17
+Underfull \hbox (badness 10000) in paragraph at lines 4--30
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--17
+Underfull \hbox (badness 10000) in paragraph at lines 4--30
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--17
+Underfull \hbox (badness 10000) in paragraph at lines 4--30
 
  []
 
-[1]
-Overfull \hbox (17.8101pt too wide) in paragraph at lines 18--20
-\EU1/Arial(0)/m/n/12 using image analysis techniques. This will be achieved by 
-meeting the following objectives: 
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--30
+
  []
 
-) [2] (./sections/physics.tex
+[1]) [2] (./sections/physics.tex
+File: ../images/reignschpath.PNG Graphic file (type QTm)
+ <use  "../images/reignschpath.PNG" > [3]
 File: ../images/3_bike_lev_ratio.jpg Graphic file (type QTm)
- <use  "../images/3_bike_lev_ratio.jpg" >
-File: ../images/frame_maestro.jpg Graphic file (type QTm)
 
-<use  "../images/frame_maestro.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 32--55
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--55
+<use  "../images/3_bike_lev_ratio.jpg" >
+File: ../images/reignsch.PNG Graphic file (type QTm)
+ <use  "../images/reignsch.PNG" >
+Underfull \hbox (badness 10000) in paragraph at lines 38--61
 
  []
 
 
-Overfull \hbox (14.59851pt too wide) in paragraph at lines 32--55
-\EU1/Arial(0)/m/n/12 size however it can be seen that their suspension hosts dr
-astically different characteristics. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--55
+Underfull \hbox (badness 10000) in paragraph at lines 38--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--55
+Underfull \hbox (badness 10000) in paragraph at lines 38--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--55
-
- []
-
-[3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 56--59
+Underfull \hbox (badness 10000) in paragraph at lines 38--61
 
  []
 
 
-Overfull \hbox (3.94617pt too wide) in paragraph at lines 62--63
-\EU1/Arial(0)/m/n/12 little can cause the suspension to ”blow through” its trav
-el prematurely potentially leaving
+Underfull \hbox (badness 10000) in paragraph at lines 38--61
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 62--65
+
  []
 
 [5]
-Overfull \hbox (15.14409pt too wide) in paragraph at lines 64--65
-\EU1/Arial(0)/m/n/12 holes. Too much []rebound damping causes the suspension to
- return slowly and sometimes
- []
-
-
-Overfull \hbox (9.58745pt too wide) in paragraph at lines 66--69
-\EU1/Arial(0)/m/n/12 damping circuit making four adjustable damping settings in
- total. High speed adjustments
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+Underfull \hbox (badness 10000) in paragraph at lines 72--75
 
  []
 
-) (./sections/imageanalysis.tex
-Overfull \hbox (12.38414pt too wide) in paragraph at lines 2--3
-[]\EU1/Arial(0)/m/n/12 Image Analysis (IA) is the use of various techniques suc
-h as pattern recognition, geometry
- []
-
-[6]
-Overfull \hbox (0.86609pt too wide) in paragraph at lines 6--15
-\EU1/Arial(0)/m/n/12 the ability to localise and personalise treatments ([]Euro
-pean Science Foundation[], []2007[]).
- []
-
-
-Overfull \hbox (3.03601pt too wide) in paragraph at lines 18--19
-\EU1/Arial(0)/m/n/12 become more common with the advances in mobile computing a
-nd some manufacturers
- []
-
-
-Overfull \hbox (11.73132pt too wide) in paragraph at lines 18--19
-\EU1/Arial(0)/m/n/12 aiming their products at an engineering demographic with f
-eatures like improved durability
- []
-
-)
-Overfull \hbox (13.47546pt too wide) in paragraph at lines 20--63
+) (./sections/imageanalysis.tex [6]
+File: ../images/4panel.png Graphic file (type QTm)
+ <use  "../images/4panel.png" >)
+Overfull \hbox (13.47546pt too wide) in paragraph at lines 12--63
  \EU1/Arial(0)/bx/n/12 2.2.1.4 Space[] \EU1/Arial(0)/m/n/12 While some industri
 es make use of satellite imagery to monitor changes
  []
 
-[7] [8] [9] [10] [11] (./dissertation.bbl
+[7] [8] [9] [10] [11] [12] (./dissertation.bbl
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 24.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 14--27
-\EU1/Arial(0)/m/n/12 from []$[][][][] [][][] [][][] [] [][][][][][][][][] [] []
-[][][] [] [][][][] [] [][][][][][][][][][] [] [][][][][] [] [][][][][][][][][][
-][][] []
+Underfull \hbox (badness 3758) in paragraph at lines 14--27
+[]\EU1/Arial(0)/m/n/12 Aston, P.  (2016).  Sussmybike data acquisition - eurobi
+ke 2016.  Re-
+ []
+
+
+Underfull \hbox (badness 3826) in paragraph at lines 14--27
+\EU1/Arial(0)/m/n/12 trieved 24/09/2016, from []$[][][][] [][][] [][][] [] [][]
+[][][][][][][] [] [][][][] [] [][][][] [] [][][][][][][][][][] [] [][][][][] []
+
  []
 
 
@@ -1284,16 +1232,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--101
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--125
-\EU1/Arial(0)/m/n/12 from []$[][][][][] [][][] [][][] [] [][][][][][] [] [][][]
-[][][][][][] [] [][][][] [] [][] [] [][][] [] [][][][][] [] [][][][][] [] [][][
-][][][] [] [][][][][] []
+Underfull \hbox (badness 1622) in paragraph at lines 113--125
+[]\EU1/Arial(0)/m/n/12 Giant Manufacturing Co. Ltd.  (2017).  \EU1/Arial(0)/m/i
+t/12 Giant stance \EU1/Arial(0)/m/n/12 [Product Listing].  Re-
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 186--201
-\EU1/Arial(0)/m/n/12 Mountain Bike Association.  Retrieved 24/09/2015, from []$
-[][][][] [][][] [][][] [] [][][][][] []
+Underfull \hbox (badness 3417) in paragraph at lines 113--125
+\EU1/Arial(0)/m/n/12 trieved from []$[][][][][] [][][] [][][] [] [][][][][][] [
+] [][][][][][][][][] [] [][][][] [] [][] [] [][][] [] [][][][][] [] [][][][][] 
+[] [][][][][][] []
  []
 
 
@@ -1309,41 +1257,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 248--262
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 308--323
+Underfull \hbox (badness 4846) in paragraph at lines 308--323
 []\EU1/Arial(0)/m/n/12 Formosa, N.  (2012).  Social fitness apps storm cycling 
-world.  \EU1/Arial(0)/m/it/12 Bicycle
+world.  \EU1/Arial(0)/m/it/12 Bicy-
  []
 
 
-Underfull \hbox (badness 5077) in paragraph at lines 308--323
-\EU1/Arial(0)/m/it/12 Retailer and Industry News\EU1/Arial(0)/m/n/12 , \EU1/Ari
-al(0)/m/it/12 21\EU1/Arial(0)/m/n/12 , 28-29.  Retrieved 24/09/2016, from
+Underfull \hbox (badness 7759) in paragraph at lines 308--323
+\EU1/Arial(0)/m/it/12 cle Retailer and Industry News\EU1/Arial(0)/m/n/12 , \EU1
+/Arial(0)/m/it/12 21\EU1/Arial(0)/m/n/12 , 28-29.  Retrieved 24/09/2016,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 308--323
-[]$[][][][] [][][] [][][][][][] [] [][][][][][][][][] [] [][][][] [] [][][][][]
-[][][] [] [][][][][][][] [] [][][] [] [][][] [] [][][][][][][] [] [][][][][][][
-][][][] []
+\EU1/Arial(0)/m/n/12 from []$[][][][] [][][] [][][][][][] [] [][][][][][][][][]
+ [] [][][][] [] [][][][][][][][] [] [][][][][][][] [] [][][] [] [][][] [] [][][
+][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--377
-\EU1/Arial(0)/m/n/12 24/09/2016, from []$[][][][] [][][] [][][] [] [][][][][][]
-[][] [] [][][][] [] [][][][] [] [][][][] [] [][][][][][] [] [][][][][][] [] [][
-][][][] []
- []
-
-[12]
-Underfull \hbox (badness 3780) in paragraph at lines 389--404
-[]\EU1/Arial(0)/m/n/12 Hwang, J. C. B.  (2016, 05 19).  \EU1/Arial(0)/m/it/12 S
-hockwiz \EU1/Arial(0)/m/n/12 (Trademark Application No.[]
+Underfull \hbox (badness 2376) in paragraph at lines 364--377
+[]\EU1/Arial(0)/m/n/12 Harker, J.  (2010).  German brand rose hopes to bloom in
+ britain.  Re-
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 450--464
-[]\EU1/Arial(0)/m/n/12 Liszewski, A.  (2016).  Caterpillar’s new s60 is the fir
-st smartphone with flir
+Underfull \hbox (badness 1107) in paragraph at lines 364--377
+\EU1/Arial(0)/m/n/12 trieved 24/09/2016, from []$[][][][] [][][] [][][] [] [][]
+[][][][][][] [] [][][][] [] [][][][] [] [][][][] [] [][][][][][] [] [][][][][][
+] []
+ []
+
+[13]
+Underfull \hbox (badness 1107) in paragraph at lines 389--404
+\EU1/Arial(0)/m/n/12 trieved 25/09/2016, from []$[][][][][] [][][] [][][][][][]
+[][][][] [] [][][][][][][] [] [][][][] [] [][][] [] [][] [] [][][][][][][][] []
+
  []
 
 
@@ -1359,32 +1308,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 582--596
  []
 
 
-Underfull \hbox (badness 5862) in paragraph at lines 612--628
-\EU1/Arial(0)/m/n/12 Experimental evaluation of mountain bike suspension system
-s.  \EU1/Arial(0)/m/it/12 Acta
+Underfull \hbox (badness 1038) in paragraph at lines 640--656
+\EU1/Arial(0)/m/n/12 24/09/2016, from []$[][][][] [][][] [][][][] [] [][][][] [
+] [][][][] [] [][][][][][][][] [] [][][][][][][] [] [][][] [] [][][] [] [][][][
+][][][] [] [][] []
  []
 
-
-Underfull \hbox (badness 4899) in paragraph at lines 640--656
-[]\EU1/Arial(0)/m/n/12 West, L. R.  (2015).  Strava: challenge yourself to grea
-ter heights in
- []
-
-) [13] (./dissertation.acr) (./dissertation.gls)
+) [14] (./dissertation.acr) (./dissertation.gls)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
- [14]
+ [15]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
  (./dissertation.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 77.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 77.
  ) 
 Here is how much of TeX's memory you used:
- 28447 strings out of 493638
- 486635 string characters out of 6146796
- 595489 words of memory out of 5000000
- 31474 multiletter control sequences out of 15000+600000
+ 28425 strings out of 493638
+ 486372 string characters out of 6146796
+ 593821 words of memory out of 5000000
+ 31450 multiletter control sequences out of 15000+600000
  7735 words of font info for 54 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  48i,11n,68p,10385b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (19 pages).
+Output written on dissertation.pdf (20 pages).
