@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.9.19)  6 OCT 2016 13:11
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.9.19)  7 OCT 2016 09:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1199,14 +1199,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--75
 
 ) (./sections/imageanalysis.tex [6]
 File: ../images/4panel.png Graphic file (type QTm)
- <use  "../images/4panel.png" >)
+ <use  "../images/4panel.png" > [7])
 (./sections/analysistechniques.tex
-Overfull \hbox (13.47546pt too wide) in paragraph at lines 12--1
+Overfull \hbox (13.47546pt too wide) in paragraph at lines 18--1
  \EU1/Arial(0)/bx/n/12 2.2.1.4 Space[] \EU1/Arial(0)/m/n/12 While some industri
 es make use of satellite imagery to monitor changes
  []
 
-[7]) [8] [9] [10] [11] [12] (./dissertation.bbl
+) [8] [9] [10] [11] [12] (./dissertation.bbl
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 24.
 
 
