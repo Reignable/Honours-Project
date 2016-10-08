@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.9.19)  7 OCT 2016 13:09
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.9.19)  8 OCT 2016 13:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1206,130 +1206,124 @@ Overfull \hbox (13.47546pt too wide) in paragraph at lines 18--1
 es make use of satellite imagery to monitor changes
  []
 
-) [8] [9] [10] [11] [12] (./dissertation.bbl
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 24.
+File: ../images/anpr.jpg Graphic file (type QTm)
+<use  "../images/anpr.jpg" > [8]) [9] [10] [11] [12] [13] (./dissertation.bbl
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 59.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 3758) in paragraph at lines 14--27
+Underfull \hbox (badness 3758) in paragraph at lines 49--62
 []\EU1/Arial(0)/m/n/12 Aston, P.  (2016).  Sussmybike data acquisition - eurobi
 ke 2016.  Re-
  []
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 14--27
+Underfull \hbox (badness 3826) in paragraph at lines 49--62
 \EU1/Arial(0)/m/n/12 trieved 24/09/2016, from []$[][][][] [][][] [][][] [] [][]
 [][][][][][][] [] [][][][] [] [][][][] [] [][][][][][][][][][] [] [][][][][] []
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--101
-\EU1/Arial(0)/m/n/12 29/09/2016, from []$[][][][][] [][][] [][][] [] [][][][][]
-[] [] [][][][][][][][][] [] [][][][] [] [][][][][][] [] [][][][][][][][][][] []
-
- []
-
-
-Underfull \hbox (badness 1622) in paragraph at lines 113--125
+Underfull \hbox (badness 1622) in paragraph at lines 124--136
 []\EU1/Arial(0)/m/n/12 Giant Manufacturing Co. Ltd.  (2017).  \EU1/Arial(0)/m/i
 t/12 Giant stance \EU1/Arial(0)/m/n/12 [Product Listing].  Re-
  []
 
 
-Underfull \hbox (badness 3417) in paragraph at lines 113--125
+Underfull \hbox (badness 3417) in paragraph at lines 124--136
 \EU1/Arial(0)/m/n/12 trieved from []$[][][][][] [][][] [][][] [] [][][][][][] [
 ] [][][][][][][][][] [] [][][][] [] [][] [] [][][] [] [][][][][] [] [][][][][] 
 [] [][][][][][] []
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 248--262
+Underfull \hbox (badness 1642) in paragraph at lines 239--253
 \EU1/Arial(0)/m/n/12 worldwide.  Retrieved 25/09/2016, from []$[][][][] [][][] 
 [][][] [] [][][][][][][][][][][][][][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--262
+Underfull \hbox (badness 10000) in paragraph at lines 239--253
 [][][][][][] [] [][][][][] [] [][][][][][] [] [][][][] [] [][][][] [] [][][] []
  [][][][][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 4846) in paragraph at lines 308--323
+Underfull \hbox (badness 4846) in paragraph at lines 299--314
 []\EU1/Arial(0)/m/n/12 Formosa, N.  (2012).  Social fitness apps storm cycling 
 world.  \EU1/Arial(0)/m/it/12 Bicy-
  []
 
 
-Underfull \hbox (badness 7759) in paragraph at lines 308--323
+Underfull \hbox (badness 7759) in paragraph at lines 299--314
 \EU1/Arial(0)/m/it/12 cle Retailer and Industry News\EU1/Arial(0)/m/n/12 , \EU1
 /Arial(0)/m/it/12 21\EU1/Arial(0)/m/n/12 , 28-29.  Retrieved 24/09/2016,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--323
+Underfull \hbox (badness 10000) in paragraph at lines 299--314
 \EU1/Arial(0)/m/n/12 from []$[][][][] [][][] [][][][][][] [] [][][][][][][][][]
  [] [][][][] [] [][][][][][][][] [] [][][][][][][] [] [][][] [] [][][] [] [][][
 ][][][][] []
  []
 
 
-Underfull \hbox (badness 2376) in paragraph at lines 364--377
+Underfull \hbox (badness 2376) in paragraph at lines 355--368
 []\EU1/Arial(0)/m/n/12 Harker, J.  (2010).  German brand rose hopes to bloom in
  britain.  Re-
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 364--377
+Underfull \hbox (badness 1107) in paragraph at lines 355--368
 \EU1/Arial(0)/m/n/12 trieved 24/09/2016, from []$[][][][] [][][] [][][] [] [][]
 [][][][][][] [] [][][][] [] [][][][] [] [][][][] [] [][][][][][] [] [][][][][][
 ] []
  []
 
-[13]
-Underfull \hbox (badness 1107) in paragraph at lines 389--404
+[14]
+Underfull \hbox (badness 1107) in paragraph at lines 380--395
 \EU1/Arial(0)/m/n/12 trieved 25/09/2016, from []$[][][][][] [][][] [][][][][][]
 [][][][] [] [][][][][][][] [] [][][][] [] [][][] [] [][] [] [][][][][][][][] []
 
  []
 
 
-Underfull \hbox (badness 2717) in paragraph at lines 582--596
+Underfull \hbox (badness 2717) in paragraph at lines 573--587
 \EU1/Arial(0)/m/n/12 oceania.  Retrieved 24/09/2015, from []$[][][][] [][][] []
 [][] [] [][][][][][][][][][][][][][][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--596
+Underfull \hbox (badness 10000) in paragraph at lines 573--587
 [][][][][][][][] [] [][][][][] [] [][][][] [] [][] [] [][] [] [][] [] [][][][][
 ][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][] [] [][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 640--656
+Underfull \hbox (badness 1038) in paragraph at lines 631--647
 \EU1/Arial(0)/m/n/12 24/09/2016, from []$[][][][] [][][] [][][][] [] [][][][] [
 ] [][][][] [] [][][][][][][][] [] [][][][][][][] [] [][][] [] [][][] [] [][][][
 ][][][] [] [][] []
  []
 
-) [14] (./dissertation.acr) (./dissertation.gls)
+) [15] (./dissertation.acr) (./dissertation.gls)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
- [15]
+ [16]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
  (./dissertation.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 78.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 78.
  ) 
 Here is how much of TeX's memory you used:
- 28428 strings out of 493638
- 486454 string characters out of 6146796
- 593822 words of memory out of 5000000
+ 28429 strings out of 493638
+ 486416 string characters out of 6146796
+ 594887 words of memory out of 5000000
  31450 multiletter control sequences out of 15000+600000
  7735 words of font info for 54 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 48i,11n,68p,10385b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,11n,68p,10385b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (20 pages).
+Output written on dissertation.pdf (21 pages).

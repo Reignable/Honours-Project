@@ -1,5 +1,32 @@
 \subsubsection{Image Analysis Techniques}
-	There are multiple techniques which can be applied to imagery to produce a variety of outcomes or further prepare images for additional analysis such as custom algorithms. 
+	There are multiple techniques which can be applied to imagery to extract information which include detection of edges or objects and using known data to take measurements. These methods tend to compare data from neighbouring pixels to spot differences which can indicate features.
 	\paragraph{Edge Detection}
-	\paragraph{BLOB Analysis}
+	This is the application of mathematical algorithms to locate and highlight the edges of features in an image. There are multiple algorithms which can be used for edge detection including Sobel, Roberts, Canny, and fuzzy logic though all utilise the concept of comparing side by side pixel data to find "steps" from one brightness to another.
+	\begin{table}[h!]
+		\centering
+		\caption{Table of pixel data showing an edge}
+		\label{tab:edgePixels}
+		\begin{tabular}{|c|c|c|c|c|c|c|}
+			\hline
+			5&7&6&4&152&148&149\\
+			\hline
+			\cellcolor[HTML]{0D0D0D}&
+			\cellcolor[HTML]{121212}&
+			\cellcolor[HTML]{0F0F0F}&
+			\cellcolor[HTML]{0a0a0a}&
+			\cellcolor[HTML]{989898}&
+			\cellcolor[HTML]{949494}&
+			\cellcolor[HTML]{959595}\\
+			\hline
+		\end{tabular}
+	\end{table}\\
+	Table \ref{tab:edgePixels} represents possible pixel values of an edge indicated by the large difference between 4 and 152. The applied algorithm will pick up on this discrepancy and in will be indicated on the resulting image. A common application for edge detection is text recognition such as in automatic number plate recognition (ANPR) \citep{anpr} as the process can remove unwanted background data and highlight the block shapes of the number plate.
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=10cm]{../images/anpr.jpg}
+		\caption{Edge detection applied to an image for number plate recognition}
+		\label{fig:anpr}
+	\end{figure} 
+	\paragraph{Object Detection}
+	Much like edge detection, 
 	\paragraph{Taking Measurements}
