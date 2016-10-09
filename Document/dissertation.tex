@@ -37,6 +37,7 @@
 
 \newlist{chapterList}{enumerate}{1}
 \setlist[chapterList]{label=\bfseries Chapter \arabic* - }
+\newenvironment{where}{\noindent{}where\begin{itemize}[label={}, nosep]}{\end{itemize}}
 
 \begin{document}
 	\pagenumbering{roman}
@@ -52,6 +53,8 @@
 	\listoftables
 	\newpage
 	\listoffigures
+	\newpage
+	\listofequations
 	\newpage
 	\pagenumbering{arabic}
 	\section{Introduction}
