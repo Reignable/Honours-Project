@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.9.19)  12 OCT 2016 12:47
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.5.22)  16 OCT 2016 14:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -939,7 +939,11 @@ Package glossaries Info: Writing glossary file dissertation.acn on input line 3
 \c@chapterListi=\count294
 \enitdp@chapterList=\count295
 
-(./dissertation.aux)
+(./dissertation.aux
+
+LaTeX Warning: Label `fig:anpr' multiply defined.
+
+)
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -1116,17 +1120,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \openout9 = `dissertation.lof'.
 
 
-[4]
-! Undefined control sequence.
-l.57 ^^I\listofequations
-                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-(./sections/background.tex
+[4] (./sections/background.tex
 File: ../images/2016_Giant_Reign_Advanced_275_0.jpg Graphic file (type QTm)
 
 <use  "../images/2016_Giant_Reign_Advanced_275_0.jpg" >
@@ -1218,11 +1212,18 @@ es make use of satellite imagery to monitor changes
 
 File: ../images/anpr.jpg Graphic file (type QTm)
 <use  "../images/anpr.jpg" > [8]
-Underfull \hbox (badness 10000) in paragraph at lines 31--34
+Underfull \hbox (badness 10000) in paragraph at lines 31--40
 
  []
 
-[9]) [10] [11] [12] [13] [14] (./dissertation.bbl
+[9]
+File: ../images/curiosity_calibration_chart.jpg Graphic file (type QTm)
+ <use  "../images/curiosity_calibration_chart.jpg" >)
+Underfull \hbox (badness 10000) in paragraph at lines 80--67
+
+ []
+
+[10] [11] [12] [13] [14] (./dissertation.bbl
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 59.
 
 
@@ -1306,19 +1307,19 @@ Underfull \hbox (badness 1107) in paragraph at lines 380--395
  []
 
 
-Underfull \hbox (badness 2717) in paragraph at lines 573--587
+Underfull \hbox (badness 2717) in paragraph at lines 597--611
 \EU1/Arial(0)/m/n/12 oceania.  Retrieved 24/09/2015, from []$[][][][] [][][] []
 [][] [] [][][][][][][][][][][][][][][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--587
+Underfull \hbox (badness 10000) in paragraph at lines 597--611
 [][][][][][][][] [] [][][][][] [] [][][][] [] [][] [] [][] [] [][] [] [][][][][
 ][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][] [] [][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 631--647
+Underfull \hbox (badness 1038) in paragraph at lines 655--671
 \EU1/Arial(0)/m/n/12 24/09/2016, from []$[][][][] [][][] [][][][] [] [][][][] [
 ] [][][][] [] [][][][][][][][] [] [][][][][][][] [] [][][] [] [][][] [] [][][][
 ][][][] [] [][] []
@@ -1333,14 +1334,14 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 81.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 81.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 28437 strings out of 493638
- 486573 string characters out of 6146796
- 594105 words of memory out of 5000000
- 31458 multiletter control sequences out of 15000+600000
+ 28446 strings out of 493638
+ 486815 string characters out of 6146796
+ 594231 words of memory out of 5000000
+ 31466 multiletter control sequences out of 15000+600000
  7735 words of font info for 54 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  48i,12n,68p,10385b,505s stack positions out of 5000i,500n,10000p,200000b,80000s

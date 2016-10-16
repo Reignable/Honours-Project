@@ -491,6 +491,30 @@ Masad, E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Moeslund%
+}{%
+Moeslund%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+introtoprocessing}
+\APACinsertmetastar {%
+introtoprocessing}%
+\begin{APACrefauthors}%
+Moeslund, T\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2012}.
+\newblock
+\APACrefbtitle {Introduction to Video and Image Processing: Building Real
+  Systems and Applications} {Introduction to video and image processing:
+  Building real systems and applications}.
+\newblock
+\APACaddressPublisher{}{Springer}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Potter%
 }{%
 Potter%
