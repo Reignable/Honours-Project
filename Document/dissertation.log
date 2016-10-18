@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.5.22)  16 OCT 2016 14:00
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.9.19)  18 OCT 2016 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -939,11 +939,7 @@ Package glossaries Info: Writing glossary file dissertation.acn on input line 3
 \c@chapterListi=\count294
 \enitdp@chapterList=\count295
 
-(./dissertation.aux
-
-LaTeX Warning: Label `fig:anpr' multiply defined.
-
-)
+(./dissertation.aux)
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -1205,13 +1201,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--75
 File: ../images/4panel.png Graphic file (type QTm)
  <use  "../images/4panel.png" > [7])
 (./sections/analysistechniques.tex
-Overfull \hbox (13.47546pt too wide) in paragraph at lines 18--1
- \EU1/Arial(0)/bx/n/12 2.2.1.4 Space[] \EU1/Arial(0)/m/n/12 While some industri
+Overfull \hbox (13.47546pt too wide) in paragraph at lines 31--1
+ \EU1/Arial(0)/bx/n/12 2.2.2.4 Space[] \EU1/Arial(0)/m/n/12 While some industri
 es make use of satellite imagery to monitor changes
  []
 
 File: ../images/anpr.jpg Graphic file (type QTm)
-<use  "../images/anpr.jpg" > [8]
+<use  "../images/anpr.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 31--40
 
  []
@@ -1219,7 +1219,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--40
 [9]
 File: ../images/curiosity_calibration_chart.jpg Graphic file (type QTm)
  <use  "../images/curiosity_calibration_chart.jpg" >)
-Underfull \hbox (badness 10000) in paragraph at lines 80--67
+(./sections/combining_suspension_analysis.tex
+Underfull \hbox (badness 10000) in paragraph at lines 80--1
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 2--68
 
  []
 
@@ -1326,24 +1335,20 @@ Underfull \hbox (badness 1038) in paragraph at lines 655--671
  []
 
 ) [16] (./dissertation.acr) (./dissertation.gls)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
  [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
  (./dissertation.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 81.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 81.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 82.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 82.
  ) 
 Here is how much of TeX's memory you used:
- 28446 strings out of 493638
- 486815 string characters out of 6146796
- 594231 words of memory out of 5000000
+ 28449 strings out of 493638
+ 486930 string characters out of 6146796
+ 593505 words of memory out of 5000000
  31466 multiletter control sequences out of 15000+600000
  7735 words of font info for 54 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 48i,12n,68p,10385b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,11n,68p,10385b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on dissertation.pdf (22 pages).
