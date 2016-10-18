@@ -7,20 +7,42 @@
 	simplify the analysis processes and improve their success.
 	\subsubsection{Digital Camera Operation}
 	A digital camera operates by capturing visible light reflected by objects 
-	onto an array of photosensitive elements known as the sensor. The light 
-	must travel from the object through a convex focusing lens which refracts 
-	the light onto a suitable point on the sensor.
+	onto the camera's sensor. The light must travel from the object through a convex focusing lens 
+	which refracts the light onto a suitable point on the sensor.
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=10cm]{../images/camera_bulb.PNG}
+		\caption{Diagram of camera and lens operation}
+		\label{fig:camera_diagram}
+	\end{figure}
+	\\
+	The distance between where light enters the lens and the point at which it is no longer 
+	diffused is known as the focal length, marked $f$ in figure \ref{fig:camera_diagram}. This 
+	point can be adjusted by changing the lens optics so that the object remains in focus.
+	\\\\
+	A camera's sensor is made up of an array of photosensitive cells capable of collecting light 
+	and generating an integer value based on the brightness and colour of the received light. The 
+	microprocessor inside the camera takes these values and converts them into the image data, 
+	sometimes taking an average of the surrounding values to better understand the light which was 
+	captured. Each of the individual sensor cells equates to one pixel on the image produced, for 
+	example if a camera produces a 1920x1080 image, the sensor has 1920 cells across by 
+	1080 cells down, otherwise known as a 2 megapixel sensor. The larger the sensor in physical 
+	size, the more cells it can contain so the better quality images it can produce.
 	\subsubsection{Usages}
-		\begin{figure}[h!]
-			\centering
-			\includegraphics[width=15cm]{../images/4panel.png}
-			\caption{Uses of image analysis, from top left clockwise: An MRI 
-			brain scan, automotive night vision with pedestrian recognition, 
-			infrared image taken with a smartphone, chemical rock analysis from 
+	Image processing and analysis has been applied to multiple areas with its value and 
+	effectiveness rapidly improving alongside camera technology and computing power. These 
+	applications range from recognising faces in social media uploads \citep{zuckerberg2011tagging} 
+	to the utilisation of satellite imagery to tracking the changing shape of coastlines 
+	\citep{costalimagery}.
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=15cm]{../images/4panel.png}
+		\caption{Uses of image analysis, from top left clockwise: An MRI brain scan, automotive 
+		night vision with pedestrian recognition, infrared image taken with a smartphone, chemical 
+		rock analysis from 
 			mars}
-			\label{fig:curiosity}
-		\end{figure}
-	Image processing and analysis has been applied to multiple areas with its value and effectiveness rapidly improving alongside camera technology and computing power. These applications range from recognising faces in social media uploads \citep{zuckerberg2011tagging} to the utilisation of satellite imagery to tracking the changing shape of coastlines \citep{costalimagery}.
+		\label{fig:curiosity}
+	\end{figure}
 	\paragraph{Medical}
 	Arguably one of the most important uses of \gls{ia}, advances in medical imaging have reduced costs in healthcare, diagnosis time, recovery time, and improved the ability to localise and personalise treatments \citep{esfmedical}. Major uses of \gls{ia} in medical applications are the use of Magnetic Resonance Imaging (MRI) and Computerised Topography Scanning (CT Scan) to create detailed images of the human body and identify illness before some symptoms arise.
 	\paragraph{Transport}
