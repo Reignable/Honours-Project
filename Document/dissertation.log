@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.5.22)  18 OCT 2016 13:37
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.9.19)  24 OCT 2016 11:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1200,13 +1200,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--75
 ) (./sections/imageanalysis.tex [6]
 File: ../images/camera_bulb.PNG Graphic file (type QTm)
  <use  "../images/camera_bulb.PNG" >
-Underfull \hbox (badness 10000) in paragraph at lines 9--31
+Underfull \hbox (badness 10000) in paragraph at lines 9--30
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--30
+
+ []
+
+[7]
 File: ../images/4panel.png Graphic file (type QTm)
-<use  "../images/4panel.png" > [7] [8]) (./sections/analysistechniques.tex
-Overfull \hbox (13.47546pt too wide) in paragraph at lines 53--1
+ <use  "../images/4panel.png" > [8]) (./sections/analysistechniques.tex
+Overfull \hbox (13.47546pt too wide) in paragraph at lines 52--1
  \EU1/Arial(0)/bx/n/12 2.2.2.4 Space[] \EU1/Arial(0)/m/n/12 While some industri
 es make use of satellite imagery to monitor changes
  []
@@ -1347,7 +1353,7 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 82.
 Here is how much of TeX's memory you used:
  28452 strings out of 493638
  486990 string characters out of 6146796
- 594563 words of memory out of 5000000
+ 594564 words of memory out of 5000000
  31468 multiletter control sequences out of 15000+600000
  7735 words of font info for 54 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
