@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  26 OCT 2016 15:56
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  28 OCT 2016 10:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1152,6 +1152,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--30
 [1] [2]) (./sections/physics.tex
 File: ../images/reignschpath.PNG Graphic file (type QTm)
  <use  "../images/reignschpath.PNG" >
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 38.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
+File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1159,27 +1165,27 @@ File: ../images/3_bike_lev_ratio.jpg Graphic file (type QTm)
 <use  "../images/3_bike_lev_ratio.jpg" >
 File: ../images/reignsch.PNG Graphic file (type QTm)
  <use  "../images/reignsch.PNG" >
-Underfull \hbox (badness 10000) in paragraph at lines 38--61
+Underfull \hbox (badness 10000) in paragraph at lines 45--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--61
+Underfull \hbox (badness 10000) in paragraph at lines 45--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--61
+Underfull \hbox (badness 10000) in paragraph at lines 45--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--61
+Underfull \hbox (badness 10000) in paragraph at lines 45--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--61
+Underfull \hbox (badness 10000) in paragraph at lines 45--76
 
  []
 
@@ -1188,16 +1194,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--61
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 62--65
+Underfull \hbox (badness 10000) in paragraph at lines 77--80
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 72--75
+Underfull \hbox (badness 10000) in paragraph at lines 87--90
 
  []
 
-) (./sections/imageanalysis.tex [6]
+) (./sections/imageanalysis.tex
+Underfull \hbox (badness 10000) in paragraph at lines 91--1
+
+ []
+
+[6]
 File: ../images/camera_bulb.PNG Graphic file (type QTm)
  <use  "../images/camera_bulb.PNG" >
 Underfull \hbox (badness 10000) in paragraph at lines 9--30
@@ -1218,16 +1229,12 @@ es make use of satellite imagery to monitor changes
  []
 
 File: ../images/anpr.jpg Graphic file (type QTm)
-<use  "../images/anpr.jpg" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
+<use  "../images/anpr.jpg" > [9]
 Underfull \hbox (badness 10000) in paragraph at lines 31--40
 
  []
 
-[9] [10]
+[10]
 File: ../images/curiosity_calibration_chart.jpg Graphic file (type QTm)
  <use  "../images/curiosity_calibration_chart.jpg" >)
 (./sections/combining_suspension_analysis.tex
@@ -1241,12 +1248,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--67
  []
 
 [11] [12] [13] [14] [15] [16] (./dissertation.bbl
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 59.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
-File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
 Underfull \hbox (badness 3954) in paragraph at lines 49--62
 []\EU1/Arial(0)/m/n/12 Aston, P.  (2016).  Sussmybike data acquisition - eurobi
 ke 2016.  Re-
@@ -1351,11 +1352,11 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 81.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 81.
  ) 
 Here is how much of TeX's memory you used:
- 28618 strings out of 493589
- 490247 string characters out of 6145555
- 600022 words of memory out of 5000000
- 31648 multiletter control sequences out of 15000+600000
- 7735 words of font info for 54 fonts, out of 8000000 for 9000
+ 28629 strings out of 493589
+ 490459 string characters out of 6145555
+ 598984 words of memory out of 5000000
+ 31654 multiletter control sequences out of 15000+600000
+ 8221 words of font info for 60 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  47i,12n,68p,10385b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
 
