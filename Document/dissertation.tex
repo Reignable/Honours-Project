@@ -23,7 +23,6 @@
 \usepackage{verbatim}
 
 \setmainfont{Arial}
-
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}
 
@@ -40,13 +39,14 @@
 \newenvironment{where}{\noindent{}where\begin{itemize}[label={}, nosep]}{\end{itemize}}
 
 \begin{document}
+	\urlstyle{same}
 	\pagenumbering{roman}
 	\setcounter{secnumdepth}{4}
 	\setcounter{tocdepth}{3}
 	\input{../Title/title.tex}
 	\input{../Declaration/declaration.tex}
 	\setcounter{page}{1}
-	\begin{abstract}
+	\begin{abstract}\noindent
 		\blindtext
 	\end{abstract}
 	\newpage
