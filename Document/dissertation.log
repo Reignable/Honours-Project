@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.5.22)  14 NOV 2016 16:05
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.5.22)  14 NOV 2016 16:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1152,15 +1152,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 [4] (./sections/background.tex
-File: ../images/2016_Giant_Reign_Advanced_275_0.jpg Graphic file (type QTm)
-
-<use  "../images/2016_Giant_Reign_Advanced_275_0.jpg" >
+File: ../images/2017_GIANT_FATHOM_1.jpg Graphic file (type QTm)
+ <use  "../images/2017_GIANT_FATHOM_1.jpg" >
 Overfull \hbox (23.78787pt too wide) in paragraph at lines 9--10
  [][] 
  []
 
-File: ../images/2017_GIANT_FATHOM_1.jpg Graphic file (type QTm)
-<use  "../images/2017_GIANT_FATHOM_1.jpg" >
+File: ../images/2016_Giant_Reign_Advanced_275_0.jpg Graphic file (type QTm)
+<use  "../images/2016_Giant_Reign_Advanced_275_0.jpg" >
 Overfull \hbox (23.78787pt too wide) in paragraph at lines 13--14
  [][] 
  []
@@ -1196,35 +1195,38 @@ File: ../images/reignschpath.PNG Graphic file (type QTm)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ../images/3_bike_lev_ratio.jpg Graphic file (type QTm)
- <use  "../images/3_bike_lev_ratio.jpg" >
+<use  "../images/3_bike_lev_ratio.jpg" >
 File: ../images/reignsch.PNG Graphic file (type QTm)
  <use  "../images/reignsch.PNG" >
-Underfull \hbox (badness 10000) in paragraph at lines 45--76
+Underfull \hbox (badness 10000) in paragraph at lines 42--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--76
+Underfull \hbox (badness 10000) in paragraph at lines 42--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--76
+Underfull \hbox (badness 10000) in paragraph at lines 42--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--76
+Underfull \hbox (badness 10000) in paragraph at lines 42--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--76
+Underfull \hbox (badness 10000) in paragraph at lines 42--73
 
  []
 
+[3]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1233,22 +1235,27 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--80
+Underfull \hbox (badness 10000) in paragraph at lines 74--77
 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 87--90
+[5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
 
  []
 
-[6]) (./sections/imageanalysis.tex
-Underfull \hbox (badness 10000) in paragraph at lines 91--1
+) (./sections/imageanalysis.tex
+Underfull \hbox (badness 10000) in paragraph at lines 88--1
 
  []
 
 File: ../images/camera_bulb.PNG Graphic file (type QTm)
 <use  "../images/camera_bulb.PNG" >
+Underfull \hbox (badness 10000) in paragraph at lines 9--30
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 9--30
 
  []
@@ -1273,8 +1280,9 @@ Overfull \hbox (13.47546pt too wide) in paragraph at lines 52--1
 es make use of satellite imagery to monitor changes
  []
 
+[9]
 File: ../images/anpr.jpg Graphic file (type QTm)
-<use  "../images/anpr.jpg" > [9]
+ <use  "../images/anpr.jpg" >
 Underfull \hbox (badness 10000) in paragraph at lines 31--40
 
  []
@@ -1305,12 +1313,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--1
 
  []
 
-[11])
+[11] [12])
 Underfull \hbox (badness 10000) in paragraph at lines 2--72
 
  []
 
-[12] [13] [14] [15] [16] [17] (./dissertation.bbl
+[13] [14] [15] [16] [17] (./dissertation.bbl
 Underfull \hbox (badness 6808) in paragraph at lines 329--344
 []\EU1/Arial(0)/m/n/12 Formosa, N.  (2012).  Social fitness apps storm cycling 
 world.  \EU1/Arial(0)/m/it/12 Bi-
@@ -1363,11 +1371,11 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 85.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 85.
  ) 
 Here is how much of TeX's memory you used:
- 28434 strings out of 493638
- 486601 string characters out of 6146796
- 595582 words of memory out of 5000000
- 31448 multiletter control sequences out of 15000+600000
- 8189 words of font info for 56 fonts, out of 8000000 for 9000
+ 28426 strings out of 493638
+ 486444 string characters out of 6146796
+ 595620 words of memory out of 5000000
+ 31443 multiletter control sequences out of 15000+600000
+ 7711 words of font info for 51 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  48i,12n,68p,10385b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
 
