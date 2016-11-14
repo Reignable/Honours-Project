@@ -26,11 +26,12 @@
 \contentsline {paragraph}{\numberline {2.2.3.1}Edge Detection}{9}{paragraph.2.2.3.1}
 \contentsline {paragraph}{\numberline {2.2.3.2}Object Detection}{10}{paragraph.2.2.3.2}
 \contentsline {paragraph}{\numberline {2.2.3.3}Taking Measurements}{11}{paragraph.2.2.3.3}
-\contentsline {subsection}{\numberline {2.3}Using Image Analysis for Mountain Bike Suspension}{11}{subsection.2.3}
-\contentsline {section}{\numberline {3}Approach}{13}{section.3}
-\contentsline {section}{\numberline {4}Results}{14}{section.4}
-\contentsline {section}{\numberline {5}Critical Evaluation}{15}{section.5}
-\contentsline {section}{\numberline {6}Conclusion}{16}{section.6}
-\contentsline {section}{References}{17}{section*.6}
-\contentsline {section}{Acronyms}{19}{section*.7}
-\contentsline {section}{Glossary}{19}{section*.9}
+\contentsline {subsection}{\numberline {2.3}Image Analysis in Sports Science}{11}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Using Image Analysis for Mountain Bike Suspension}{12}{subsection.2.4}
+\contentsline {section}{\numberline {3}Approach}{14}{section.3}
+\contentsline {section}{\numberline {4}Results}{15}{section.4}
+\contentsline {section}{\numberline {5}Critical Evaluation}{16}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{17}{section.6}
+\contentsline {section}{References}{18}{section*.6}
+\contentsline {section}{Acronyms}{20}{section*.7}
+\contentsline {section}{Glossary}{20}{section*.9}

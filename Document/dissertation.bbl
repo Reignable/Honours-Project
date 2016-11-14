@@ -252,6 +252,36 @@ Callaham, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Cork%
+, Justham%
+\BCBL {}\ \BBA {} West%
+}{%
+Cork%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+cricketimaging}
+\APACinsertmetastar {%
+cricketimaging}%
+\begin{APACrefauthors}%
+Cork, A.%
+, Justham, L.%
+\BCBL {}\ \BBA {} West, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Three-dimensional vision analysis to measure the release
+  characteristics of elite bowlers in cricket} {Three-dimensional vision
+  analysis to measure the release characteristics of elite bowlers in
+  cricket}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of the Institution of Mechanical Engineers,
+  Part P: Journal of Sports Engineering and Technology}{}{}{1754337112447264}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Diaz%
 \ \protect \BOthers {.}}{%
 Diaz%
@@ -639,6 +669,35 @@ Titlestad, J.%
   systems}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Acta Polytechnica}{43}{}{15-20}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wejer%
+, Lendo%
+\BCBL {}\ \BBA {} Lewczuk%
+}{%
+Wejer%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+jumpyhorses}
+\APACinsertmetastar {%
+jumpyhorses}%
+\begin{APACrefauthors}%
+Wejer, J.%
+, Lendo, I.%
+\BCBL {}\ \BBA {} Lewczuk, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The effect of training on the jumping parameters of
+  inexperienced Warmblood horses in free jumping} {The effect of training on
+  the jumping parameters of inexperienced warmblood horses in free
+  jumping}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Equine Veterinary Science}{33}{6}{483--486}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
