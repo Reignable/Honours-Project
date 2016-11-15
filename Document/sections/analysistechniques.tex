@@ -20,7 +20,7 @@
 			\hline
 		\end{tabular}
 	\end{table}\\
-	Table \ref{tab:edgePixels} represents possible pixel values of an edge indicated by the large difference between 4 and 152. The applied algorithm will pick up on this discrepancy and in will be indicated on the resulting image. A common application for edge detection is text recognition such as in automatic number plate recognition (ANPR) \citep{anpr} as the process can remove unwanted background data and highlight the block shapes of the number plate.
+	Table \ref{tab:edgePixels} represents possible pixel values of an edge indicated by the large difference between 4 and 152. The applied algorithm will pick up on this discrepancy and in will be indicated on the resulting image. A common application for edge detection is text recognition such as in automatic number plate recognition (ANPR) \citep{anpr} as the process can remove unwanted background data and highlight the block shapes of the number plate. Figure \ref{fig:anpr} shows an image which has had thresholding applied with the number plate of the car clearly visible.
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=10cm]{../images/anpr.jpg}
@@ -86,12 +86,12 @@
 	To circumvent the need for this data a reference object of known size can be included in the 
 	image, this allows a comparison between the object to be measured and the reference object. The 
 	previously mentioned mars rover, Curiosity, carries a United States penny and charts to 
-	calibrate its cameras against.
+	calibrate its cameras against; this is shown in figure \ref{fig:curiosity_calibration_chart}.
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=7cm]{../images/curiosity_calibration_chart.jpg}
 		\caption{The camera calibration items attached to the mars rover, Curiosity}
 		\label{fig:curiosity_calibration_chart}
 	\end{figure} 
-	\\
+	\\\\
 	This process will be applied during this project in some manner, either using a reference object or measuring camera height, as knowing measurements is vital to suspension setup as previously stated. Implementation of equation \ref{equ:measureobj} in an Android application will be relatively simple though collection of the relevant data with as little user interaction as possible will be difficult.
