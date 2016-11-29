@@ -19,7 +19,7 @@ def distance_to_camera(knownWidth, focalLength, perWidth):
 
 KNOWN_DISTANCE = 24.0
 KNOWN_WIDTH = 11.0
-IMAGE_PATHS = []
+IMAGE_PATHS = ['2ft.png', '3ft.png', '4ft.png']
 
 image = cv2.imread(IMAGE_PATHS[0])
 marker = find_marker(image)
