@@ -6,7 +6,7 @@
 |__Functional?__    |Yes|
 |__Problems__       |<ul><li>Not fullscreen</li><li>Wrong orientation</li></ul>|
 |__Files__          |2|
-|__LOC__            ||
+|__LOC__            |101|
 ##15tile
 |Thing          |Writing|
 |---------------|-------|
@@ -14,7 +14,7 @@
 |__Functional?__    |Yes|
 |__Problems__       |Not fullscreen|
 |__Files__          |3|
-|LOC            ||
+|__LOC__            |492|
 ##Blob Detection
 |Thing          |Writing|
 |---------------|-------|
@@ -22,7 +22,7 @@
 |__Functional?__    |No|
 |__Problems__       |Crashes on tap|
 |__Files__          |3|
-|__LOC__            ||
+|__LOC__            |311|
 ##Face Detection
 |Thing          |Writing|
 |---------------|-------|
@@ -30,7 +30,7 @@
 |__Functional?__    |No|
 |__Problems__       |Crash on load|
 |__Files__          |3|
-|__LOC__            ||
+|__LOC__            |279|
 #Python
 ##Find Games
 |Thing          |Writing|
@@ -39,7 +39,7 @@
 |__Functional?__    |Yes|
 |__Problems__       |None|
 |__Files__          |1|
-|__LOC__            ||
+|__LOC__            |18|
 ##Thresholding
 |Thing          |Writing|
 |---------------|-------|
@@ -47,7 +47,7 @@
 |__Functional?__    |Yes|
 |__Problems__       |None|
 |__Files__          |1|
-|__LOC__            ||
+|__LOC__            |14|
 ##Image Operations
 |Thing          |Writing|
 |---------------|-------|
@@ -55,7 +55,7 @@
 |__Functional?__    |Yes|
 |__Problems__       |None|
 |__Files__          |1|
-|__LOC__            ||
+|__LOC__            |15|
 ##Distance to Camera
 |Thing          |Writing|
 |---------------|-------|
@@ -63,4 +63,4 @@
 |__Functional?__    |Yes|
 |__Problems__       |None|
 |__Files__          |1|
-|__LOC__            ||
+|__LOC__            |38|
