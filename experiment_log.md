@@ -1,10 +1,11 @@
 #Android
 ##Hello CV
 |Thing          |Writing|
-|---|---|
-|Purpose        ||
-|Functional?    ||
-|Problems       ||
+|---------------|-------|
+|Purpose        |Introduction to the android OpenCV library|
+|Functional?    |Yes|
+|Problems       | - Not fullscreen
+|               | - Wrong orientation|
 |Files          ||
 |LOC            ||
 ##15tile
