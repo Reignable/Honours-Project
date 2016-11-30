@@ -1,5 +1,7 @@
 #Android
 ##Hello CV
+|Thing          |Writing|
+|---|---|
 |Purpose        ||
 |Functional?    ||
 |Problems       ||
