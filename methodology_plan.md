@@ -1,6 +1,6 @@
 # Research
  - Current tech
- - Personal project?
+ - Experiments
 
 ## Requirements
  - User stories
@@ -23,4 +23,11 @@
  - Algorithms
  - Structure - script, utility?
  - Output
- - IDE? 
+ - IDE?
+ - GitHub
+ - Testing framework
+
+# Options
+ - Paint broad picture
+ - Refine
+ - Statement of limitations
