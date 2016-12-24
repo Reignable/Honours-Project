@@ -28,7 +28,15 @@
 \contentsline {paragraph}{\numberline {2.2.3.3}Taking Measurements}{11}{paragraph.2.2.3.3}
 \contentsline {subsection}{\numberline {2.3}Image Analysis in Sports Science}{12}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Using Image Analysis for Mountain Bike Suspension}{13}{subsection.2.4}
-\contentsline {section}{\numberline {3}Approach}{14}{section.3}
+\contentsline {section}{\numberline {3}Methodology}{14}{section.3}
+\contentsline {subsection}{\numberline {3.1}Introduction}{14}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Platform}{14}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Experimentation}{14}{subsubsection.3.2.1}
+\contentsline {subsection}{\numberline {3.3}Project Management}{14}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}MoSCoW}{14}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Requirements Analysis}{14}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}Agile}{14}{subsubsection.3.3.3}
+\contentsline {subsection}{\numberline {3.4}Source Control}{14}{subsection.3.4}
 \contentsline {section}{\numberline {4}Results}{15}{section.4}
 \contentsline {section}{\numberline {5}Critical Evaluation}{16}{section.5}
 \contentsline {section}{\numberline {6}Conclusion}{17}{section.6}

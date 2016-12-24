@@ -26,7 +26,7 @@
  - IDE?
  - GitHub
  - Testing framework
-
+Doc
 # Options
  - Paint broad picture
  - Refine
