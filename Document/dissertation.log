@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  1 JAN 2017 16:56
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  2 JAN 2017 12:48
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1318,79 +1318,84 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--72
  []
 
 [13] (./sections/methodology.tex
-Underfull \hbox (badness 10000) in paragraph at lines 9--16
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 14--75
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--16
+Underfull \hbox (badness 10000) in paragraph at lines 14--75
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--16
+Underfull \hbox (badness 10000) in paragraph at lines 14--75
 
  []
 
-[14]) [15] [16] [17] [18] (./dissertation.bbl
-Underfull \hbox (badness 6808) in paragraph at lines 329--344
+[14] [15] [16] [17] [18] (./dissertation.bbl
+Underfull \hbox (badness 6808) in paragraph at lines 358--373
 []\EU1/Arial(0)/m/n/12 Formosa, N.  (2012).  Social fitness apps storm cycling 
 world.  \EU1/Arial(0)/m/it/12 Bi-
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 329--344
+Underfull \hbox (badness 4686) in paragraph at lines 358--373
 \EU1/Arial(0)/m/it/12 cycle Retailer and Industry News\EU1/Arial(0)/m/n/12 , \E
 U1/Arial(0)/m/it/12 21\EU1/Arial(0)/m/n/12 , 28-29.  Retrieved 24/09/2016,
  []
 
 
-Underfull \hbox (badness 3333) in paragraph at lines 329--344
+Underfull \hbox (badness 3333) in paragraph at lines 358--373
 \EU1/Arial(0)/m/n/12 from []$[][][][] [][][] [][][][][][] [] [][][][][][][][][]
  [] [][][][] [] [][][][][][][][] [] [][][][][][][] [] [][][] [] [][][] [] [][][
 ][][][][] [] [][][][][][][][][][] [] [][][][] []
  []
 
 [19]
-Underfull \hbox (badness 3838) in paragraph at lines 410--425
+Underfull \hbox (badness 3838) in paragraph at lines 439--454
 []\EU1/Arial(0)/m/n/12 Hwang, J. C. B.  (2016, 05 19).  \EU1/Arial(0)/m/it/12 S
 hockwiz \EU1/Arial(0)/m/n/12 (Trademark Application No.[]
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 439--459
+Underfull \hbox (badness 2512) in paragraph at lines 468--488
 \EU1/Arial(0)/m/n/12 hanger cables using digital image processing.  \EU1/Arial(
 0)/m/it/12 NDT & E International\EU1/Arial(0)/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 627--641
+Underfull \hbox (badness 2990) in paragraph at lines 656--670
 \EU1/Arial(0)/m/n/12 ica, oceania.  Retrieved 24/09/2015, from []$[][][][] [][]
 [] [][][] [] [][][][][][][][][][][][][][][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 627--641
+Underfull \hbox (badness 10000) in paragraph at lines 656--670
 [][][][][][][][] [] [][][][][] [] [][][][] [] [][] [] [][] [] [][] [] [][][][][
 ][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][] [] [][][][][][][] [] 
 [][][][][][] [] [][][][][][] []
  []
 
-) [20] (./dissertation.acr) (./dissertation.gls)
+[20]) [21] (./dissertation.acr) (./dissertation.gls)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
- [21]
+ [22]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
  (./dissertation.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 86.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 28628 strings out of 493589
- 490233 string characters out of 6145555
- 600968 words of memory out of 5000000
- 31656 multiletter control sequences out of 15000+600000
+ 28638 strings out of 493589
+ 490485 string characters out of 6145555
+ 600909 words of memory out of 5000000
+ 31666 multiletter control sequences out of 15000+600000
  7711 words of font info for 51 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 47i,12n,68p,10385b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,12n,68p,10385b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (28 pages).
+Output written on dissertation.pdf (29 pages).

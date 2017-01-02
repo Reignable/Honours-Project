@@ -61,6 +61,35 @@ Aston, P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Beck%
+\ \protect \BOthers {.}}{%
+Beck%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2001}}%
+}]{%
+beck2001manifesto}
+\APACinsertmetastar {%
+beck2001manifesto}%
+\begin{APACrefauthors}%
+Beck, K.%
+, Beedle, M.%
+, Van~Bennekum, A.%
+, Cockburn, A.%
+, Cunningham, W.%
+, Fowler, M.%
+\BDBL {}others%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Manifesto for agile software development} {Manifesto for
+  agile software development}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Benedict%
 }{%
 Benedict%
@@ -669,6 +698,27 @@ Titlestad, J.%
   systems}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Acta Polytechnica}{43}{}{15-20}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+VersionOne%
+}{%
+VersionOne%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+state_of_agile_2015}
+\APACinsertmetastar {%
+state_of_agile_2015}%
+\begin{APACrefauthors}%
+VersionOne.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {9th Annual State of Agile Survey.} {9th annual state of agile
+  survey.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

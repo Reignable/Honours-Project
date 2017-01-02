@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: dissertation.aux
 The style file: apacite.bst
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -18,6 +18,7 @@ ptr=1, stack=
 
 ---the literal stack isn't empty for entry sussmybike
 while executing---line 5079 of file apacite.bst
+Warning--No journal in beck2001manifesto
 Warning--No journal in foxird
 ptr=1, stack=
 
@@ -48,45 +49,45 @@ ptr=1, stack=
 
 ---the literal stack isn't empty for entry ytonline
 while executing---line 5079 of file apacite.bst
-You've used 26 entries,
+You've used 28 entries,
             6951 wiz_defined-function locations,
-            1446 strings with 17421 characters,
-and the built_in function-call counts, 50958 in all, are:
-= -- 6177
-> -- 431
-< -- 2556
-+ -- 2571
-- -- 60
-* -- 3382
-:= -- 9578
-add.period$ -- 107
-call.type$ -- 26
-change.case$ -- 455
+            1453 strings with 17741 characters,
+and the built_in function-call counts, 54287 in all, are:
+= -- 6569
+> -- 468
+< -- 2695
++ -- 2707
+- -- 68
+* -- 3575
+:= -- 10137
+add.period$ -- 114
+call.type$ -- 28
+change.case$ -- 489
 chr.to.int$ -- 0
-cite$ -- 59
-duplicate$ -- 1296
-empty$ -- 1995
-format.name$ -- 677
-if$ -- 9547
+cite$ -- 64
+duplicate$ -- 1405
+empty$ -- 2142
+format.name$ -- 749
+if$ -- 10196
 int.to.chr$ -- 0
-int.to.str$ -- 78
+int.to.str$ -- 84
 missing$ -- 0
-newline$ -- 672
-num.names$ -- 208
-pop$ -- 896
+newline$ -- 720
+num.names$ -- 224
+pop$ -- 996
 preamble$ -- 1
-purify$ -- 116
+purify$ -- 124
 quote$ -- 0
-skip$ -- 3161
+skip$ -- 3369
 stack$ -- 0
-substring$ -- 2844
-swap$ -- 752
-text.length$ -- 103
+substring$ -- 2992
+swap$ -- 807
+text.length$ -- 109
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2144
-warning$ -- 7
-while$ -- 248
+type$ -- 2304
+warning$ -- 8
+while$ -- 272
 width$ -- 0
-write$ -- 810
+write$ -- 870
 (There were 7 error messages)
