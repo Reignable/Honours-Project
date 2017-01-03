@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  2 JAN 2017 15:22
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  3 JAN 2017 11:52
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1327,7 +1327,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--15
 
  []
 
-)
+[14])
 Underfull \hbox (badness 10000) in paragraph at lines 17--75
 
  []
@@ -1342,7 +1342,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--75
 
  []
 
-[14] [15] [16] [17] [18] (./dissertation.bbl
+[15] [16] [17] [18] (./dissertation.bbl
 Underfull \hbox (badness 6808) in paragraph at lines 358--373
 []\EU1/Arial(0)/m/n/12 Formosa, N.  (2012).  Social fitness apps storm cycling 
 world.  \EU1/Arial(0)/m/it/12 Bi-
