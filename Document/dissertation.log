@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  6 JAN 2017 13:15
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  7 JAN 2017 13:17
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1337,56 +1337,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--74
  []
 
 [13] (./sections/methodology.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--13
+Underfull \hbox (badness 10000) in paragraph at lines 6--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--13
+Underfull \hbox (badness 10000) in paragraph at lines 6--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--13
+Underfull \hbox (badness 10000) in paragraph at lines 6--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--19
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 15--18
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--25
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--25
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 36--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--29
-
- []
-
-[15])
-Underfull \hbox (badness 10000) in paragraph at lines 30--77
+Underfull \hbox (badness 10000) in paragraph at lines 36--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--77
+Underfull \hbox (badness 10000) in paragraph at lines 36--77
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--77
-
- []
-
-[16] [17] [18] [19] (./dissertation.bbl
+[16] [17] [18] [19] [20] (./dissertation.bbl
 Underfull \hbox (badness 6808) in paragraph at lines 358--373
 []\EU1/Arial(0)/m/n/12 Formosa, N.  (2012).  Social fitness apps storm cycling 
 world.  \EU1/Arial(0)/m/it/12 Bi-
@@ -1405,7 +1420,7 @@ Underfull \hbox (badness 3333) in paragraph at lines 358--373
 ][][][][] [] [][][][][][][][][][] [] [][][][] []
  []
 
-[20]
+[21]
 Underfull \hbox (badness 3838) in paragraph at lines 439--454
 []\EU1/Arial(0)/m/n/12 Hwang, J. C. B.  (2016, 05 19).  \EU1/Arial(0)/m/it/12 S
 hockwiz \EU1/Arial(0)/m/n/12 (Trademark Application No.[]
@@ -1430,7 +1445,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 656--670
 [][][][][][] [] [][][][][][] []
  []
 
-[21]) [22] (./dissertation.acr) (./dissertation.gls) [23]
+[22]) [23] (./dissertation.acr) (./dissertation.gls) [24]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -1468,7 +1483,7 @@ Underfull \hbox (badness 5832) in paragraph at lines 141--142
 []\EU1/Arial(0)/m/n/12 Puts boundary around detected
  []
 
-[24
+[25
 
 
 
@@ -1510,7 +1525,7 @@ Underfull \hbox (badness 2744) in paragraph at lines 189--190
 []\EU1/Arial(0)/m/n/12 Demonstrates how pixel data is
  []
 
-[25
+[26
 
 
 
@@ -1532,4 +1547,4 @@ Here is how much of TeX's memory you used:
  1347 hyphenation exceptions out of 8191
  47i,12n,68p,10385b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (32 pages).
+Output written on dissertation.pdf (33 pages).
