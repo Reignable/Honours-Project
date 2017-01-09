@@ -33,5 +33,13 @@
 \BOOKMARK [1][-]{section*.9}{Glossary}{}% 33
 \BOOKMARK [1][-]{appendix.A}{Android\040Experiments}{}% 34
 \BOOKMARK [2][-]{subsection.A.1}{Table\040of\040Android\040Experiments}{appendix.A}% 35
-\BOOKMARK [1][-]{appendix.B}{Python\040Experiments}{}% 36
-\BOOKMARK [2][-]{subsection.B.1}{Table\040of\040Python\040Experiments}{appendix.B}% 37
+\BOOKMARK [2][-]{subsection.A.2}{Hello\040CV}{appendix.A}% 36
+\BOOKMARK [2][-]{subsection.A.3}{15tile}{appendix.A}% 37
+\BOOKMARK [2][-]{subsection.A.4}{BLOB\040Analysis}{appendix.A}% 38
+\BOOKMARK [2][-]{subsection.A.5}{Face\040Detection}{appendix.A}% 39
+\BOOKMARK [1][-]{appendix.B}{Python\040Experiments}{}% 40
+\BOOKMARK [2][-]{subsection.B.1}{Table\040of\040Python\040Experiments}{appendix.B}% 41
+\BOOKMARK [2][-]{subsection.B.2}{find_game.py}{appendix.B}% 42
+\BOOKMARK [2][-]{subsection.B.3}{thresholding.py}{appendix.B}% 43
+\BOOKMARK [2][-]{subsection.B.4}{img_ops.py}{appendix.B}% 44
+\BOOKMARK [2][-]{subsection.B.5}{distance_to_camera.py}{appendix.B}% 45

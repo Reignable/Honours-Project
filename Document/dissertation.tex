@@ -23,6 +23,7 @@
 \usepackage{verbatim}
 \usepackage{pdflscape}
 \usepackage{tabularx}
+\usepackage{minted}
 
 \setmainfont{Arial}
 \pagestyle{fancy}
@@ -152,6 +153,17 @@
 		\end{table}
 	\end{landscape}
 	\restoregeometry
+	\subsection{Hello CV}
+	\inputminted{java}{../code/android/hello_cv/MainActivity.java}
+	\subsection{15tile}
+	\inputminted{java}{../code/android/15tile/MainActivity.java}
+	\inputminted{java}{../code/android/15tile/PuzzleProcessor.java}
+	\subsection{BLOB Analysis}
+	\inputminted{java}{../code/android/blob_analysis/ColorBlobDetectionActivity.java}
+	\inputminted{java}{../code/android/blob_analysis/ColorBlobDetector.java}
+	\subsection{Face Detection}
+	\inputminted[]{java}{../code/android/face_recognition/DetectionBasedTracker.java}
+	\inputminted[]{java}{../code/android/face_recognition/FrActivity.java}
 	\clearpage
 		\thispagestyle{empty}
 		\newgeometry{margin=1cm}
@@ -209,4 +221,12 @@
 			\end{table}
 		\end{landscape}
 		\restoregeometry
+		\subsection{find\_game.py}
+		\inputminted{python}{../code/python/find_game.py}
+		\subsection{thresholding.py}
+		\inputminted{python}{../code/python/thresholding.py}
+		\subsection{img\_ops.py}
+		\inputminted{python}{../code/python/img_ops.py}
+		\subsection{distance\_to\_camera.py}
+		\inputminted{python}{../code/python/distance_to_camera.py}
 \end{document}
