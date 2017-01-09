@@ -574,6 +574,31 @@ Moeslund, T\BPBI B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+{NASA JPL}%
+}{%
+{NASA JPL}%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+curiosity_image_calibration}
+\APACinsertmetastar {%
+curiosity_image_calibration}%
+\begin{APACrefauthors}%
+{NASA JPL}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+\APACrefbtitle {Contact Instrument Calibration Targets on Mars Rover
+  Curiosity.} {Contact instrument calibration targets on mars rover curiosity.}
+\newblock
+\begin{APACrefURL}
+  \url{images-assets.nasa.gov/image/PIA15284/PIA15284~orig.jpg}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Potter%
 }{%
 Potter%

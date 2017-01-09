@@ -44,5 +44,7 @@
 \contentsline {section}{References}{21}{section*.6}
 \contentsline {section}{Acronyms}{24}{section*.7}
 \contentsline {section}{Glossary}{24}{section*.9}
-\contentsline {section}{\numberline {A}Table of Android Experiments}{25}{appendix.A}
-\contentsline {section}{\numberline {B}Table of Python Experiments}{26}{appendix.B}
+\contentsline {section}{\numberline {A}Android Experiments}{25}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Table of Android Experiments}{25}{subsection.A.1}
+\contentsline {section}{\numberline {B}Python Experiments}{26}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Table of Python Experiments}{26}{subsection.B.1}
