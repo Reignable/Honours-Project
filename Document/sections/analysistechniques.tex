@@ -77,16 +77,11 @@
 	\end{where}
 	\end{comment}
 	\vspace{5mm}
-	The process to calculate the height of an object in an image is shown in equation 
-	\ref{equ:measureobj}. $f$, $H_{i}$, and $H_{s}$ can be acquired from EXIF 
-	data, however $D$ and $H_{c}$ are not collected by the camera and must be measured. When 
-	dealing with image analysis this means that this data must have been collected when the image 
-	was taken.
+	The process to calculate the height of an object in an image is shown in equation \ref{equ:measureobj}. $f$, $H_{i}$, and $H_{s}$ can be acquired from EXIF data, however $D$ and $H_{c}$ are not collected by the camera and must be measured. When dealing with image analysis this means that this data must have been collected when the image was taken.
 	\\\\
-	To circumvent the need for this data a reference object of known size can be included in the 
-	image, this allows a comparison between the object to be measured and the reference object. The 
-	previously mentioned mars rover, Curiosity, carries a United States penny and charts to 
-	calibrate its cameras against; this is shown in figure \ref{fig:curiosity_calibration_chart}.
+	It may be questioned that the distance of the object being measured from the ground is required however this is not the case. As the size of the object is being related to its size on the camera's sensor, the elevation of the object is not required. To test the equation data was created from known object heights which was then re-used to see if the calculated height was equal to the known. For example:
+	\\\\
+	To circumvent the need for the height of the camera a reference object of known size can be included in the image, this allows a comparison between the object to be measured and the reference object. The previously mentioned Mars rover, Curiosity, carries a United States penny and charts to calibrate its cameras against; this is shown in figure \ref{fig:curiosity_calibration_chart}.
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=7cm]{../images/curiosity_calibration_chart.jpg}
@@ -94,4 +89,4 @@
 		\label{fig:curiosity_calibration_chart}
 	\end{figure} 
 	\\\\
-	This process will be applied during this project in some manner, either using a reference object or measuring camera height, as knowing measurements is vital to suspension setup as previously stated. Implementation of equation \ref{equ:measureobj} in an Android application will be relatively simple though collection of the relevant data with as little user interaction as possible will be difficult.
+	This process will be applied during this project in some manner, either using a reference object or measuring camera height, as knowing measurements is vital to suspension setup as previously stated. Implementation of equation \ref{equ:measureobj} in an application will be relatively simple though collection of the relevant data with as little user interaction as possible will be difficult.

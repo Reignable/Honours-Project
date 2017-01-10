@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  10 JAN 2017 09:48
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  10 JAN 2017 13:24
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1468,10 +1468,14 @@ File: ../images/reignschpath.PNG Graphic file (type QTm)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
+[3]
 File: ../images/3_bike_lev_ratio.jpg Graphic file (type QTm)
-<use  "../images/3_bike_lev_ratio.jpg" >
+ <use  "../images/3_bike_lev_ratio.jpg" >
 File: ../images/reignsch.PNG Graphic file (type QTm)
  <use  "../images/reignsch.PNG" >
 Underfull \hbox (badness 10000) in paragraph at lines 42--73
@@ -1499,13 +1503,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--73
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[3]
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
@@ -1530,18 +1527,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5]
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 84--87
-
- []
-
-) (./sections/imageanalysis.tex
+[6]) (./sections/imageanalysis.tex
 Underfull \hbox (badness 10000) in paragraph at lines 88--1
 
  []
@@ -1663,32 +1659,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [13] (./sections/methodology.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--19
+Underfull \hbox (badness 10000) in paragraph at lines 8--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--19
+Underfull \hbox (badness 10000) in paragraph at lines 8--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--19
+Underfull \hbox (badness 10000) in paragraph at lines 8--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--19
+Underfull \hbox (badness 10000) in paragraph at lines 8--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--19
+Underfull \hbox (badness 10000) in paragraph at lines 8--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--19
+Underfull \hbox (badness 10000) in paragraph at lines 8--21
 
  []
 
@@ -1699,17 +1695,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 21--24
+Underfull \hbox (badness 10000) in paragraph at lines 23--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
+Underfull \hbox (badness 10000) in paragraph at lines 28--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
+Underfull \hbox (badness 10000) in paragraph at lines 28--33
 
  []
 
@@ -1720,22 +1716,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
+Underfull \hbox (badness 10000) in paragraph at lines 34--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--39
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 36--78
+Underfull \hbox (badness 10000) in paragraph at lines 40--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--78
+Underfull \hbox (badness 10000) in paragraph at lines 40--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--78
+Underfull \hbox (badness 10000) in paragraph at lines 40--78
 
  []
 
@@ -2135,7 +2136,7 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 265.
 Here is how much of TeX's memory you used:
  31670 strings out of 493589
  554463 string characters out of 6145555
- 698501 words of memory out of 5000000
+ 698654 words of memory out of 5000000
  34569 multiletter control sequences out of 15000+600000
  7994 words of font info for 59 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
