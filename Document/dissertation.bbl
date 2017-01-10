@@ -145,7 +145,53 @@ esfmedical}%
 \bibcorporate{Giant Manufacturing Co. Ltd.}%
 }{%
 {\protect \APACyear {2017}}%
-}]{%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+giantfathom}
+\APACinsertmetastar {%
+giantfathom}%
+\begin{APACrefauthors}%
+\bibcorporate{Giant Manufacturing Co. Ltd.}%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017{\protect \BCnt {1}}}{}{}.
+\newblock
+\APACrefbtitle {Giant Fathom} {Giant fathom}\ [Product Listing].
+\newblock
+\begin{APACrefURL} \url{https://www.giant-bicycles.com/gb/fathom-1}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\bibcorporate{Giant Manufacturing Co. Ltd.}%
+}{%
+\bibcorporate{Giant Manufacturing Co. Ltd.}%
+}{%
+{\protect \APACyear {2017}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+giantreign}
+\APACinsertmetastar {%
+giantreign}%
+\begin{APACrefauthors}%
+\bibcorporate{Giant Manufacturing Co. Ltd.}%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017{\protect \BCnt {2}}}{}{}.
+\newblock
+\APACrefbtitle {Giant Reign} {Giant reign}\ [Product Listing].
+\newblock
+\begin{APACrefURL} \url{https://www.giant-bicycles.com/gb/reign-1}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\bibcorporate{Giant Manufacturing Co. Ltd.}%
+}{%
+\bibcorporate{Giant Manufacturing Co. Ltd.}%
+}{%
+{\protect \APACyear {2017}}%
+{\protect \APACexlab {{\protect \BCnt {3}}}}}]{%
 giantstance}
 \APACinsertmetastar {%
 giantstance}%
@@ -154,7 +200,7 @@ giantstance}%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2017}{}{}.
+\APACrefYearMonthDay{2017{\protect \BCnt {3}}}{}{}.
 \newblock
 \APACrefbtitle {Giant Stance} {Giant stance}\ [Product Listing].
 \newblock

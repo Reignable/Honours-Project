@@ -48,11 +48,11 @@
 \contentsline {subsection}{\numberline {A.1}Table of Android Experiments}{25}{subsection.A.1}
 \contentsline {subsection}{\numberline {A.2}Hello CV}{26}{subsection.A.2}
 \contentsline {subsection}{\numberline {A.3}15tile}{27}{subsection.A.3}
-\contentsline {subsection}{\numberline {A.4}BLOB Analysis}{37}{subsection.A.4}
-\contentsline {subsection}{\numberline {A.5}Face Detection}{43}{subsection.A.5}
-\contentsline {section}{\numberline {B}Python Experiments}{49}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}Table of Python Experiments}{49}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}find\_game.py}{50}{subsection.B.2}
-\contentsline {subsection}{\numberline {B.3}thresholding.py}{50}{subsection.B.3}
-\contentsline {subsection}{\numberline {B.4}img\_ops.py}{50}{subsection.B.4}
-\contentsline {subsection}{\numberline {B.5}distance\_to\_camera.py}{51}{subsection.B.5}
+\contentsline {subsection}{\numberline {A.4}BLOB Analysis}{35}{subsection.A.4}
+\contentsline {subsection}{\numberline {A.5}Face Detection}{40}{subsection.A.5}
+\contentsline {section}{\numberline {B}Python Experiments}{46}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Table of Python Experiments}{46}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}find\_game.py}{47}{subsection.B.2}
+\contentsline {subsection}{\numberline {B.3}thresholding.py}{47}{subsection.B.3}
+\contentsline {subsection}{\numberline {B.4}img\_ops.py}{47}{subsection.B.4}
+\contentsline {subsection}{\numberline {B.5}distance\_to\_camera.py}{48}{subsection.B.5}
