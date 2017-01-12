@@ -40,6 +40,7 @@ for c in cnts:
 
     box = perspective.order_points(box)
     cv2.drawContours(orig, [box.astype('int')], -1, (0, 255, 0), 2)
+    '''
     for (x, y) in box:
         cv2.circle(orig, (int(x), int(y)), 5, (0, 0, 255), -1)
 
@@ -68,6 +69,6 @@ for c in cnts:
 
     cv2.putText(orig, '{:.1f}in'.format(dimA), (int(tltrX - 15), int(tltrY - 10)), cv2.FONT_HERSHEY_SIMPLEX, 0.65, (255, 255, 255,), 2)
     cv2.putText(orig, '{:.1f}in'.format(dimB), (int(trbrX - 15), int(trbrY - 10)), cv2.FONT_HERSHEY_SIMPLEX, 0.65, (255, 255, 255,), 2)
-
+    '''
     cv2.imshow('image', orig)
     cv2.waitKey(0)
