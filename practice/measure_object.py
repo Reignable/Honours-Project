@@ -1,10 +1,10 @@
-import scipy.spatial
-import distance as dist
+from scipy.spatial import distance as dist
 from imutils import perspective
 from imutils import contours
 import numpy as np
 import argparse
 import imutils
+
 import cv2
 
 def midpoint(ptA, ptB):
