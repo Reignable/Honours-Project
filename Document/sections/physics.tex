@@ -39,12 +39,10 @@
 		\gls{stroke} is 1:1 with the potential travel of the wheel. Front suspension is found on 
 		all \gls{fs} and \gls{ht} bikes.
 	\subsubsection{Rear Suspension}
-		Rear suspension uses a shock absorber much smaller than a \gls{fork} and does not operate on a 1:1 ratio. Bike frames incorporate one or more pivot points and linkages which allows the wheel to move and act as multipliers for the suspension. Rear ratios are expressed as n:1 where n is the distance the rear wheel moves for every 1mm the shock compresses through its stroke. Though this is only the average leverage ratio for the entire travel. The difference between front and rear stroke and travel can be seen in figure \ref{fig:travelvsstroke}.
+		Rear suspension uses a shock absorber much smaller than a \gls{fork} and does not operate on a 1:1 ratio. Bike frames incorporate one or more pivot points and linkages which allow the wheel to move and act as multipliers for the suspension. Rear ratios are expressed as n:1 where n is the distance the rear wheel moves for every 1mm the shock compresses through its stroke. Though this is only the average leverage ratio for the entire travel. The difference between front and rear stroke and travel can be seen in figure \ref{fig:travelvsstroke}.
 		\\\\
 		As all rear suspension designs are different and the rear wheel must rotate around the main 
-		pivot, or in some cases virtual pivot, as opposed to moving linearly, the frame will behave 
-		differently through its travel and depending on the type of \gls{shock} it is using. 
-		Because of this the average ratio is normally dismissed in favour of a leverage curve.
+		pivot, or in some cases virtual pivot, as opposed to moving linearly and the frame will behave differently through its travel and depending on the type of \gls{shock} it is using. Because of this the average ratio is normally dismissed in favour of a leverage curve.
 		\begin{figure}[h!]
 			\centering
 			\includegraphics[width=10cm]{../images/3_bike_lev_ratio.jpg}
@@ -63,7 +61,7 @@
 		\\\\
 		In contrast, the curve of the \gls{singlepiv} Empire MX-6 Evo (shown green) is considered linear. This is due to the MX-6 having only one pivot and swinging arm, as opposed to multiple pivots and linkages of the \gls{vpp} and \gls{horst} designs, so there is an almost direct input from the rear wheel to the \gls{shock}.
 		\\\\
-		For this project the bike used for development and testing of the application will be a 2015 Giant Reign, shown on figure \ref{fig:3_bike_lev_ratio} in blue, as there will be constant access to it during the project. The frame uses Giant's Maestro\texttrademark suspension system which is a variation of \gls{vpp}. Like all \gls{vpp} systems Maestro uses two links, an upper and lower, to create a virtual main pivot point, however unlike other \gls{vpp} systems, Maestro creates its virtual pivot as close to the rear of the frame as possible. Indicated by the red circle in figure \ref{fig:maestro}, the location of this virtual pivot is unique and, many believe, creates the most efficient suspension system on the market.
+		For this project the bike used for development and testing of the application will be a 2015 Giant Reign, shown on figure \ref{fig:3_bike_lev_ratio} in blue, as there will be constant access to it during the project. The frame uses Giant's Maestro\texttrademark  suspension system which is a variation of \gls{vpp}. Like all \gls{vpp} systems Maestro uses two links, an upper and lower, to create a virtual main pivot point, however unlike other \gls{vpp} systems, Maestro creates its virtual pivot as close to the rear of the frame as possible. Indicated by the red circle in figure \ref{fig:maestro}, the location of this virtual pivot is unique and, many believe, creates the most efficient suspension system on the market.
 		\begin{figure}[h!]
 			\centering
 			\includegraphics[width=12cm]{../images/reignsch.PNG}
@@ -73,7 +71,7 @@
 		\\\\
 		Despite the complexities relating to rear suspension designs, the average rider and even individuals in the industry are unlikely to need this knowledge. Leverage curves are predominantly used by designers in the research and development of new frames to determine the characteristics of how they will use the suspension available before the new bike is released to the market. Though an understanding of these characteristics will allow the individual rider to personally tune the settings described in the following sections themselves, the majority will not notice the difference between a single pivot and \gls{vpp} design, opting for a more simple "set and forget" approach to their suspension.
 		\\\\
-		In the context of this project and the intended user for the application, this begs the question of how much information should be given to the user? 
+		In the context of this project and the intended user for the application, this begs the question of how much information should be given to the user? Modern human computer interaction principles aim toward providing information to the user which is relevant and necessary in context. Presenting the user with a leverage curve which could require extensive explanation to understand within a mobile application could prove detrimental to the user experience. For an application which is intended to remove the difficulties of suspension setup and allow for quick and easy production of a basic setup, providing a single sag setting would be preferable over a multitude of information. 
 	\subsubsection{Sag}
 		\Gls{sag} is the amount that the suspension sits into its travel when the rider is in their neutral position, it is calculated using the rider's weight, available \gls{travel}, and intended riding style. \Gls{sag} is required so the suspension is able to drop into holes as well as soak up bumps. 
 		\\\\

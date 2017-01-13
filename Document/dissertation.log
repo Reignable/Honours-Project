@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  11 JAN 2017 12:50
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.11.17)  13 JAN 2017 13:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1508,6 +1508,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--75
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 42--75
+
+ []
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
@@ -1547,22 +1552,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--1
 
  []
 
-File: ../images/camera_bulb.PNG Graphic file (type QTm)
-<use  "../images/camera_bulb.PNG" >
-Underfull \hbox (badness 10000) in paragraph at lines 9--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--30
-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1570,21 +1559,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7]
-File: ../images/4panel.png Graphic file (type QTm)
- <use  "../images/4panel.png" >
+File: ../images/camera_bulb.PNG Graphic file (type QTm)
+ <use  "../images/camera_bulb.PNG" >
+Underfull \hbox (badness 10000) in paragraph at lines 9--30
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+ []
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+Underfull \hbox (badness 10000) in paragraph at lines 9--30
 
-[8]) (./sections/analysistechniques.tex
-Overfull \hbox (13.47546pt too wide) in paragraph at lines 52--1
- \EU1/Arial(0)/bx/n/12 2.2.2.4 Space[] \EU1/Arial(0)/m/n/12 While some industri
-es make use of satellite imagery to monitor changes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--30
+
  []
 
 
@@ -1593,9 +1581,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9]
+[8]
+File: ../images/4panel.png Graphic file (type QTm)
+ <use  "../images/4panel.png" >
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]) (./sections/analysistechniques.tex
+Overfull \hbox (13.47546pt too wide) in paragraph at lines 52--1
+ \EU1/Arial(0)/bx/n/12 2.2.2.4 Space[] \EU1/Arial(0)/m/n/12 While some industri
+es make use of satellite imagery to monitor changes
+ []
+
 File: ../images/anpr.jpg Graphic file (type QTm)
- <use  "../images/anpr.jpg" >
+<use  "../images/anpr.jpg" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1611,6 +1613,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
 File: ../images/curiosity_calibration_chart.jpg Graphic file (type QTm)
  <use  "../images/curiosity_calibration_chart.jpg" >)
 (./sections/analysis_and_sport.tex
@@ -1634,7 +1643,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11]) (./sections/combining_suspension_analysis.tex
+[12]) (./sections/combining_suspension_analysis.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--1
 
  []
@@ -1649,13 +1658,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--1
 
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[12])
+)
 Underfull \hbox (badness 10000) in paragraph at lines 2--75
 
  []
