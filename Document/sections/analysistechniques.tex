@@ -36,7 +36,7 @@
 	noise, which is then followed by BLOB classification, assigning objects a class based on 
 	predetermined parameters.
 	\\\\
-	Regularly carried out after grayscaling and thresholding an image, BLOB extraction uses a grass-fire algorithm to locate pixels which display a significant difference to the image background and discover the full extent of this region. As all the pixels of each BLOB in a object are known, certain parameters are also known such as size, area, and boundaries. From these parameters, calculations can be carried out to discover the classification of each BLOB, for example with the boundary and area of each BLOB, the circularity can be calculated to locate all the circular objects in an image.
+	Regularly carried out after grayscaling and thresholding an image, BLOB extraction uses a grassfire algorithm to locate pixels which display a significant difference to the image background and discover the full extent of this region. A grassfire algorithm is one which spreads recursively to each available entry across a 2D dataset \citep{grassfire}. As all the pixels of each BLOB in a object are known, certain parameters are also known such as size, area, and boundaries. From these parameters, calculations can be carried out to discover the classification of each BLOB, for example with the boundary and area of each BLOB, the circularity can be calculated to locate all the circular objects in an image.
 	\begin{equation}
 		B_{c}=\frac{B_{p}}{2\sqrt{\pi \times B_{a}}}
 	\end{equation}

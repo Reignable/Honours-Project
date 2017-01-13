@@ -301,6 +301,29 @@ Blake, D\BPBI F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Blum%
+}{%
+Blum%
+}{%
+{\protect \APACyear {1973}}%
+}]{%
+grassfire}
+\APACinsertmetastar {%
+grassfire}%
+\begin{APACrefauthors}%
+Blum, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1973}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Biological shape and visual science (Part I)}
+  {Biological shape and visual science (part i)}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of theoretical Biology}{38}{2}{205--287}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Callaham%
 }{%
 Callaham%
