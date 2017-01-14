@@ -61,7 +61,7 @@
 		\\\\
 		In contrast, the curve of the \gls{singlepiv} Empire MX-6 Evo (shown green) is considered linear. This is due to the MX-6 having only one pivot and swinging arm, as opposed to multiple pivots and linkages of the \gls{vpp} and \gls{horst} designs, so there is an almost direct input from the rear wheel to the \gls{shock}.
 		\\\\
-		For this project the bike used for development and testing of the application will be a 2015 Giant Reign, shown on figure \ref{fig:3_bike_lev_ratio} in blue, as there will be constant access to it during the project. The frame uses Giant's Maestro\texttrademark  suspension system which is a variation of \gls{vpp}. Like all \gls{vpp} systems Maestro uses two links, an upper and lower, to create a virtual main pivot point, however unlike other \gls{vpp} systems, Maestro creates its virtual pivot as close to the rear of the frame as possible. Indicated by the red circle in figure \ref{fig:maestro}, the location of this virtual pivot is unique and, many believe, creates the most efficient suspension system on the market.
+		For this project the bike used for development and testing of the application will be a 2015 Giant Reign, shown on figure \ref{fig:3_bike_lev_ratio} in blue, as there will be constant access to it during the project. The frame uses Giant's Maestro\texttrademark  suspension system which is a variation of \gls{vpp}. Like all \gls{vpp} systems Maestro uses two links, an upper and lower, to create a virtual main pivot point, however unlike other \gls{vpp} systems, Maestro creates its virtual pivot as close to the rear of the frame as possible. Indicated by the red circle in figure \ref{fig:maestro}, the location of this virtual pivot is unique and, many believe\todo{cite}, creates the most efficient suspension system on the market.
 		\begin{figure}[h!]
 			\centering
 			\includegraphics[width=12cm]{../images/reignsch.PNG}
@@ -69,9 +69,9 @@
 			\label{fig:maestro}
 		\end{figure}
 		\\\\
-		Despite the complexities relating to rear suspension designs, the average rider and even individuals in the industry are unlikely to need this knowledge. Leverage curves are predominantly used by designers in the research and development of new frames to determine the characteristics of how they will use the suspension available before the new bike is released to the market. Though an understanding of these characteristics will allow the individual rider to personally tune the settings described in the following sections themselves, the majority will not notice the difference between a single pivot and \gls{vpp} design, opting for a more simple "set and forget" approach to their suspension.
+		Despite the complexities relating to rear suspension designs, the average rider and even individuals in the industry are unlikely to need this knowledge. Leverage curves are predominantly used by designers in the research and development of new frames to determine the characteristics of how they will use the suspension available before the new bike is released to the market\todo{cite}. Though an understanding of these characteristics will allow the individual rider to personally tune the settings described in the following sections themselves, the majority will not notice the difference between a single pivot and \gls{vpp} design, opting for a more simple "set and forget" approach to their suspension.
 		\\\\
-		In the context of this project and the intended user for the application, this begs the question of how much information should be given to the user? Modern human computer interaction principles aim toward providing information to the user which is relevant and necessary in context. Presenting the user with a leverage curve which could require extensive explanation to understand within a mobile application could prove detrimental to the user experience. For an application which is intended to remove the difficulties of suspension setup and allow for quick and easy production of a basic setup, providing a single sag setting would be preferable over a multitude of information. 
+		In the context of this project and the intended user for the application, this begs the question of how much information should be given to the user? Modern human computer interaction principles aim toward providing information to the user which is relevant and necessary in context\todo{cite}. Presenting the user with a leverage curve which could require extensive explanation to understand within a mobile application could prove detrimental to the user experience\todo{cite?}. For an application which is intended to remove the difficulties of suspension setup and allow for quick and easy production of a basic setup, providing a single sag setting would be preferable over a multitude of information. 
 	\subsubsection{Sag}
 		\Gls{sag} is the amount that the suspension sits into its travel when the rider is in their neutral position, it is calculated using the rider's weight, available \gls{travel}, and intended riding style. \Gls{sag} is required so the suspension is able to drop into holes as well as soak up bumps. 
 		\\\\
@@ -87,14 +87,6 @@
 		\\\\
 		Low speed adjustments are used against small movements such as rider weigh shifts or long, slow compressions. Optimally compression is set stiffer as this type of feature can use a lot of travel and \gls{rebounddamping} set faster to deal with multiple features in quick succession.
 	\subsubsection{Optimal Setup}
-		Although setups will vary between rider, suspension system, and discipline there are some 
-		key aspects which all riders should aim to achieve. Sag should be set to an appropriate 
-		measurement by adjusting the air pressure on air \glspl{shock} or spring rating on coil 
-		\glspl{shock}. Compression damping should feel soft and soak up bumps efficiently without 
-		excessive bottoming out. Rebound damping should be set to return as fast as possible 
-		without bucking the rider, this is normally in the middle of the two extremes of setting 
-		with a slight bias to the fast option.
+		Although setups will vary between rider, suspension system, and discipline there are some key aspects which all riders should aim to achieve. Sag should be set to an appropriate measurement by adjusting the air pressure on air \glspl{shock} or spring rating on coil \glspl{shock}. Compression damping should feel soft and soak up bumps efficiently without excessive bottoming out. Rebound damping should be set to return as fast as possible without bucking the rider, this is normally in the middle of the two extremes of setting with a slight bias to the fast option.
 		\\\\
-		Attaining this optimal setup can be difficult to beginner and intermediate riders; due to 
-		their lack of experience and provided information they may not know how different frames 
-		react while being ridden and have not dealt with in depth suspension setup. Knowing which measurements to make and calculations required to produce a sag setting are commonly unknown to this level of rider.
+		Attaining this optimal setup can be difficult to beginner and intermediate riders; due to their lack of experience and provided information they may not know how different frames react while being ridden and have not dealt with in depth suspension setup. Knowing which measurements to make and calculations required to produce a sag setting are commonly unknown to this level of rider.
