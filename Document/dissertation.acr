@@ -3,20 +3,20 @@
 \glsgroupheading{F}\relax \glsresetentrylist %
 \glossentry{fs}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{3}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{4}\delimN 
 		\glsseeformat[Glossary:]{fullsus}{Z}}}\glsgroupskip
 \glsgroupheading{H}\relax \glsresetentrylist %
 \glossentry{ht}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{3}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{4}\delimN 
 		\glsseeformat[Glossary:]{hardtail}{Z}}}\glsgroupskip
 \glsgroupheading{I}\relax \glsresetentrylist %
 \glossentry{ia}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{7\delimN 8}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{8\delimN 9}}}\glsgroupskip
 \glsgroupheading{V}\relax \glsresetentrylist %
 \glossentry{vcs}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{16}}}%
+		\setentrycounter[]{page}\glsnumberformat{18\delimN 19}}}%
 \glossentry{vpp}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{5}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{4\delimR 6}\delimN 
 		\glsseeformat[Glossary:]{virtpivot}{Z}}}%
 \end{theglossary}\glossarypostamble
