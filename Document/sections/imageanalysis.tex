@@ -27,8 +27,15 @@
 	These integer values in the image data can be manipulated to change the 
 	visual image or the values themselves analysed or compared to neighbouring 
 	cells in order to locate objects. The processes are known as image processing and image analysis.
-	\\\\
-	\Todo{Add section on lighting conditions}
+	\subsubsection{Lighting Conditions}
+	When capturing images to be analysed, it is important that the lighting conditions are correct so features are not lost \citep{introtoprocessing}. If the image is captured in unsuitable conditions then this can seriously effect the outcome of any analysis techniques applied. Some image processing techniques can fix bad lighting conditions though this can prove difficult. The effects of different lighting angles can be seen in figure \ref{fig:illumination}.
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=\linewidth]{../images/face_illumination.png}
+		\caption[]{The effects of different lighting conditions on a face \citep{introtoprocessing}}
+		\label{fig:illumination}
+	\end{figure}\\
+	It can be seen that the situation which highlights the most features is direct illumination; this reduces the amount of image processing required before analysing. Many cameras have a built in flash which can be used to correctly light the subject of the image and in the context of this project many smartphones also have a flash function. This solves the need for the user to correctly light their image capture as the flash can be applied automatically if needed.
 	\subsubsection{Usages}
 	Image processing and analysis has been applied to multiple areas with its value and 
 	effectiveness rapidly improving alongside camera technology and computing power. These 
