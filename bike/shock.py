@@ -3,10 +3,10 @@ import cv2.cv as cv
 from imutils import contours
 import imutils
 
-img = cv2.imread('monarch.jpg')
-img = cv2.resize(img, (500, 500))
+img = cv2.imread('stan.jpg')
+#img = cv2.resize(img, (500, 500))
 grayscaled = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-#grayscaled = cv2.GaussianBlur(grayscaled, (5, 5), 0)
+grayscaled = cv2.GaussianBlur(grayscaled, (5, 5), 0)
 edged = cv2.Canny(grayscaled, 50, 100)
 #cv2.imshow('', edged)
 #cv2.waitKey(0)
@@ -22,6 +22,6 @@ for c in cnts:
     orig = img.copy()
     cv2.drawContours(orig, c, -1, (0, 255, 0), 2)
     cv2.imshow('cont', orig)
-    cv2.waitKey(50)
+    cv2.waitKey(0)
 
 cv2.destroyAllWindows()
