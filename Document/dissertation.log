@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  21 JAN 2017 14:27
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  29 JAN 2017 14:50
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1817,7 +1817,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18])
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 56--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--63
+
+ []
+
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2216,7 +2226,7 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 274.
 Here is how much of TeX's memory you used:
  32107 strings out of 493589
  559721 string characters out of 6145555
- 700728 words of memory out of 5000000
+ 700884 words of memory out of 5000000
  34980 multiletter control sequences out of 15000+600000
  12262 words of font info for 80 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
