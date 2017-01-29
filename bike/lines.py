@@ -21,7 +21,7 @@ sensor_size = 3.0
 im_height = len(img[0])
 mm_per_pixel = sensor_size/im_height
 
-min_line_length = 100
+min_line_length = 30
 max_line_gap = 10
 
 lines = cv2.HoughLinesP(edged, 1, np.pi/180, 100, min_line_length, max_line_gap)
