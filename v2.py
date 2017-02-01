@@ -1,10 +1,13 @@
 import argparse
-import numpy
-
 import cv2
+import numpy
 import sys
+import PIL.Image
+import PIL.ExifTags
 
 args = None
+op_sensor_height = 4.921
+mm_per_pixel = 15.0/536.0
 
 
 def show_image(image):
@@ -23,15 +26,43 @@ def process_image(image_path):
     :param image_path: File-path to the image to be processed
     :return: The processed image with edge detection applied
     """
-    # Read in image
     image = cv2.imread(image_path)
-    # Grayscale image
     gray_scaled = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    # Blur for cleaner lines
     blurred = cv2.GaussianBlur(gray_scaled, (5, 5), 0)
-    # Apply canny edge detection
     edged = cv2.Canny(blurred, 0, 100, apertureSize=3)
     return edged
+
+
+'''
+def get_sensor_size(exif):
+    # (Resolution in pixels / Focal plane resolution in dpi) X 25.4(mm / in) = size in mm
+    # Do for hor and ver
+    horizontal_measurement = None
+    vertical_measurement = None
+'''
+
+
+def get_focal_length(exif):
+    """
+
+    :param exif:
+    :return:
+    """
+    measurement, divisor = exif['FocalLength']
+    return float(measurement)/float(divisor)
+
+
+def get_exif(image_path):
+    """
+
+    :param image_path:
+    :return:
+    """
+    image = PIL.Image.open(image_path)
+    exif = {PIL.ExifTags.TAGS[k]: v
+            for k, v in image._getexif().items()
+            if k in PIL.ExifTags.TAGS}
+    return exif
 
 
 def get_measurement_px(image):
@@ -58,6 +89,12 @@ def get_measurement_px(image):
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument('-i',
+                        '--image',
+                        type=str,
+                        action='store',
+                        metavar='',
+                        help='The path to the image you wish to use')
     parser.add_argument('-w',
                         '--weight',
                         type=int,
@@ -70,12 +107,12 @@ def main():
                         action='store',
                         metavar='',
                         help='The desired sag percentage')
-    parser.add_argument('-i',
-                        '--image',
-                        type=str,
+    parser.add_argument('-p',
+                        '--pressure',
+                        type=int,
                         action='store',
                         metavar='',
-                        help='The path to the image you wish to use')
+                        help='The pressure you have already put into your bike')
     global args
     args = parser.parse_args()
     if args.image is None:
@@ -83,7 +120,7 @@ def main():
         parser.print_help()
         sys.exit(1)
     image = process_image(args.image)
-    print get_measurement_px(image)
+    print 'measurement is', get_measurement_px(image)*mm_per_pixel
 
 
 if __name__ == '__main__':
