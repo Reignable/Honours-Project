@@ -9,7 +9,7 @@ def show_image(image):
     cv2.imshow(str(image), image)
     cv2.waitKey(0)
 
-img = cv2.imread('150.jpg')
+img = cv2.imread('images/150.jpg')
 height, width = img.shape[:2]
 #img = cv2.resize(img, (width/4, height/4))
 gray_scaled = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
