@@ -7,7 +7,7 @@ import PIL.ExifTags
 
 args = None
 op_sensor_height = 4.921
-mm_per_pixel = 15.0/536.0
+pixels_per_mm = None
 
 
 def show_image(image):
@@ -43,13 +43,20 @@ def get_sensor_size(exif):
 
 
 def get_ref_point_width(image_path):
+    """
+    Locate red circle in image and output its diameter in px
+    :param image_path:
+    :return:
+    """
     image = cv2.imread(image_path)
-    image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    # upper_bound = numpy.array([65, 65, 255])
-    # lower_bound = numpy.array([0, 0, 200])
-    # mask = cv2.inRange(image, lower_bound, upper_bound)
-    circles = cv2.HoughCircles(image, cv2.cv.CV_HOUGH_GRADIENT, 1, 1)
+    upper_bound = numpy.array([65, 65, 255])
+    lower_bound = numpy.array([0, 0, 200])
+    mask = cv2.inRange(image, lower_bound, upper_bound)
+    marker = cv2.bitwise_and(image, image, mask=mask)
+    marker = cv2.cvtColor(marker, cv2.COLOR_BGR2GRAY)
+    circles = cv2.HoughCircles(marker, cv2.cv.CV_HOUGH_GRADIENT, 3, 200)
     ref_point = circles[0][0]
+    print 'ref_point x,y,r', ref_point
     return ref_point[2]*2
 
 
@@ -98,6 +105,24 @@ def get_measurement_px(image):
     return y_max - y_min
 
 
+def get_measurement_mm(measurement_px):
+    global pixels_per_mm
+    if pixels_per_mm is None:
+        pixels_per_mm = get_ref_point_width(args.image)/5
+    return measurement_px / pixels_per_mm
+
+
+def get_mm_per_psi(measurement_mm):
+    return measurement_mm / args.pressure
+
+
+def calc_ideal_pressure(mm_per_psi):
+    # work out ideal mm, sag percentage of shock travel
+    ideal_mm = args.stroke * ((100 - args.sag) / 100)
+    # work out psi for that measurement
+    return ideal_mm * mm_per_psi
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-i',
@@ -124,17 +149,33 @@ def main():
                         action='store',
                         metavar='',
                         help='The pressure you have already put into your bike')
+    parser.add_argument('-t',
+                        '--stroke',
+                        type=float,
+                        action='store',
+                        metavar='',
+                        help='')
     global args
     args = parser.parse_args()
     if args.image is None:
         print 'This program requires an image'
         parser.print_help()
         sys.exit(1)
-    '''
-    image = process_image(args.image)
-    print 'measurement is', get_measurement_px(image)*mm_per_pixel
-    '''
-    get_ref_point(args.image)
+
+    # get measurement_mm
+    global pixels_per_mm
+    pixels_per_mm = get_ref_point_width(args.image)/5
+    img = process_image(args.image)
+    measurement_px = get_measurement_px(img)
+    measurement_mm = measurement_px / pixels_per_mm
+
+    # get mm per psi
+    mm_per_psi = get_mm_per_psi(measurement_mm)
+
+    # get ideal psi
+    ideal_psi = calc_ideal_pressure(mm_per_psi)
+
+    print ideal_psi
 
 if __name__ == '__main__':
     main()
