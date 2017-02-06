@@ -33,15 +33,6 @@ def process_image(image_path):
     return edged
 
 
-'''
-def get_sensor_size(exif):
-    # (Resolution in pixels / Focal plane resolution in dpi) X 25.4(mm / in) = size in mm
-    # Do for hor and ver
-    horizontal_measurement = None
-    vertical_measurement = None
-'''
-
-
 def get_ref_point_width(image_path):
     """
     Locate red circle in image and output its diameter in px
@@ -56,7 +47,6 @@ def get_ref_point_width(image_path):
     marker = cv2.cvtColor(marker, cv2.COLOR_BGR2GRAY)
     circles = cv2.HoughCircles(marker, cv2.cv.CV_HOUGH_GRADIENT, 3, 200)
     ref_point = circles[0][0]
-    print 'ref_point x,y,r', ref_point
     return ref_point[2]*2
 
 
@@ -113,12 +103,12 @@ def get_measurement_mm(measurement_px):
 
 
 def get_mm_per_psi(measurement_mm):
-    return measurement_mm / args.pressure
+    return measurement_mm/args.pressure
 
 
 def calc_ideal_pressure(mm_per_psi):
     # work out ideal mm, sag percentage of shock travel
-    ideal_mm = args.stroke * ((100 - args.sag) / 100)
+    ideal_mm = float(args.stroke) * ((100.0 - float(args.sag)) / 100.0)
     # work out psi for that measurement
     return ideal_mm * mm_per_psi
 
@@ -155,6 +145,9 @@ def main():
                         action='store',
                         metavar='',
                         help='')
+    parser.add_argument('-d',
+                        '--debug',
+                        action='store_true')
     global args
     args = parser.parse_args()
     if args.image is None:
@@ -168,13 +161,15 @@ def main():
     img = process_image(args.image)
     measurement_px = get_measurement_px(img)
     measurement_mm = measurement_px / pixels_per_mm
-
     # get mm per psi
     mm_per_psi = get_mm_per_psi(measurement_mm)
-
     # get ideal psi
     ideal_psi = calc_ideal_pressure(mm_per_psi)
-
+    if args.debug:
+        print 'px/mm', pixels_per_mm
+        print 'measurement_px', measurement_px
+        print 'measurement_mm', measurement_mm
+        print 'mm_per_psi', mm_per_psi
     print ideal_psi
 
 if __name__ == '__main__':
