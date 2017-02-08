@@ -18,6 +18,7 @@ class Thing:
         """
         cv2.imshow(str(image), image)
         cv2.waitKey(0)
+        return 0
 
     def process_image(self, image_path):
         """
