@@ -87,6 +87,7 @@
 		\includegraphics[width=7cm]{../images/curiosity_calibration_chart.jpg}
 		\caption{Contact Instrument Calibration Targets on Mars Rover Curiosity \citep{curiosity_image_calibration}}
 		\label{fig:curiosity_calibration_chart}
-	\end{figure} 
+	\end{figure}\\
+	The reference object must be located in the image using a technique such as BLOB analysis or \todo{Hough techniques}. Once the object is found, its width or height in pixels in the image must be collected, as the real world size of this object is known then its width in pixels equates to this real world measurement in the image. For example, if 2mm wide object measures 424px across in an image then it can be concluded that 212px in the image are equal to 1mm. Any other objects that can be measured in pixels their real world measurement can be estimated if they are close to the same distance from the camera as the reference object.
 	\\\\
 	This process will be applied during this project in some manner, either using a reference object or measuring camera height, as knowing measurements is vital to suspension setup as previously stated. Implementation of equation \ref{equ:measureobj} in an application will be relatively simple though collection of the relevant data with as little user interaction as possible will be difficult.
