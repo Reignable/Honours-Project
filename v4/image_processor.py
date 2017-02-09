@@ -7,8 +7,9 @@ pixels_per_mm = None
 
 
 class ImageProcessor:
-    def __init__(self):
-        pass
+    def __init__(self, _args):
+        global args
+        args = _args
 
     def show_image(self, image):
         """
@@ -75,13 +76,16 @@ class ImageProcessor:
             pixels_per_mm = self.get_ref_point_width(args.image) / 5
         return measurement_px / pixels_per_mm
 
-    def get_mm_per_psi(self, measurement_mm):
-        return measurement_mm / args.pressure
+    def get_inverse_measurement(self, measurement_mm):
+        return args.stroke - measurement_mm
 
-    def calc_ideal_pressure(self, mm_per_psi):
+    def get_psi_per_mm(self, measurement_mm):
+        return args.pressure / measurement_mm
+
+    def calc_ideal_pressure(self, psi_per_mm):
         # work out ideal mm, sag percentage of shock travel
-        ideal_mm = float(args.stroke) * ((100.0 - float(args.sag)) / 100.0)
+        ideal_mm = args.stroke - (float(args.stroke) * (float(args.sag) / 100.0))
         # work out psi for that measurement
-        return ideal_mm * mm_per_psi
+        return psi_per_mm * ideal_mm
 
 

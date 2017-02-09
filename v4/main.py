@@ -3,6 +3,7 @@ import sys
 from image_processor import ImageProcessor
 
 
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-i',
@@ -45,19 +46,21 @@ def main():
         parser.print_help()
         sys.exit(1)
 
-    t = ImageProcessor()
+    t = ImageProcessor(args)
     pixels_per_mm = t.get_ref_point_width(args.image) / 5
     img = t.process_image(args.image)
     measurement_px = t.get_measurement_px(img)
     measurement_mm = measurement_px / pixels_per_mm
+    inverse_mm = t.get_inverse_measurement(measurement_mm)
     # get mm per psi
-    mm_per_psi = t.get_mm_per_psi(measurement_mm)
+    mm_per_psi = t.get_psi_per_mm(inverse_mm)
     # get ideal psi
     ideal_psi = t.calc_ideal_pressure(mm_per_psi)
     if args.debug:
         print 'px/mm', pixels_per_mm
         print 'measurement_px', measurement_px
         print 'measurement_mm', measurement_mm
+        print 'desired mm', float(args.stroke) * (float(args.sag) / 100.0)
         print 'mm_per_psi', mm_per_psi
     print ideal_psi
 
