@@ -1,6 +1,6 @@
 import argparse
 import sys
-from thing import Thing
+from image_processor import ImageProcessor
 
 
 def main():
@@ -45,7 +45,7 @@ def main():
         parser.print_help()
         sys.exit(1)
 
-    t = Thing()
+    t = ImageProcessor()
     pixels_per_mm = t.get_ref_point_width(args.image) / 5
     img = t.process_image(args.image)
     measurement_px = t.get_measurement_px(img)

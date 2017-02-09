@@ -6,7 +6,7 @@ op_sensor_height = 4.921
 pixels_per_mm = None
 
 
-class Thing:
+class ImageProcessor:
     def __init__(self):
         pass
 
