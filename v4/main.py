@@ -3,7 +3,6 @@ import sys
 from image_processor import ImageProcessor
 
 
-
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-i',
@@ -39,17 +38,16 @@ def main():
     parser.add_argument('-d',
                         '--debug',
                         action='store_true')
-    global args
+
     args = parser.parse_args()
     if args.image is None:
         print 'This program requires an image'
         parser.print_help()
         sys.exit(1)
 
-    t = ImageProcessor(args)
-    pixels_per_mm = t.get_ref_point_width(args.image) / 5
-    img = t.process_image(args.image)
-    measurement_px = t.get_measurement_px(img)
+    t = ImageProcessor(args.image, args.sag, args.pressure, args.stroke)
+    pixels_per_mm = t.get_ref_point_width() / 5
+    measurement_px = t.get_measurement_px()
     measurement_mm = measurement_px / pixels_per_mm
     inverse_mm = t.get_inverse_measurement(measurement_mm)
     # get mm per psi
