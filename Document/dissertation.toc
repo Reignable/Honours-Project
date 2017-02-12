@@ -48,22 +48,22 @@
 \contentsline {subsubsection}{\numberline {3.5.1}Unit Testing}{19}{subsubsection.3.5.1}
 \contentsline {paragraph}{\numberline {3.5.1.1}Python Unit Testing}{20}{paragraph.3.5.1.1}
 \contentsline {subsubsection}{\numberline {3.5.2}Project Testing Scope}{20}{subsubsection.3.5.2}
-\contentsline {subsection}{\numberline {3.6}Evaluation}{20}{subsection.3.6}
-\contentsline {section}{\numberline {4}Results}{21}{section.4}
-\contentsline {section}{\numberline {5}Critical Evaluation}{22}{section.5}
-\contentsline {section}{\numberline {6}Conclusion}{23}{section.6}
-\contentsline {section}{References}{24}{section*.6}
-\contentsline {section}{Acronyms}{27}{section*.7}
-\contentsline {section}{Glossary}{27}{section*.9}
-\contentsline {section}{\numberline {A}Android Experiments}{28}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Table of Android Experiments}{28}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Hello CV}{29}{subsection.A.2}
-\contentsline {subsection}{\numberline {A.3}15tile}{30}{subsection.A.3}
-\contentsline {subsection}{\numberline {A.4}BLOB Analysis}{38}{subsection.A.4}
-\contentsline {subsection}{\numberline {A.5}Face Detection}{43}{subsection.A.5}
-\contentsline {section}{\numberline {B}Python Experiments}{49}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}Table of Python Experiments}{49}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}find\_game.py}{50}{subsection.B.2}
-\contentsline {subsection}{\numberline {B.3}thresholding.py}{50}{subsection.B.3}
-\contentsline {subsection}{\numberline {B.4}img\_ops.py}{50}{subsection.B.4}
-\contentsline {subsection}{\numberline {B.5}distance\_to\_camera.py}{51}{subsection.B.5}
+\contentsline {subsection}{\numberline {3.6}Evaluation}{21}{subsection.3.6}
+\contentsline {section}{\numberline {4}Results}{22}{section.4}
+\contentsline {section}{\numberline {5}Critical Evaluation}{23}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{24}{section.6}
+\contentsline {section}{References}{25}{section*.6}
+\contentsline {section}{Acronyms}{28}{section*.7}
+\contentsline {section}{Glossary}{28}{section*.9}
+\contentsline {section}{\numberline {A}Android Experiments}{29}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Table of Android Experiments}{29}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Hello CV}{30}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}15tile}{31}{subsection.A.3}
+\contentsline {subsection}{\numberline {A.4}BLOB Analysis}{39}{subsection.A.4}
+\contentsline {subsection}{\numberline {A.5}Face Detection}{44}{subsection.A.5}
+\contentsline {section}{\numberline {B}Python Experiments}{50}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Table of Python Experiments}{50}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}find\_game.py}{51}{subsection.B.2}
+\contentsline {subsection}{\numberline {B.3}thresholding.py}{51}{subsection.B.3}
+\contentsline {subsection}{\numberline {B.4}img\_ops.py}{51}{subsection.B.4}
+\contentsline {subsection}{\numberline {B.5}distance\_to\_camera.py}{52}{subsection.B.5}
