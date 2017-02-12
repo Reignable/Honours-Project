@@ -24,5 +24,7 @@
 
 ## Testing
  - Python unit testing
+ - Uses unit test
+ - 
 
 ## Evaluation
