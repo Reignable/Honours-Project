@@ -96,7 +96,5 @@ class ImageProcessor:
         return self.pressure / measurement_mm
 
     def calc_ideal_pressure(self, psi_per_mm):
-        # work out ideal mm, sag percentage of shock travel
         ideal_mm = self.stroke - (float(self.stroke) * (float(self.sag) / 100.0))
-        # work out psi for that measurement
         return psi_per_mm * ideal_mm
