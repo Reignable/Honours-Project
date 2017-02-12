@@ -24,14 +24,16 @@ class ImageProcessor:
     pressure = None
     stroke = None
     pixels_per_mm = None
+    debug_mode = False
 
-    def __init__(self, image_path, sag, pressure, stroke):
+    def __init__(self, image_path, sag, pressure, stroke, debug=False):
         self.image_path = image_path
         self.sag = sag
         self.pressure = pressure
         self.stroke = stroke
+        self.debug_mode = debug
 
-    def process_image(self):
+    def _process_image(self):
         """
         Applies the appropriate processes before analysis can be carried out
         :return: The processed image with edge detection applied
@@ -42,7 +44,7 @@ class ImageProcessor:
         edged = cv2.Canny(blurred, 0, 100, apertureSize=3)
         return edged
 
-    def get_ref_point_width(self):
+    def _get_ref_point_width(self):
         """
         Locate red circle in image and output its diameter in px
         :return:
@@ -57,13 +59,13 @@ class ImageProcessor:
         ref_point = circles[0][0]
         return ref_point[2] * 2.0
 
-    def get_measurement_px(self):
+    def _get_measurement_px(self):
         """
         Measures the distance between the shock body and o-ring in pixels
         :return: The measurement in px
         """
         if self.processed_image is None:
-            self.processed_image = self.process_image()
+            self.processed_image = self._process_image()
         min_line_length = 300
         max_line_gap = 1
         image_height, image_width = self.processed_image.shape[:2]
@@ -84,17 +86,33 @@ class ImageProcessor:
                 y_max = max(y_max, y2)
         return y_max - y_min
 
-    def get_measurement_mm(self, measurement_px):
+    def _get_measurement_mm(self, measurement_px):
         if self.pixels_per_mm is None:
-            self.pixels_per_mm = self.get_ref_point_width() / 5
+            self.pixels_per_mm = self._get_ref_point_width() / 5
         return measurement_px / self.pixels_per_mm
 
-    def get_inverse_measurement(self, measurement_mm):
+    def _get_inverse_measurement(self, measurement_mm):
         return self.stroke - measurement_mm
 
-    def get_psi_per_mm(self, measurement_mm):
+    def _get_psi_per_mm(self, measurement_mm):
         return self.pressure / measurement_mm
 
-    def calc_ideal_pressure(self, psi_per_mm):
-        ideal_mm = self.stroke - (float(self.stroke) * (float(self.sag) / 100.0))
-        return psi_per_mm * ideal_mm
+    def _get_ideal_sag_mm(self):
+        return self.stroke - (float(self.stroke) * (float(self.sag) / 100.0))
+
+    def calc_ideal_pressure(self):
+        pixels_per_mm = self._get_ref_point_width() / 5
+        measurement_px = self._get_measurement_px()
+        measurement_mm = measurement_px / pixels_per_mm
+        inverse_mm = self._get_inverse_measurement(measurement_mm)
+        psi_per_mm = self._get_psi_per_mm(inverse_mm)
+        ideal_mm = self._get_ideal_sag_mm()
+        ideal_psi = psi_per_mm * ideal_mm
+        if self.debug_mode:
+            print 'px/mm', pixels_per_mm
+            print 'measurement_px', measurement_px
+            print 'measurement_mm', measurement_mm
+            print 'desired mm', ideal_mm
+            print 'psi_per_mm', psi_per_mm
+
+        return ideal_psi
