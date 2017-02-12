@@ -14,13 +14,50 @@
 		\\\\
 		Alongside the Android \gls{sdk}, Google provide a \gls{ndk} to allow modules which were not written in Java to be run on Android devices. The \gls{ndk} understands various programming languages and applied a Java wrapper around them which is capable of extracting their functionality; this must be applied when using OpenCV on Android as it is written in C++. An artefact of using the \gls{ndk} is that it cannot convert the stack trace produced by errors in the C++ module and after research into this issue it was found that this is difficult to rectify.
 		\\\\
-		The two working Android experiments do not operate as expected either. Shown in appendix \ref{app:android_experiments} the issues with each can be seen. Although steps were taken to rectify the orientation in the Hello CV experiment and the full-screen issue in both, any fix which was applied was not accepted by the system. Research and debugging of these faults did not produce any conclusions.
-		\\\\
-		Appendix \ref{app:python_experiments} shows the experiments which were carried out using Python. These were much more successful than the Android experiments as they are all functional and work as expected.
+		The two working Android experiments do not operate as expected either. Shown in appendix \ref{app:android_experiments} the issues with each can be seen. Although steps were taken to rectify the orientation in the Hello CV experiment and the full-screen issue in both, any fix which was applied was not accepted by the system. Research and debugging of these faults did not produce any conclusions. Appendix \ref{app:python_experiments} shows the experiments which were carried out using Python. These were much more successful than the Android experiments as they are all functional and work as expected.
 		\\\\
 		Included in appendix \ref{app:android_experiments} and \ref{app:python_experiments} as a comparison between the two methods are the number of files and lines of code required to create the program as well as the relevant source code for each program. There is a clear difference between the two methods. The Android method taking an average of 295 lines of code over 3 files to produce arguably less complex and less functional applications than is produced by Python's 21 lines of code over 1 file.
 		\\\\
 		Due to the difficulties when using OpenCV on Android and as the operating system is already a proven platform for mobile applications the decision has been made to produce a poof of concept for the image analysis in Python. This will allow the project to maintain focus on the analysis and algorithmic side of the problem as opposed to the portability. The decision also allows for more time to be spent making the program functionally stable which will serve as a better demonstration of the solution.
+\subsection{Source Code}
+	\subsubsection{Pythonic Coding}
+		A metric of software quality is the conciseness and descriptiveness of the source code. The aim of the Python programming language is to complete the same tasks as other object oriented languages but in fewer lines and in a more readable manner\todo{cite}. By removing brackets and instead using indentation to define the boundaries of classes, functions, and conditionals as well as using worded operators, Python creates source code which reads like a list of instructions for people rather than computers. The source code for this project will be written in a pythonic way where it makes sense to do so.
+\begin{listing}[ht]
+\begin{minted}
+[frame=lines,
+breaklines,
+fontsize=\footnotesize,
+linenos]
+{python}
+long_string = 'This is a very long string'
+if 'long' in long_string:
+    print 'Match found'
+\end{minted}
+\caption{An example of Python code}
+\label{lst:python_example}
+\end{listing}
+	\subsubsection{Variable Naming}
+		%Descriptive vs Short
+		%Futureproofing
+	\subsubsection{Classes and Modules}
+		%Keeps things protected
+		%Provides API
+\subsection{Testing}
+	To verify the functionality and quality of a software application it must be tested. This can be carried out at a variety of levels from testing a single class method to an entire system and by knowing how an application works in white-box testing or being unaware of the functionality in black-box testing.
+	\subsubsection{Unit Testing}
+		Unit testing is carried out on individual units of source code to ensure they are functioning correctly. Normally carried out in the scope of an individual class or module these unit tests are typically written by the same software developer who produced the class itself. A single unit test comprises of a set-up process where data and objects are initialised, the test itself including an assertion on a variable determining pass or fail, and a tear-down process where any changes the test has made are cleared up.
+		\\\\
+		As unit tests are simple in structure and quick to run then they are commonly executed when changes are made to the source code. This verifies that the changes made have not broken other sections of code and can be committed into the master branch successfully. If a test failure does occur then each unit test should be concise and descriptive enough to aid the debugging process by indicating what has failed and where.
+		\\\\
+		A metric of quality for unit testing is code coverage. To confirm that a class is of good quality and functional, every possible path through the code must be tested. Testers should aim for 100\% coverage of a module meaning every possible piece of functionality has an associated test, a coverage of 85\% for example means 15\% of a module is not under test and could cause undetected problems if any changes are made. Many IDEs or testing suites provide coverage checking functionality to make this process simple.
+		\paragraph{Python Unit Testing}
+			Due to the package based and open-sourced nature of the Python programming languages there are many implementations of unit testing frameworks to choose from. Each with their own advantages and disadvantages, there is common argument over which framework is the best to use. A good unit testing framework should provide the necessary functions to create simple unit tests for each path in the source code and be substantial enough to ensure the class or module is correctly tested. 
+	\subsubsection{Project Testing Scope}
+		Due to the small size of the application which will be produced in this project, testing will be limited to unit testing as there is no integration to be carried out. This small size also means that 100\% code coverage will be simple to achieve. From this, stability and functionality of the application can be verified improving the quality of the overall product.
+		\\\\
+		Once the basic functionality has been added to the application, unit tests will be created covering all source code produced including normal operation and sections which can potentially produce errors. This means any changes made thereafter can be tested to see if they have affected functionality. Any new functionality will have tests added to the testing suite to keep the 100\% coverage.
+		\\\\
+		The Python unit testing framework chosen is unittest2. Unittest is the default framework used by the PyCharm IDE though this has been updated since the inception of Python3. Unittest2 provides a backport of this functionality for use in Python2 meaning extra testing functions are provided to allow more suitable tests to be created. PyCharm also provides the ability to run tests with code coverage producing a clear indication of which sections of source code are covered and which are not; this will be greatly beneficial in the aim for full coverage.
 \subsection{Project Management}
 	\subsubsection{Agile Development}
 		Introduced in 2001 with the writing of the Agile manifesto \citep{beck2001manifesto}, agile development methodologies focus on high quality software products over the rigorous design based structure of traditional waterfall methods. By utilising various techniques such as stand-up meetings, a strong customer focus, and sprint cycles, agile has become widely adopted in industry and has been proven to produce successful projects \citep{state_of_agile_2015}.
@@ -60,20 +97,4 @@
 		A Gantt chart is a method of plotting a project's schedule which was invented by Henry Gantt in the 1910s. By breaking down a project into tasks these can then be added to the chart as a bar. Commonly starting at a project's inception date and ending with it's completion date, tasks are allocated an estimated duration for their completion and placed within the timeline. These tasks can then be allocated dependencies to indicate their prerequisites.
 		\\\\
 		This project will make full use of the Gantt chart technique by reducing the project into multiple stages for both writing and development. Previously mentioned milestones will also be added for the known fixed points. Each sprint cycle for the development process will be indicated with further notes on the tasks to be carried out. To create the chart Microsoft Project 2016 will be used.
-\subsection{Testing}
-	To verify the functionality and quality of a software application it must be tested. This can be carried out at a variety of levels from testing a single class method to an entire system and by knowing how an application works in white-box testing or being unaware of the functionality in black-box testing.
-	\subsubsection{Unit Testing}
-		Unit testing is carried out on individual units of source code to ensure they are functioning correctly. Normally carried out in the scope of an individual class or module these unit tests are typically written by the same software developer who produced the class itself. A single unit test comprises of a set-up process where data and objects are initialised, the test itself including an assertion on a variable determining pass or fail, and a tear-down process where any changes the test has made are cleared up.
-		\\\\
-		As unit tests are simple in structure and quick to run then they are commonly executed when changes are made to the source code. This verifies that the changes made have not broken other sections of code and can be committed into the master branch successfully. If a test failure does occur then each unit test should be concise and descriptive enough to aid the debugging process by indicating what has failed and where.
-		\\\\
-		A metric of quality for unit testing is code coverage. To confirm that a class is of good quality and functional, every possible path through the code must be tested. Testers should aim for 100\% coverage of a module meaning every possible piece of functionality has an associated test, a coverage of 85\% for example means 15\% of a module is not under test and could cause undetected problems if any changes are made. Many IDEs or testing suites provide coverage checking functionality to make this process simple.
-		\paragraph{Python Unit Testing}
-			Due to the package based and open-sourced nature of the Python programming languages there are many implementations of unit testing frameworks to choose from. Each with their own advantages and disadvantages, there is common argument over which framework is the best to use. A good unit testing framework should provide the necessary functions to create simple unit tests for each path in the source code and be substantial enough to ensure the class or module is correctly tested. 
-	\subsubsection{Project Testing Scope}
-		Due to the small size of the application which will be produced in this project, testing will be limited to unit testing as there is no integration to be carried out. This small size also means that 100\% code coverage will be simple to achieve. From this, stability and functionality of the application can be verified improving the quality of the overall product.
-		\\\\
-		Once the basic functionality has been added to the application, unit tests will be created covering all source code produced including normal operation and sections which can potentially produce errors. This means any changes made thereafter can be tested to see if they have affected functionality. Any new functionality will have tests added to the testing suite to keep the 100\% coverage.
-		\\\\
-		The Python unit testing framework chosen is unittest2. Unittest is the default framework used by the PyCharm IDE though this has been updated since the inception of Python3. Unittest2 provides a backport of this functionality for use in Python2 meaning extra testing functions are provided to allow more suitable tests to be created. PyCharm also provides the ability to run tests with code coverage producing a clear indication of which sections of source code are covered and which are not; this will be greatly beneficial in the aim for full coverage.
 \subsection{Evaluation}
