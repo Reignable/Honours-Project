@@ -1,6 +1,6 @@
 import cv2
 from image_processor import show_image
-from unittest import TestCase
+from unittest2 import TestCase
 from image_processor import ImageProcessor
 
 '''
@@ -33,8 +33,7 @@ class TestImageProcessor(TestCase):
 
     def test_show_image_incorrect_path(self):
         image = cv2.imread('')
-        result = show_image(image, 1)
-        self.assertEqual(result, 1)
+        self.assertRaises(cv2.error, show_image(image, 1))
 
     def test_process_image_normal(self):
         processed_image = self.image_processor.process_image()

@@ -15,7 +15,6 @@ def show_image(image, wait_time):
         return 0
     except cv2.error as e:
         print e.message
-        return 1
 
 
 class ImageProcessor:
