@@ -13,6 +13,11 @@ class TestImageProcessor(TestCase):
     def tearDown(self):
         pass
 
+    def test_run_with_no_image(self):
+        from image_processor import ImageProcessor
+        self.image_processor = ImageProcessor(None, None, None, None)
+        self.assertRaises(SystemExit, self.image_processor.calc_ideal_pressure())
+
     def test_show_image_normal(self):
         import cv2
         from image_processor import show_image
