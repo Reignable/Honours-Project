@@ -88,7 +88,7 @@ class ImageProcessor:
 
     def _get_measurement_mm(self, measurement_px):
         if self.pixels_per_mm is None:
-            self.pixels_per_mm = self._get_ref_point_width() / 5
+            self.pixels_per_mm = self._get_ref_point_width() / 7.5
         return measurement_px / self.pixels_per_mm
 
     def _get_inverse_measurement(self, measurement_mm):
