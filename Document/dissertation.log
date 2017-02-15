@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  12 FEB 2017 14:35
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  15 FEB 2017 14:43
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1657,7 +1657,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [10]
 File: ../images/anpr.jpg Graphic file (type QTm)
  <use  "../images/anpr.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 31--40
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
 
  []
 
@@ -1671,19 +1671,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: ../images/curiosity_calibration_chart.jpg Graphic file (type QTm)
  <use  "../images/curiosity_calibration_chart.jpg" >)
 (./sections/analysis_and_sport.tex
-Underfull \hbox (badness 10000) in paragraph at lines 80--2
+Underfull \hbox (badness 10000) in paragraph at lines 82--2
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--2
+Underfull \hbox (badness 10000) in paragraph at lines 82--2
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--2
+Underfull \hbox (badness 10000) in paragraph at lines 82--2
 
  []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--2
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2295,10 +2303,10 @@ runsystem(rm dissertation.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 32131 strings out of 493589
- 560319 string characters out of 6145555
- 702639 words of memory out of 5000000
- 34998 multiletter control sequences out of 15000+600000
+ 32128 strings out of 493589
+ 560282 string characters out of 6145555
+ 701574 words of memory out of 5000000
+ 34995 multiletter control sequences out of 15000+600000
  12262 words of font info for 80 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  47i,12n,68p,10385b,638s stack positions out of 5000i,500n,10000p,200000b,80000s
