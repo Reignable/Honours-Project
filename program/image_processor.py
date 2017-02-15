@@ -30,8 +30,8 @@ class ImageProcessor:
 
     def _get_ref_point_width(self):
         image = cv2.imread(self.image_path)
-        upper_bound = numpy.array([65, 65, 255])
-        lower_bound = numpy.array([0, 0, 200])
+        upper_bound = numpy.array([75, 75, 255])
+        lower_bound = numpy.array([0, 0, 130])
         mask = cv2.inRange(image, lower_bound, upper_bound)
         marker = cv2.bitwise_and(image, image, mask=mask)
         marker = cv2.cvtColor(marker, cv2.COLOR_BGR2GRAY)
@@ -43,7 +43,7 @@ class ImageProcessor:
 
     def _get_measurement_px(self):
         min_line_length = 300
-        max_line_gap = 1
+        max_line_gap = 10
         image_height, image_width = self.processed_image.shape[:2]
         y_min = image_height
         y_max = 0
@@ -56,7 +56,7 @@ class ImageProcessor:
         for x1, y1, x2, y2 in lines[0]:
             if x1 >= image_width / 2 and \
                             y1 >= image_height / 3 and \
-                            y2 <= (image_height * 0.45) and \
+                            y2 <= ((image_height / 3) * 2) and \
                             abs(x1 - x2) <= 1:
                 y_min = min(y_min, y1)
                 y_max = max(y_max, y2)
