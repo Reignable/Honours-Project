@@ -12,6 +12,7 @@ def show_image(image, wait_time):
 
 
 class ImageProcessor:
+    REF_POINT_KNOWN_WIDTH = 7.5
     image_path = None
     processed_image = None
     pixels_per_mm = None
@@ -65,18 +66,17 @@ class ImageProcessor:
         return y_max - y_min
 
     def _convert_px_mm(self, measurement_px):
-        if self.pixels_per_mm is None:
-            self.pixels_per_mm = self._get_ref_point_width() / 5
+        self.pixels_per_mm = self._get_ref_point_width() / self.REF_POINT_KNOWN_WIDTH
         return measurement_px / self.pixels_per_mm
 
     def get_measurement(self, image_path):
         self.image_path = image_path
-        if self.processed_image is None:
-            self.processed_image = self._process_image()
+        print image_path
+        self.processed_image = self._process_image()
         measurement_px = self._get_measurement_px()
         measurement_mm = self._convert_px_mm(measurement_px)
 
         if self.debug:
-            print 'ImgPro:get_measurement:', measurement_mm
+            print 'ImgPro:get_measurement_mm:', measurement_mm
 
         return measurement_mm
