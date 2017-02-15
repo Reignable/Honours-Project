@@ -8,15 +8,10 @@ class TestImageProcessor(TestCase):
 
     def setUp(self):
         from image_processor import ImageProcessor
-        self.image_processor = ImageProcessor('test_image.jpg', 30, 150, 57)
+        self.image_processor = ImageProcessor('test_image.jpg')
 
     def tearDown(self):
         pass
-
-    def test_run_with_no_image(self):
-        from image_processor import ImageProcessor
-        self.image_processor = ImageProcessor(None, None, None, None)
-        self.assertRaises(SystemExit, self.image_processor.calc_ideal_pressure())
 
     def test_show_image_normal(self):
         import cv2
@@ -53,16 +48,6 @@ class TestImageProcessor(TestCase):
     def test_get_measurement_mm_normal(self):
         measurement_px = self.image_processor._get_measurement_px()
         self.assertIsInstance(self.image_processor._get_measurement_mm(measurement_px), float)
-
-    def test_get_inverse_mm(self):
-        measurement_px = self.image_processor._get_measurement_px()
-        measurement_mm = self.image_processor._get_measurement_mm(measurement_px)
-        self.assertIsInstance(self.image_processor._get_inverse_measurement(measurement_mm), float)
-
-    def test_get_psi_per_mm_normal(self):
-        measurement_px = self.image_processor._get_measurement_px()
-        measurement_mm = self.image_processor._get_measurement_mm(measurement_px)
-        self.assertIsInstance(self.image_processor._get_psi_per_mm(measurement_mm), float)
 
     def test_calc_ideal_pressure_normal(self):
         self.assertIsInstance(self.image_processor.calc_ideal_pressure(), float)

@@ -3,6 +3,7 @@
 import argparse
 import sys
 from image_processor import ImageProcessor
+from pressure_calculator import PressureCalculator
 
 
 def main():
@@ -10,6 +11,7 @@ def main():
     parser.add_argument('-i',
                         '--image',
                         type=str,
+                        nargs=2,
                         action='store',
                         metavar='',
                         help='The path to the image you wish to use')
@@ -47,9 +49,13 @@ def main():
         parser.print_help()
         sys.exit(1)
 
-    image_processor = ImageProcessor(args.image, args.sag, args.pressure, args.stroke, args.debug)
-    print image_processor.calc_ideal_pressure()
-
+    image_processor = ImageProcessor(args.debug)
+    pressure_calculator = PressureCalculator(args.sag, args.stroke, args.debug)
+    # pressure_calculator.measurement_100 = image_processor.get_measurement(args.images[0])
+    # pressure_calculator.measurement_150 = image_processor.get_measurement(args.images[1])
+    pressure_calculator.measurement_100 = 23.0
+    pressure_calculator.measurement_150 = 10.0
+    print pressure_calculator.calculate()
 
 if __name__ == '__main__':
     main()
