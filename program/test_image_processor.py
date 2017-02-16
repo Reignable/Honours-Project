@@ -8,7 +8,8 @@ class TestImageProcessor(TestCase):
 
     def setUp(self):
         from image_processor import ImageProcessor
-        self.image_processor = ImageProcessor('test_image.jpg')
+        self.image_processor = ImageProcessor(True)
+        self.image_processor.image_path = 'test_image.jpg'
 
     def tearDown(self):
         pass
@@ -32,6 +33,7 @@ class TestImageProcessor(TestCase):
         gray_scaled = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         blurred = cv2.GaussianBlur(gray_scaled, (5, 5), 0)
         self.processed_test_image = cv2.Canny(blurred, 0, 100, apertureSize=3)
+        self.image_processor.image_path = 'test_image.jpg'
         processed_image = self.image_processor._process_image()
         self.assertEqual(processed_image.all(), self.processed_test_image.all())
 
@@ -43,11 +45,8 @@ class TestImageProcessor(TestCase):
 
     def test_get_measurement_px_normal(self):
         import numpy
+        self.image_processor.processed_image = self.image_processor._process_image()
         self.assertIsInstance(self.image_processor._get_measurement_px(), numpy.int32)
 
     def test_get_measurement_mm_normal(self):
-        measurement_px = self.image_processor._get_measurement_px()
-        self.assertIsInstance(self.image_processor._get_measurement_mm(measurement_px), float)
-
-    def test_calc_ideal_pressure_normal(self):
-        self.assertIsInstance(self.image_processor.calc_ideal_pressure(), float)
+        self.assertIsInstance(self.image_processor.get_measurement('test_image.jpg'), float)
