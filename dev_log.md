@@ -136,3 +136,17 @@
                 <li>Reference point finding needs tuning for real sticker
                 <li>Smarter algorithm needs testing with measured values
 </table>
+
+<table>
+    <tr><th colspan=2>17/02/2017
+    <tr><td>__Tasks__
+        <td>
+            <ls>
+                <li>Added images with flash for testing
+                <li>Made code to reduce colors for easier ref point finding
+                <li>Tested with 100 and 150 flash and no flash images
+    <tr><td>__Issues__
+        <td>
+            <ls>
+                <li>Can't find circle in 150 flash image, colors off
+                <li>Measurements wrong, possibly due to imperfect circle
