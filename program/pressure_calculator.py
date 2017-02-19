@@ -1,5 +1,6 @@
 import numpy as np
 import scipy.stats as stats
+import utils
 
 
 class PressureCalculator:
@@ -18,14 +19,14 @@ class PressureCalculator:
     def _get_ideal_sag_mm(self):
         ideal = float(self.stroke) * (float(self.sag) / 100.0)
         if self.debug:
-            print 'PreCal:_get_ideal_sag_mm:', ideal
+            utils.debug_print(self.__class__.__name__, '_get_ideal_sag_mm', ideal)
         return ideal
 
     def _get_ideal_pressure(self):
         slope, intercept = self._calculate_linear_equation()
         ideal = (slope * self._get_ideal_sag_mm()) + intercept
         if self.debug:
-            print 'PreCal:_get_ideal_pressure:', ideal
+            utils.debug_print(self.__class__.__name__, '_get_ideal_pressure', ideal)
         return ideal
 
     def _calculate_linear_equation(self):
@@ -34,7 +35,7 @@ class PressureCalculator:
         y = np.array([100, 150])
         slope, intercept, __, __, __ = stats.linregress(x, y)
         if self.debug:
-            print 'PreCal:_calculate_linear_equation: {s}x + {i}'.format(s=slope, i=intercept)
+            utils.debug_print(self.__class__.__name__, '_calculate_linear_equation', '{s}x + {i}'.format(s=slope, i=intercept))
         return slope, intercept
 
     def calculate(self):

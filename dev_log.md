@@ -150,3 +150,16 @@
             <ls>
                 <li>Can't find circle in 150 flash image, colors off
                 <li>Measurements wrong, possibly due to imperfect circle
+
+<table>
+    <tr><th colspan=2>19/02/2017
+    <tr><td>__Tasks__
+        <td>
+            <ls>
+                <li>Added color quantification into program
+                <li>Added colored debug printing
+    <tr><td>__Issues__
+        <td>
+            <ls>
+                <li>PX to mm conversion is wrong somehow
+                <li>Still can't find circle in 150 flash image

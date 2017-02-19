@@ -20,6 +20,7 @@ images = ['images/100_psi_ref.jpg',
 for i in images:
     print i
     image = cv2.imread(i)
+    orig = image.copy()
     (h, w) = image.shape[:2]
 
     # Color Quatification
@@ -43,3 +44,8 @@ for i in images:
         print 'No circles'
     else:
         print circles[0]
+        for c in circles[0,:]:
+            cv2.circle(orig,(c[0],c[1]),c[2],(0,255,0),2)
+            # draw the center of the circle
+            cv2.circle(orig,(c[0],c[1]),2,(0,0,255),3)
+        show_image(orig, 0)

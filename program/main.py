@@ -1,9 +1,13 @@
 #! /usr/bin/env python
 
 import argparse
+import multiprocessing as mp
 import sys
+import warnings
 from image_processor import ImageProcessor
 from pressure_calculator import PressureCalculator
+
+warnings.filterwarnings('ignore')
 
 
 def main():
@@ -53,8 +57,8 @@ def main():
     pressure_calculator = PressureCalculator(args.sag, args.stroke, args.debug)
     pressure_calculator.measurement_100 = image_processor.get_measurement(args.image[0])
     pressure_calculator.measurement_150 = image_processor.get_measurement(args.image[1])
-    # pressure_calculator.measurement_100 = 23.0
-    # pressure_calculator.measurement_150 = 10.0
+    #pressure_calculator.measurement_100 = 23.0
+    #pressure_calculator.measurement_150 = 10.0
     print pressure_calculator.calculate()
 
 if __name__ == '__main__':
