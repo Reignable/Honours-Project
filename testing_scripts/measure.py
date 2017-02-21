@@ -10,7 +10,6 @@ def show_image(image, wait_time):
         print e.message
 
 image = cv2.imread('images/100_psi_ref.jpg')
-#image = cv2.resize(image, (500, 800))
 gray_scaled = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 blurred = cv2.GaussianBlur(gray_scaled, (5, 5), 0)
 edged = cv2.Canny(blurred, 0, 100, apertureSize=3)

@@ -40,6 +40,26 @@ class TestImageProcessor(TestCase):
     def test_get_ref_point_width_normal(self):
         self.assertIsInstance(self.image_processor._get_ref_point_width(), float)
 
+    def test_get_ref_point_width_in_range_100(self):
+        import warnings
+        warnings.filterwarnings('ignore')
+        self.image_processor.image_path = '100_psi_ref.jpg'
+        manual_result = 384.0
+        for i in range(5):
+            with self.subTest(i=i):
+                result = self.image_processor._get_ref_point_width()
+                self.assertTrue(360.0 <= result <= 410.0)
+
+    def test_get_ref_point_width_in_range_150(self):
+        import warnings
+        warnings.filterwarnings('ignore')
+        self.image_processor.image_path = '150_psi_ref.jpg'
+        manual_result = 290.0
+        for i in range(5):
+            with self.subTest(i=i):
+                result = self.image_processor._get_ref_point_width()
+                self.assertTrue((manual_result*0.9) <= result <= (manual_result*1.1))
+
     def test_get_ref_point_width_not_none(self):
         self.assertIsNotNone(self.image_processor._get_ref_point_width(), float)
 

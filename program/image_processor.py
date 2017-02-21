@@ -48,14 +48,32 @@ class ImageProcessor:
         mask = cv2.inRange(image, lower_bound, upper_bound)
         marker = cv2.bitwise_and(image, image, mask=mask)
         marker = cv2.cvtColor(marker, cv2.COLOR_BGR2GRAY)
-        circles = cv2.HoughCircles(marker, cv2.cv.CV_HOUGH_GRADIENT, 3, 200)
+        # input image, method, dp, mindist, sensitivity, edges
+        if '100' in self.image_path:
+            circles = cv2.HoughCircles(marker,
+                                       cv2.cv.CV_HOUGH_GRADIENT,
+                                       4,
+                                       200,
+                                       maxRadius=(400 / 2),
+                                       minRadius=(370 / 2),
+                                       param1=250,
+                                       param2=90)
+        else:
+            circles = cv2.HoughCircles(marker,
+                                       cv2.cv.CV_HOUGH_GRADIENT,
+                                       4,
+                                       200,
+                                       maxRadius=(300 / 2),
+                                       minRadius=(280 / 2),
+                                       param1=250,
+                                       param2=90)
         ref_point = circles[0][0]
         if self.debug:
             utils.debug_print(self.__class__.__name__, '_get_ref_point_width', ref_point[2] * 2.0)
         return ref_point[2] * 2.0
 
     def _get_measurement_px(self):
-        min_line_length = 300
+        min_line_length = 1000
         max_line_gap = 10
         image_height, image_width = self.processed_image.shape[:2]
         y_min = image_height
