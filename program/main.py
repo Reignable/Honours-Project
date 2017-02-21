@@ -56,9 +56,10 @@ def main():
     image_processor = ImageProcessor(args.debug)
     pressure_calculator = PressureCalculator(args.sag, args.stroke, args.debug)
     pressure_calculator.measurement_100 = image_processor.get_measurement(args.image[0])
+    image_processor = ImageProcessor(args.debug)
     pressure_calculator.measurement_150 = image_processor.get_measurement(args.image[1])
-    #pressure_calculator.measurement_100 = 29.0
-    #pressure_calculator.measurement_150 = 21.0
+    # pressure_calculator.measurement_100 = 29.0
+    # pressure_calculator.measurement_150 = 21.0
     print pressure_calculator.calculate()
 
 if __name__ == '__main__':

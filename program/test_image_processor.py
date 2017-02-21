@@ -65,7 +65,7 @@ class TestImageProcessor(TestCase):
 
     def test_get_measurement_px_normal(self):
         import numpy
-        self.image_processor.processed_image = self.image_processor._edge_detect()
+        self.image_processor.edged_image = self.image_processor._edge_detect()
         self.assertIsInstance(self.image_processor._get_measurement_px(), numpy.int32)
 
     def test_get_measurement_mm_normal(self):
