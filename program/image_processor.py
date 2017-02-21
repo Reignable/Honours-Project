@@ -14,7 +14,7 @@ def show_image(image, wait_time):
 
 
 class ImageProcessor:
-    REF_POINT_KNOWN_WIDTH = 7.5
+    REF_POINT_KNOWN_WIDTH = 10.0
     image_path = None
     edged_image = None
     quantified_image = None
@@ -47,7 +47,7 @@ class ImageProcessor:
     def _find_ref_and_oring(self):
         image = self._quantify_colors()
         self.quantified_image = image
-        upper_bound = numpy.array([75, 75, 255])
+        upper_bound = numpy.array([100, 100, 255])
         lower_bound = numpy.array([0, 0, 130])
         mask = cv2.inRange(image, lower_bound, upper_bound)
         marker = cv2.bitwise_and(image, image, mask=mask)

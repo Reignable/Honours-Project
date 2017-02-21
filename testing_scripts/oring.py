@@ -13,7 +13,7 @@ def show_image(image, wait_time):
     except cv2.error as e:
         print e.message
 
-images = ['../images/150_psi_ref.jpg']
+images = ['../images/100_ref_close.jpg']
 for i in images:
     image = cv2.imread(i)
     orig = image.copy()
@@ -28,13 +28,14 @@ for i in images:
     quant = quant.reshape((h, w, 3))
     image = image.reshape((h, w, 3))
     quant = cv2.cvtColor(quant, cv2.COLOR_LAB2BGR)
+    show_image(quant, 0)
     # Circle finding
-    upper_bound = np.array([75, 75, 255])
+    upper_bound = np.array([100, 100, 255])
     lower_bound = np.array([0, 0, 130])
     mask = cv2.inRange(quant, lower_bound, upper_bound)
     marker = cv2.bitwise_and(quant, quant, mask=mask)
     marker = cv2.cvtColor(marker, cv2.COLOR_BGR2GRAY)
-    cv2.imwrite('output.jpg', marker)
+    show_image(marker, 0)
     # Find contours
     cnts, _ = cv2.findContours(marker.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     cnts = sorted(cnts, key = cv2.contourArea, reverse = True)[:2]
