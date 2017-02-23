@@ -1,5 +1,8 @@
 import cv2
 import numpy
+
+import sys
+
 import utils
 from sklearn.cluster import MiniBatchKMeans
 
@@ -54,7 +57,11 @@ class ImageProcessor:
         marker = cv2.cvtColor(marker, cv2.COLOR_BGR2GRAY)
         contours, _ = cv2.findContours(marker.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
         result = sorted(contours, key=cv2.contourArea, reverse=True)[:2]
-        self.ref_point, self.oring = result
+        try:
+            self.ref_point, self.oring = result
+        except ValueError:
+            print('Could not find reference point or oring')
+            sys.exit(1)
 
     '''
     def _get_ref_point_width(self):
@@ -100,7 +107,7 @@ class ImageProcessor:
         _, y, _, h = cv2.boundingRect(self.oring)
         if self.debug:
             utils.debug_print(self.__class__.__name__, '_get_oring_height', y+h)
-        return y+h
+        return y + h
 
     def _get_measurement_px(self):
         min_line_length = 1000
