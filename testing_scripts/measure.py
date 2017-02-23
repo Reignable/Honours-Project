@@ -9,11 +9,11 @@ def show_image(image, wait_time):
     except cv2.error as e:
         print e.message
 
-image = cv2.imread('../images/100_ref_new.jpg')
+image = cv2.imread('../images/150_ref_new.jpg')
 gray_scaled = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 blurred = cv2.GaussianBlur(gray_scaled, (5, 5), 0)
-edged = cv2.Canny(blurred, 0, 100, apertureSize=3)
-
+edged = cv2.Canny(blurred, 10, 90, apertureSize=3)
+cv2.imwrite('edged.jpg', edged)
 min_line_length = 1000
 max_line_gap = 10
 
@@ -30,5 +30,4 @@ for x1, y1, x2, y2 in lines[0]:
         y_min = min(y1, y_min)
         y_max = max(y2, y_max)
         cv2.line(image, (x1, y1), (x2, y2), (0,255,0), 2)
-print y_max - y_min
 cv2.imwrite('output.jpg',image)

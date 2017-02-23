@@ -17,7 +17,7 @@ def show_image(image, wait_time):
 
 
 class ImageProcessor:
-    REF_POINT_KNOWN_WIDTH = 10.0
+    REF_POINT_KNOWN_WIDTH = 9.5
     image_path = None
     edged_image = None
     quantified_image = None
@@ -33,7 +33,7 @@ class ImageProcessor:
         image = cv2.imread(self.image_path)
         gray_scaled = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         blurred = cv2.GaussianBlur(gray_scaled, (5, 5), 0)
-        edged = cv2.Canny(blurred, 0, 100, apertureSize=3)
+        edged = cv2.Canny(blurred, 10, 90, apertureSize=3)
         return edged
 
     def _quantify_colors(self):
