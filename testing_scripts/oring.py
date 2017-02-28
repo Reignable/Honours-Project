@@ -13,7 +13,7 @@ def show_image(image, wait_time):
     except cv2.error as e:
         print e.message
 
-images = ['../images/100_ref_close.jpg']
+images = ['../images/150_ref_fox.jpg']
 for i in images:
     image = cv2.imread(i)
     orig = image.copy()
@@ -44,12 +44,13 @@ for i in images:
     radius = int(radius)
     cv2.circle(orig,center,radius,(0,255,0),2)
 
+    '''
     x,y,w,h = cv2.boundingRect(cnts[1])
     cv2.rectangle(orig,(x,y),(x+w,y+h),(0,255,0),2)
     # cv2.drawContours(orig, cnts, -1, (0,255,0), 4)
+    '''
     cv2.imwrite('output.jpg', orig)
     # Select lowest one
-
     #Get highest point of lowest contour
 
     #Measure to that point
