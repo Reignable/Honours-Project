@@ -9,7 +9,7 @@ def show_image(image, wait_time):
     except cv2.error as e:
         print e.message
 
-image = cv2.imread('../images/150_ref_new.jpg')
+image = cv2.imread('../images/150_ref_fox.jpg')
 gray_scaled = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 blurred = cv2.GaussianBlur(gray_scaled, (5, 5), 0)
 edged = cv2.Canny(blurred, 10, 90, apertureSize=3)
