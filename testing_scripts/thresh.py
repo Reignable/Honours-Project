@@ -13,12 +13,14 @@ def show_image(image, wait_time):
     except cv2.error as e:
         print e.message
 
-images = ['../images/150_ref_fox.jpg']
+images = ['../images/100_ref_fox.jpg']
 for i in images:
     image = cv2.imread(i)
     orig = image.copy()
-    (h, w) = image.shape[:2]
-
+    (height, width) = image.shape[:2]
+    print height
+    print height/3
+    '''
     # Color Quatification
     image = cv2.cvtColor(image, cv2.COLOR_BGR2LAB)
     image = image.reshape((image.shape[0] * image.shape[1], 3))
@@ -29,17 +31,21 @@ for i in images:
     image = image.reshape((h, w, 3))
     quant = cv2.cvtColor(quant, cv2.COLOR_LAB2BGR)
     cv2.imwrite('quant.jpg', quant)
-    # Circle finding
-    upper_bound = np.array([350, 70, 60])
-    lower_bound = np.array([10])
-    mask = cv2.inRange(quant, lower_bound, upper_bound)
-    marker = cv2.bitwise_and(quant, quant, mask=mask)
-    marker = cv2.cvtColor(marker, cv2.COLOR_BGR2GRAY)
-    cv2.imwrite('marker.jpg', marker)
+    '''
+
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    (T, thresh) = cv2.threshold(gray, 30, 150, cv2.THRESH_BINARY)
+    cv2.imwrite('thresh.jpg', thresh)
+
     # Find contours
-    cnts, _ = cv2.findContours(marker.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-    cnts = sorted(cnts, key = cv2.contourArea, reverse = True)[:2]
-    cv2.drawContours(orig, cnts, -1, (0,255,0), 4)
+    cnts, _ = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    cnts = sorted(cnts, key = cv2.contourArea, reverse = True)[:5]
+    #cv2.drawContours(orig, cnts, -1, (0,255,0), 4)
+    for cnt in cnts:
+        x,y,w,h = cv2.boundingRect(cnt)
+        if y > (height/3):
+            print y
+            cv2.rectangle(orig,(x,y),(x+w,y+h),(0,255,0),2)
     '''
     (x,y),radius = cv2.minEnclosingCircle(cnts[0])
     center = (int(x),int(y))
@@ -52,7 +58,3 @@ for i in images:
     # cv2.drawContours(orig, cnts, -1, (0,255,0), 4)
     '''
     cv2.imwrite('output.jpg', orig)
-    # Select lowest one
-    #Get highest point of lowest contour
-
-    #Measure to that point
