@@ -10,3 +10,7 @@
 ## Deviation
  - Take multiple values produced using same images
  - Calculate deviation to decide how good it is
+
+## Pedals
+ - Would need to be an app for people to use it
+ - Overall good, produces expected outputs
