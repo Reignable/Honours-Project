@@ -18,6 +18,7 @@ def show_image(image, wait_time):
 
 class ImageProcessor:
     REF_POINT_KNOWN_WIDTH = 9.5
+
     image_path = None
     edged_image = None
     quantified_image = None
@@ -25,8 +26,10 @@ class ImageProcessor:
     debug = False
     ref_point = None
     oring = None
+    colour = None
 
-    def __init__(self, debug=False):
+    def __init__(self, colour='red', debug=False):
+        self.colour = colour
         self.debug = debug
 
     def _edge_detect(self):
@@ -47,7 +50,7 @@ class ImageProcessor:
         quantified = quantified.reshape((h, w, 3))
         return cv2.cvtColor(quantified, cv2.COLOR_LAB2BGR)
 
-    def _find_ref_and_oring(self):
+    def _find_red(self):
         image = self._quantify_colors()
         self.quantified_image = image
         upper_bound = numpy.array([100, 100, 255])
@@ -56,46 +59,30 @@ class ImageProcessor:
         marker = cv2.bitwise_and(image, image, mask=mask)
         marker = cv2.cvtColor(marker, cv2.COLOR_BGR2GRAY)
         contours, _ = cv2.findContours(marker.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-        result = sorted(contours, key=cv2.contourArea, reverse=True)[:2]
+        return sorted(contours, key=cv2.contourArea, reverse=True)[:2]
+
+    def _find_ref(self):
         try:
-            self.ref_point, self.oring = result
+            self.ref_point = self._find_red()[0]
         except ValueError:
             print('Could not find reference point or oring')
             sys.exit(1)
 
-    '''
-    def _get_ref_point_width(self):
-        image = self._quantify_colors()
-        self.quantified_image = image
-        upper_bound = numpy.array([75, 75, 255])
-        lower_bound = numpy.array([0, 0, 130])
-        mask = cv2.inRange(image, lower_bound, upper_bound)
-        marker = cv2.bitwise_and(image, image, mask=mask)
-        marker = cv2.cvtColor(marker, cv2.COLOR_BGR2GRAY)
-        # input image, method, dp, mindist, sensitivity, edges
-        if '100' in self.image_path:
-            circles = cv2.HoughCircles(marker,
-                                       cv2.cv.CV_HOUGH_GRADIENT,
-                                       4,
-                                       200,
-                                       maxRadius=(400 / 2),
-                                       minRadius=(370 / 2),
-                                       param1=250,
-                                       param2=90)
-        else:
-            circles = cv2.HoughCircles(marker,
-                                       cv2.cv.CV_HOUGH_GRADIENT,
-                                       4,
-                                       200,
-                                       maxRadius=(300 / 2),
-                                       minRadius=(280 / 2),
-                                       param1=250,
-                                       param2=90)
-        ref_point = circles[0][0]
-        if self.debug:
-            utils.debug_print(self.__class__.__name__, '_get_ref_point_width', ref_point[2] * 2.0)
-        return ref_point[2] * 2.0
-    '''
+    def _find_oring(self):
+        print 'Finding oring'
+        if self.colour == 'red':
+            self.oring = self._find_red()[1]
+        elif self.colour == 'black':
+            image = cv2.imread(self.image_path)
+            (height, width) = image.shape[:2]
+            gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+            (T, thresh) = cv2.threshold(gray, 30, 150, cv2.THRESH_BINARY)
+            contours, _ = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+            contours = sorted(contours, key=cv2.contourArea, reverse=True)[:5]
+            for contour in contours:
+                _, y, _, _ = cv2.boundingRect(contour)
+                if y > (height / 3):
+                    self.oring = contour
 
     def _get_ref_point_width(self):
         (_, _), radius = cv2.minEnclosingCircle(self.ref_point)
@@ -144,7 +131,8 @@ class ImageProcessor:
         self.image_path = image_path
         print image_path
         self.edged_image = self._edge_detect()
-        self._find_ref_and_oring()
+        self._find_ref()
+        self._find_oring()
         measurement_px = self._get_measurement_px()
         measurement_mm = self._convert_px_mm(measurement_px)
 

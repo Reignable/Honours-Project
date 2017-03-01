@@ -19,12 +19,12 @@ def main():
                         action='store',
                         metavar='',
                         help='The path to the image you wish to use')
-    parser.add_argument('-w',
-                        '--weight',
-                        type=int,
+    parser.add_argument('-c',
+                        '--colour',
+                        type=str,
                         action='store',
                         metavar='',
-                        help='The weight of the rider in chosen units')
+                        help='The colour of the o-ring on the shock')
     parser.add_argument('-s',
                         '--sag',
                         type=int,
@@ -53,10 +53,10 @@ def main():
         parser.print_help()
         sys.exit(1)
 
-    image_processor = ImageProcessor(args.debug)
+    image_processor = ImageProcessor(args.colour, args.debug)
     pressure_calculator = PressureCalculator(args.sag, args.stroke, args.debug)
     pressure_calculator.measurement_100 = image_processor.get_measurement(args.image[0])
-    image_processor = ImageProcessor(args.debug)
+    image_processor = ImageProcessor(args.colour, args.debug)
     pressure_calculator.measurement_150 = image_processor.get_measurement(args.image[1])
     #pressure_calculator.measurement_100 = 30.0
     #pressure_calculator.measurement_150 = 20.0

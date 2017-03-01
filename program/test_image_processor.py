@@ -39,28 +39,28 @@ class TestImageProcessor(TestCase):
         self.assertEqual(processed_image.all(), self.processed_test_image.all())
 
     def test_get_ref_point_width_normal(self):
-        self.image_processor._find_ref_and_oring()
+        self.image_processor._find_ref()
         self.assertIsInstance(self.image_processor._get_ref_point_width(), float)
 
     def test_get_ref_point_width_in_range(self):
-        self.image_processor._find_ref_and_oring()
+        self.image_processor._find_ref()
         width = self.image_processor._get_ref_point_width()
         expected = 565.0
         self.assertTrue((expected*0.9) <= width <= (expected*1.1))
 
     def test_get_ref_point_width_not_none(self):
-        self.image_processor._find_ref_and_oring()
+        self.image_processor._find_ref()
         self.assertIsNotNone(self.image_processor._get_ref_point_width(), float)
 
     def test_get_measurement_px_normal(self):
         import numpy
         self.image_processor.edged_image = self.image_processor._edge_detect()
-        self.image_processor._find_ref_and_oring()
+        self.image_processor._find_ref()
         self.assertIsInstance(self.image_processor._get_measurement_px(), numpy.int32)
 
     def test_get_measurement_px_in_range(self):
         self.image_processor.edged_image = self.image_processor._edge_detect()
-        self.image_processor._find_ref_and_oring()
+        self.image_processor._find_ref()
         measurement = self.image_processor._get_measurement_px()
         expected = 1749
         self.assertTrue((expected * 0.95) <= measurement <= (expected * 1.05))
