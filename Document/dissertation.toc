@@ -55,6 +55,10 @@
 \contentsline {subsubsection}{\numberline {3.6.3}Milestones}{20}{subsubsection.3.6.3}
 \contentsline {subsubsection}{\numberline {3.6.4}Gantt Chart}{21}{subsubsection.3.6.4}
 \contentsline {subsection}{\numberline {3.7}Evaluation}{21}{subsection.3.7}
+\contentsline {subsubsection}{\numberline {3.7.1}Validation}{21}{subsubsection.3.7.1}
+\contentsline {subsubsection}{\numberline {3.7.2}Reliability}{21}{subsubsection.3.7.2}
+\contentsline {subsubsection}{\numberline {3.7.3}Manual Comparison}{21}{subsubsection.3.7.3}
+\contentsline {subsubsection}{\numberline {3.7.4}Expert Opinion}{21}{subsubsection.3.7.4}
 \contentsline {section}{\numberline {4}Results}{22}{section.4}
 \contentsline {section}{\numberline {5}Critical Evaluation}{23}{section.5}
 \contentsline {section}{\numberline {6}Conclusion}{24}{section.6}

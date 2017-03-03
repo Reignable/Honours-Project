@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  15 FEB 2017 14:43
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  3 MAR 2017 13:34
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1442,10 +1442,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [5
 
-] (./dissertation.lol)
+]
+No file dissertation.lol.
 \tf@lol=\write13
 \openout13 = `dissertation.lol'.
-
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1772,8 +1772,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 \openout3 = `dissertation.pyg'.
 
+runsystem(pygmentize -S default -f latex -P commandprefix=PYG > _minted-dissert
+ation/default-pyg-prefix.pygstyle)...executed.
+
  (./_minted-dissertation/default-pyg-prefix.pygstyle)
+runsystem(pygmentize -S default -f latex -P commandprefix=PYGdefault > _minted-
+dissertation/default.pygstyle)...executed.
+
+
 (./_minted-dissertation/default.pygstyle)
+runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
+minted-dissertation/D5937F866AC6BE9C0BB72F8D800782B0C6603A332258D40ACF08DA01E5C
+C9319.pygtex dissertation.pyg)...executed.
+
+
 (./_minted-dissertation/D5937F866AC6BE9C0BB72F8D800782B0C6603A332258D40ACF08DA0
 1E5CC9319.pygtex
 LaTeX Font Info:    Font shape `EU1/lmtt/bx/n' in size <10> not available
@@ -2049,6 +2061,11 @@ Underfull \hbox (badness 5832) in paragraph at lines 153--154
 
 
 ]
+runsystem(pygmentize -l java -f latex -P commandprefix=PYG -F tokenmerge -o _mi
+nted-dissertation/DD1DF51A6AC9A3EE50C0E463320F807C61BB77DD4313487F2508A6DEFD13F
+2BE.pygtex ../code/android/hello_cv/MainActivity.java)...executed.
+
+
 (./_minted-dissertation/DD1DF51A6AC9A3EE50C0E463320F807C61BB77DD4313487F2508A6D
 EFD13F2BE.pygtex
 
@@ -2061,6 +2078,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ])
+runsystem(pygmentize -l java -f latex -P commandprefix=PYG -F tokenmerge -o _mi
+nted-dissertation/DD04DA96FFCF55F9863FD158E1BAF073368C4AD80499573254538385B8C71
+C09.pygtex ../code/android/15tile/MainActivity.java)...executed.
+
+
 (./_minted-dissertation/DD04DA96FFCF55F9863FD158E1BAF073368C4AD8049957325453838
 5B8C71C09.pygtex
 
@@ -2091,6 +2113,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [34])
+runsystem(pygmentize -l java -f latex -P commandprefix=PYG -F tokenmerge -o _mi
+nted-dissertation/13DE9B81E81E15FFBF678A06BE61359908344C88C4F7CC283BA0800F66980
+B02.pygtex ../code/android/15tile/PuzzleProcessor.java)...executed.
+
+
 (./_minted-dissertation/13DE9B81E81E15FFBF678A06BE61359908344C88C4F7CC283BA0800
 F66980B02.pygtex
 
@@ -2121,6 +2148,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [38])
+runsystem(pygmentize -l java -f latex -P commandprefix=PYG -F tokenmerge -o _mi
+nted-dissertation/CA57C5BF2CBA1D9C38661E8F9AF77805B2B47353E3A416E250F28DE59FE0D
+22E.pygtex ../code/android/blob_analysis/ColorBlobDetectionActivity.java)...exe
+cuted.
+
+
 (./_minted-dissertation/CA57C5BF2CBA1D9C38661E8F9AF77805B2B47353E3A416E250F28DE
 59FE0D22E.pygtex
 
@@ -2144,6 +2177,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [41])
+runsystem(pygmentize -l java -f latex -P commandprefix=PYG -F tokenmerge -o _mi
+nted-dissertation/D8F6CF80D98D9F706DDD03C27481C00795EAE26E55BA2D88B29D342FFC02A
+907.pygtex ../code/android/blob_analysis/ColorBlobDetector.java)...executed.
+
+
 (./_minted-dissertation/D8F6CF80D98D9F706DDD03C27481C00795EAE26E55BA2D88B29D342
 FFC02A907.pygtex
 
@@ -2160,6 +2198,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [43])
+runsystem(pygmentize -l java -f latex -P commandprefix=PYG -F tokenmerge -o _mi
+nted-dissertation/71F15543D2215E37D80B8C8415BBD96CE11933E567D428DCB2EF708772951
+318.pygtex ../code/android/face_recognition/DetectionBasedTracker.java)...execu
+ted.
+
+
 (./_minted-dissertation/71F15543D2215E37D80B8C8415BBD96CE11933E567D428DCB2EF708
 772951318.pygtex
 
@@ -2169,6 +2213,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [44])
+runsystem(pygmentize -l java -f latex -P commandprefix=PYG -F tokenmerge -o _mi
+nted-dissertation/2EDCA3D35D0A6ED8338CF44E7F63D4F8A1BD10E29F733D4C60F5A8B95EE65
+8F2.pygtex ../code/android/face_recognition/FrActivity.java)...executed.
+
+
 (./_minted-dissertation/2EDCA3D35D0A6ED8338CF44E7F63D4F8A1BD10E29F733D4C60F5A8B
 95EE658F2.pygtex
 
@@ -2259,10 +2308,25 @@ Underfull \hbox (badness 2744) in paragraph at lines 234--235
 
 
 ]
+runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
+minted-dissertation/E1EA1AE1D2FE001D92AF4F6F2027A69C16759588E1F11B415B8BB10CA78
+216FF.pygtex ../code/python/find_game.py)...executed.
+
+
 (./_minted-dissertation/E1EA1AE1D2FE001D92AF4F6F2027A69C16759588E1F11B415B8BB10
 CA78216FF.pygtex)
+runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
+minted-dissertation/6906A718181A35064E19F969A7B16B4D08F43670AFD0855317E28251E55
+AEC05.pygtex ../code/python/thresholding.py)...executed.
+
+
 (./_minted-dissertation/6906A718181A35064E19F969A7B16B4D08F43670AFD0855317E2825
 1E55AEC05.pygtex)
+runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
+minted-dissertation/A2894533DF15429FCCED70D3B965133464D2D4C2FE5D094BC92BFF0280F
+07D7B.pygtex ../code/python/img_ops.py)...executed.
+
+
 (./_minted-dissertation/A2894533DF15429FCCED70D3B965133464D2D4C2FE5D094BC92BFF0
 280F07D7B.pygtex
 
@@ -2275,6 +2339,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ])
+runsystem(pygmentize -l python -f latex -P commandprefix=PYG -F tokenmerge -o _
+minted-dissertation/34047B4F7FD73F567B9BC80221B0E53E8C265E70DB3F7FB1EF514BEF920
+E1A1E.pygtex ../code/python/distance_to_camera.py)...executed.
+
+
 (./_minted-dissertation/34047B4F7FD73F567B9BC80221B0E53E8C265E70DB3F7FB1EF514BE
 F920E1A1E.pygtex)
 
@@ -2303,9 +2372,9 @@ runsystem(rm dissertation.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 32128 strings out of 493589
- 560282 string characters out of 6145555
- 701574 words of memory out of 5000000
+ 32126 strings out of 493589
+ 560248 string characters out of 6145555
+ 702574 words of memory out of 5000000
  34995 multiletter control sequences out of 15000+600000
  12262 words of font info for 80 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
