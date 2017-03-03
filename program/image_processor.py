@@ -64,14 +64,21 @@ class ImageProcessor:
     def _find_ref(self):
         try:
             self.ref_point = self._find_red()[0]
-        except ValueError:
-            print('Could not find reference point or oring')
+        except (ValueError, IndexError):
+            print 'Could not find reference point\n' \
+                  'Is the the correct colour given and is one present in the image?\nIf ' \
+                  'yes, please try again.'
             sys.exit(1)
 
     def _find_oring(self):
-        print 'Finding oring'
         if self.colour == 'red':
-            self.oring = self._find_red()[1]
+            try:
+                self.oring = self._find_red()[1]
+            except IndexError:
+                print 'Could not find o-ring\n'\
+                      'Is the the correct colour given and is one present in the image?\nIf ' \
+                      'yes, please try again.'
+                sys.exit(1)
         elif self.colour == 'black':
             image = cv2.imread(self.image_path)
             (height, width) = image.shape[:2]
@@ -129,7 +136,8 @@ class ImageProcessor:
 
     def get_measurement(self, image_path):
         self.image_path = image_path
-        print image_path
+        if self.debug:
+            utils.debug_print(self.__class__.__name__, 'filepath', self.image_path)
         self.edged_image = self._edge_detect()
         self._find_ref()
         self._find_oring()
@@ -138,5 +146,8 @@ class ImageProcessor:
 
         if self.debug:
             utils.debug_print(self.__class__.__name__, 'get_measurement', measurement_mm)
-
+        if measurement_mm <= 0:
+            print 'Incorrect measurement produced from image {i}\n'\
+                  'Please check settings and try again.'.format(i=self.image_path)
+            sys.exit(1)
         return measurement_mm

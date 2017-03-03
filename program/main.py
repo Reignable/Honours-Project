@@ -60,7 +60,9 @@ def main():
     pressure_calculator.measurement_150 = image_processor.get_measurement(args.image[1])
     #pressure_calculator.measurement_100 = 30.0
     #pressure_calculator.measurement_150 = 20.0
-    print pressure_calculator.calculate()
+    setting = pressure_calculator.calculate()
+    print '\nYour recommended pressure setting is'
+    print str(round(setting, 0)) + ' psi'
 
 if __name__ == '__main__':
     main()

@@ -30,12 +30,11 @@ class PressureCalculator:
         return ideal
 
     def _calculate_linear_equation(self):
-        print self.measurement_100, self.measurement_150
         x = np.array([self.measurement_100, self.measurement_150])
         y = np.array([100, 150])
         slope, intercept, __, __, __ = stats.linregress(x, y)
         if self.debug:
-            utils.debug_print(self.__class__.__name__, '_calculate_linear_equation', '{s}x + {i}'.format(s=slope, i=intercept))
+            utils.debug_print(self.__class__.__name__, '_calculate_equation', '{s}x + {i}'.format(s=slope, i=intercept))
         return slope, intercept
 
     def calculate(self):

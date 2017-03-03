@@ -2,10 +2,12 @@ def debug_print(class_name, function_name, data):
     header = '\033[95m'
     endc = '\033[0m'
     bold = '\033[1m'
+    tabs1 = '\t\t' if len(class_name) < 17 else '\t'
+    tabs2 = '\t\t' if len(function_name) < 17 else '\t'
     print (header
-           + class_name + '\t'
+           + class_name + tabs1
            + endc
            + bold
-           + function_name + '\t'
+           + function_name + tabs2
            + endc
            + str(data))
