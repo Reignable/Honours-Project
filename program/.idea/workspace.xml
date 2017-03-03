@@ -15,7 +15,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/v4$Unittests_in_TestThing.coverage" NAME="Unittests in TestThing Coverage Results" MODIFIED="1486555923308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/honours$Unittests_in_TestImageProcessor.coverage" NAME="Unittests in TestImageProcessor Coverage Results" MODIFIED="1487856027824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/honours$Unittests_in_program.coverage" NAME="Unittests in program Coverage Results" MODIFIED="1487862879186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/honours$Unittests_in_program.coverage" NAME="Unittests in program Coverage Results" MODIFIED="1488544282865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/honours$Unittest_TestImageProcessor_test_get_ref_point_width_in_range_150.coverage" NAME="Unittest TestImageProcessor.test_get_ref_point_width_in_range_150 Coverage Results" MODIFIED="1487674120055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/v4$Unittest_TestImageProcessor_test_get_ref_point_width_not_none.coverage" NAME="Unittest TestImageProcessor.test_get_ref_point_width_not_none Coverage Results" MODIFIED="1486911437093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/v4$Unittest_TestImageProcessor_test_run_with_no_image.coverage" NAME="Unittest TestImageProcessor.test_run_with_no_image Coverage Results" MODIFIED="1486982134651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -24,6 +24,7 @@
     <SUITE FILE_PATH="coverage/honours$Unittest_TestImageProcessor_test_get_ref_point_width_in_range.coverage" NAME="Unittest TestImageProcessor.test_get_ref_point_width_in_range Coverage Results" MODIFIED="1487855270874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/honours$test_all.coverage" NAME="test_all Coverage Results" MODIFIED="1487259698420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/honours$Unittests_in_TestPressureCalculator.coverage" NAME="Unittests in TestPressureCalculator Coverage Results" MODIFIED="1487246464395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/honours$Unittest_TestImageProcessor_test_find_oring_black.coverage" NAME="Unittest TestImageProcessor.test_find_oring_black Coverage Results" MODIFIED="1488543986075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/honours$Unittest_TestPressureCalculator_test_get_ideal_sag_mm_normal.coverage" NAME="Unittest TestPressureCalculator.test_get_ideal_sag_mm_normal Coverage Results" MODIFIED="1487245120680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/v4$Unittest_TestImageProcessor_test_get_ref_point_width_normal.coverage" NAME="Unittest TestImageProcessor.test_get_ref_point_width_normal Coverage Results" MODIFIED="1486902309712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/v4$Unittests_in_TestImageProcessor.coverage" NAME="Unittests in TestImageProcessor Coverage Results" MODIFIED="1486982568696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -45,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="image_processor.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="image_processor.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/image_processor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="66" column="39" lean-forward="false" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+            <state relative-caret-position="234">
+              <caret line="79" column="46" lean-forward="false" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -60,8 +61,8 @@
       <file leaf-file-name="test_image_processor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_image_processor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1314">
-              <caret line="73" column="73" lean-forward="false" selection-start-line="73" selection-start-column="73" selection-end-line="73" selection-end-column="73" />
+            <state relative-caret-position="342">
+              <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -79,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="64" column="30" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+            <state relative-caret-position="-41">
+              <caret line="44" column="32" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -115,11 +116,11 @@
         <option value="$PROJECT_DIR$/test_master.py" />
         <option value="$PROJECT_DIR$/test_all.py" />
         <option value="$PROJECT_DIR$/bcolors.py" />
-        <option value="$PROJECT_DIR$/test_image_processor.py" />
         <option value="$PROJECT_DIR$/utils.py" />
         <option value="$PROJECT_DIR$/pressure_calculator.py" />
-        <option value="$PROJECT_DIR$/image_processor.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/test_image_processor.py" />
+        <option value="$PROJECT_DIR$/image_processor.py" />
       </list>
     </option>
   </component>
@@ -135,7 +136,7 @@
     <option name="height" value="876" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -148,24 +149,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="honours" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="program" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -219,29 +203,6 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest TestImageProcessor.test_get_ref_point_width_in_range_150" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="honours" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_image_processor.py" />
-      <option name="CLASS_NAME" value="TestImageProcessor" />
-      <option name="METHOD_NAME" value="test_get_ref_point_width_in_range_150" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="Unittests in TestImageProcessor" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,6 +240,29 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_image_processor.py" />
       <option name="CLASS_NAME" value="TestImageProcessor" />
       <option name="METHOD_NAME" value="test_get_measurement_px_in_range" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestImageProcessor.test_find_oring_black" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="honours" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_image_processor.py" />
+      <option name="CLASS_NAME" value="TestImageProcessor" />
+      <option name="METHOD_NAME" value="test_find_oring_black" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -505,17 +489,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in program" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestImageProcessor.test_get_ref_point_width_in_range" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestImageProcessor.test_get_ref_point_width_in_range_150" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in TestImageProcessor" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestImageProcessor.test_get_measurement_px_in_range" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in TestImageProcessor" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestImageProcessor.test_get_measurement_px_in_range" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestImageProcessor.test_find_oring_black" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in program" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in TestImageProcessor" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestImageProcessor.test_get_measurement_px_in_range" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestImageProcessor.test_get_ref_point_width_in_range" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestImageProcessor.test_get_ref_point_width_in_range_150" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestImageProcessor.test_find_oring_black" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in TestImageProcessor" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestImageProcessor.test_get_measurement_px_in_range" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestImageProcessor.test_get_ref_point_width_in_range" />
       </list>
     </recent_temporary>
   </component>
@@ -536,29 +520,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_TestImageProcessor_test_get_ref_point_width_in_range - 2017.02.23 at 13h 08m 04s.xml">
-      <configuration name="Unittest TestImageProcessor.test_get_ref_point_width_in_range" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestImageProcessor - 2017.02.23 at 12h 48m 43s.xml">
-      <configuration name="Unittests in TestImageProcessor" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestImageProcessor - 2017.02.23 at 12h 49m 07s.xml">
-      <configuration name="Unittests in TestImageProcessor" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestImageProcessor - 2017.02.23 at 12h 49m 32s.xml">
-      <configuration name="Unittests in TestImageProcessor" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestImageProcessor - 2017.02.23 at 12h 50m 06s.xml">
-      <configuration name="Unittests in TestImageProcessor" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestImageProcessor - 2017.02.23 at 12h 51m 24s.xml">
-      <configuration name="Unittests in TestImageProcessor" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestImageProcessor - 2017.02.23 at 12h 56m 36s.xml">
-      <configuration name="Unittests in TestImageProcessor" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestImageProcessor - 2017.02.23 at 13h 22m 22s.xml">
-      <configuration name="Unittests in TestImageProcessor" configurationId="tests" />
+    <history-entry file="Unittest_TestImageProcessor_test_find_oring_black - 2017.03.03 at 12h 26m 31s.xml">
+      <configuration name="Unittest TestImageProcessor.test_find_oring_black" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_program - 2017.02.23 at 13h 04m 53s.xml">
       <configuration name="Unittests in program" configurationId="tests" />
@@ -566,10 +529,31 @@
     <history-entry file="Unittests_in_program - 2017.02.23 at 15h 16m 42s.xml">
       <configuration name="Unittests in program" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_program - 2017.03.03 at 12h 08m 22s.xml">
+      <configuration name="Unittests in program" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_program - 2017.03.03 at 12h 12m 24s.xml">
+      <configuration name="Unittests in program" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_program - 2017.03.03 at 12h 15m 40s.xml">
+      <configuration name="Unittests in program" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_program - 2017.03.03 at 12h 17m 04s.xml">
+      <configuration name="Unittests in program" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_program - 2017.03.03 at 12h 20m 40s.xml">
+      <configuration name="Unittests in program" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_program - 2017.03.03 at 12h 30m 40s.xml">
+      <configuration name="Unittests in program" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_program - 2017.03.03 at 12h 32m 04s.xml">
+      <configuration name="Unittests in program" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1600" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47940797" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -577,20 +561,20 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32179487" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2072072" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967825" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32179487" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2072072" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -981,14 +965,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bcolors.py" />
-    <entry file="file://$PROJECT_DIR$/test_image_processor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1314">
-          <caret line="73" column="73" lean-forward="false" selection-start-line="73" selection-start-column="73" selection-end-line="73" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1007,22 +983,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image_processor.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="66" column="39" lean-forward="false" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+        <state relative-caret-position="-41">
+          <caret line="44" column="32" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#24#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/test_image_processor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="64" column="30" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+        <state relative-caret-position="342">
+          <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_processor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="79" column="46" lean-forward="false" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
           <folding>
-            <element signature="e#24#39#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

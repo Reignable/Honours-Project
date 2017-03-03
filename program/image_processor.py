@@ -78,7 +78,6 @@ class ImageProcessor:
                 print 'Could not find o-ring\n'\
                       'Is the the correct colour given and is one present in the image?\nIf ' \
                       'yes, please try again.'
-                sys.exit(1)
         elif self.colour == 'black':
             image = cv2.imread(self.image_path)
             (height, width) = image.shape[:2]
