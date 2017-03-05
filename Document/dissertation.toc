@@ -35,45 +35,47 @@
 \contentsline {section}{\numberline {3}Methodology}{15}{section.3}
 \contentsline {subsection}{\numberline {3.1}Introduction}{15}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Literature Review}{15}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Source Selection}{15}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Source Assessment}{15}{subsubsection.3.2.2}
 \contentsline {subsection}{\numberline {3.3}Platform}{15}{subsection.3.3}
 \contentsline {subsubsection}{\numberline {3.3.1}OpenCV}{15}{subsubsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}Experimentation}{15}{subsubsection.3.3.2}
-\contentsline {subsection}{\numberline {3.4}Source Code}{16}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Pythonic Coding}{16}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Experimentation}{16}{subsubsection.3.3.2}
+\contentsline {subsection}{\numberline {3.4}Source Code}{17}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Pythonic Coding}{17}{subsubsection.3.4.1}
 \contentsline {subsubsection}{\numberline {3.4.2}Variable Naming}{17}{subsubsection.3.4.2}
 \contentsline {subsubsection}{\numberline {3.4.3}Classes and Modules}{17}{subsubsection.3.4.3}
 \contentsline {subsection}{\numberline {3.5}Testing}{17}{subsection.3.5}
 \contentsline {subsubsection}{\numberline {3.5.1}Unit Testing}{17}{subsubsection.3.5.1}
-\contentsline {paragraph}{\numberline {3.5.1.1}Python Unit Testing}{17}{paragraph.3.5.1.1}
+\contentsline {paragraph}{\numberline {3.5.1.1}Python Unit Testing}{18}{paragraph.3.5.1.1}
 \contentsline {subsubsection}{\numberline {3.5.2}Project Testing Scope}{18}{subsubsection.3.5.2}
 \contentsline {subsection}{\numberline {3.6}Project Management}{18}{subsection.3.6}
 \contentsline {subsubsection}{\numberline {3.6.1}Agile Development}{18}{subsubsection.3.6.1}
-\contentsline {paragraph}{\numberline {3.6.1.1}Requirements Analysis}{18}{paragraph.3.6.1.1}
+\contentsline {paragraph}{\numberline {3.6.1.1}Requirements Analysis}{19}{paragraph.3.6.1.1}
 \contentsline {paragraph}{\numberline {3.6.1.2}MoSCoW}{19}{paragraph.3.6.1.2}
-\contentsline {paragraph}{\numberline {3.6.1.3}Sprint Cycles}{19}{paragraph.3.6.1.3}
+\contentsline {paragraph}{\numberline {3.6.1.3}Sprint Cycles}{20}{paragraph.3.6.1.3}
 \contentsline {subsubsection}{\numberline {3.6.2}Version Control}{20}{subsubsection.3.6.2}
-\contentsline {subsubsection}{\numberline {3.6.3}Milestones}{20}{subsubsection.3.6.3}
+\contentsline {subsubsection}{\numberline {3.6.3}Milestones}{21}{subsubsection.3.6.3}
 \contentsline {subsubsection}{\numberline {3.6.4}Gantt Chart}{21}{subsubsection.3.6.4}
-\contentsline {subsection}{\numberline {3.7}Evaluation}{21}{subsection.3.7}
-\contentsline {subsubsection}{\numberline {3.7.1}Validation}{21}{subsubsection.3.7.1}
-\contentsline {subsubsection}{\numberline {3.7.2}Reliability}{21}{subsubsection.3.7.2}
-\contentsline {subsubsection}{\numberline {3.7.3}Manual Comparison}{21}{subsubsection.3.7.3}
-\contentsline {subsubsection}{\numberline {3.7.4}Expert Opinion}{21}{subsubsection.3.7.4}
-\contentsline {section}{\numberline {4}Results}{22}{section.4}
-\contentsline {section}{\numberline {5}Critical Evaluation}{23}{section.5}
-\contentsline {section}{\numberline {6}Conclusion}{24}{section.6}
-\contentsline {section}{References}{25}{section*.9}
-\contentsline {section}{Acronyms}{28}{section*.10}
-\contentsline {section}{Glossary}{28}{section*.12}
-\contentsline {section}{\numberline {A}Android Experiments}{29}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Table of Android Experiments}{29}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Hello CV}{30}{subsection.A.2}
-\contentsline {subsection}{\numberline {A.3}15tile}{31}{subsection.A.3}
-\contentsline {subsection}{\numberline {A.4}BLOB Analysis}{39}{subsection.A.4}
-\contentsline {subsection}{\numberline {A.5}Face Detection}{44}{subsection.A.5}
-\contentsline {section}{\numberline {B}Python Experiments}{50}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}Table of Python Experiments}{50}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}find\_game.py}{51}{subsection.B.2}
-\contentsline {subsection}{\numberline {B.3}thresholding.py}{51}{subsection.B.3}
-\contentsline {subsection}{\numberline {B.4}img\_ops.py}{51}{subsection.B.4}
-\contentsline {subsection}{\numberline {B.5}distance\_to\_camera.py}{52}{subsection.B.5}
+\contentsline {subsection}{\numberline {3.7}Evaluation}{22}{subsection.3.7}
+\contentsline {subsubsection}{\numberline {3.7.1}Validation}{22}{subsubsection.3.7.1}
+\contentsline {subsubsection}{\numberline {3.7.2}Reliability}{22}{subsubsection.3.7.2}
+\contentsline {subsubsection}{\numberline {3.7.3}Manual Comparison}{22}{subsubsection.3.7.3}
+\contentsline {subsubsection}{\numberline {3.7.4}Expert Opinion}{22}{subsubsection.3.7.4}
+\contentsline {section}{\numberline {4}Results}{23}{section.4}
+\contentsline {section}{\numberline {5}Critical Evaluation}{24}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{25}{section.6}
+\contentsline {section}{References}{26}{section*.9}
+\contentsline {section}{Acronyms}{29}{section*.10}
+\contentsline {section}{Glossary}{29}{section*.12}
+\contentsline {section}{\numberline {A}Android Experiments}{30}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Table of Android Experiments}{30}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Hello CV}{31}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}15tile}{32}{subsection.A.3}
+\contentsline {subsection}{\numberline {A.4}BLOB Analysis}{40}{subsection.A.4}
+\contentsline {subsection}{\numberline {A.5}Face Detection}{45}{subsection.A.5}
+\contentsline {section}{\numberline {B}Python Experiments}{51}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Table of Python Experiments}{51}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}find\_game.py}{52}{subsection.B.2}
+\contentsline {subsection}{\numberline {B.3}thresholding.py}{52}{subsection.B.3}
+\contentsline {subsection}{\numberline {B.4}img\_ops.py}{52}{subsection.B.4}
+\contentsline {subsection}{\numberline {B.5}distance\_to\_camera.py}{53}{subsection.B.5}

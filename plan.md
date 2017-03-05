@@ -1,6 +1,17 @@
 ## Methodology
 ### Lit review
+ - Purpose
+ - Types
+ - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3035611/?tool=pmcentrez
+ - Choice of type
+#### Source selection
+ - Use of university library and google scholar
  - Comment on use of blogs and websites as references
+#### Source assessment
+ - Age
+ - Citations
+ - Legitimacy
+ - Abstract, Conclusion, Body
 
 ### Project Management
 #### Alternative approach
