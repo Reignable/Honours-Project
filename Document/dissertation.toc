@@ -52,10 +52,11 @@
 \contentsline {paragraph}{\numberline {3.6.1.1}Requirements Analysis}{20}{paragraph.3.6.1.1}
 \contentsline {paragraph}{\numberline {3.6.1.2}MoSCoW}{21}{paragraph.3.6.1.2}
 \contentsline {paragraph}{\numberline {3.6.1.3}Sprint Cycles}{21}{paragraph.3.6.1.3}
-\contentsline {subsubsection}{\numberline {3.6.2}Version Control}{22}{subsubsection.3.6.2}
-\contentsline {subsubsection}{\numberline {3.6.3}Milestones}{22}{subsubsection.3.6.3}
-\contentsline {subsubsection}{\numberline {3.6.4}Threshold}{23}{subsubsection.3.6.4}
-\contentsline {subsubsection}{\numberline {3.6.5}Gantt Chart}{23}{subsubsection.3.6.5}
+\contentsline {subsubsection}{\numberline {3.6.2}Organic Development}{22}{subsubsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.3}Version Control}{22}{subsubsection.3.6.3}
+\contentsline {subsubsection}{\numberline {3.6.4}Milestones}{22}{subsubsection.3.6.4}
+\contentsline {subsubsection}{\numberline {3.6.5}Threshold}{23}{subsubsection.3.6.5}
+\contentsline {subsubsection}{\numberline {3.6.6}Gantt Chart}{23}{subsubsection.3.6.6}
 \contentsline {subsection}{\numberline {3.7}Evaluation}{23}{subsection.3.7}
 \contentsline {subsubsection}{\numberline {3.7.1}Validation}{23}{subsubsection.3.7.1}
 \contentsline {subsubsection}{\numberline {3.7.2}Reliability}{23}{subsubsection.3.7.2}

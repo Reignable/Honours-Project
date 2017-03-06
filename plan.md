@@ -42,18 +42,37 @@
  - Would they consider reccomending it
 
 ## Results
-### Deviation from Plan
+ ### Deviation from Plan
+  - Organic dev approach
+  - Discussion of hough circles vs contours
+  - Oring finding method
+  - Plotting vs psi per mm
+  - EXIF vs ref point
+ ### System
+  #### Description of System
+   - Side by side images and schematic explaining method
+  #### Pseudocode
+ ### Evaluation
+  #### Deviation
+   - Calculate
+  #### Validation
+   - Compare results to manual setup
+  #### Professional Opinion
+ - Pedals
+      - Would need to be an app for people to use it
+      - Overall good, produces expected outputs
 
-### Description of System
-
-### Pseudocode
-
-## Evaluation
-### Validation
-
-### Professional Opinion
- #### Pedals
-  - Would need to be an app for people to use it
-  - Overall good, produces expected outputs
-
-### Deviation
+## Conclusions
+ ### Meeting aims
+  - How well does the solution relate to the original aims and objectives
+ ### Compare to other products
+  - Fox is locked to their product, requires lots of alignment
+  - Shockwiz, needs to be ridden and attached, expensive
+ ### Future Work
+  - Make into app
+  - Python wrapper
+  - Make work for all shocks
+  - Make work for front suspension
+  - Add rebound and compression (database)
+  - Coil
+ ### Self Appraisal
