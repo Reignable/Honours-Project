@@ -11,7 +11,7 @@ class TestImageProcessor(TestCase):
     def setUp(self):
         from image_processor import ImageProcessor
         self.image_processor = ImageProcessor('red', True)
-        self.image_processor.image_path = self.RS_IMAGE_PATH
+        self.image_processor._image_path = self.RS_IMAGE_PATH
 
     def tearDown(self):
         pass
@@ -35,7 +35,7 @@ class TestImageProcessor(TestCase):
         gray_scaled = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         blurred = cv2.GaussianBlur(gray_scaled, (5, 5), 0)
         self.processed_test_image = cv2.Canny(blurred, 0, 100, apertureSize=3)
-        self.image_processor.image_path = self.RS_IMAGE_PATH
+        self.image_processor._image_path = self.RS_IMAGE_PATH
         processed_image = self.image_processor._edge_detect()
         self.assertEqual(processed_image.all(), self.processed_test_image.all())
 
@@ -54,20 +54,20 @@ class TestImageProcessor(TestCase):
         self.assertIsNotNone(self.image_processor._get_ref_point_width(), float)
 
     def test_find_oring_black(self):
-        self.image_processor.colour = 'black'
-        self.image_processor.image_path = self.FOX_IMAGE_PATH
+        self.image_processor._colour = 'black'
+        self.image_processor._image_path = self.FOX_IMAGE_PATH
         self.image_processor._find_oring()
-        self.assertIsNotNone(self.image_processor.oring)
+        self.assertIsNotNone(self.image_processor._oring)
 
     def test_get_measurement_px_normal(self):
         import numpy
-        self.image_processor.edged_image = self.image_processor._edge_detect()
+        self.image_processor._edged_image = self.image_processor._edge_detect()
         self.image_processor._find_ref()
         self.image_processor._find_oring()
         self.assertIsInstance(self.image_processor._get_measurement_px(), numpy.int32)
 
     def test_get_measurement_px_in_range(self):
-        self.image_processor.edged_image = self.image_processor._edge_detect()
+        self.image_processor._edged_image = self.image_processor._edge_detect()
         self.image_processor._find_ref()
         self.image_processor._find_oring()
         measurement = self.image_processor._get_measurement_px()

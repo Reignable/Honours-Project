@@ -1,7 +1,6 @@
 #! /usr/bin/env python
 
 import argparse
-import multiprocessing as mp
 import sys
 import warnings
 from image_processor import ImageProcessor
