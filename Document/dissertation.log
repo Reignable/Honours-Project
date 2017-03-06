@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  5 MAR 2017 14:21
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  6 MAR 2017 09:55
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1737,7 +1737,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--12
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--26
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--18
 
  []
 
@@ -1750,27 +1760,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [15
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 27--38
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--38
+Underfull \hbox (badness 10000) in paragraph at lines 25--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--38
+Underfull \hbox (badness 10000) in paragraph at lines 25--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--38
+Underfull \hbox (badness 10000) in paragraph at lines 25--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--38
+Underfull \hbox (badness 10000) in paragraph at lines 25--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--36
 
  []
 
@@ -1791,16 +1806,7 @@ LaTeX Font Info:    Font shape `EU1/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `EU1/lmtt/b/n' tried instead on input line 3.
 )
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
-t line 52.
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--69
-
- []
+t line 50.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1809,17 +1815,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 72--77
+Underfull \hbox (badness 10000) in paragraph at lines 62--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--77
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--82
+Underfull \hbox (badness 10000) in paragraph at lines 62--67
 
  []
 
@@ -1830,28 +1831,33 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [18]
-Overfull \hbox (0.7782pt too wide) in paragraph at lines 83--88
+Underfull \hbox (badness 10000) in paragraph at lines 70--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--80
+
+ []
+
+
+Overfull \hbox (0.7782pt too wide) in paragraph at lines 81--86
  \EU1/Arial(0)/bx/n/12 3.6.1.1 Requirements Analysis[] \EU1/Arial(0)/m/n/12 Use
 d in some form by the majority of agile method-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--88
+Underfull \hbox (badness 10000) in paragraph at lines 81--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--94
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--94
+Underfull \hbox (badness 10000) in paragraph at lines 81--86
 
  []
 
@@ -1862,27 +1868,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 95--100
+Underfull \hbox (badness 10000) in paragraph at lines 87--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--100
+Underfull \hbox (badness 10000) in paragraph at lines 87--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--108
+Underfull \hbox (badness 10000) in paragraph at lines 93--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--108
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--108
+Underfull \hbox (badness 10000) in paragraph at lines 93--98
 
  []
 
@@ -1893,16 +1894,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 109--112
+Underfull \hbox (badness 10000) in paragraph at lines 99--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--116
+Underfull \hbox (badness 10000) in paragraph at lines 99--106
 
  []
 
-)
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--110
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1910,6 +1920,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [21]
+Underfull \hbox (badness 10000) in paragraph at lines 113--116
+
+ []
+
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1944,19 +1959,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [25
 
 ] (./dissertation.bbl
-Underfull \hbox (badness 6808) in paragraph at lines 427--442
+Underfull \hbox (badness 6808) in paragraph at lines 404--419
 []\EU1/Arial(0)/m/n/12 Formosa, N.  (2012).  Social fitness apps storm cycling 
 world.  \EU1/Arial(0)/m/it/12 Bi-
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 427--442
+Underfull \hbox (badness 4686) in paragraph at lines 404--419
 \EU1/Arial(0)/m/it/12 cycle Retailer and Industry News\EU1/Arial(0)/m/n/12 , \E
 U1/Arial(0)/m/it/12 21\EU1/Arial(0)/m/n/12 , 28-29.  Retrieved 24/09/2016,
  []
 
 
-Underfull \hbox (badness 3333) in paragraph at lines 427--442
+Underfull \hbox (badness 3333) in paragraph at lines 404--419
 \EU1/Arial(0)/m/n/12 from []$[][][][] [][][] [][][][][][] [] [][][][][][][][][]
  [] [][][][] [] [][][][][][][][] [] [][][][][][][] [] [][][] [] [][][] [] [][][
 ][][][][] [] [][][][][][][][][][] [] [][][][] []
@@ -1971,25 +1986,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [26
 
 ]
-Underfull \hbox (badness 3838) in paragraph at lines 508--523
+Underfull \hbox (badness 3838) in paragraph at lines 485--500
 []\EU1/Arial(0)/m/n/12 Hwang, J. C. B.  (2016, 05 19).  \EU1/Arial(0)/m/it/12 S
 hockwiz \EU1/Arial(0)/m/n/12 (Trademark Application No.[]
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 537--557
+Underfull \hbox (badness 2512) in paragraph at lines 514--534
 \EU1/Arial(0)/m/n/12 hanger cables using digital image processing.  \EU1/Arial(
 0)/m/it/12 NDT & E International\EU1/Arial(0)/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 750--764
+Underfull \hbox (badness 2990) in paragraph at lines 727--741
 \EU1/Arial(0)/m/n/12 ica, oceania.  Retrieved 24/09/2015, from []$[][][][] [][]
 [] [][][] [] [][][][][][][][][][][][][][][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 750--764
+Underfull \hbox (badness 10000) in paragraph at lines 727--741
 [][][][][][][][] [] [][][][][] [] [][][][] [] [][] [] [][] [] [][] [] [][][][][
 ][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][] [] [][][][][][][] [] 
 [][][][][][] [] [][][][][][] []
@@ -2307,17 +2322,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
- (./dissertation.aux)
+ (./dissertation.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 276.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 276.
 runsystem(rm dissertation.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 32131 strings out of 493589
- 560330 string characters out of 6145555
- 702113 words of memory out of 5000000
- 34998 multiletter control sequences out of 15000+600000
+ 32132 strings out of 493589
+ 560322 string characters out of 6145555
+ 703230 words of memory out of 5000000
+ 34999 multiletter control sequences out of 15000+600000
  12262 words of font info for 80 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  47i,12n,68p,10385b,638s stack positions out of 5000i,500n,10000p,200000b,80000s
