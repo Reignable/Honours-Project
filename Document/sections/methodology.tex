@@ -50,12 +50,50 @@ if 'long' in long_string:
 \caption{An example of Python code}
 \label{lst:python_example}
 \end{listing}
-	\subsubsection{Variable Naming}
+	\subsubsection{Naming}
 		%Descriptive vs Short
-		%Futureproofing
-	\subsubsection{Classes and Modules}
-		%Keeps things protected
-		%Provides API
+		As well as the readability which comes from Python, further efforts will be made to ensure all classes, methods, and variables will be named as descriptively as possible. This makes the system and its algorithms easily understandable from an outside perspective and if any parts of the code need to be revisited at a later date. This is demonstrated in listing \ref{lst:bad_naming_examples}, although the left code looks cleaner, when reading through it is extremely generic and could be part of any system. In contrast the right code is much more descriptive of its function.
+\begin{figure}[!h]
+	\begin{minipage}{0.5\textwidth}
+		\centering
+		\begin{minted}
+		[frame=lines,
+		breaklines,
+		fontsize=\footnotesize,
+		linenos]
+		{java}
+public List<int[]> getThem() {
+  List<int[]> list1 = new ArrayList<int[]>();
+  for (int[] x : theList)
+    if (x[0] == 4)
+      list1.add(x);
+  return list1;
+}
+		\end{minted}
+	\end{minipage}
+	\begin{minipage}{0.5\textwidth}
+		\centering
+		\begin{minted}[frame=lines,
+		breaklines,
+		fontsize=\footnotesize,
+		linenos]
+		{java}
+public List<int[]> getFlaggedCells() {
+  List<int[]> flaggedCells = new ArrayList<int[]>();
+  for (int[] cell : gameBoard)
+    if (cell[STATUS_VALUE] == FLAGGED)
+      flaggedCells.add(cell);
+  return flaggedCells;
+}
+		\end{minted}
+	\end{minipage}
+	\captionof{listing}{Examples of bad naming (left) and proper naming (right) taken from Clean Code \citep{martin2009clean}}
+	\label{lst:bad_naming_examples}
+\end{figure}
+	\subsubsection{Object Orientation}
+		Object orientation is the use of classes which contain their specific variables and methods to protect functionality from other parts of a system. An object oriented approach will be taken when creating the system to ensure its functions and data is protected should it ever be use as a module elsewhere. The use of private variables and methods with one or two public methods provides an API with which other developers can use the system.
+		\\\\
+		Python does not provide the private and public keywords as found in the Java or C++ languages. It instead identifies methods and variables prefixed by one or two underscores as protected. This means these items will be hidden from view when the system is used though are accessible should the developer require them. The creators of Python chose this method as they enforce responsibility over restriction.
 \subsection{Testing}
 	To verify the functionality and quality of a software application it must be tested. This can be carried out at a variety of levels from testing a single class method to an entire system and by knowing how an application works in white-box testing or being unaware of the functionality in black-box testing.
 	\subsubsection{Unit Testing}

@@ -559,6 +559,29 @@ Liszewski, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Martin%
+}{%
+Martin%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+martin2009clean}
+\APACinsertmetastar {%
+martin2009clean}%
+\begin{APACrefauthors}%
+Martin, R\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2009}.
+\newblock
+\APACrefbtitle {Clean code: a handbook of agile software craftsmanship} {Clean
+  code: a handbook of agile software craftsmanship}.
+\newblock
+\APACaddressPublisher{}{Pearson Education}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Masad%
 , Muhunthan%
 , Shashidhar%
