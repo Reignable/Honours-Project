@@ -23,11 +23,9 @@
 
 ### Evaluation
 #### Validation
- - Manually calcualte settings for different sag values
- - Produce same with application
- - Compare
+ - Testing
 
-#### Reliability
+#### Reliability and Accuracy
  - Take multiple values produced using same images
  - Calculate deviation to decide how good it is
  - Standard deviation
@@ -36,6 +34,9 @@
 
 #### Manual Comparison
  - Do the calculation manually and compare the results
+ - Manually calcualte settings for different sag values
+ - Produce same with application
+ - Compare
 
 #### Professional Opinion
  - Ask what they think

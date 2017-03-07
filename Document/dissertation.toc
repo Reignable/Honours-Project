@@ -54,17 +54,16 @@
 \contentsline {paragraph}{\numberline {3.6.1.3}Sprint Cycles}{21}{paragraph.3.6.1.3}
 \contentsline {subsubsection}{\numberline {3.6.2}Organic Development}{22}{subsubsection.3.6.2}
 \contentsline {subsubsection}{\numberline {3.6.3}Version Control}{22}{subsubsection.3.6.3}
-\contentsline {subsubsection}{\numberline {3.6.4}Milestones}{22}{subsubsection.3.6.4}
+\contentsline {subsubsection}{\numberline {3.6.4}Milestones}{23}{subsubsection.3.6.4}
 \contentsline {subsubsection}{\numberline {3.6.5}Threshold}{23}{subsubsection.3.6.5}
 \contentsline {subsubsection}{\numberline {3.6.6}Gantt Chart}{23}{subsubsection.3.6.6}
 \contentsline {subsection}{\numberline {3.7}Evaluation}{23}{subsection.3.7}
-\contentsline {subsubsection}{\numberline {3.7.1}Validation}{23}{subsubsection.3.7.1}
-\contentsline {subsubsection}{\numberline {3.7.2}Reliability}{23}{subsubsection.3.7.2}
-\contentsline {subsubsection}{\numberline {3.7.3}Manual Comparison}{23}{subsubsection.3.7.3}
-\contentsline {subsubsection}{\numberline {3.7.4}Expert Opinion}{23}{subsubsection.3.7.4}
-\contentsline {section}{\numberline {4}Results}{24}{section.4}
-\contentsline {section}{\numberline {5}Critical Evaluation}{25}{section.5}
-\contentsline {section}{\numberline {6}Conclusion}{26}{section.6}
+\contentsline {subsubsection}{\numberline {3.7.1}Validation}{24}{subsubsection.3.7.1}
+\contentsline {subsubsection}{\numberline {3.7.2}Reliability and Accuracy}{24}{subsubsection.3.7.2}
+\contentsline {subsubsection}{\numberline {3.7.3}Comparison to Alternatives}{24}{subsubsection.3.7.3}
+\contentsline {subsubsection}{\numberline {3.7.4}Expert Opinion}{24}{subsubsection.3.7.4}
+\contentsline {section}{\numberline {4}Results}{25}{section.4}
+\contentsline {section}{\numberline {5}Conclusion}{26}{section.5}
 \contentsline {section}{References}{27}{section*.21}
 \contentsline {section}{Acronyms}{30}{section*.22}
 \contentsline {section}{Glossary}{30}{section*.24}
