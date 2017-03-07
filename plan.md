@@ -17,8 +17,21 @@
 ### Summary
 
 ### Introduction
+ - Bike suspension has lots of settings
+ - Needs to be set up correctly
+ - Most people don't know how to set it up
+ - IA can be implemented in different systems
+
+The suspension on a mountain bike plays a vital part in the rider’s performance, comfort and overall enjoyment of the sport. With some suspension units costing upwards of £1000 it is vital that they are setup to function correctly. Incorrect setup can damage the suspension or cause injury.
+
+The key setting to produce is sag. This is how much the suspension sits into its travel when the rider is on the bike. This is calculated as 20% - 30% of the travel and adjusted by changing the spring of the shock. More air on an air shock, heavier spring on a coil shock.
+
+The purpose of this project was to produce a application which uses image analysis to carry out the required measurements and calculations to produce a sag setting. This would make it easier for beginner and intermediate riders to correctly setup their suspension.
 
 ### Methods
+ - Python
+ - OpenCV
+ -
 
 ### Results
 
