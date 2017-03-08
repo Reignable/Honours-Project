@@ -13,6 +13,9 @@
  - What have I found out?
  - Are the analyses sound?
 
+
+QR Codes?
+
 ## Sections
 ### Summary
 
@@ -30,10 +33,18 @@ The purpose of this project was to produce a application which uses image analys
 
 ### Methods
  - Python
+     - Easy to use
+     - Easy to read
+     - Better for opencv over android
  - OpenCV
- -
+     - Open source
+     - Widely used
+     - Well documented
+ - How to find the measurement
+ - Dynamic plotting of two measurements
 
 ### Results
+ - Eval stuff
 
 ### Conclusion
 
