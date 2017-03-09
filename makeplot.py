@@ -1,0 +1,16 @@
+import Gnuplot
+
+g = Gnuplot.Gnuplot()
+g('set datafile separator ","')
+g('set term pngcairo enhanced font "Arial, 20"')
+g('set grid ytics lt 1 lc "gray"')
+g.xlabel('Pressure (psi)')
+g.ylabel('Measurement (mm)')
+g('set out "scatter.png"')
+#g('unset key')
+g('f(x) = a*x + b')
+g('fit f(x) "data.csv" u 1:2 via a, b')
+g('title_f(a,b) = sprintf(\'f(x) = %.2fx + %.2f\', a, b)')
+g('set xrange [90:200]')
+g('set yrange [16:30]')
+g('plot "data.csv" using 1:2 with points pt 7 lc 7 ps 2, f(x) t title_f(a,b) lt 2 lc 8 lw 3')

@@ -16,6 +16,15 @@
 
 QR Codes?
 
+## Images
+ - raw
+ - edged
+ - masked
+ - edged with boxes
+ - raw with boxes
+ - edged with lines
+ - raw with lines
+
 ## Sections
 ### Summary
 
@@ -32,7 +41,8 @@ The key setting to produce is sag. This is how much the suspension sits into its
 The purpose of this project was to produce a application which uses image analysis to carry out the required measurements and calculations to produce a sag setting. This would make it easier for beginner and intermediate riders to correctly setup their suspension.
 
 ### Methods
- - Python
+ - Python vs Android
+     - Mention experiments
      - Easy to use
      - Easy to read
      - Better for opencv over android
@@ -40,12 +50,27 @@ The purpose of this project was to produce a application which uses image analys
      - Open source
      - Widely used
      - Well documented
- - How to find the measurement
- - Dynamic plotting of two measurements
 
 ### Results
+ - Data needed
+ - Step by step through process
+     - Image for 100 psi, 150 psi
+     - Find ref point (image of mask) for known size
+     - Calculate px per mm
+     - Find o-ring (image of mask, image of bounding boxes)
+     - Find lines
+         - Edge detect
+         - image of lines
+     - Y-min Y-max
+     - Use px per mm metric for measurement
+     - Plots
  - Eval stuff
+    - All results within .2 psi
+    - Pro oppinion
+        -
 
 ### Conclusion
 
 ### Further Work
+ - Make into app
+ - Add suggestions for damping settings
