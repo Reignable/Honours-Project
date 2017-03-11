@@ -20,9 +20,7 @@ QR Codes?
  - raw
  - edged
  - masked
- - edged with boxes
  - raw with boxes
- - edged with lines
  - raw with lines
 
 ## Sections
@@ -66,6 +64,7 @@ The purpose of this project was to produce a application which uses image analys
      - Plots
  - Eval stuff
     - All results within .2 psi
+    - Much easier than manual process
     - Pro oppinion
         -
 
