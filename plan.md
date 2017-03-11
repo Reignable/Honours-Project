@@ -23,7 +23,7 @@
 
 ### Evaluation
 #### Validation
- - Testing
+ - Provided by testing
 
 #### Reliability and Accuracy
  - Take multiple values produced using same images
