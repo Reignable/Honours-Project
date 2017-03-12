@@ -32,11 +32,11 @@ QR Codes?
  - Most people don't know how to set it up
  - IA can be implemented in different systems
 
-The suspension on a mountain bike plays a vital part in the rider’s performance, comfort and overall enjoyment of the sport. With some suspension units costing upwards of £1000 it is vital that they are setup to function correctly. Incorrect setup can damage the suspension or cause injury.
+The suspension on a mountain bike plays a vital part in the rider’s performance, with some suspension units costing upwards of £1000 it is vital that they are setup correctly as incorrect setup can damage the suspension or cause injury.
 
-The key setting to produce is sag. This is how much the suspension sits into its travel when the rider is on the bike. This is calculated as 20% - 30% of the travel and adjusted by changing the spring of the shock. More air on an air shock, heavier spring on a coil shock.
+The vital setting is Sag. This is how much the suspension sits into its travel when the rider is on the bike. It is 20% - 30% of the travel and adjusted by changing the spring of the shock. This requires measuring the shock and adjusting accordingly.
 
-The purpose of this project was to produce a application which uses image analysis to carry out the required measurements and calculations to produce a sag setting. Intended for use in a mobile app, this would make it easier for beginner and intermediate riders to correctly setup their suspension.
+The purpose of this project was to produce a application which uses image analysis to carry out the  measurements and calculations to produce a sag setting. Intended for use in a mobile app, this would make it easier for beginner and intermediate riders to correctly setup their suspension.
 
 ### Methods
  - Python vs Android
@@ -53,7 +53,7 @@ The purpose of this project was to produce a application which uses image analys
  - Data needed
  - Step by step through process
      - Image for 100 psi
-       - The application takes two images of the shock at two different pressures after it has been loaded by the rider's body weight. The user is also required to provide their desired sag as a percentage and the length of the shock stroke, this is easily found in the user manual or online.
+       - The application takes two images of the shock at two different pressures after it has been loaded by the rider's body weight. The user is also required to provide their desired sag as a percentage and the length of the shock stroke, this is easily found in the user manual or online..
      - Find ref point (image of mask) for known size
        - By using a reference object of a known size (the red circle), the application can calculate how many pixels in the image are equal to 1mm real world measurement. This reference point is found by applying a mask to the image for only red items, then a bounding circle can be drawn round the point from which its size can be extracted.
      - Calculate px per mm
