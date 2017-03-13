@@ -172,6 +172,17 @@ public List<int[]> getFlaggedCells() {
 \subsection{Evaluation}
 	To ensure that the application produced is extensively evaluated, multiple methods will be used. Each of the different methods will evaluate a single aspect of the application from varying points of view.
 	\subsubsection{Validation}
+		The is a measure of how well a design or solution is appropriate for its purpose and performs as expected. It involves checking all required functionality is present, each output is correct and as expected, and the solution performs as expected.
+		\\\\
+		In this project, validation will be provided through the implemented unit tests. Ensuring the application has near 100\% coverage and all tests are passing then it can be confirmed that the application is operating as expected.
 	\subsubsection{Reliability and Accuracy}
+		Assessing the reliability and accuracy of the application proves that the results produced are consistent and correct; to assess these an uncertainty metric will be produced. When taking multiple measurements there is typically a "true" value which is the actual measurement that falls within the range of produced measurements. Uncertainty is a prediction of how close any produced measurement will be to this "true" value, expressed as $x \pm U$.
+		\\\\
+		The method for producing uncertainty is as follows:
+		\begin{enumerate}
+			\item Produce a suitable number of repeat measurements $\{x_0 ... x_n\}$
+			\item Calculate the average value of these measurements $\frac{\sum\{x_0...x_n\}}{n}$
+			\item 
+		\end{enumerate}
 	\subsubsection{Comparison to Alternatives}
 	\subsubsection{Expert Opinion}

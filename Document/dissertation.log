@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  7 MAR 2017 12:28
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  13 MAR 2017 11:53
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1994,7 +1994,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--172
 
  []
 
-)
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--178
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2002,6 +2006,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [23]
+Underfull \hbox (badness 10000) in paragraph at lines 179--183
+
+ []
+
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2397,10 +2406,10 @@ runsystem(rm dissertation.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 33197 strings out of 493589
- 580492 string characters out of 6145555
- 717067 words of memory out of 5000000
- 36049 multiletter control sequences out of 15000+600000
+ 33201 strings out of 493589
+ 580559 string characters out of 6145555
+ 717069 words of memory out of 5000000
+ 36053 multiletter control sequences out of 15000+600000
  12262 words of font info for 80 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  47i,14n,77p,10385b,751s stack positions out of 5000i,500n,10000p,200000b,80000s
