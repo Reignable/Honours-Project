@@ -39,34 +39,28 @@ The vital setting is Sag. This is how much the suspension sits into its travel w
 The purpose of this project was to produce a application which uses image analysis to carry out the  measurements and calculations to produce a sag setting. Intended for use in a mobile app, this would make it easier for beginner and intermediate riders to correctly setup their suspension.
 
 ### Methods
- - Python vs Android
-     - Mention experiments
-     - Easy to use
-     - Easy to read
-     - Better for opencv over android
+ - Python
+   - The application was written in Python as it is a good language for witing scripts and small applications as it reads more like a book than code. The chosen imaging library is also simple to access and use in Python.
  - OpenCV
-     - Open source
-     - Widely used
-     - Well documented
+   - OpenCV is an open source imaging library for C, C++, Java, and Python. It provides access to image processing and analysis techniques such as edge detection, contour finding, and more. OpenCV was chosen as it is free to use, well tested, and well documented.
 
 ### Results
  - Data needed
  - Step by step through process
-     - Image for 100 psi
-       - The application takes two images of the shock at two different pressures after it has been loaded by the rider's body weight. The user is also required to provide their desired sag as a percentage and the length of the shock stroke, this is easily found in the user manual or online..
      - Find ref point (image of mask) for known size
-       - By using a reference object of a known size (the red circle), the application can calculate how many pixels in the image are equal to 1mm real world measurement. This reference point is found by applying a mask to the image for only red items, then a bounding circle can be drawn round the point from which its size can be extracted.
      - Calculate px per mm
      - Find o-ring (image of mask, image of bounding boxes)
-       - Finding contours in the image also picks up the o-ring which is where the application is required to measure to. This o-ring is found on all shocks for the purpose of adjustment.
      - Find lines
-         - Edge detect
-         - image of lines
      - Y-min Y-max
      - Use px per mm metric for measurement
-       - To carry out the measurement edge detection must be carried out on the image to enhance the lines. Then using Hough Line Transformation, vertical lines are picked up between the top of the shock stanchion and the o-ring. Using the minimum and maximum Y points of these lines, the measurement in pixels is found. Finally this pixel measurement is converted into milimeters using the pre-defined pixels per mm metric.
      - Plots
-       - Once the measurements are found for both images, the application then virtually plots the points to produce a linear trendline between the two. The equation of this line allows the application to produce a pressure setting for any desired sag measurement.
+
+Using two images of the shock set at known pressures first a reference point of known size is found. This produces a pixels per millimetre metric for use when measuring in the image. The reference is found by masking red objects from the image and drawing a bounding circle round the reference.
+
+Edge detection is then carried out on the original image to find vertical lines between the top of the stanchion and the marking o-ring. The distance between the top and bottom points in these lines is the measurement in pixels. This measurement can be converted to mm using the px per mm metric.
+
+This process is carried out on both images and then the values are virtually plotted. A line can be drawn through these two points and using the function of this line and desired sag amount, a suitable pressure for the rider can be produced.
+
  - Eval stuff
     - All results within .2 psi
     - Much easier than manual process
