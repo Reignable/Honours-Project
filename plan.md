@@ -68,7 +68,7 @@ This process is carried out on both images and then the values are virtually plo
         -
 
 ### Conclusion
+The application produced by this project is capable of calculating a sag setting from two images and two numbers. This makes it much simpler for riders to ensure their suspension is correctly setup before riding. This is unlike other products as it is standalone and can work with any air shock.
 
 ### Further Work
- - Make into app
- - Add suggestions for damping settings
+Further work for this project includes implementation into a mobile application by either including the current work via a wrapper or using the produced algorithms and rewriting them in the native language. This would move the project closer to being a marketable product. Inclusion of other suggested settings would also be useful; as well as sag there are up to 5 different settings for suspension. These could be suggested from an online database or another algorithm.
