@@ -176,13 +176,18 @@ public List<int[]> getFlaggedCells() {
 		\\\\
 		In this project, validation will be provided through the implemented unit tests. Ensuring the application has near 100\% coverage and all tests are passing then it can be confirmed that the application is operating as expected.
 	\subsubsection{Reliability and Accuracy}
-		Assessing the reliability and accuracy of the application proves that the results produced are consistent and correct; to assess these an uncertainty metric will be produced. When taking multiple measurements there is typically a "true" value which is the actual measurement that falls within the range of produced measurements. Uncertainty is a prediction of how close any produced measurement will be to this "true" value, expressed as $x \pm U$.
-		\\\\
-		The method for producing uncertainty is as follows:
+		Assessing the reliability and accuracy of the application proves that the results produced are consistent and correct; to assess these an uncertainty metric will be produced. When taking multiple measurements there is typically a "true" value which is the actual measurement that falls within the range of produced measurements. Uncertainty is a prediction of how close any produced measurement will be to this "true" value, expressed as $\overline{x} \pm U$. The method for producing uncertainty is as follows:
 		\begin{enumerate}
 			\item Produce a suitable number of repeat measurements $\{x_0 ... x_n\}$
-			\item Calculate the average value of these measurements $\frac{\sum\{x_0...x_n\}}{n}$
-			\item 
+			\item Calculate the average value of these measurements $\overline{x}=\frac{\sum\{x_0...x_n\}}{n}$
+			\item Find the differences between the measurements and the average $\{d_0...d_n\} = \{(x_0-\overline{x})...(x_n-\overline{x})\}$
+			\item Calculate the average of these differences squared $\overline{d_s} = \frac{\sum\{{d_0}^2...{d_n}^2\}}{n}$
+			\item Produce the uncertainty or standard deviation of these results which is the square root of the average differences $U= \sqrt{\overline{d_s}}$
 		\end{enumerate}
+		This process will be carried out a number of times altering different variances possible depending on what the application is capable of once produced. These variances will be outlined once the evaluation has been completed.
 	\subsubsection{Comparison to Alternatives}
-	\subsubsection{Expert Opinion}
+		By comparing the process of using the application with other methods of producing a sag setting it can be evaluated on how simple the application is to use and whether it is more effective than other methods. For this comparison a trial and error process will be used which would be a common practice for a beginner or intermediate rider setting their suspension for the first time. This process involves manually calculating the desired sag measurement, pressurising the shock to the manufacturers recommended pressure, loading the suspension with the rider's weight, and measuring. If the manufacturers setting is incorrect, pressure is then increased or removed by set increments. Comparison to this process will indicate that the application presents a benefit over the manual method.
+	\subsubsection{Professional Opinion}
+		The final method of evaluation will be to seek the opinion of the application from professionals within the mountain bike and cycling industry. This will provide a further indication of how well the application achieves its goal, how the application would be accepted were it to be released as a product, and may present areas for future work which may not have been seen without outside consultation.
+		\\\\
+		To carry out professional consultation the Mountain Bike Research Centre of Scotland\footnote{http://www.napier.ac.uk/about-us/our-schools/school-of-applied-sciences/research/mountain-bike-centre-of-scotland} will be contacted, once the application can be demonstrated, to arrange a meeting with an individual who they deem suitable. General evaluative questions will be posed though the meeting will take a semi-formal approach. Additional to this the application will be demonstrated to staff at a local bike shop to also gain their opinion, this will take the same approach as the meeting.

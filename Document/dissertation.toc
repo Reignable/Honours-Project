@@ -61,21 +61,21 @@
 \contentsline {subsubsection}{\numberline {3.7.1}Validation}{24}{subsubsection.3.7.1}
 \contentsline {subsubsection}{\numberline {3.7.2}Reliability and Accuracy}{24}{subsubsection.3.7.2}
 \contentsline {subsubsection}{\numberline {3.7.3}Comparison to Alternatives}{24}{subsubsection.3.7.3}
-\contentsline {subsubsection}{\numberline {3.7.4}Expert Opinion}{24}{subsubsection.3.7.4}
-\contentsline {section}{\numberline {4}Results}{25}{section.4}
-\contentsline {section}{\numberline {5}Conclusion}{26}{section.5}
-\contentsline {section}{References}{27}{section*.21}
-\contentsline {section}{Acronyms}{30}{section*.22}
-\contentsline {section}{Glossary}{30}{section*.24}
-\contentsline {section}{\numberline {A}Android Experiments}{31}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Table of Android Experiments}{31}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Hello CV}{32}{subsection.A.2}
-\contentsline {subsection}{\numberline {A.3}15tile}{33}{subsection.A.3}
-\contentsline {subsection}{\numberline {A.4}BLOB Analysis}{41}{subsection.A.4}
-\contentsline {subsection}{\numberline {A.5}Face Detection}{46}{subsection.A.5}
-\contentsline {section}{\numberline {B}Python Experiments}{52}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}Table of Python Experiments}{52}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}find\_game.py}{53}{subsection.B.2}
-\contentsline {subsection}{\numberline {B.3}thresholding.py}{53}{subsection.B.3}
-\contentsline {subsection}{\numberline {B.4}img\_ops.py}{53}{subsection.B.4}
-\contentsline {subsection}{\numberline {B.5}distance\_to\_camera.py}{54}{subsection.B.5}
+\contentsline {subsubsection}{\numberline {3.7.4}Professional Opinion}{25}{subsubsection.3.7.4}
+\contentsline {section}{\numberline {4}Results}{26}{section.4}
+\contentsline {section}{\numberline {5}Conclusion}{27}{section.5}
+\contentsline {section}{References}{28}{section*.21}
+\contentsline {section}{Acronyms}{31}{section*.22}
+\contentsline {section}{Glossary}{31}{section*.24}
+\contentsline {section}{\numberline {A}Android Experiments}{32}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Table of Android Experiments}{32}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Hello CV}{33}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}15tile}{34}{subsection.A.3}
+\contentsline {subsection}{\numberline {A.4}BLOB Analysis}{42}{subsection.A.4}
+\contentsline {subsection}{\numberline {A.5}Face Detection}{47}{subsection.A.5}
+\contentsline {section}{\numberline {B}Python Experiments}{53}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Table of Python Experiments}{53}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}find\_game.py}{54}{subsection.B.2}
+\contentsline {subsection}{\numberline {B.3}thresholding.py}{54}{subsection.B.3}
+\contentsline {subsection}{\numberline {B.4}img\_ops.py}{54}{subsection.B.4}
+\contentsline {subsection}{\numberline {B.5}distance\_to\_camera.py}{55}{subsection.B.5}
