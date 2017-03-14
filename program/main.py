@@ -51,6 +51,10 @@ def main():
         print 'This program requires an image'
         parser.print_help()
         sys.exit(1)
+    if args.colour is None:
+        print 'Please specify a colour for the o-ring'
+        parser.print_help()
+        sys.exit(1)
 
     image_processor = ImageProcessor(args.colour, args.debug)
     pressure_calculator = PressureCalculator(args.sag, args.stroke, args.debug)
