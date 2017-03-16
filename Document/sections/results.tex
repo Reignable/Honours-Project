@@ -1,10 +1,66 @@
+% Intro section
 \subsection{Deviation from Plan}
 	\subsubsection{Development Approach}
+		% Organic dev approach
+		% Didn't know what processes the app would use
 	\subsubsection{Measurement Process}
 		\paragraph{Use of EXIF Data and Reference Point}
+			% Began trying to use exif data but some stuff couldn't be found
+			% Changed to finding ref point which works great
 		\paragraph{Dynamic Measurement Limits}
+			% Initially using middle third of image
+			% Finding the o-ring creates dynamic point
+			% Uses finding contours in both methods
+			\begin{figure}[h!]
+				\centering
+				\begin{minipage}{0.4\textwidth}
+					\centering
+					\includegraphics[scale=0.1,
+					trim={20cm 30cm 15cm 110cm},
+					clip]{../images/results/contours.jpg}				
+				\end{minipage}
+				\begin{minipage}{0.4\textwidth}
+					\centering
+					\includegraphics[scale=0.1,
+					trim={20cm 30cm 15cm 110cm},
+					clip]{../images/results/raw_refs.jpg}				
+				\end{minipage}\hfill
+				\caption{O-ring found using findContours (left) with boundingBox applied (right)}
+				\label{fig:find_oring}
+			\end{figure}
 		\paragraph{Reference Point Location Method}
+			% Hough circles was unreliable
+				% Reproduce images
+			% Find contours always produces the same result, takes longer
+			\begin{figure}[h!]
+				\centering
+				\includegraphics[scale=0.1,
+				trim={30cm 140cm 25cm 0},
+				clip]{../images/results/HoughCircles.jpg}
+				\caption{Reference point found using HoughCircles}
+				\label{fig:hough_circle}
+			\end{figure}
+			\begin{figure}[h!]
+				\centering
+				\begin{minipage}{0.4\textwidth}
+					\centering
+					\includegraphics[scale=0.1,
+					trim={30cm 140cm 25cm 0},
+					clip]{../images/results/contours.jpg}				
+				\end{minipage}
+				\begin{minipage}{0.4\textwidth}
+					\centering
+					\includegraphics[scale=0.1,
+					trim={30cm 140cm 25cm 0},
+					clip]{../images/results/raw_refs.jpg}				
+				\end{minipage}\hfill
+				\caption{Reference point found using findContours (left) with boundingCircle applied (right)}
+				\label{fig:find_ref}
+			\end{figure}
 		\paragraph{Pressure Calculation}
+			% Inital idea was psi per mm, doesn't work because of non linerarity
+			% Ran experiments to see if it is linear
+			% Added dynamic function into app
 \subsection{System}
 \subsection{Critical Evaluation}
 	\subsubsection{Validation}
