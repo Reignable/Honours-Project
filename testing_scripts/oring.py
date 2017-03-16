@@ -13,7 +13,7 @@ def show_image(image, wait_time):
     except cv2.error as e:
         print e.message
 
-images = ['../images/150_ref_fox.jpg']
+images = ['../images/100_rs.jpg']
 for i in images:
     image = cv2.imread(i)
     orig = image.copy()
@@ -28,31 +28,16 @@ for i in images:
     quant = quant.reshape((h, w, 3))
     image = image.reshape((h, w, 3))
     quant = cv2.cvtColor(quant, cv2.COLOR_LAB2BGR)
-    cv2.imwrite('quant.jpg', quant)
+    show_image(quant, 0)
     # Circle finding
-    upper_bound = np.array([350, 70, 60])
-    lower_bound = np.array([10])
+    upper_bound = np.array([100, 100, 255])
+    lower_bound = np.array([0, 0, 130])
     mask = cv2.inRange(quant, lower_bound, upper_bound)
     marker = cv2.bitwise_and(quant, quant, mask=mask)
     marker = cv2.cvtColor(marker, cv2.COLOR_BGR2GRAY)
-    cv2.imwrite('marker.jpg', marker)
     # Find contours
     cnts, _ = cv2.findContours(marker.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     cnts = sorted(cnts, key = cv2.contourArea, reverse = True)[:2]
-    cv2.drawContours(orig, cnts, -1, (0,255,0), 4)
-    '''
-    (x,y),radius = cv2.minEnclosingCircle(cnts[0])
-    center = (int(x),int(y))
-    radius = int(radius)
-    cv2.circle(orig,center,radius,(0,255,0),2)
-
-
-    x,y,w,h = cv2.boundingRect(cnts[1])
-    cv2.rectangle(orig,(x,y),(x+w,y+h),(0,255,0),2)
-    # cv2.drawContours(orig, cnts, -1, (0,255,0), 4)
-    '''
-    cv2.imwrite('output.jpg', orig)
-    # Select lowest one
-    #Get highest point of lowest contour
-
-    #Measure to that point
+    print cnts
+    cv2.drawContours(orig, cnts, -1, (0,255,0), 5)
+    cv2.imwrite('contours.jpg', orig)
