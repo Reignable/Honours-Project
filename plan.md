@@ -45,10 +45,21 @@
 ## Results
  ### Deviation from Plan
   - Organic dev approach
+  - Didn't know what processes the app would use
   - Discussion of hough circles vs contours
+      - Hough circles was unreliable
+      - Find contours always produces the same result, takes longer
   - Oring finding method
+      - Initially using middle third of image
+      - Finding the o-ring creates dynamic point
+      - Uses finding contours in both methods
   - Plotting vs psi per mm
+      - Inital idea was psi per mm, doesn't work because of non linerarity
+      - Ran experiments to see if it is linear
+      - Added dynamic function into app
   - EXIF vs ref point
+      - Began trying to use exif data but some stuff couldn't be found
+      - Changed to finding ref point which works great
  ### System
   #### Description of System
    - Side by side images and schematic explaining method
@@ -77,3 +88,6 @@
   - Add rebound and compression (database)
   - Coil
  ### Self Appraisal
+  - Strengths
+  - Weaknesses
+  - Talk about improving commit messages
