@@ -1,0 +1,185 @@
+\appendix
+\thispagestyle{empty}
+\newgeometry{margin=1cm}
+\begin{landscape}
+	\section{Android Experiments}\label{app:android_experiments}
+		\subsection{Table of Android Experiments}
+		\begin{table}[h!]
+			\centering
+			\label{tab:android_experiments}
+			\begin{tabular}{|l|p{0.4\textwidth}|l|p{0.4\textwidth}|r|r|}
+				\hline
+				\bfseries Experiment&\bfseries Purpose&\bfseries Functiona?l&\bfseries Issues&\bfseries Files&\bfseries LOC\\
+				\hline
+				Hello CV&
+				\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
+					\item{Introduction to the android OpenCV library}
+					\item{Displays camera feed with fps}
+				\end{itemize}&
+				Yes&
+				\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
+					\item{Not fullscreen}
+					\item{Incorrect orientation}
+				\end{itemize}&
+				2&
+				101\\
+				\hline
+				15Tile&
+				\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
+					\item{Sliding tile game}
+					\item{Uses camera feed as puzzle}
+				\end{itemize}&
+				Yes&
+				\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
+					\item{Not fullscreen}
+				\end{itemize}&
+				3&
+				492\\
+				\hline
+				Blob Detection&
+				\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
+					\item{Demonstrates blob detection}
+					\item{Runs blob detection on tapped area from camera}
+				\end{itemize}&
+				No&
+				\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
+					\item{Crash on screen tap}
+				\end{itemize}&
+				3&
+				311\\
+				\hline
+				Face Detection&
+				\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
+					\item{Detects faces in camera view}
+					\item{Puts boundary around detected faces}
+				\end{itemize}&
+				No&
+				\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
+					\item{Crash on load}
+				\end{itemize}&
+				3&
+				279\\
+				\hline
+			\end{tabular}
+		\end{table}
+	\end{landscape}
+\restoregeometry
+\subsection{Hello CV}
+	\inputminted[breaklines,
+					linenos,
+					frame=lines,
+					fontsize=\footnotesize]{java}{../code/android/hello_cv/MainActivity.java}
+	\subsection{15tile}
+	\inputminted[breaklines,
+					linenos,
+					frame=lines,
+					fontsize=\footnotesize]{java}{../code/android/15tile/MainActivity.java}
+	\inputminted[breaklines,
+					linenos,
+					frame=lines,
+					fontsize=\footnotesize]{java}{../code/android/15tile/PuzzleProcessor.java}
+	\subsection{BLOB Analysis}
+	\inputminted[breaklines,
+					linenos,
+					frame=lines,
+					fontsize=\footnotesize]{java}{../code/android/blob_analysis/ColorBlobDetectionActivity.java}
+	\inputminted[breaklines,
+					linenos,
+					frame=lines,
+					fontsize=\footnotesize]{java}{../code/android/blob_analysis/ColorBlobDetector.java}
+	\subsection{Face Detection}
+	\inputminted[breaklines,
+					linenos,
+					frame=lines,
+					fontsize=\footnotesize]{java}{../code/android/face_recognition/DetectionBasedTracker.java}
+	\inputminted[breaklines,
+					linenos,
+					frame=lines,
+					fontsize=\footnotesize]{java}{../code/android/face_recognition/FrActivity.java}
+	\clearpage
+		\thispagestyle{empty}
+		\newgeometry{margin=1cm}
+		\begin{landscape}
+			\section{Python Experiments}\label{app:python_experiments}
+			\subsection{Table of Python Experiments}
+			\begin{table}[h!]
+				\centering
+				\label{tab:python_experiments}
+				\begin{tabular}{|l|p{0.4\textwidth}|l|p{0.4\textwidth}|r|r|}
+					\hline
+					\bfseries Experiment&\bfseries Purpose&\bfseries Functiona?l&\bfseries Issues&\bfseries Files&\bfseries LOC\\
+					\hline
+					Find Game&
+					\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
+						\item{Identify red game cartridge out of 3}
+						\item{Displays boundary around correct part of image}
+					\end{itemize}&
+					Yes&
+					N/A&
+					1&
+					18\\
+					\hline
+					Threshold Methods&
+					\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
+						\item{Demonstrates various thresholding methods on an image}
+						\item{Original image text unreadable but clear after techniques are applied}
+					\end{itemize}&
+					Yes&
+					N/A&
+					1&
+					14\\
+					\hline
+					Image Operations&
+					\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
+						\item{Moves parts of an image to other locations using arrays}
+						\item{Demonstrates how pixel data is stored}
+					\end{itemize}&
+					Yes&
+					N/A&
+					1&
+					15\\
+					\hline
+					Distance to Camera&
+					\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
+						\item{Calculates distance to the camera from an identified object}
+						\item{Displays various distances using 3 images}
+					\end{itemize}&
+					Yes&
+					N/A&
+					1&
+					38\\
+					\hline
+				\end{tabular}
+			\end{table}
+		\end{landscape}
+		\restoregeometry
+		\subsection{find\_game.py}
+		\inputminted[breaklines,
+						linenos,
+						frame=lines,
+						fontsize=\footnotesize]{python}{../code/python/find_game.py}
+		\subsection{thresholding.py}
+		\inputminted[breaklines,
+						linenos,
+						frame=lines,
+						fontsize=\footnotesize]{python}{../code/python/thresholding.py}
+		\subsection{img\_ops.py}
+		\inputminted[breaklines,
+						linenos,
+						frame=lines,
+						fontsize=\footnotesize]{python}{../code/python/img_ops.py}
+		\subsection{distance\_to\_camera.py}
+		\inputminted[breaklines,
+						linenos,
+						frame=lines,
+						fontsize=\footnotesize]{python}{../code/python/distance_to_camera.py}
+\clearpage
+\section{Development Log}\label{app:dev_log}
+
+\section{EXIF Extraction Code}\label{app:exif_code}
+	\inputminted[breaklines,
+				linenos,
+				frame=lines,
+				fontsize=\footnotesize,
+				firstline=36,
+				lastline=63]{python}{../code/program/v2.py}

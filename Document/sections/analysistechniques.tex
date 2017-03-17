@@ -27,7 +27,7 @@
 		\caption{Edge detection applied to an image for number plate recognition}
 		\label{fig:anpr}
 	\end{figure} 
-	\paragraph{Hough Transform}
+	\paragraph{Hough Transform}\todo{complete section}
 	Originally created in 1962 by Paul Hough, the Hough transform methods offer techniques for the discovery of features within images which includes features with imperfections. The original algorithms were created for the detection of lines but have since been improved and adapted to find circles, ellipses, and other basic shapes.
 	\\\\
 	Edge detection is suitable to highlight points in an image clearly though issues with the base image such as incorrect lighting or being out of focus and issues with the edge detector creating gaps in lines. These artefacts can make rudimentary feature detection techniques difficult. The Hough techniques circumvent these issues by considering points as a part of an object through a voting procedure.
@@ -47,7 +47,7 @@
 		\item $B_{a}$ is the area of the BLOB
 	\end{where}	
 	\end{comment}
-	\paragraph{Taking Measurements}
+	\paragraph{Taking Measurements}\label{sec:taking_measurements}
 	To measure an object in an image, certain data about the camera and camera's location are 
 	required. By using digital imagery the majority of this information is provided as each image 
 	contains metadata or EXchangeable Image Format (EXIF) data which includes information such as 
