@@ -31,8 +31,8 @@ residual_std_error = np.sqrt(np.sum(pred_error**2) / degrees_of_freedom)
 
 # Plotting
 pylab.title('y={s}x+{i}'.format(s=slope, i=intercept))
-pylab.xlabel('movement(mm)')
-pylab.ylabel('pressure(psi)')
+pylab.xlabel('Movement (mm)')
+pylab.ylabel('Pressure (psi)')
 pylab.plot(x, y, 'o')
 pylab.plot(x, predict_y, 'k-')
-pylab.show()
+pylab.savefig('rs.png')
