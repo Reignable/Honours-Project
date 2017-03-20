@@ -19,7 +19,22 @@ This chapter will cover how the project was created and evaluated. It will begin
 			\\\\
 			The reference point chosen is a red circular sticker as these are cheap and easy to find in stores or online and a circle was selected over a square or other shape as the orientation of the object does not need to be taken into account. This sticker is applied to the shock so it can be picked up from the image by its colour; locating the reference point was simple though the measuring process produced issues which will be discussed in a following section.
 		\paragraph{Colour Quantification}
-			\todo{write section}
+			% Initially used manual ref points of uniform colour
+			% Moved onto real ref point
+			% Colors off, making it not work
+			% Simulated uniform color through quantification
+			For initial experimentation with using a reference point, the red circle was added to images manually using an image processing application. This allowed for tuning of the colour masking process and to develop the process before using a real reference point on the shock.
+			\\\\
+			When images with a real reference point were used, the application could not find it. Because the colour range for the masking process was using perfect red (RGB 255,0,0) the non-uniform reds of the sticker in the image were not within this range. These boundaries were expanded to suit the range in the image though this was not enough.
+			\\\\
+			To solve this issue a further image processing technique was implemented known as colour quantification which reduces an image to 2, 4, 8, 16, or 32 bit colour spaces. By reducing the range of colours in an image detail is lost and objects become more apparent. The difference between an original image and quantified colours is shown in figure \ref{fig:quantified_colours}. Quantifying the colours to 8 bit makes the reference point a flat tone of red while maintaining its shape allowing for the masking process to function correctly.
+			\begin{figure}[h!]
+				\centering
+				\includegraphics[scale=0.1,trim={0 140cm 0 0}, clip]{../images/results/100_rs.jpg}
+				\includegraphics[scale=0.1,trim={0 140cm 0 0},clip]{../images/results/quant.jpg}
+				\caption{Normal image (top) versus quantified colours (bottom)}
+				\label{fig:quantified_colours}
+			\end{figure}
 		\paragraph{Dynamic Measurement Limits}
 			% Initially using middle third of image
 			% Finding the o-ring creates dynamic point

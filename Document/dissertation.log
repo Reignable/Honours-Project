@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  17 MAR 2017 16:07
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  20 MAR 2017 12:40
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2059,20 +2059,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--21
 
  []
 
-File: ../images/results/contours.jpg Graphic file (type QTm)
-<use  "../images/results/contours.jpg" >
-File: ../images/results/raw_refs.jpg Graphic file (type QTm)
-
-<use  "../images/results/raw_refs.jpg" >
-File: ../images/results/fox_oring.jpg Graphic file (type QTm)
-
-<use  "../images/results/fox_oring.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 27--55
+File: ../images/results/100_rs.jpg Graphic file (type QTm)
+<use  "../images/results/100_rs.jpg" >
+File: ../images/results/quant.jpg Graphic file (type QTm)
+ <use  "../images/results/quant.jpg" >
+Underfull \hbox (badness 10000) in paragraph at lines 26--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--55
+Underfull \hbox (badness 10000) in paragraph at lines 26--38
 
  []
 
@@ -2085,15 +2081,38 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [26
 
 ]
+File: ../images/results/contours.jpg Graphic file (type QTm)
+ <use  "../images/results/contours.jpg" >
+File: ../images/results/raw_refs.jpg Graphic file (type QTm)
+
+<use  "../images/results/raw_refs.jpg" >
+File: ../images/results/fox_oring.jpg Graphic file (type QTm)
+
+<use  "../images/results/fox_oring.jpg" >
+Underfull \hbox (badness 10000) in paragraph at lines 42--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--70
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ../images/results/HoughCircles.jpg Graphic file (type QTm)
- <use  "../images/results/HoughCircles.jpg" >
+<use  "../images/results/HoughCircles.jpg" >
 File: ../images/results/contours.jpg Graphic file (type QTm)
 
 <use  "../images/results/contours.jpg" >
 File: ../images/results/raw_refs.jpg Graphic file (type QTm)
 
 <use  "../images/results/raw_refs.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 59--89
+Underfull \hbox (badness 10000) in paragraph at lines 74--104
 
  []
 
@@ -2104,23 +2123,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [27]
-File: ../images/results/fox_scatter.eps Graphic file (type eps)
- <../images/results/fox_scatter.eps>
-File: ../images/results/rs_scatter.eps Graphic file (type eps)
- <../images/results/rs_scatter.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 105--126
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--126
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--126
-
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2129,14 +2133,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [28]
-Overfull \hbox (6.34363pt too wide) in paragraph at lines 134--156
- [][] 
+File: ../images/results/fox_scatter.eps Graphic file (type eps)
+ <../images/results/fox_scatter.eps>
+File: ../images/results/rs_scatter.eps Graphic file (type eps)
+ <../images/results/rs_scatter.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 120--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--141
+
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2144,6 +2161,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [29]
+Overfull \hbox (6.34363pt too wide) in paragraph at lines 149--171
+ [][] 
+ []
+
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2546,10 +2568,10 @@ runsystem(rm dissertation.pyg)...executed.
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 33337 strings out of 493589
- 583509 string characters out of 6145555
- 720881 words of memory out of 5000000
- 36156 multiletter control sequences out of 15000+600000
+ 33340 strings out of 493589
+ 583582 string characters out of 6145555
+ 720900 words of memory out of 5000000
+ 36157 multiletter control sequences out of 15000+600000
  12262 words of font info for 80 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  47i,14n,77p,10385b,751s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -6,8 +6,9 @@
 \contentsline {figure}{\numberline {7}{\ignorespaces Uses of image analysis}}{10}{figure.caption.14}
 \contentsline {figure}{\numberline {8}{\ignorespaces Edge detection applied to an image for number plate recognition\relax }}{11}{figure.caption.16}
 \contentsline {figure}{\numberline {9}{\ignorespaces Contact Instrument Calibration Targets on Mars Rover Curiosity \citep {curiosity_image_calibration}\relax }}{13}{figure.caption.19}
-\contentsline {figure}{\numberline {10}{\ignorespaces Red O-ring found using {\ttfamily findContours} (left) with {\ttfamily boundingBox} applied (right)\relax }}{27}{figure.caption.21}
-\contentsline {figure}{\numberline {11}{\ignorespaces Black o-ring found\relax }}{27}{figure.caption.22}
-\contentsline {figure}{\numberline {12}{\ignorespaces Reference point found using HoughCircles\relax }}{28}{figure.caption.23}
-\contentsline {figure}{\numberline {13}{\ignorespaces Reference point found using findContours (left) with boundingCircle applied (right)\relax }}{28}{figure.caption.24}
-\contentsline {figure}{\numberline {14}{\ignorespaces Sag measurements for standard air shock (left) and high volume air shock (right)\relax }}{29}{figure.caption.25}
+\contentsline {figure}{\numberline {10}{\ignorespaces Normal image (top) versus quantified colours (bottom)\relax }}{27}{figure.caption.21}
+\contentsline {figure}{\numberline {11}{\ignorespaces Red O-ring found using {\ttfamily findContours} (left) with {\ttfamily boundingBox} applied (right)\relax }}{28}{figure.caption.22}
+\contentsline {figure}{\numberline {12}{\ignorespaces Black o-ring found\relax }}{28}{figure.caption.23}
+\contentsline {figure}{\numberline {13}{\ignorespaces Reference point found using HoughCircles\relax }}{28}{figure.caption.24}
+\contentsline {figure}{\numberline {14}{\ignorespaces Reference point found using findContours (left) with boundingCircle applied (right)\relax }}{29}{figure.caption.25}
+\contentsline {figure}{\numberline {15}{\ignorespaces Sag measurements for standard air shock (left) and high volume air shock (right)\relax }}{30}{figure.caption.26}

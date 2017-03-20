@@ -67,24 +67,24 @@
 \contentsline {subsubsection}{\numberline {4.1.1}Development Approach}{26}{subsubsection.4.1.1}
 \contentsline {subsubsection}{\numberline {4.1.2}Measurement Process}{26}{subsubsection.4.1.2}
 \contentsline {paragraph}{\numberline {4.1.2.1}Use of EXIF Data and Reference Point}{26}{paragraph.4.1.2.1}
-\contentsline {paragraph}{\numberline {4.1.2.2}Colour Quantification}{26}{todo.18}
+\contentsline {paragraph}{\numberline {4.1.2.2}Colour Quantification}{26}{paragraph.4.1.2.2}
 \contentsline {paragraph}{\numberline {4.1.2.3}Dynamic Measurement Limits}{27}{paragraph.4.1.2.3}
-\contentsline {paragraph}{\numberline {4.1.2.4}Reference Point Measurement Method}{27}{paragraph.4.1.2.4}
-\contentsline {paragraph}{\numberline {4.1.2.5}Pressure Calculation}{28}{paragraph.4.1.2.5}
-\contentsline {subsection}{\numberline {4.2}System}{29}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Critical Evaluation}{29}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Validation}{29}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Reliability and Accuracy}{29}{subsubsection.4.3.2}
-\contentsline {subsubsection}{\numberline {4.3.3}Comparison to Alternatives}{29}{subsubsection.4.3.3}
-\contentsline {subsubsection}{\numberline {4.3.4}Professional Opinion}{29}{subsubsection.4.3.4}
+\contentsline {paragraph}{\numberline {4.1.2.4}Reference Point Measurement Method}{28}{paragraph.4.1.2.4}
+\contentsline {paragraph}{\numberline {4.1.2.5}Pressure Calculation}{29}{paragraph.4.1.2.5}
+\contentsline {subsection}{\numberline {4.2}System}{30}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Critical Evaluation}{30}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Validation}{30}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Reliability and Accuracy}{30}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}Comparison to Alternatives}{30}{subsubsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.4}Professional Opinion}{30}{subsubsection.4.3.4}
 \contentsline {section}{\numberline {5}Conclusions}{31}{section.5}
 \contentsline {subsection}{\numberline {5.1}Meeting Aims}{31}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Comparison to other Products}{31}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Future Work}{31}{subsection.5.3}
 \contentsline {subsection}{\numberline {5.4}Self Appraisal}{31}{subsection.5.4}
-\contentsline {section}{References}{32}{section*.27}
-\contentsline {section}{Acronyms}{35}{section*.28}
-\contentsline {section}{Glossary}{35}{section*.30}
+\contentsline {section}{References}{32}{section*.28}
+\contentsline {section}{Acronyms}{35}{section*.29}
+\contentsline {section}{Glossary}{35}{section*.31}
 \contentsline {section}{\numberline {A}Android Experiments}{36}{appendix.A}
 \contentsline {subsection}{\numberline {A.1}Table of Android Experiments}{36}{subsection.A.1}
 \contentsline {subsection}{\numberline {A.2}Hello CV}{37}{subsection.A.2}
