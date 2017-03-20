@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  20 MAR 2017 12:40
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  20 MAR 2017 16:06
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1175,12 +1175,17 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen272
 )
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count320
+\c@subtable=\count321
+)
 .................................................
 . fontspec info: "no-scripts"
 . 
 . Font Arial does not contain any OpenType `Script' information.
 .................................................
-\g__fontspec_family_Arial_int=\count320
+\g__fontspec_family_Arial_int=\count322
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1202,15 +1207,16 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 \openout7 = `dissertation.glo'.
 
 Package glossaries Info: Writing glossary file dissertation.glo on input line 4
-2.
+3.
 \glo@acronym@file=\write8
 \openout8 = `dissertation.acn'.
 
 Package glossaries Info: Writing glossary file dissertation.acn on input line 4
-2.
- (./glossary.tex)
-\c@chapterListi=\count321
-\enitdp@chapterList=\count322
+3.
+
+(./glossary.tex)
+\c@chapterListi=\count323
+\enitdp@chapterList=\count324
 runsystem(which pygmentize && touch dissertation.aex)...executed.
 
 runsystem(rm dissertation.aex)...executed.
@@ -1222,38 +1228,38 @@ LaTeX Warning: Label `equ:measureobj' multiply defined.
 )
 \openout1 = `dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 49.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 50.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 50.
  (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 49.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 49.
-\c@maskedRefs=\count323
+LaTeX Font Info:    ... okay on input line 50.
+\c@maskedRefs=\count325
 
 (/usr/share/texlive/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
@@ -1277,58 +1283,58 @@ Package caption Info: End \AtBeginDocument code.
 .................................................
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 49.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 49.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 49.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 49.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 49.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 49.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 49.
-LaTeX Font Info:    Redeclaring math accent \check on input line 49.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 49.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 49.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 49.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 49.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 49.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 49.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 49.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 49.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 49.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 49.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 49.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 49.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 49.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 49.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 49.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 49.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 50.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 50.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 50.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 50.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 50.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 50.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 50.
+LaTeX Font Info:    Redeclaring math accent \check on input line 50.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 50.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 50.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 50.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 50.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 49.
+(Font)              `operators' in the math version `normal' on input line 50.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU1/Arial(0)/m/n on input line 49.
+(Font)                  OT1/cmr/m/n --> EU1/Arial(0)/m/n on input line 50.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 49.
+(Font)              `operators' in the math version `bold' on input line 50.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU1/Arial(0)/m/n on input line 49.
+(Font)                  OT1/cmr/bx/n --> EU1/Arial(0)/m/n on input line 50.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  EU1/Arial(0)/m/n --> EU1/Arial(0)/m/n on input line 49.
+(Font)                  EU1/Arial(0)/m/n --> EU1/Arial(0)/m/n on input line 50.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU1/Arial(0)/m/it on input line 49.
+(Font)                  OT1/cmr/m/it --> EU1/Arial(0)/m/it on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU1/Arial(0)/bx/n on input line 49.
+(Font)                  OT1/cmr/bx/n --> EU1/Arial(0)/bx/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 49.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 49.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 50.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  EU1/Arial(0)/m/n --> EU1/Arial(0)/bx/n on input line 49
+(Font)                  EU1/Arial(0)/m/n --> EU1/Arial(0)/bx/n on input line 50
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> EU1/Arial(0)/bx/it on input line 49.
+(Font)                  OT1/cmr/bx/it --> EU1/Arial(0)/bx/it on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 49.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 49.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 50.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1366,7 +1372,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 (./dissertation.glsdefs)
 \AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring OFF on input line 49.
+Package hyperref Info: Link coloring OFF on input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1374,11 +1380,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count324
+\c@section@level=\count326
 )
-LaTeX Info: Redefining \ref on input line 49.
-LaTeX Info: Redefining \pageref on input line 49.
-LaTeX Info: Redefining \nameref on input line 49.
+LaTeX Info: Redefining \ref on input line 50.
+LaTeX Info: Redefining \pageref on input line 50.
+LaTeX Info: Redefining \nameref on input line 50.
 
 (./dissertation.out) (./dissertation.out)
 \@outlinefile=\write9
@@ -1770,7 +1776,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [13])
-Underfull \hbox (badness 10000) in paragraph at lines 2--86
+Underfull \hbox (badness 10000) in paragraph at lines 2--87
 
  []
 
@@ -2032,7 +2038,7 @@ of-applied-sciences/research/mountain-bike-
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 192--91
+Underfull \hbox (badness 10000) in paragraph at lines 192--92
 
  []
 
@@ -2055,7 +2061,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--13
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--21
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
@@ -2063,12 +2069,12 @@ File: ../images/results/100_rs.jpg Graphic file (type QTm)
 <use  "../images/results/100_rs.jpg" >
 File: ../images/results/quant.jpg Graphic file (type QTm)
  <use  "../images/results/quant.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 26--38
+Underfull \hbox (badness 10000) in paragraph at lines 18--30
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--38
+Underfull \hbox (badness 10000) in paragraph at lines 18--30
 
  []
 
@@ -2089,32 +2095,17 @@ File: ../images/results/raw_refs.jpg Graphic file (type QTm)
 File: ../images/results/fox_oring.jpg Graphic file (type QTm)
 
 <use  "../images/results/fox_oring.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 42--70
+Underfull \hbox (badness 10000) in paragraph at lines 31--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--70
+Underfull \hbox (badness 10000) in paragraph at lines 31--59
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: ../images/results/HoughCircles.jpg Graphic file (type QTm)
-<use  "../images/results/HoughCircles.jpg" >
-File: ../images/results/contours.jpg Graphic file (type QTm)
-
-<use  "../images/results/contours.jpg" >
-File: ../images/results/raw_refs.jpg Graphic file (type QTm)
-
-<use  "../images/results/raw_refs.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 74--104
-
- []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2123,8 +2114,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [27]
+File: ../images/results/HoughCircles.jpg Graphic file (type QTm)
+ <use  "../images/results/HoughCircles.jpg" >
+File: ../images/results/contours.jpg Graphic file (type QTm)
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+<use  "../images/results/contours.jpg" >
+File: ../images/results/raw_refs.jpg Graphic file (type QTm)
+
+<use  "../images/results/raw_refs.jpg" >
+Underfull \hbox (badness 10000) in paragraph at lines 60--90
+
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2137,17 +2137,22 @@ File: ../images/results/fox_scatter.eps Graphic file (type eps)
  <../images/results/fox_scatter.eps>
 File: ../images/results/rs_scatter.eps Graphic file (type eps)
  <../images/results/rs_scatter.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 120--141
+Underfull \hbox (badness 10000) in paragraph at lines 103--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--141
+Underfull \hbox (badness 10000) in paragraph at lines 103--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--141
+Underfull \hbox (badness 10000) in paragraph at lines 103--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--124
 
  []
 
@@ -2161,25 +2166,72 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [29]
-Overfull \hbox (6.34363pt too wide) in paragraph at lines 149--171
+Overfull \hbox (105.71645pt too wide) in paragraph at lines 132--143
  [][] 
  []
 
-)
+
+LaTeX Warning: Reference `subfig:boundaries' on page 30 undefined on input line
+ 144.
+
+File: ../images/results/quant.jpg Graphic file (type QTm)
+<use  "../images/results/quant.jpg" >
+Overfull \hbox (14.18146pt too wide) in paragraph at lines 149--150
+ [][] 
+ []
+
+File: ../images/results/mask.jpg Graphic file (type QTm)
+<use  "../images/results/mask.jpg" >
+Overfull \hbox (14.18146pt too wide) in paragraph at lines 155--156
+ [][] 
+ []
+
+File: ../images/results/contours.jpg Graphic file (type QTm)
+<use  "../images/results/contours.jpg" >
+Overfull \hbox (14.18146pt too wide) in paragraph at lines 161--162
+ [][] 
+ []
+
+File: ../images/results/raw_refs.jpg Graphic file (type QTm)
+<use  "../images/results/raw_refs.jpg" >
+Overfull \hbox (14.18146pt too wide) in paragraph at lines 167--168
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--186
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (6.34363pt too wide) in paragraph at lines 193--215
+ [][] 
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30] (./sections/conclusion.tex)
+[30])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31
+[31] (./sections/conclusion.tex)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32
 
 ] (./dissertation.bbl
 Underfull \hbox (badness 6808) in paragraph at lines 404--419
@@ -2206,7 +2258,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[32
+[33
 
 ]
 Underfull \hbox (badness 3838) in paragraph at lines 485--500
@@ -2239,21 +2291,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33])
+[34])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34] (./dissertation.acr) (./dissertation.gls)
+[35] (./dissertation.acr) (./dissertation.gls)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35
+[36
 
 ] (./sections/appendicies.tex
 *geometry* verbose mode - [ newgeometry ] result:
@@ -2293,7 +2345,7 @@ Underfull \hbox (badness 5832) in paragraph at lines 54--55
 []\EU1/Arial(0)/m/n/12 Puts boundary around detected
  []
 
-[36
+[37
 
 
 
@@ -2306,19 +2358,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37
+[38
 
 
 ])
 (./_minted-dissertation/DD04DA96FFCF55F9863FD158E1BAF073368C4AD8049957325453838
 5B8C71C09.pygtex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[38]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2339,16 +2384,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41])
-(./_minted-dissertation/13DE9B81E81E15FFBF678A06BE61359908344C88C4F7CC283BA0800
-F66980B02.pygtex
+[41]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42]
+[42])
+(./_minted-dissertation/13DE9B81E81E15FFBF678A06BE61359908344C88C4F7CC283BA0800
+F66980B02.pygtex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2369,16 +2414,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45])
-(./_minted-dissertation/CA57C5BF2CBA1D9C38661E8F9AF77805B2B47353E3A416E250F28DE
-59FE0D22E.pygtex
+[45]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46]
+[46])
+(./_minted-dissertation/CA57C5BF2CBA1D9C38661E8F9AF77805B2B47353E3A416E250F28DE
+59FE0D22E.pygtex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2392,7 +2437,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48])
+[48]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[49])
 (./_minted-dissertation/D8F6CF80D98D9F706DDD03C27481C00795EAE26E55BA2D88B29D342
 FFC02A907.pygtex
 
@@ -2401,14 +2453,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49]
+[50]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50])
+[51])
 (./_minted-dissertation/71F15543D2215E37D80B8C8415BBD96CE11933E567D428DCB2EF708
 772951318.pygtex
 
@@ -2417,7 +2469,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51])
+[52])
 (./_minted-dissertation/2EDCA3D35D0A6ED8338CF44E7F63D4F8A1BD10E29F733D4C60F5A8B
 95EE658F2.pygtex
 
@@ -2426,7 +2478,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[52]
+[53]
 Overfull \hbox (18.0021pt too wide) in paragraph at lines 68--68
 \EU1/lmtt/m/n/10 getResources[]().[][]openRawResource[][]([]R[].[][]raw[][].[][
 ]lbpcascade_frontalface[][]);[]|  
@@ -2438,7 +2490,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53]
+[54]
 Overfull \hbox (49.5021pt too wide) in paragraph at lines 133--133
 \EU1/lmtt/m/n/10 OpenCVLoader[].[][]initAsync[][]([]OpenCVLoader[].[][]OPENCV_V
 ERSION_3_1_0[][],[][]\EU1/lmtt/b/n/10 this[][]\EU1/lmtt/m/n/10 ,[]mLoaderCallba
@@ -2451,21 +2503,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[54]
+[55]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[55])
+[56])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[56]
+[57]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -2503,7 +2555,7 @@ Underfull \hbox (badness 2744) in paragraph at lines 135--136
 []\EU1/Arial(0)/m/n/12 Demonstrates how pixel data is
  []
 
-[57
+[58
 
 
 
@@ -2520,7 +2572,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[58
+[59
 
 
 ])
@@ -2532,20 +2584,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[59]
+[60]
 (./_minted-dissertation/8D6E6C53658902DFEA9B89BD507D391FC4FEAD054C1EDC68584A339
 C098D439E.pygtex))
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[60
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2555,10 +2596,24 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [61
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[62
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
  (./dissertation.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 105.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 105.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 106.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 106.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2568,12 +2623,12 @@ runsystem(rm dissertation.pyg)...executed.
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 33340 strings out of 493589
- 583582 string characters out of 6145555
- 720900 words of memory out of 5000000
- 36157 multiletter control sequences out of 15000+600000
+ 33406 strings out of 493589
+ 584701 string characters out of 6145555
+ 722287 words of memory out of 5000000
+ 36220 multiletter control sequences out of 15000+600000
  12262 words of font info for 80 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  47i,14n,77p,10385b,751s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (70 pages).
+Output written on dissertation.pdf (71 pages).
