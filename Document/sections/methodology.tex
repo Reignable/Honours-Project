@@ -1,6 +1,6 @@
 \subsection{Introduction}
 	\todo{change to suit}
-	This chapter will give an outline of the methodologies used to complete the work identified in the previous chapters as well as the reasons for using these methods and alternatives which could have been used. The effectiveness of these methods can determine the success of the project so the chosen methods were required to reliable and manageable. A technical approach was identified for the most appropriate way to produce a solution to the problem identified and a project management approach was decided on so that the project could remain on track and meet the required deadline.
+	This chapter will give an outline of the methodologies used to complete the work identified in the previous chapters as well as the reasons for using these methods and alternatives which could have been used. The effectiveness of these methods can determine the success of the project so the chosen methods were required to be reliable and manageable. A technical approach was identified for the most appropriate way to produce a solution to the problem identified and a project management approach was decided on so that the project could remain on track and meet the required deadline.
 \subsection{Literature Review}
 	% Purpose
 	The purpose of the literature review presented in section \ref{sec:lit_review} of this dissertation is to outline, investigate, and clarify the subject areas in which this project is involved. This aids the reader and author in understanding these subject areas as an explanation as to how the project presents a viable solution to the problem area. To carry out the review a methodology had to be chosen.
@@ -11,13 +11,13 @@
 	% Choice
 	For this project a loose combination of the two has been used. A systematic approach was applied to examine image analysis uses and techniques to answer how they could be used in the context of mountain bike suspension. A traditional method has been applied to examine the uses of image analysis in sports science to determine if the techniques would transfer to mountain bike suspension and give an idea of how effective it could be. 
 	\subsubsection{Source Selection}
-		For both methods sources were required to be found which requires a methodical approach to ensure they are suitable. Multiple services are available for viewing academic papers online; for this project the Edinburgh Napier University library and Google Scholar were utilised as between them they have an expansive library to select from and allow for the use of advanced search operators.
+		For both methods, sources were required to be found which warrants a methodical approach to ensure they are suitable. Multiple services are available for viewing academic papers online; for this project the Edinburgh Napier University library and Google Scholar were utilised as between them they have an expansive library to select from and allow for the use of advanced search operators.
 		\\\\
 		Due to the emerging and more corporate subject of applying technology to mountain bike suspension, there were no academic sources to use; because of this multiple mountain bike websites and blogs have been cited. In a context where the research is more established this would be frowned upon as this type of source tends to be opinionated and unproven though due to the age of this subject this was unavoidable. To counteract this, multiple sources have been cited on the same subject as cross reinforcement.
 		\\\\
-		To determine if any source is suitable, a methodical and critical approach must be taken when reading the paper or article. Initially a decision can be made before reading by using the publication date to ensure the subject and research is up to date, steps to use research which is the most up to date as possible were taken during this project. Following this, the number of times a paper has been cited elsewhere is provided in online libraries. From this metric it can be determined that if a paper has been cited a higher number of times then it is more suitable and legitimate; this must view should be taken with reservations. Finally when reading a paper the abstract should be read first followed by conclusions and if it is still considered good research, the body can be read. This reduces the amount of reading required as the abstract and conclusions provide a good indication of a suitable paper.
+		To determine if any source is suitable, a methodical and critical approach must be taken when reading the paper or article. Initially a decision can be made before reading by using the publication date to ensure the subject and research is up to date, steps to use research which is the most up to date as possible were taken during this project. Following this, the number of times a paper has been cited elsewhere is provided in online libraries. From this metric it can be determined that if a paper has been cited a higher number of times then it is more suitable and legitimate; this view should be taken with reservations. Finally when reading a paper the abstract should be read first followed by conclusions and if it is still considered good research, the body can be read. This reduces the amount of reading required as the abstract and conclusions provide a good indication of a suitable paper.
 \subsection{Platform}
-	As a proof of concept, the final product of this software project could take a variety of forms. Inline with current products on the market an application for Android could be produced which would demonstrate the capabilities of image analysis on a mobile device. Alternatively, the image analysis algorithm can be produced in the Python programming language as a script creating a simpler prototype but clarifying the solution to the problem.
+	As a proof of concept, the final product of this software project could take a variety of forms. In line with current products on the market an application for Android could be produced which would demonstrate the capabilities of image analysis on a mobile device. Alternatively, the image analysis algorithm can be produced in the Python programming language as a script creating a simpler prototype but clarifying the solution to the problem.
 	\subsubsection{OpenCV}
 		OpenCV is an open-source computer vision library created for a variety of platforms. Originally released by Intel in 1999\todo{cite} the library was intended as a research project to aid in CPU intensive visual applications. In 2012 the library was taken over by OpenCV.org\todo{cite}, a non-profit organisation who maintain support and the documentation. Though the library is written in C and C++, modules are available for Python, Fortran, and the Android platform.
 		\\\\
@@ -25,7 +25,7 @@
 	\subsubsection{Experimentation}
 		To further understand what may be required to produce both the Android and Python based approaches and aid in deciding which method to use some basic experiments were carried out to compare the two. For the Android experiments some example applications which are bundled with the OpenCV library were hand copied and run on a mobile device. This allowed their output and functionality to be seen as well as experience in using OpenCV on Android. For the Python based approach, tutorials from the site \url{www.pyimagesearch.com} created by Adrian Rosebrock and \url{www.pythonprogramming.net} creators name unknown were followed and run on a desktop computer.
 		\\\\
-		Appendix \ref{app:android_experiments} shows the experiments which were carried out on the android platform. It should be noted that, while all applications do not show compilation errors and were adjusted to work with the updated version of Android which the device was using, only two of the four experiments work successfully. Although a stack trace of the errors produced they are not descriptive about the cause of the error. This is due to how OpenCV works on the Android system.
+		Appendix \ref{app:android_experiments} shows the experiments which were carried out on the android platform. It should be noted that, while all applications do not show compilation errors and were adjusted to work with the updated version of Android which the device was using, only two of the four experiments work successfully. Although stack traces of the errors were produced they are not descriptive about the cause of the error. This is due to how OpenCV works on the Android system.
 		\\\\
 		Alongside the Android \gls{sdk}, Google provide a \gls{ndk} to allow modules which were not written in Java to be run on Android devices. The \gls{ndk} understands various programming languages and applied a Java wrapper around them which is capable of extracting their functionality; this must be applied when using OpenCV on Android as it is written in C++. An artefact of using the \gls{ndk} is that it cannot convert the stack trace produced by errors in the C++ module and after research into this issue it was found that this is difficult to rectify.
 		\\\\
@@ -92,7 +92,7 @@ public List<int[]> getFlaggedCells() {
 	\label{lst:bad_naming_examples}
 \end{figure}
 	\subsubsection{Object Orientation}
-		Object orientation is the use of classes which contain their specific variables and methods to protect functionality from other parts of a system. An object oriented approach will be taken when creating the system to ensure its functions and data is protected should it ever be use as a module elsewhere. The use of private variables and methods with one or two public methods provides an API with which other developers can use the system.
+		Object orientation is the use of classes which contain their specific variables and methods to protect functionality from other parts of a system. An object oriented approach will be taken when creating the system to ensure its functions and data are protected should it ever be used as a module elsewhere. The use of private variables and methods with one or two public methods provides an API with which other developers can use the system.
 		\\\\
 		Python does not provide the private and public keywords as found in the Java or C++ languages. It instead identifies methods and variables prefixed by one or two underscores as protected. This means these items will be hidden from view when the system is used though are accessible should the developer require them. The creators of Python chose this method as they enforce responsibility over restriction.
 \subsection{Testing}
@@ -134,12 +134,14 @@ public List<int[]> getFlaggedCells() {
 			\\\\
 			This project will use sprints in the same manner as an agile development team as this will allow easier completion of requirements and management of the development process. Using sprints will ensure the time allotted for development is used effectively which will lead to a higher quality product at the end of the project.
 			\\\\
-			As mentioned previously, MoSCoW prioritised requirements will be selected at the start of each sprint cycle to set objectives the work which will be carried out. Each cycle will aim to complete all of the must have requirements and the majority of should and could haves. At the end of each cycle a retrospective will be carried out which will re-prioritise the uncompleted requirements based on how successful the sprint cycle was. This means requirements may be promoted or demoted respectively.
+			\todo{revise in light of dev methods}
+			As mentioned previously, MoSCoW prioritised requirements will be selected at the start of each sprint cycle to set objectives the for work which will be carried out. Each cycle will aim to complete all of the must have requirements and the majority of should and could haves. At the end of each cycle a retrospective will be carried out which will re-prioritise the uncompleted requirements based on how successful the sprint cycle was. This means requirements may be promoted or demoted respectively.
 	\subsubsection{Organic Development}
 		% Describe
 			An alternative method to agile development could be to take a more organic approach to the development process. This method would take the step by step ethic of agile and reduce the effort applied for analysis, documentation, and structuring of the working schedule.
 			\\\\
 			% Identify basic steps, start developing, adapt as needed
+			\todo{Weird}
 			To initiate the development process without analysis of requirements would be to begin producing the basic steps or functionality which the system will go through from an vision of the end product. Once started, development would take a natural direction identified by what is needed for the system or to solve any issues encountered.
 			\\\\
 			% Dev diaries
@@ -151,7 +153,7 @@ public List<int[]> getFlaggedCells() {
 			% Allows easier problem solving
 			% Could cause project to run out of time but is more dynamic
 		
-	%%%%%%%%%%%%%%%%%%%%%%%%% SEGWAY %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\todo{segway}
 	\subsubsection{Version Control}
 		Large software projects produce multiple files of code and documentation which are vital and must be kept safe. Were the files to be lost then the project would be delayed or drawn to a close as the time and resources may not be available to recreate the lost data. To combat this any data relating to the project must be backed up, preferably on a cloud based system, to avoid loss and allow the project to continue should anything happen to the local copy of the data.
 		\\\\
