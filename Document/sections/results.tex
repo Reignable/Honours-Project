@@ -122,67 +122,115 @@ This chapter will cover how the project was created and evaluated. It will begin
 		\\\\
 		The plan with this knowledge was to implement an ideal gas equation but through investigation into producing charts using python, a method of calculating a linear equation computationally was discovered. This led to the application's process being rearranged so that it takes in two images, one of the shock loaded at 100psi and another at 150psi. From this data it can produce a virtual plot and linear equation with which the suggested setting can be calculated.
 \subsection{Application}
-	The application operates from a command line interface allowing the user to pass in data through arguments; these are described in table \ref{tab:arguments}. This system uses Python's Argparse package and a full command to run the application would be as follows:
-	\\\\
-	{\centering \ttfamily program -i user/images/100.jpg user/images/150.jpg -s 30 -t 57 -c red}
-	\begin{table}[h!]
-		\centering
-		\caption{Table of application arguments}
-		\label{tab:arguments}
-		\begin{tabular}{|l|p{0.4\columnwidth}|l|}
-		\hline
-		\bfseries Argument&\bfseries Description&\bfseries Usage\\
-		\hline
-		{\ttfamily [-i,--image]<path1 path2>}&The paths to the two images to be used for analysis&{\ttfamily -i path/to/img/1 path/to/img/2}\\
-		{\ttfamily [-s,--sag]<percentage>}&The desired sag percentage&{\ttfamily -s 30}\\
-		{\ttfamily -t,--stroke}&The stroke length of the shock being analysed&{\ttfamily -t 57}\\
-		{\ttfamily -c,--colour}&The colour of the marker o-ring&{\ttfamily -c red}\\
-		{\ttfamily -d,--debug}&This produces outputs from each stage to the terminal for debugging purposes&\\
-		\hline
-		\end{tabular}
-	\end{table}\\
-	Once run, the application processes each image in turn using the following method: \ref{subfig:boundaries}
-	\begin{figure}[h!]
-		\centering
-		\begin{subfigure}[t]{0.2\textwidth}
+	\subsubsection{Arguments}
+		The application operates from a command line interface allowing the user to pass in data through arguments; these are described in Table \ref{tab:arguments}. This system uses Python's Argparse package and a full command to run the application would be as follows:
+		{\centering \ttfamily program -i user/images/100.jpg user/images/150.jpg -s 30 -t 57 -c red}
+		\begin{table}[h!]
 			\centering
-			\includegraphics[scale=0.04]{../images/results/quant.jpg}
-			\subcaption{Colour quantified image}
-			\label{subfig:quantified}
-		\end{subfigure}\hfill
-		\begin{subfigure}[t]{0.2\textwidth}
+			\caption{Table of application arguments}
+			\label{tab:arguments}
+			\begin{tabular}{|l|p{0.35\columnwidth}|p{0.25\columnwidth}|}
+			\hline
+			\bfseries Argument&\bfseries Description&\bfseries Usage\\
+			\hline
+			{\ttfamily [-i,--image]<path1 path2>}&The paths to the two images to be used for analysis&{\ttfamily -i path/to/img/1 path/to/img/2}\\
+			{\ttfamily [-s,--sag]<percentage>}&The desired sag percentage&{\ttfamily -s 30}\\
+			{\ttfamily -t,--stroke}&The stroke length of the shock being analysed&{\ttfamily -t 57}\\
+			{\ttfamily -c,--colour}&The colour of the marker o-ring&{\ttfamily -c red}\\
+			{\ttfamily -d,--debug}&This produces outputs from each stage to the terminal for debugging purposes&\\
+			\hline
+			\end{tabular}
+		\end{table}
+	\subsubsection{Process}
+		\paragraph{Reference Point}
+			The first process which the application must complete is to find the reference point for measurement. This is done by first colour quantifying the image to 8 bit colour so that the reference point becomes uniform in colour. The result of this process is shown in Figure \ref{subfig:quantified}. So the application can find the red colour of the reference point within the entire image, a mask is applied for any colour within a range. The output of this process is shown in Figure \ref{subfig:mask}. If an alternative colour reference point were to be used, this colour range could be easily adapted.
+			\\\\
+			The contours, or shapes, in this image are then found and sorted by their area in decreasing order. By doing this it can be assumed with a high level of confidence that the largest will be the reference point. The found contour can be seen in Figure \ref{subfig:contours}. A bounding circle is created around the reference point contour, shown in Figure \ref{subfig:boundaries}, from which the diameter can be produced which allows the pixels per millimetre metric.
+		\begin{figure}[h!]
 			\centering
-			\includegraphics[scale=0.04]{../images/results/mask.jpg}
-			\subcaption{Image mask}
-			\label{subfig:mask}
-		\end{subfigure}\hfill
-		\begin{subfigure}[t]{0.2\textwidth}
+			\begin{subfigure}[t]{0.2\textwidth}
+				\centering
+				\includegraphics[scale=0.04]{../images/results/quant.jpg}
+		 		\subcaption{Colour quantified image}
+				\label{subfig:quantified}
+			\end{subfigure}\hfill
+			\begin{subfigure}[t]{0.2\textwidth}
+				\centering
+				\includegraphics[scale=0.04]{../images/results/mask.jpg}
+				\subcaption{Image mask}
+				\label{subfig:mask}
+			\end{subfigure}\hfill
+			\begin{subfigure}[t]{0.2\textwidth}
+				\centering
+				\includegraphics[scale=0.04]{../images/results/contours.jpg}
+				\subcaption{Found contours from mask}
+				\label{subfig:contours}
+			\end{subfigure}\hfill
+			\begin{subfigure}[t]{0.2\textwidth}
+				\centering
+				\includegraphics[scale=0.04]{../images/results/raw_refs.jpg}
+				\subcaption{Bounding circle and box from contours}
+				\label{subfig:boundaries}
+			\end{subfigure}
+			\caption{Processed images for finding reference point}
+			\label{fig:ref_point_process}
+		\end{figure}
+		\paragraph{O-Ring}
+			If a red coloured o-ring is specified then the same process to find the reference point is used. The second largest contour found will be the o-ring so a bounding box can be drawn round it from which a measurement limit can be collected. The red o-ring mask, contour, and bounding box can be seen in Figure \ref{fig:ref_point_process}.
+			\\\\
+			If a black o-ring is specified, an alternative process is used. Thresholding is applied to the image which highlights any shadows or highlights on the shock shaft. As these are intersected by the o-ring it is simple to select a contour which ends at the o-ring to produce a measurement limit from. This process is shown in Figure \ref{fig:fox_oring}.
+		\begin{figure}[h!]
 			\centering
-			\includegraphics[scale=0.04]{../images/results/contours.jpg}
-			\subcaption{Found contours from mask}
-			\label{subfig:contours}
-		\end{subfigure}\hfill
-		\begin{subfigure}[t]{0.2\textwidth}
+			\begin{subfigure}[t]{0.4\textwidth}
+				\centering
+				\includegraphics[scale=0.04]{../images/results/threshold.jpg}
+				\subcaption{Image thresholding}
+				\label{subfig:threshold}
+			\end{subfigure}
+			\begin{subfigure}[t]{0.4\textwidth}
+				\centering
+				\includegraphics[scale=0.04]{../images/results/fox_oring.jpg}	
+				\subcaption{O-ring indicator}
+				\label{subfig:fox_oring}
+			\end{subfigure}
+			\caption{Locating process for black o-ring}
+			\label{fig:fox_oring}
+		\end{figure}
+		% Edge detect
+		% Lines
+		% px to mm
+		% Calc linear equation
+		% Calc ideal sag measurement
+		% Calc pressure
+		\paragraph{Measurement}
+			With the pixels per millimetre metric produced and the measurement limit found, the sag under the current pressure is measured. First, edge detection is carried out on the original input image to highlight the lines of the shock, this output is shown in Figure \ref{subfig:edge_detect}. Hough line transformation is then applied to locate vertical lines between the top of the shock shaft and the measurement limit. The difference in pixels between the highest and lowest points of these lines is the current sag measurement. This can be converted to millimetres using the px/mm metric.
+		\begin{figure}[h!]
 			\centering
-			\includegraphics[scale=0.04]{../images/results/raw_refs.jpg}
-			\subcaption{Bounding circle and box from contours}
-			\label{subfig:boundaries}
-		\end{subfigure}
-		\caption{Processed images for finding reference point}
-	\end{figure}
-	% Quantified
-	% Masked
-	% Contours
-	% Bounding Circle
-	% Mask or Threshold
-	% Contours
-	% Bounding box
-	% Edge detect
-	% Lines
-	% px to mm
-	% Calc linear equation
-	% Calc ideal sag measurement
-	% Calc pressure
+			\begin{subfigure}[t]{0.4\textwidth}
+				\centering
+				\includegraphics[scale=0.04]{../images/results/edged.jpg}
+				\caption{Edge detected image}
+				\label{subfig:edge_detect}
+			\end{subfigure}
+			\begin{subfigure}[t]{0.4\textwidth}
+				\centering
+				\includegraphics[scale=0.085,
+								trim={40cm 35cm 10cm 50cm},
+								clip]{../images/results/raw_lines.jpg}
+				\caption{Vertical lines in measurement area}
+				\label{subfig:lines}
+			\end{subfigure}
+		\end{figure}
+		\paragraph{Equation}
+			Once the measurements for the shock pressurised to 100psi and 150psi are produced, they can then be utilised to create a linear equation. This is carried out using Python's Scipy package and its linregress method which accepts two arrays of data and returns the slope and intercept of the linear equation. The equation is visually described in Figure \ref{fig:equation_plot}; it should be noted that this plot is only produced virtually and never output to the user.
+			\begin{figure}[h!]
+				\centering
+				\includegraphics[scale=0.4]{../images/results/scatter_key.png}
+				\caption{Example of linear equation plot}
+				\label{fig:equation_plot}
+			\end{figure}
+		\paragraph{Produce Setting}
+\clearpage
 \subsection{Critical Evaluation}
 	\subsubsection{Validation}
 	\subsubsection{Reliability and Accuracy}
