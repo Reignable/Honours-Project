@@ -10,6 +10,7 @@ original = image.copy()
 (height, width) = image.shape[:2]
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 (T, thresh) = cv2.threshold(gray, 30, 150, cv2.THRESH_BINARY)
+cv2.imwrite('threshold.jpg',thresh)
 contours, _ = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 contours = sorted(contours, key=cv2.contourArea, reverse=True)[:5]
 for contour in contours:
