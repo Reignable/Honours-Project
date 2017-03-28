@@ -1,0 +1,132 @@
+<span style="color: red">&lt;testrun&gt;
+    <span style="color: red">&lt;count&gt;&lt;/count&gt;</span>
+    <span style="color: red">&lt;count&gt;&lt;/count&gt;</span>
+    <span style="color: red">&lt;config&gt;
+        <code class="option"></code>
+        <code class="option"></code>
+        <span style="color: red">&lt;envs&gt;&lt;/envs&gt;</span>
+        <code class="option"></code>
+        <code class="option"></code>
+        <code class="option"></code>
+        <code class="option"></code>
+        <code class="option"></code>
+        <span style="color: red">&lt;module&gt;&lt;/module&gt;</span>
+        <span style="color: red">&lt;EXTENSION&gt;&lt;/EXTENSION&gt;</span>
+        <code class="option"></code>
+        <code class="option"></code>
+        <code class="option"></code>
+    &lt;/config&gt;</span>
+    <span style="color: red">&lt;suite&gt;
+        <span style="color: red">&lt;suite&gt;
+            <span style="color: red">&lt;test&gt;
+                <span style="color: red">&lt;output&gt; 
+ 
+ 
+ 
+&lt;/output&gt;</span>
+            &lt;/test&gt;</span>
+            <span style="color: red">&lt;test&gt;
+                <span style="color: red">&lt;output&gt; 
+ImageProcessor		filepath		100_rs.jpg
+ImageProcessor		_get_oring_height	3594
+ImageProcessor		_get_measurement_px	1734
+ImageProcessor		_get_ref_point_width	564.374450684
+ImageProcessor		_convert_px_mm		59.4078369141
+ImageProcessor		get_measurement		29.1880682764
+ 
+&lt;/output&gt;</span>
+            &lt;/test&gt;</span>
+            <span style="color: red">&lt;test&gt;
+                <span style="color: red">&lt;output&gt; 
+ImageProcessor		filepath		100_rs.jpg
+ImageProcessor		_get_oring_height	3587
+ImageProcessor		_get_measurement_px	1734
+ImageProcessor		_get_ref_point_width	564.384277344
+ImageProcessor		_convert_px_mm		59.4088712993
+ImageProcessor		get_measurement		29.1875600744
+ 
+&lt;/output&gt;</span>
+            &lt;/test&gt;</span>
+            <span style="color: red">&lt;test&gt;
+                <span style="color: red">&lt;output&gt; 
+ImageProcessor		_get_oring_height	3588
+ImageProcessor		_get_measurement_px	1734
+ 
+&lt;/output&gt;</span>
+            &lt;/test&gt;</span>
+            <span style="color: red">&lt;test&gt;
+                <span style="color: red">&lt;output&gt; 
+ImageProcessor		_get_oring_height	3587
+ImageProcessor		_get_measurement_px	1734
+ 
+&lt;/output&gt;</span>
+            &lt;/test&gt;</span>
+            <span style="color: red">&lt;test&gt;
+                <span style="color: red">&lt;output&gt; 
+ImageProcessor		_get_ref_point_width	571.866882324
+ 
+&lt;/output&gt;</span>
+            &lt;/test&gt;</span>
+            <span style="color: red">&lt;test&gt;
+                <span style="color: red">&lt;output&gt; 
+ImageProcessor		_get_ref_point_width	564.384277344
+ 
+&lt;/output&gt;</span>
+            &lt;/test&gt;</span>
+            <span style="color: red">&lt;test&gt;
+                <span style="color: red">&lt;output&gt; 
+ImageProcessor		_get_ref_point_width	570.435058594
+ 
+&lt;/output&gt;</span>
+            &lt;/test&gt;</span>
+            <span style="color: red">&lt;test&gt;
+                <span style="color: red">&lt;output&gt; 
+ 
+&lt;/output&gt;</span>
+            &lt;/test&gt;</span>
+            <span style="color: red">&lt;test&gt;
+                <span style="color: red">&lt;output&gt; 
+/build/opencv-vU8_lj/opencv-2.4.9.1+dfsg/modules/highgui/src/window.cpp:269: error: (-215) size.width&amp;gt;0 &amp;amp;&amp;amp; size.height&amp;gt;0 in function imshow
+ 
+&lt;/output&gt;</span>
+            &lt;/test&gt;</span>
+            <span style="color: red">&lt;test&gt;
+                <span style="color: red">&lt;output&gt;OpenCV Error: Assertion failed (size.width&amp;gt;0 &amp;amp;&amp;amp; size.height&amp;gt;0) in imshow, file /build/opencv-vU8_lj/opencv-2.4.9.1+dfsg/modules/highgui/src/window.cpp, line 269
+&lt;/output&gt;</span>
+                <span style="color: red">&lt;output&gt; 
+ 
+&lt;/output&gt;</span>
+            &lt;/test&gt;</span>
+        &lt;/suite&gt;</span>
+    &lt;/suite&gt;</span>
+    <span style="color: red">&lt;suite&gt;
+        <span style="color: red">&lt;suite&gt;
+            <span style="color: red">&lt;test&gt;
+                <span style="color: red">&lt;output&gt; 
+ 
+ 
+ 
+ 
+PressureCalculator	_calculate_equation	-6.25x + 281.25
+PressureCalculator	_get_ideal_sag_mm	17.1
+PressureCalculator	_get_ideal_pressure	174.375
+ 
+&lt;/output&gt;</span>
+            &lt;/test&gt;</span>
+            <span style="color: red">&lt;test&gt;
+                <span style="color: red">&lt;output&gt; 
+PressureCalculator	_calculate_equation	-6.25x + 281.25
+PressureCalculator	_get_ideal_sag_mm	17.1
+PressureCalculator	_get_ideal_pressure	174.375
+ 
+&lt;/output&gt;</span>
+            &lt;/test&gt;</span>
+            <span style="color: red">&lt;test&gt;
+                <span style="color: red">&lt;output&gt; 
+PressureCalculator	_get_ideal_sag_mm	17.1
+ 
+&lt;/output&gt;</span>
+            &lt;/test&gt;</span>
+        &lt;/suite&gt;</span>
+    &lt;/suite&gt;</span>
+&lt;/testrun&gt;</span>

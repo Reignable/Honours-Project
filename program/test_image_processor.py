@@ -1,3 +1,5 @@
+import warnings
+
 from unittest2 import TestCase
 
 
@@ -12,6 +14,7 @@ class TestImageProcessor(TestCase):
         from image_processor import ImageProcessor
         self.image_processor = ImageProcessor('red', True)
         self.image_processor._image_path = self.RS_IMAGE_PATH
+        warnings.filterwarnings('ignore')
 
     def tearDown(self):
         pass
