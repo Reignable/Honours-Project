@@ -699,6 +699,29 @@ Potter, C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Rychlewski%
+}{%
+Rychlewski%
+}{%
+{\protect \APACyear {1984}}%
+}]{%
+rychlewski1984hooke}
+\APACinsertmetastar {%
+rychlewski1984hooke}%
+\begin{APACrefauthors}%
+Rychlewski, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1984}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {On Hooke's law} {On hooke's law}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Applied Mathematics and
+  Mechanics}{48}{3}{303--314}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Schröder%
 \ \protect \BOthers {.}}{%
 Schröder%
