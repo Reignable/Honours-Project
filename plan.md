@@ -65,7 +65,8 @@
    - Side by side images and schematic explaining method
   #### Pseudocode
  ### Evaluation
-  #### Deviation
+  #### Validation
+  #### Reliability
    - Calculate
   #### Validation
    - Compare results to manual setup
