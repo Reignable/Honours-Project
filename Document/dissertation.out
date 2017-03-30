@@ -58,7 +58,7 @@
 \BOOKMARK [3][-]{subsubsection.4.2.1}{Images}{subsection.4.2}% 58
 \BOOKMARK [3][-]{subsubsection.4.2.2}{Arguments}{subsection.4.2}% 59
 \BOOKMARK [3][-]{subsubsection.4.2.3}{Processing}{subsection.4.2}% 60
-\BOOKMARK [2][-]{subsection.4.3}{Critical\040Evaluation}{section.4}% 61
+\BOOKMARK [2][-]{subsection.4.3}{Evaluation}{section.4}% 61
 \BOOKMARK [3][-]{subsubsection.4.3.1}{Validation}{subsection.4.3}% 62
 \BOOKMARK [3][-]{subsubsection.4.3.2}{Reliability\040and\040Accuracy}{subsection.4.3}% 63
 \BOOKMARK [3][-]{subsubsection.4.3.3}{Comparison\040to\040Alternatives}{subsection.4.3}% 64
@@ -68,9 +68,9 @@
 \BOOKMARK [2][-]{subsection.5.2}{Comparison\040to\040other\040Products}{section.5}% 68
 \BOOKMARK [2][-]{subsection.5.3}{Future\040Work}{section.5}% 69
 \BOOKMARK [2][-]{subsection.5.4}{Self\040Appraisal}{section.5}% 70
-\BOOKMARK [1][-]{section*.35}{References}{}% 71
-\BOOKMARK [1][-]{section*.36}{Acronyms}{}% 72
-\BOOKMARK [1][-]{section*.38}{Glossary}{}% 73
+\BOOKMARK [1][-]{section*.37}{References}{}% 71
+\BOOKMARK [1][-]{section*.38}{Acronyms}{}% 72
+\BOOKMARK [1][-]{section*.40}{Glossary}{}% 73
 \BOOKMARK [1][-]{appendix.A}{Android\040Experiments}{}% 74
 \BOOKMARK [2][-]{subsection.A.1}{Table\040of\040Android\040Experiments}{appendix.A}% 75
 \BOOKMARK [2][-]{subsection.A.2}{Hello\040CV}{appendix.A}% 76
@@ -85,6 +85,5 @@
 \BOOKMARK [2][-]{subsection.B.5}{distance_to_camera.py}{appendix.B}% 85
 \BOOKMARK [1][-]{appendix.C}{Development\040Log}{}% 86
 \BOOKMARK [1][-]{appendix.D}{EXIF\040Extraction\040Code}{}% 87
-\BOOKMARK [1][-]{appendix.E}{Testing\040Results}{}% 88
-\BOOKMARK [1][-]{appendix.F}{Commit\040Log}{}% 89
-\BOOKMARK [1][-]{appendix.G}{Photos}{}% 90
+\BOOKMARK [1][-]{appendix.E}{Commit\040Log}{}% 88
+\BOOKMARK [1][-]{appendix.F}{Photos}{}% 89

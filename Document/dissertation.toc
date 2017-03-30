@@ -79,33 +79,32 @@
 \contentsline {paragraph}{\numberline {4.2.3.3}Measurement}{34}{paragraph.4.2.3.3}
 \contentsline {paragraph}{\numberline {4.2.3.4}Equation}{34}{paragraph.4.2.3.4}
 \contentsline {paragraph}{\numberline {4.2.3.5}Produce Setting}{35}{paragraph.4.2.3.5}
-\contentsline {subsection}{\numberline {4.3}Critical Evaluation}{36}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.3}Evaluation}{36}{subsection.4.3}
 \contentsline {subsubsection}{\numberline {4.3.1}Validation}{36}{subsubsection.4.3.1}
 \contentsline {subsubsection}{\numberline {4.3.2}Reliability and Accuracy}{36}{subsubsection.4.3.2}
 \contentsline {subsubsection}{\numberline {4.3.3}Comparison to Alternatives}{36}{subsubsection.4.3.3}
 \contentsline {subsubsection}{\numberline {4.3.4}Professional Opinion}{36}{subsubsection.4.3.4}
-\contentsline {section}{\numberline {5}Conclusions}{37}{section.5}
-\contentsline {subsection}{\numberline {5.1}Meeting Aims}{37}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Comparison to other Products}{37}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Future Work}{37}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Self Appraisal}{37}{subsection.5.4}
-\contentsline {section}{References}{38}{section*.35}
-\contentsline {section}{Acronyms}{41}{section*.36}
-\contentsline {section}{Glossary}{41}{section*.38}
-\contentsline {section}{\numberline {A}Android Experiments}{42}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Table of Android Experiments}{42}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Hello CV}{43}{subsection.A.2}
-\contentsline {subsection}{\numberline {A.3}15tile}{44}{subsection.A.3}
-\contentsline {subsection}{\numberline {A.4}BLOB Analysis}{52}{subsection.A.4}
-\contentsline {subsection}{\numberline {A.5}Face Detection}{57}{subsection.A.5}
-\contentsline {section}{\numberline {B}Python Experiments}{63}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}Table of Python Experiments}{63}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}find\_game.py}{64}{subsection.B.2}
-\contentsline {subsection}{\numberline {B.3}thresholding.py}{64}{subsection.B.3}
-\contentsline {subsection}{\numberline {B.4}img\_ops.py}{64}{subsection.B.4}
-\contentsline {subsection}{\numberline {B.5}distance\_to\_camera.py}{65}{subsection.B.5}
-\contentsline {section}{\numberline {C}Development Log}{66}{appendix.C}
-\contentsline {section}{\numberline {D}EXIF Extraction Code}{66}{appendix.D}
-\contentsline {section}{\numberline {E}Testing Results}{66}{appendix.E}
-\contentsline {section}{\numberline {F}Commit Log}{66}{appendix.F}
-\contentsline {section}{\numberline {G}Photos}{66}{appendix.G}
+\contentsline {section}{\numberline {5}Conclusions}{38}{section.5}
+\contentsline {subsection}{\numberline {5.1}Meeting Aims}{38}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Comparison to other Products}{38}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Future Work}{38}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Self Appraisal}{38}{subsection.5.4}
+\contentsline {section}{References}{39}{section*.37}
+\contentsline {section}{Acronyms}{42}{section*.38}
+\contentsline {section}{Glossary}{42}{section*.40}
+\contentsline {section}{\numberline {A}Android Experiments}{43}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Table of Android Experiments}{43}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Hello CV}{44}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}15tile}{45}{subsection.A.3}
+\contentsline {subsection}{\numberline {A.4}BLOB Analysis}{53}{subsection.A.4}
+\contentsline {subsection}{\numberline {A.5}Face Detection}{58}{subsection.A.5}
+\contentsline {section}{\numberline {B}Python Experiments}{64}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Table of Python Experiments}{64}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}find\_game.py}{65}{subsection.B.2}
+\contentsline {subsection}{\numberline {B.3}thresholding.py}{65}{subsection.B.3}
+\contentsline {subsection}{\numberline {B.4}img\_ops.py}{65}{subsection.B.4}
+\contentsline {subsection}{\numberline {B.5}distance\_to\_camera.py}{66}{subsection.B.5}
+\contentsline {section}{\numberline {C}Development Log}{67}{appendix.C}
+\contentsline {section}{\numberline {D}EXIF Extraction Code}{67}{appendix.D}
+\contentsline {section}{\numberline {E}Commit Log}{67}{appendix.E}
+\contentsline {section}{\numberline {F}Photos}{67}{appendix.F}

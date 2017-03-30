@@ -63,17 +63,29 @@
  ### System
   #### Description of System
    - Side by side images and schematic explaining method
-  #### Pseudocode
- ### Evaluation
-  #### Validation
-  #### Reliability
+  #### Pseudocode?
+
+### Evaluation
+#### Validation
+ - Display test results for all tests
+ - Explain they work and have suitable coverage
+
+#### Reliability
    - Calculate
-  #### Validation
+   - Describe results
+
+#### Comparison
    - Compare results to manual setup
-  #### Professional Opinion
+       - Describe steps for manual setup
+       - Describe steps for using application
+       - Compare
+
+#### Professional Opinion
  - Pedals
       - Would need to be an app for people to use it
       - Overall good, produces expected outputs
+ - Mark & Geraint
+      -
 
 ## Conclusions
  ### Meeting aims

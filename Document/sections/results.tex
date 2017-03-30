@@ -248,35 +248,59 @@ This chapter will cover how the project was created and evaluated. It will begin
 		\paragraph{Produce Setting}
 			To produce the final setting the optimal distance that the shock should move to give the desired sag setting is first calculated from the user supplied data. For example if the shock stroke is 57mm and the desired sag is 30\% then the desired movement is 17.1mm. Using this and the equation produced in the last step, the optimal pressure is calculated; for example if the equation is $-5.017x + 246.426$ then the pressure is 161psi.
 \clearpage
-\subsection{Critical Evaluation}
+\subsection{Evaluation}
+	%Intro
 	\subsubsection{Validation}
+		% Display test results (Appendix?)
+		% Explain they work and have suitable coverage
+		% Explain not full coverage
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[scale=0.5]{../images/results/test_results.png}
+			\caption{Unit test results}
+			\label{fig:test_results}
+		\end{figure}
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[scale=0.7]{../images/results/coverage.png}
+			\caption{Test coverage results}
+			\label{fig:coverage}
+		\end{figure}
 	\subsubsection{Reliability and Accuracy}
+		% Describe calculation for two shocks
+			% Describe differences between HV and LV
+		% Explain why results are good (Working in rounded numbers)
 		\begin{table}[h!]
 			\centering
 			\caption{Table of uncertainty calculation results}
 			\label{tab:uncertainty}
-		\begin{tabular}{|l|r|r|r|r|}
-			\hline
-			\multirow{12}{7em}{\bfseries Measurements}&\multicolumn{2}{|l|}{\bfseries Rockshox}&\multicolumn{2}{|l|}{\bfseries Fox}\\
-			\cline{2-5}
-			&\bfseries 25\%&\bfseries 30\%&\bfseries 25\%&\bfseries 30\%\\
-			\hline
-			&175.02&160.97&133.31&120.54\\
-			&174.84&160.52&133.28&120.47\\
-			&174.95&160.41&133.42&120.48\\
-			&174.83&160.65&133.42&120.46\\
-			&174.94&160.75&133.29&120.53\\
-			&174.86&160.50&133.38&120.51\\
-			&175.63&160.48&133.35&120.50\\
-			&174.78&160.77&133.36&120.46\\
-			&175.29&160.57&133.36&120.46\\
-			&174.84&160.74&133.42&120.50\\
-			\hline
-			\bfseries Average&175.00&160.64&133.36&120.49\\
-			\bfseries Standard Deviation&0.27&0.17&0.05&0.03\\
-			\bfseries Uncertainty&175 $\pm$ 0.27&160.64 $\pm$ 0.17&133.36 $\pm$ 0.05&120.49 $\pm$ 0.03\\
-			\hline
-		\end{tabular}
+			\begin{tabular}{|l|r|r|r|r|}
+				\hline
+				\multirow{12}{7em}{\bfseries Measurements}&\multicolumn{2}{|l|}{\bfseries Rockshox}&\multicolumn{2}{|l|}{\bfseries Fox}\\
+				\cline{2-5}&\bfseries 25\%&\bfseries 30\%&\bfseries 25\%&\bfseries 30\%\\
+				\hline
+				&175.02&160.97&133.31&120.54\\
+				&174.84&160.52&133.28&120.47\\
+				&174.95&160.41&133.42&120.48\\
+				&174.83&160.65&133.42&120.46\\
+				&174.94&160.75&133.29&120.53\\
+				&174.86&160.50&133.38&120.51\\
+				&175.63&160.48&133.35&120.50\\
+				&174.78&160.77&133.36&120.46\\
+				&175.29&160.57&133.36&120.46\\
+				&174.84&160.74&133.42&120.50\\
+				\hline
+				\bfseries Average&175.00&160.64&133.36&120.49\\
+				\bfseries Standard Deviation&0.27&0.17&0.05&0.03\\
+				\bfseries Uncertainty&175 $\pm$ 0.27&160.64 $\pm$ 0.17&133.36 $\pm$ 0.05&120.49 $\pm$ 0.03\\
+				\hline
+			\end{tabular}
 		\end{table}
 	\subsubsection{Comparison to Alternatives}
+		% Compare results to manual setup
+			% Describe steps for manual setup
+			% Describe steps for using application
+			% Compare
+				% Two pressures to put in are known so easy
+				% No trial and error, you just do it
 	\subsubsection{Professional Opinion}
