@@ -9,25 +9,25 @@
 \contentsline {subsubsection}{\numberline {2.1.1}Travel and Stroke}{3}{subsubsection.2.1.1}
 \contentsline {subsubsection}{\numberline {2.1.2}Front Suspension}{3}{subsubsection.2.1.2}
 \contentsline {subsubsection}{\numberline {2.1.3}Rear Suspension}{4}{subsubsection.2.1.3}
-\contentsline {subsubsection}{\numberline {2.1.4}Sag}{6}{subsubsection.2.1.4}
+\contentsline {subsubsection}{\numberline {2.1.4}Sag}{7}{subsubsection.2.1.4}
 \contentsline {subsubsection}{\numberline {2.1.5}Damping}{7}{subsubsection.2.1.5}
-\contentsline {paragraph}{\numberline {2.1.5.1}Compression Damping}{7}{paragraph.2.1.5.1}
+\contentsline {paragraph}{\numberline {2.1.5.1}Compression Damping}{8}{paragraph.2.1.5.1}
 \contentsline {paragraph}{\numberline {2.1.5.2}Rebound Damping}{8}{paragraph.2.1.5.2}
 \contentsline {paragraph}{\numberline {2.1.5.3}High and Low Speed Damping}{8}{paragraph.2.1.5.3}
 \contentsline {subsubsection}{\numberline {2.1.6}Optimal Setup}{8}{subsubsection.2.1.6}
-\contentsline {subsection}{\numberline {2.2}Image Analysis}{8}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.2}Image Analysis}{9}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}Digital Camera Operation}{9}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}Lighting Conditions}{9}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2}Lighting Conditions}{10}{subsubsection.2.2.2}
 \contentsline {subsubsection}{\numberline {2.2.3}Usages}{10}{subsubsection.2.2.3}
-\contentsline {paragraph}{\numberline {2.2.3.1}Medical}{11}{paragraph.2.2.3.1}
+\contentsline {paragraph}{\numberline {2.2.3.1}Medical}{10}{paragraph.2.2.3.1}
 \contentsline {paragraph}{\numberline {2.2.3.2}Transport}{11}{paragraph.2.2.3.2}
 \contentsline {paragraph}{\numberline {2.2.3.3}Engineering}{11}{paragraph.2.2.3.3}
 \contentsline {paragraph}{\numberline {2.2.3.4}Space}{11}{paragraph.2.2.3.4}
-\contentsline {subsubsection}{\numberline {2.2.4}Image Analysis Techniques}{11}{subsubsection.2.2.4}
-\contentsline {paragraph}{\numberline {2.2.4.1}Edge Detection}{11}{paragraph.2.2.4.1}
-\contentsline {paragraph}{\numberline {2.2.4.2}Hough Transform}{12}{todo.10}
-\contentsline {subparagraph}{Linear Hough Transform}{12}{section*.18}
-\contentsline {subparagraph}{Circular Hough Transform}{12}{section*.19}
+\contentsline {subsubsection}{\numberline {2.2.4}Image Analysis Techniques}{12}{subsubsection.2.2.4}
+\contentsline {paragraph}{\numberline {2.2.4.1}Edge Detection}{12}{paragraph.2.2.4.1}
+\contentsline {paragraph}{\numberline {2.2.4.2}Hough Transform}{13}{todo.11}
+\contentsline {subparagraph}{Linear Hough Transform}{13}{section*.19}
+\contentsline {subparagraph}{Circular Hough Transform}{13}{section*.20}
 \contentsline {paragraph}{\numberline {2.2.4.3}Taking Measurements}{13}{paragraph.2.2.4.3}
 \contentsline {subsection}{\numberline {2.3}Image Analysis in Sports Science}{14}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Using Image Analysis for Mountain Bike Suspension}{15}{subsection.2.4}
@@ -89,9 +89,7 @@
 \contentsline {subsection}{\numberline {5.2}Comparison to other Products}{38}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Future Work}{38}{subsection.5.3}
 \contentsline {subsection}{\numberline {5.4}Self Appraisal}{38}{subsection.5.4}
-\contentsline {section}{References}{39}{section*.37}
-\contentsline {section}{Acronyms}{42}{section*.38}
-\contentsline {section}{Glossary}{42}{section*.40}
+\contentsline {section}{References}{39}{section*.38}
 \contentsline {section}{\numberline {A}Android Experiments}{43}{appendix.A}
 \contentsline {subsection}{\numberline {A.1}Table of Android Experiments}{43}{subsection.A.1}
 \contentsline {subsection}{\numberline {A.2}Hello CV}{44}{subsection.A.2}

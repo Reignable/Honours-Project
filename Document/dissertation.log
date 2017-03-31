@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  30 MAR 2017 14:53
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  31 MAR 2017 11:32
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1373,10 +1373,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./dissertation.glsdefs)
 \AtBeginShipoutBox=\box60
 Package hyperref Info: Link coloring OFF on input line 46.
-
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1579,24 +1577,27 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: ../images/3_bike_lev_ratio.jpg Graphic file (type QTm)
 <use  "../images/3_bike_lev_ratio.jpg" >
+File: ../images/3_bikes/giant.png Graphic file (type QTm)
+ <use  "../images/3_bikes/giant.png" >
+File: ../images/3_bikes/empire.png Graphic file (type QTm)
+
+<use  "../images/3_bikes/empire.png" >
+File: ../images/3_bikes/lapierre.png Graphic file (type QTm)
+
+<use  "../images/3_bikes/lapierre.png" >
 File: ../images/reignsch.PNG Graphic file (type QTm)
  <use  "../images/reignsch.PNG" >
-Underfull \hbox (badness 10000) in paragraph at lines 41--67
+Underfull \hbox (badness 10000) in paragraph at lines 41--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--67
+Underfull \hbox (badness 10000) in paragraph at lines 41--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--67
+Underfull \hbox (badness 10000) in paragraph at lines 41--87
 
  []
 
@@ -1623,7 +1624,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [5]
 File: ../images/sag_diagram.png Graphic file (type QTm)
  <use  "../images/sag_diagram.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 68--80
+Underfull \hbox (badness 10000) in paragraph at lines 88--100
 
  []
 
@@ -1634,12 +1635,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 81--84
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--90
+Underfull \hbox (badness 10000) in paragraph at lines 101--104
 
  []
 
@@ -1650,28 +1646,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 91--94
+Underfull \hbox (badness 10000) in paragraph at lines 107--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--114
 
  []
 
 ) (./sections/imageanalysis.tex
-Underfull \hbox (badness 10000) in paragraph at lines 95--1
-
- []
-
-File: ../images/camera_bulb.PNG Graphic file (type QTm)
-<use  "../images/camera_bulb.PNG" >
-Underfull \hbox (badness 10000) in paragraph at lines 9--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--30
+Underfull \hbox (badness 10000) in paragraph at lines 115--1
 
  []
 
@@ -1682,10 +1667,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [8]
-File: ../images/face_illumination.png Graphic file (type QTm)
- <use  "../images/face_illumination.png" >
+File: ../images/camera_bulb.PNG Graphic file (type QTm)
+ <use  "../images/camera_bulb.PNG" >
+Underfull \hbox (badness 10000) in paragraph at lines 4--18
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--18
+
+ []
+
+File: ../images/face_illumination.png Graphic file (type QTm)
+<use  "../images/face_illumination.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 19--29
+
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1697,20 +1694,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: ../images/4panel.png Graphic file (type QTm)
  <use  "../images/4panel.png" >
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[10]) (./sections/analysistechniques.tex
-Overfull \hbox (13.47546pt too wide) in paragraph at lines 61--1
- \EU1/Arial(0)/bx/n/12 2.2.3.4 Space[] \EU1/Arial(0)/m/n/12 While some industri
-es make use of satellite imagery to monitor changes
- []
-
-File: ../images/anpr.jpg Graphic file (type QTm)
-<use  "../images/anpr.jpg" >
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
@@ -1719,7 +1702,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+[10]) (./sections/analysistechniques.tex
+Overfull \hbox (13.47546pt too wide) in paragraph at lines 44--1
+ \EU1/Arial(0)/bx/n/12 2.2.3.4 Space[] \EU1/Arial(0)/m/n/12 While some industri
+es make use of satellite imagery to monitor changes
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [11]
+File: ../images/anpr.jpg Graphic file (type QTm)
+ <use  "../images/anpr.jpg" >
 Underfull \hbox (badness 10000) in paragraph at lines 30--34
 
  []
@@ -1754,30 +1751,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--2
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./sections/combining_suspension_analysis.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--1
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--1
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--1
-
- []
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13]
+[13]) (./sections/combining_suspension_analysis.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1785,7 +1778,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [14])
-Underfull \hbox (badness 10000) in paragraph at lines 2--14
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
 
  []
 
@@ -2395,7 +2388,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41] (./dissertation.acr) (./dissertation.gls)
+[41]
+No file dissertation.acr.
+No file dissertation.gls.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2724,10 +2719,10 @@ runsystem(rm dissertation.pyg)...executed.
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 33543 strings out of 493589
- 587016 string characters out of 6145555
- 733803 words of memory out of 5000000
- 36343 multiletter control sequences out of 15000+600000
+ 33544 strings out of 493589
+ 587024 string characters out of 6145555
+ 735785 words of memory out of 5000000
+ 36346 multiletter control sequences out of 15000+600000
  13810 words of font info for 86 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  47i,14n,77p,10385b,751s stack positions out of 5000i,500n,10000p,200000b,80000s
