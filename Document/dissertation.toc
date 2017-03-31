@@ -30,79 +30,79 @@
 \contentsline {subparagraph}{Circular Hough Transform}{13}{section*.20}
 \contentsline {paragraph}{\numberline {2.2.4.3}Taking Measurements}{13}{paragraph.2.2.4.3}
 \contentsline {subsection}{\numberline {2.3}Image Analysis in Sports Science}{14}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Using Image Analysis for Mountain Bike Suspension}{15}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Conclusion}{15}{subsection.2.5}
-\contentsline {section}{\numberline {3}Methodology}{16}{section.3}
-\contentsline {subsection}{\numberline {3.1}Introduction}{16}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Literature Review}{16}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Source Selection}{16}{subsubsection.3.2.1}
-\contentsline {subsection}{\numberline {3.3}Platform}{17}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}OpenCV}{17}{subsubsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}Experimentation}{17}{subsubsection.3.3.2}
-\contentsline {subsection}{\numberline {3.4}Source Code}{18}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Pythonic Coding}{18}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Naming}{19}{subsubsection.3.4.2}
-\contentsline {subsubsection}{\numberline {3.4.3}Object Orientation}{19}{subsubsection.3.4.3}
-\contentsline {subsection}{\numberline {3.5}Testing}{20}{subsection.3.5}
-\contentsline {subsubsection}{\numberline {3.5.1}Unit Testing}{20}{subsubsection.3.5.1}
-\contentsline {paragraph}{\numberline {3.5.1.1}Python Unit Testing}{20}{paragraph.3.5.1.1}
-\contentsline {subsubsection}{\numberline {3.5.2}Project Testing Scope}{20}{subsubsection.3.5.2}
-\contentsline {subsection}{\numberline {3.6}Project Management}{21}{subsection.3.6}
-\contentsline {subsubsection}{\numberline {3.6.1}Agile Development}{21}{subsubsection.3.6.1}
-\contentsline {paragraph}{\numberline {3.6.1.1}Requirements Analysis}{21}{paragraph.3.6.1.1}
-\contentsline {paragraph}{\numberline {3.6.1.2}MoSCoW}{22}{paragraph.3.6.1.2}
-\contentsline {paragraph}{\numberline {3.6.1.3}Sprint Cycles}{22}{paragraph.3.6.1.3}
-\contentsline {subsubsection}{\numberline {3.6.2}Organic Development}{23}{subsubsection.3.6.2}
-\contentsline {subsubsection}{\numberline {3.6.3}Version Control}{23}{subsubsection.3.6.3}
-\contentsline {subsubsection}{\numberline {3.6.4}Milestones}{24}{subsubsection.3.6.4}
-\contentsline {subsubsection}{\numberline {3.6.5}Threshold}{24}{subsubsection.3.6.5}
-\contentsline {subsubsection}{\numberline {3.6.6}Gantt Chart}{24}{subsubsection.3.6.6}
-\contentsline {subsection}{\numberline {3.7}Evaluation}{24}{subsection.3.7}
-\contentsline {subsubsection}{\numberline {3.7.1}Validation}{25}{subsubsection.3.7.1}
-\contentsline {subsubsection}{\numberline {3.7.2}Reliability and Accuracy}{25}{subsubsection.3.7.2}
-\contentsline {subsubsection}{\numberline {3.7.3}Comparison to Alternatives}{25}{subsubsection.3.7.3}
-\contentsline {subsubsection}{\numberline {3.7.4}Professional Opinion}{26}{subsubsection.3.7.4}
-\contentsline {section}{\numberline {4}Results}{27}{section.4}
-\contentsline {subsection}{\numberline {4.1}Deviation from Plan}{27}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}Development Approach}{27}{subsubsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.2}Use of EXIF Data and Reference Point}{27}{subsubsection.4.1.2}
-\contentsline {subsubsection}{\numberline {4.1.3}Colour Quantification}{27}{subsubsection.4.1.3}
-\contentsline {subsubsection}{\numberline {4.1.4}Dynamic Measurement Limits}{28}{subsubsection.4.1.4}
-\contentsline {subsubsection}{\numberline {4.1.5}Reference Point Measurement Method}{29}{subsubsection.4.1.5}
-\contentsline {subsubsection}{\numberline {4.1.6}Pressure Calculation}{30}{subsubsection.4.1.6}
-\contentsline {subsection}{\numberline {4.2}Application}{31}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}Images}{31}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}Arguments}{31}{subsubsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.3}Processing}{32}{subsubsection.4.2.3}
-\contentsline {paragraph}{\numberline {4.2.3.1}Reference Point}{32}{paragraph.4.2.3.1}
-\contentsline {paragraph}{\numberline {4.2.3.2}O-Ring}{33}{paragraph.4.2.3.2}
-\contentsline {paragraph}{\numberline {4.2.3.3}Measurement}{34}{paragraph.4.2.3.3}
-\contentsline {paragraph}{\numberline {4.2.3.4}Equation}{34}{paragraph.4.2.3.4}
-\contentsline {paragraph}{\numberline {4.2.3.5}Produce Setting}{35}{paragraph.4.2.3.5}
-\contentsline {subsection}{\numberline {4.3}Evaluation}{36}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Validation}{36}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Reliability and Accuracy}{36}{subsubsection.4.3.2}
-\contentsline {subsubsection}{\numberline {4.3.3}Comparison to Alternatives}{36}{subsubsection.4.3.3}
-\contentsline {subsubsection}{\numberline {4.3.4}Professional Opinion}{36}{subsubsection.4.3.4}
-\contentsline {section}{\numberline {5}Conclusions}{38}{section.5}
-\contentsline {subsection}{\numberline {5.1}Meeting Aims}{38}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Comparison to other Products}{38}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Future Work}{38}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Self Appraisal}{38}{subsection.5.4}
-\contentsline {section}{References}{39}{section*.38}
-\contentsline {section}{\numberline {A}Android Experiments}{43}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Table of Android Experiments}{43}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Hello CV}{44}{subsection.A.2}
-\contentsline {subsection}{\numberline {A.3}15tile}{45}{subsection.A.3}
-\contentsline {subsection}{\numberline {A.4}BLOB Analysis}{53}{subsection.A.4}
-\contentsline {subsection}{\numberline {A.5}Face Detection}{58}{subsection.A.5}
-\contentsline {section}{\numberline {B}Python Experiments}{64}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}Table of Python Experiments}{64}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}find\_game.py}{65}{subsection.B.2}
-\contentsline {subsection}{\numberline {B.3}thresholding.py}{65}{subsection.B.3}
-\contentsline {subsection}{\numberline {B.4}img\_ops.py}{65}{subsection.B.4}
-\contentsline {subsection}{\numberline {B.5}distance\_to\_camera.py}{66}{subsection.B.5}
-\contentsline {section}{\numberline {C}Development Log}{67}{appendix.C}
-\contentsline {section}{\numberline {D}EXIF Extraction Code}{67}{appendix.D}
-\contentsline {section}{\numberline {E}Commit Log}{67}{appendix.E}
-\contentsline {section}{\numberline {F}Photos}{67}{appendix.F}
+\contentsline {subsection}{\numberline {2.4}Using Image Analysis for Optimizing Mountain Bike Suspension}{15}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Conclusion}{16}{subsection.2.5}
+\contentsline {section}{\numberline {3}Methodology}{17}{section.3}
+\contentsline {subsection}{\numberline {3.1}Introduction}{17}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Literature Review}{17}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Source Selection}{17}{subsubsection.3.2.1}
+\contentsline {subsection}{\numberline {3.3}Platform}{18}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}OpenCV}{18}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Experimentation}{18}{subsubsection.3.3.2}
+\contentsline {subsection}{\numberline {3.4}Source Code}{19}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Pythonic Coding}{19}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Naming}{20}{subsubsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.3}Object Orientation}{20}{subsubsection.3.4.3}
+\contentsline {subsection}{\numberline {3.5}Testing}{21}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}Unit Testing}{21}{subsubsection.3.5.1}
+\contentsline {paragraph}{\numberline {3.5.1.1}Python Unit Testing}{21}{paragraph.3.5.1.1}
+\contentsline {subsubsection}{\numberline {3.5.2}Project Testing Scope}{21}{subsubsection.3.5.2}
+\contentsline {subsection}{\numberline {3.6}Project Management}{22}{subsection.3.6}
+\contentsline {subsubsection}{\numberline {3.6.1}Agile Development}{22}{subsubsection.3.6.1}
+\contentsline {paragraph}{\numberline {3.6.1.1}Requirements Analysis}{22}{paragraph.3.6.1.1}
+\contentsline {paragraph}{\numberline {3.6.1.2}MoSCoW}{23}{paragraph.3.6.1.2}
+\contentsline {paragraph}{\numberline {3.6.1.3}Sprint Cycles}{23}{paragraph.3.6.1.3}
+\contentsline {subsubsection}{\numberline {3.6.2}Organic Development}{24}{subsubsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.3}Version Control}{24}{subsubsection.3.6.3}
+\contentsline {subsubsection}{\numberline {3.6.4}Milestones}{25}{subsubsection.3.6.4}
+\contentsline {subsubsection}{\numberline {3.6.5}Threshold}{25}{subsubsection.3.6.5}
+\contentsline {subsubsection}{\numberline {3.6.6}Gantt Chart}{25}{subsubsection.3.6.6}
+\contentsline {subsection}{\numberline {3.7}Evaluation}{25}{subsection.3.7}
+\contentsline {subsubsection}{\numberline {3.7.1}Validation}{26}{subsubsection.3.7.1}
+\contentsline {subsubsection}{\numberline {3.7.2}Reliability and Accuracy}{26}{subsubsection.3.7.2}
+\contentsline {subsubsection}{\numberline {3.7.3}Comparison to Alternatives}{26}{subsubsection.3.7.3}
+\contentsline {subsubsection}{\numberline {3.7.4}Professional Opinion}{27}{subsubsection.3.7.4}
+\contentsline {section}{\numberline {4}Results}{28}{section.4}
+\contentsline {subsection}{\numberline {4.1}Deviation from Plan}{28}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Development Approach}{28}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Use of EXIF Data and Reference Point}{28}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.3}Colour Quantification}{28}{subsubsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.4}Dynamic Measurement Limits}{29}{subsubsection.4.1.4}
+\contentsline {subsubsection}{\numberline {4.1.5}Reference Point Measurement Method}{30}{subsubsection.4.1.5}
+\contentsline {subsubsection}{\numberline {4.1.6}Pressure Calculation}{31}{subsubsection.4.1.6}
+\contentsline {subsection}{\numberline {4.2}Application}{32}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Images}{32}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Arguments}{32}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Processing}{33}{subsubsection.4.2.3}
+\contentsline {paragraph}{\numberline {4.2.3.1}Reference Point}{33}{paragraph.4.2.3.1}
+\contentsline {paragraph}{\numberline {4.2.3.2}O-Ring}{34}{paragraph.4.2.3.2}
+\contentsline {paragraph}{\numberline {4.2.3.3}Measurement}{35}{paragraph.4.2.3.3}
+\contentsline {paragraph}{\numberline {4.2.3.4}Equation}{35}{paragraph.4.2.3.4}
+\contentsline {paragraph}{\numberline {4.2.3.5}Produce Setting}{36}{paragraph.4.2.3.5}
+\contentsline {subsection}{\numberline {4.3}Evaluation}{37}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Validation}{37}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Reliability and Accuracy}{37}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}Comparison to Alternatives}{37}{subsubsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.4}Professional Opinion}{37}{subsubsection.4.3.4}
+\contentsline {section}{\numberline {5}Conclusions}{39}{section.5}
+\contentsline {subsection}{\numberline {5.1}Meeting Aims}{39}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Comparison to other Products}{39}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Future Work}{39}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Self Appraisal}{39}{subsection.5.4}
+\contentsline {section}{References}{40}{section*.38}
+\contentsline {section}{\numberline {A}Android Experiments}{44}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Table of Android Experiments}{44}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Hello CV}{45}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}15tile}{46}{subsection.A.3}
+\contentsline {subsection}{\numberline {A.4}BLOB Analysis}{54}{subsection.A.4}
+\contentsline {subsection}{\numberline {A.5}Face Detection}{59}{subsection.A.5}
+\contentsline {section}{\numberline {B}Python Experiments}{65}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Table of Python Experiments}{65}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}find\_game.py}{66}{subsection.B.2}
+\contentsline {subsection}{\numberline {B.3}thresholding.py}{66}{subsection.B.3}
+\contentsline {subsection}{\numberline {B.4}img\_ops.py}{66}{subsection.B.4}
+\contentsline {subsection}{\numberline {B.5}distance\_to\_camera.py}{67}{subsection.B.5}
+\contentsline {section}{\numberline {C}Development Log}{68}{appendix.C}
+\contentsline {section}{\numberline {D}EXIF Extraction Code}{68}{appendix.D}
+\contentsline {section}{\numberline {E}Commit Log}{68}{appendix.E}
+\contentsline {section}{\numberline {F}Photos}{68}{appendix.F}
