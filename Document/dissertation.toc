@@ -25,7 +25,7 @@
 \contentsline {paragraph}{\numberline {2.2.3.4}Space}{11}{paragraph.2.2.3.4}
 \contentsline {subsubsection}{\numberline {2.2.4}Image Analysis Techniques}{12}{subsubsection.2.2.4}
 \contentsline {paragraph}{\numberline {2.2.4.1}Edge Detection}{12}{paragraph.2.2.4.1}
-\contentsline {paragraph}{\numberline {2.2.4.2}Hough Transform}{13}{todo.11}
+\contentsline {paragraph}{\numberline {2.2.4.2}Hough Transform}{13}{todo.15}
 \contentsline {subparagraph}{Linear Hough Transform}{13}{section*.19}
 \contentsline {subparagraph}{Circular Hough Transform}{13}{section*.20}
 \contentsline {paragraph}{\numberline {2.2.4.3}Taking Measurements}{13}{paragraph.2.2.4.3}
