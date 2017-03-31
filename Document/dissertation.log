@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  31 MAR 2017 14:50
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  31 MAR 2017 15:43
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1986,32 +1986,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 138--152
+Underfull \hbox (badness 10000) in paragraph at lines 137--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--152
+Underfull \hbox (badness 10000) in paragraph at lines 137--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--152
+Underfull \hbox (badness 10000) in paragraph at lines 137--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--162
+Underfull \hbox (badness 10000) in paragraph at lines 147--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--162
+Underfull \hbox (badness 10000) in paragraph at lines 147--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--162
+Underfull \hbox (badness 10000) in paragraph at lines 147--154
 
  []
 
@@ -2022,12 +2022,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 163--166
+Underfull \hbox (badness 10000) in paragraph at lines 155--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--172
+Underfull \hbox (badness 10000) in paragraph at lines 161--164
 
  []
 
@@ -2038,7 +2038,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 175--178
+Underfull \hbox (badness 10000) in paragraph at lines 167--170
 
  []
 
@@ -2049,13 +2049,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
 [][][]\EU1/Arial(0)/m/n/10 http://www.napier.ac.uk/about-us/our-schools/school-
 of-applied-sciences/research/mountain-bike-
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 191--74
+Underfull \hbox (badness 10000) in paragraph at lines 183--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--74
 
  []
 
@@ -2723,10 +2728,10 @@ runsystem(rm dissertation.pyg)...executed.
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 33568 strings out of 493589
- 587331 string characters out of 6145555
- 734599 words of memory out of 5000000
- 36370 multiletter control sequences out of 15000+600000
+ 33573 strings out of 493589
+ 587390 string characters out of 6145555
+ 734763 words of memory out of 5000000
+ 36375 multiletter control sequences out of 15000+600000
  13810 words of font info for 86 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  47i,14n,77p,10385b,751s stack positions out of 5000i,500n,10000p,200000b,80000s
