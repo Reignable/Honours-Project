@@ -6,21 +6,17 @@
 	This chapter will cover how the project was created and evaluated. It will begin by describing any deviations from the planned development process including any problems which were encountered and how they were addressed. It will then continue to describe how the final version of the application operates with a pseudocode description. Finally it will present the previously outlined critical evaluation covering validation, reliability, alternative comparison, and professional opinion.
 	\subsection{Deviation from Plan}
 		\subsubsection{Development Approach}
-			% Organic dev approach
-			% Didn't know what processes the app would use
-			As described in section \ref{sec:project_management} it was unsure which approach would be undertaken during the development stages of the project. Once the development stage was reached, an organic approach was taken. Although less structured than an agile methodology it was concluded that removal of the sprint process would allow development of the application to progress quicker as items would not need to be delayed for the next sprint cycle. Allowing problems to be addressed immediately proved useful as the application was not left in an unusable state while other features were produced.
+			As described in section \ref{sec:project_management} there was some uncertainty about which approach would be followed during the development stages of the project. As it happened, once the development stage was reached, an organic approach was taken. Although less structured than an agile methodology it was decided that removal of the sprint process would allow development of the application to progress quicker as items would not need to be delayed for the next sprint cycle. Allowing problems to be addressed immediately proved useful as the application was not left in an unusable state while other features were produced.
 			\\\\
-			The log produced by the development stage can be seen in appendix \ref{app:dev_log}. This shows that suitable work was carried out within the time-frame allocated despite using a less structured process and the application includes suitable functionality to complete its aims.
+			The log produced by the development stage can be seen in Appendix \ref{app:dev_log}. This shows that an adequate amount of work was carried out within the time-frame allocated despite using a less structured process and that the final application includes complete functionality to meet its stated aims.
 		\subsubsection{Use of EXIF Data and Reference Point}
-			Mentioned in section \ref{sec:taking_measurements}, the process which the application would use to produce measurements was undecided and required experimentation. Initially utilising \gls{exif} data from the image was used; this was successful until collection of the sensor size was required. Due to this being uncommon in \gls{exif} data, particularly in images taken with smartphone cameras, this method was dropped for utilisation of a reference point. The code produced during this experimentation period can be seen in appendix \ref{app:exif_code}, the function {\ttfamily get\_sensor\_size} is incomplete as this is where the process was dropped.
+			As mentioned in section \ref{sec:taking_measurements}, the process which the application would use to produce measurements was undecided and required experimentation. Initially \gls{exif} data from the image was used, which was successful until collection of data about the sensor size was required. Due to this being uncommon in \gls{exif} data, particularly in images taken with smartphone cameras, this method was abandoned in favour of using a reference point. The code produced during this experimentation phase can be seen in Appendix \ref{app:exif_code} where the function {\ttfamily get\_sensor\_size} is incomplete as this is the point where this approach was dropped.
 			\\\\
-			The reference point chosen is a red circular sticker as these are cheap and easy to find in stores or online and a circle was selected over a square or other shape as the orientation of the object does not need to be taken into account. This sticker is applied to the shock so it can be picked up from the image by its colour; locating the reference point was simple though the measuring process produced issues which will be discussed in a following section.
+			The reference point chosen is a red circular sticker as these are cheap, freely available in store or online and being round do not need to be orientated to the object as a square or rectangular sticker would. This sticker is applied directly to the shock unit where it can be easily picked out in the image due to its prominent by its colour. But although locating the reference point was simple, issues were encountered in the measuring process and these will be discussed in a following section.
 		\subsubsection{Colour Quantification}
-			For initial experimentation with using a reference point, the red circle was added to images manually using an image processing application. This allowed for tuning of the colour masking process and to develop the process before using a real reference point on the shock.
+			For initial experimentation with using a reference point, a similar sized red circle was manually added to images using an image processing application. This allowed for tuning of the colour masking process and refining the process before using a real reference point stuck on the shock. However when images with a real reference point were used, the application could not detect it. This was because the colour range for the masking process was using perfect red (RGB 255,0,0) and the non-standard reds of the sticker as captured in the image were not within this range.
 			\\\\
-			When images with a real reference point were used, the application could not find it. Because the colour range for the masking process was using perfect red (RGB 255,0,0) the non-uniform reds of the sticker in the image were not within this range. These boundaries were expanded to suit the range in the image though this was not enough.
-			\\\\
-			To solve this issue a further image processing technique was implemented known as colour quantification which reduces an image to 2, 4, 8, 16, or 32 bit colour spaces. By reducing the range of colours in an image detail is lost and objects become more apparent. The difference between an original image and quantified colours is shown in figure \ref{fig:quantified_colours}. Quantifying the colours to 8 bit makes the reference point a flat tone of red while maintaining its shape allowing for the masking process to function correctly.
+			A first attempt to resolve this issue involved expanding the boundaries of acceptable colours that the application would recognize in the image as being perfect red. This proved to be insufficient so a further image processing technique known as colour quantification was also used. This reduces an image to 2, 4, 8, 16, or 32 bit colour spaces which sacrifices the range of colours contained in an image detail but makes objects more prominent so they are easier to detect. The difference between an original image and one using quantified colours is shown in Figure \ref{fig:quantified_colours}. Quantifying the colours to 8 bit makes the reference point a flat tone of red while maintaining its shape allowing for the masking process to function correctly.
 			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.1,trim={0 140cm 0 0}, clip]{../images/results/100_rs.jpg}
@@ -29,9 +25,9 @@
 				\label{fig:quantified_colours}
 			\end{figure}
 		\subsubsection{Dynamic Measurement Limits}
-			It was decided that the application should utilise the distance between the shock wiper seal and the marker o-ring for providing the measurement. This was deemed suitable as the manual process to calculate sag also uses the o-ring and it should be present on most shocks; the only reasons an o-ring would not be present is if it has been removed by the owner. Initial versions of the application assumed the o-ring was positioned around 2/3 of the image height though once multiple images were used from two different shocks this assumption was no longer correct.
+			It was decided that the application should utilise the distance between the shock wiper seal and the marker o-ring for providing the measurement. This was deemed suitable as the manual process to calculate sag also uses the O-ring which is a prominent feature on most shocks, unless removed by the owner. Initial versions of the application assumed it would find the O-ring somewhere about two thirds of the way up the image height although once multiple images were used from two different makes of shocks this assumption proved to be incorrect.
 			\\\\
-			So the application is able to analyse different images, a dynamic method to find this o-ring was implemented. Much like finding the reference point an o-ring of specific colour is found, if present, using OpenCV's {\ttfamily findContours}. When located, a bounding box is drawn round the contour from which the y coordinate and height are used to set the limit of measurement. This can be seen in figure \ref{fig:find_oring}.
+			To address this and ensure the application is always able to find the O-ring no matter where it appears in the image, it was necessary to use a dynamic method to detect it. In much the same way that using quantified colours solved the issues of detecting the reference point, OpenCV’s findContours can be used to find an O-ring of a known colour as long as it is present in the image. When located, a bounding box is drawn around the contour as shown in Figure \ref{fig:find_oring} and this can be used to determine \todo{explain further} the y coordinate and the height to establish the limit of measurement.
 			\begin{figure}[h!]
 				\centering
 				\begin{minipage}{0.4\textwidth}
@@ -50,7 +46,7 @@
 				\label{fig:find_oring}
 			\end{figure}
 			\\
-			As some shocks do not have a coloured o-ring, this process was adapted to locate a black o-ring though it was unsuccessful. In response, an alternative method was applied where thresholding is applied to the image and contours produced by reflection on the shock's shaft are selected. The same bounding box is applied and used as the measurement limit. This process was successful as indicated in figure \ref{fig:black_oring}.
+			As some shocks do not have a coloured O-ring, this process was adapted to locate a black O-ring. This was not successful and an alternative method was used where thresholding is applied to the image and contours produced from the reflections on the telescopic shaft of the shock unit. This made it easy for the application to detect the discontinuity between the O-ring and the shaft so the same bounding box could be applied and used to establish the lower limit for where the application can measure. This process is shown in Figure \ref{fig:black_oring}.
 			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.1,trim={20cm 40cm 20cm 70cm},clip]{../images/results/fox_oring.jpg}
@@ -58,38 +54,38 @@
 				\label{fig:black_oring}
 			\end{figure}
 		\subsubsection{Reference Point Measurement Method}
-			To measure the circular reference point, the first process applied was Hough Circle Transform. This method was chosen as it sets out to specifically find circles in an image and is simple to implement. Though this did produce a measurement the numbers were regularly incorrect when compared to manually measuring the image and were unreliable, varying between too small and too big. This can be seen in figure \ref{fig:hough_circle} where it is clear that the identified circle is much smaller than the actual reference point.
+			To measure the dimensions of the circular reference point, the first process applied was Hough Circle Transform as described in \todo{create references} 2.2.4.2 and 2.2.4.3 This method was chosen as it is designed specifically to find circles within an image and is simple to implement. Although this did produce measurements, once these values were compared with values derived by manually measuring the image, they proved to be unreliable with variances both above and below the actual value. This effect is shown in Figure \ref{fig:hough_circle} where it is clear that the circle identified using Hough Circle Transform is much smaller than the actual reference point.
 			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.1,
-					trim={30cm 140cm 25cm 0},
-					clip]{../images/results/HoughCircles.jpg}
+				trim={30cm 140cm 25cm 0},
+				clip]{../images/results/HoughCircles.jpg}
 				\caption{Reference point found using HoughCircles}
 				\label{fig:hough_circle}
 			\end{figure}
 			\\
-			To circumvent this issue the same process for locating the o-ring was used. A contour is found which encompasses the full reference point and a bounding circle is drawn around this contour; this is shown in figure \ref{fig:find_ref}. Though the bounding circle appears larger than the reference point, after experimentation with a variety of images, this method produced measurements which were within tolerances of what is suitable for the pixel per millimetre calculation. 
+			To overcome this issue it was necessary to again use OpenCV’s findContours in exactly the same way it used to successfully locate the O-ring. Once a contour is found that encompasses the entire reference point, a bounding circle can be drawn around it as shown in Figure \ref{fig:find_ref}. Although the bounding circle appears to be slightly larger than the reference point, experimentation with a variety of images showed that this method produced measurements that were within acceptable tolerances for the pixel per millimetre calculation.
 			\\\\
-			This larger appearance is caused by the reference point not being a uniform circle which is also the reason the Hough Circle method was unreliable. Although the threshold of the Hough Circle method can be adjusted, the reference point was still too misshapen to be detected correctly.
+			The reason the Hough Circle method produced a bounding circle that is slightly difference to the reference point is because the reference point captured in the image is not a uniform circle. Although the thresholds of the Hough Circle method can be adjusted, applying the reference point to the cylindrical shaft of the shock unit means it is too misshapen to be detected correctly without the use of OpenCV’s findContours.
 			\begin{figure}[h!]
 				\centering
 				\begin{minipage}{0.4\textwidth}
 					\centering
 					\includegraphics[scale=0.1,
-						trim={30cm 140cm 25cm 0},
-						clip]{../images/results/contours.jpg}				
+					trim={30cm 140cm 25cm 0},
+					clip]{../images/results/contours.jpg}				
 				\end{minipage}
 				\begin{minipage}{0.4\textwidth}
 					\centering
 					\includegraphics[scale=0.1,
-						trim={30cm 140cm 25cm 0},
-						clip]{../images/results/raw_refs.jpg}				
+					trim={30cm 140cm 25cm 0},
+					clip]{../images/results/raw_refs.jpg}				
 				\end{minipage}\hfill
 				\caption{Reference point found using findContours (left) with boundingCircle applied (right)}
 				\label{fig:find_ref}
 			\end{figure}
 		\subsubsection{Pressure Calculation}
-			The original method for producing a suggested pressure was to calculate a psi per millimetre metric from the measurement of the shock shaft and the current pressure in the shock supplied by the user. The equation for this metric is as follows:
+			The original method for producing a suggested pressure that would give the optimal amount of sag was to calculate a \todo{more explanation} psi per millimetre metric from the measurement of the shock shaft and the current pressure of the shock supplied by the user. The equation for this metric is as follows:
 			\begin{equation}
 				\label{equ:pxpermm}
 				P_s = \Bigg(\frac{P_c}{M_c}\Bigg)M_s
@@ -101,11 +97,11 @@
 				\item $M_c$ is the current measurement of the shock shaft
 			\end{where}
 			\vspace{5mm}
-			Though this hypothesised method had been tested manually on paper with successful results, when implemented within the application it was unable to produce correct settings from any variation of image, reference point, and desired sag even when these values were hard-coded. Through further investigation and discussion it was suggested that the non-linearity of air springs was the cause of the problem.
+			Though this hypothesised method had produced reliable results when tested manually, if failed to do so in the application both when different images, reference points and desired sag value were test and even when these values were hard-coded. Further investigation and discussion suggested the cause of this problem was the non-linearity of air springs as previously discussed in 2.1.3. \todo{add reference}
 			\\\\
-			When an air spring is compressed the spring rate increases through its travel as the particles become compressed together\todo{cite}; while this allows tuning of the shock characteristics it presents difficulty when attempting to apply a linear equation in a non-linear situation. However as the range of measurement in this project is small compared to the full stroke of an air shock it was considered that the spring rate is linear within this range.
+			When an air spring is compressed the spring rate increases through its travel as the particles of air become increasingly compressed \todo{cite}; While this effect still allows the shock unit to be fine tuned, applying a linear equation to a non-linear phenomenon is clearly going to produce some degree of error. However as the range of measurement in this project is small compared to the full stroke of an air shock, it was considered that the spring rate can be considered as linear within the limited range of compression under consideration.
 			\\\\
-			To investigate this, the sag of a shock was measured at pressures between 100 and 250 psi in increments of 10 psi. This was carried out for two shocks, one with a normal air can and another with a high volume air can then the collected data was then plotted and a linear trend line applied. The results of this can be seen in figure \ref{fig:scatters}.
+			To investigate this, the sag of a shock was measured at pressures between 100 and 250 psi in increments of 10 psi. This was carried out for two shocks, one with a normal air can and another with a high volume air can, then the collected data was plotted and compared against a trend line generated by linear regression. The results of this can be seen in Figure \ref{fig:scatters}.
 			\begin{figure}[h!]
 				\centering
 				\begin{minipage}{0.4\textwidth}
@@ -119,9 +115,9 @@
 				\caption{Sag measurements for standard air shock (left) and high volume air shock (right)}
 				\label{fig:scatters}
 			\end{figure}\\
-			From this data it could be concluded that, within the range of measurements, the compression of the air spring is linear. The data-points in figure \ref{fig:scatters} occasionally vary though this is due to a non sterile test. Both shocks were well used potentially containing age related defects and loading the bike was carried out using body weight.
+			From this data it could be concluded that, within the range of measurements, the compression of the air spring linear. The data-points in Figure \ref{fig:scatters} do occasionally vary though and this thought to be due to it being a non-sterile test environment. Both shocks were well-used potentially containing age-related defects and loading the bike was done simply by using body weight.
 			\\\\
-			The plan with this knowledge was to implement an ideal gas equation but through investigation into producing charts using python, a method of calculating a linear equation computationally was discovered. This led to the application's process being rearranged so that it takes in two images, one of the shock loaded at 100psi and another at 150psi. From this data it can produce a virtual plot and linear equation with which the suggested setting can be calculated.
+			Having established that the relationship between \todo{fill in the gaps}? and ? could be treated as if it were linear, the plan was to implement an ideal gas equation. However investigation into producing charts using Python uncovered a method of computationally producing a linear equation. This led to the application’s process being rearranged so that it takes in two images, one of the shock loaded at 100psi and another at 150psi. Using this data it can produce a virtual plot and linear equation with which to calculate a value for the optimal sag setting.
 	\subsection{Application}
 		\subsubsection{Images}
 			The application requires two images to measure and produce calculations from. The application can process images in different lighting conditions and ones where a flash has been used though there are some criteria which are needed. There must be a red, circular, 7.5mm diameter sticker on the shock, preferably just above the shock seal. The image should also be taken so that the shock seal is around 1/3 down in the image. Examples of the images used are shown in Figure \ref{fig:application_images}.
@@ -140,7 +136,7 @@
 				\label{fig:application_images}
 			\end{figure}
 		\subsubsection{Arguments}
-			The application operates from a command line interface allowing the user to pass in data through arguments; these are described in Table \ref{tab:arguments}. This system uses Python's Argparse package and a full command to run the application would be as follows:
+			The application operates from a command line interface allowing the user to supply data through arguments; these are described in Table \ref{tab:arguments}. This system uses Python's Argparse package and a full command to run the application would be as follows:
 			{\centering \ttfamily program -i user/images/100.jpg user/images/150.jpg -s 30 -t 57 -c red}
 			\begin{table}[h!]
 				\centering
