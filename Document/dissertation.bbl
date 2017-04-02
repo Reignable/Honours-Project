@@ -678,6 +678,31 @@ goodyear2014air}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Haralock%
+\ \BBA {} Shapiro%
+}{%
+Haralock%
+\ \BBA {} Shapiro%
+}{%
+{\protect \APACyear {1991}}%
+}]{%
+haralock1991computer}
+\APACinsertmetastar {%
+haralock1991computer}%
+\begin{APACrefauthors}%
+Haralock, R\BPBI M.%
+\BCBT {}\ \BBA {} Shapiro, L\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1991}.
+\newblock
+\APACrefbtitle {Computer and robot vision} {Computer and robot vision}.
+\newblock
+\APACaddressPublisher{}{Addison-Wesley Longman Publishing Co., Inc.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Harker%
 }{%
 Harker%

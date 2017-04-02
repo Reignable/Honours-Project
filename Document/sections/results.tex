@@ -1,4 +1,4 @@
-\section{Results}
+\section{Results}\label{sec:results}
 % Intro section
 	% Describe deviations from plan including difficulties which were encountered
 	% Describe the operation of the application with pseudocode
@@ -27,7 +27,7 @@
 		\subsubsection{Dynamic Measurement Limits}
 			It was decided that the application should utilise the distance between the shock wiper seal and the marker o-ring for providing the measurement. This was deemed suitable as the manual process to calculate sag also uses the O-ring which is a prominent feature on most shocks, unless removed by the owner. Initial versions of the application assumed it would find the O-ring somewhere about two thirds of the way up the image height although once multiple images were used from two different makes of shocks this assumption proved to be incorrect.
 			\\\\
-			To address this and ensure the application is always able to find the O-ring no matter where it appears in the image, it was necessary to use a dynamic method to detect it. In much the same way that using quantified colours solved the issues of detecting the reference point, OpenCV’s findContours can be used to find an O-ring of a known colour as long as it is present in the image. When located, a bounding box is drawn around the contour as shown in Figure \ref{fig:find_oring} and this can be used to determine \todo{explain further} the y coordinate and the height to establish the limit of measurement.
+			To address this and ensure the application is always able to find the O-ring no matter where it appears in the image, it was necessary to use a dynamic method to detect it. In much the same way that using quantified colours solved the issues of detecting the reference point, OpenCV’s findContours can be used to find an O-ring of a known colour as long as it is present in the image. When located, a bounding box is drawn around the contour as shown in Figure \ref{fig:find_oring} and this can be used to determine the lowest point at which the O-ring appears in the image to establish the limit of measurement.
 			\begin{figure}[h!]
 				\centering
 				\begin{minipage}{0.4\textwidth}
@@ -54,7 +54,7 @@
 				\label{fig:black_oring}
 			\end{figure}
 		\subsubsection{Reference Point Measurement Method}
-			To measure the dimensions of the circular reference point, the first process applied was Hough Circle Transform as described in \todo{create references} 2.2.4.2 and 2.2.4.3 This method was chosen as it is designed specifically to find circles within an image and is simple to implement. Although this did produce measurements, once these values were compared with values derived by manually measuring the image, they proved to be unreliable with variances both above and below the actual value. This effect is shown in Figure \ref{fig:hough_circle} where it is clear that the circle identified using Hough Circle Transform is much smaller than the actual reference point.
+			To measure the dimensions of the circular reference point, the first process applied was Hough Circle Transform as described in \ref{sec:lit_review_hough}. This method was chosen as it is designed specifically to find circles within an image and is simple to implement. Although this did produce measurements, once these values were compared with values derived by manually measuring the image, they proved to be unreliable with variances both above and below the actual value. This effect is shown in Figure \ref{fig:hough_circle} where it is clear that the circle identified using Hough Circle Transform is much smaller than the actual reference point.
 			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.1,
@@ -85,7 +85,7 @@
 				\label{fig:find_ref}
 			\end{figure}
 		\subsubsection{Pressure Calculation}\label{sec:results_pressure_calculation}
-			The original method for producing a suggested pressure that would give the optimal amount of sag was to calculate a \todo{more explanation} psi per millimetre metric from the measurement of the shock shaft and the current pressure of the shock supplied by the user. The equation for this metric is as follows:
+			The original method for producing a suggested pressure that would give the optimal amount of sag was to calculate a psi per millimetre metric from the measurement of the shock shaft and the current pressure of the shock supplied by the user. The assumption being that for every 1 PSI added to the shock, this would reduce the movement by a fixed amount proportionate to the original pressure. The equation for this metric is as follows:
 			\begin{equation}
 				\label{equ:pxpermm}
 				P_s = \Bigg(\frac{P_c}{M_c}\Bigg)M_s
@@ -97,7 +97,7 @@
 				\item $M_c$ is the current measurement of the shock shaft
 			\end{where}
 			\vspace{5mm}
-			Though this hypothesised method had produced reliable results when tested manually, if failed to do so in the application both when different images, reference points and desired sag value were test and even when these values were hard-coded. Further investigation and discussion suggested the cause of this problem was the non-linearity of air springs as previously discussed in 2.1.3. \todo{add reference}
+			Though this hypothesised method had produced reliable results when tested manually, if failed to do so in the application both when different images, reference points and desired sag value were test and even when these values were hard-coded. Further investigation and discussion suggested the cause of this problem was the non-linearity of air springs as previously discussed in \ref{sec:lit_review_rear_suspension}.
 			\\\\
 			When an air spring is compressed the spring rate increases through its travel as the particles of air become increasingly compressed \citep{goodyear2014air}; While this effect still allows the shock unit to be fine tuned, applying a linear equation to a non-linear phenomenon is clearly going to produce some degree of error. However as the range of measurement in this project is small compared to the full stroke of an air shock, it was considered that the spring rate can be considered as linear within the limited range of compression under consideration.
 			\\\\
@@ -117,7 +117,7 @@
 			\end{figure}\\
 			From this data it could be concluded that, within the range of measurements, the compression of the air spring linear. The data-points in Figure \ref{fig:scatters} do occasionally vary though and this thought to be due to it being a non-sterile test environment. Both shocks were well-used potentially containing age-related defects and loading the bike was done simply by using body weight.
 			\\\\
-			Having established that the relationship between \todo{fill in the gaps}? and ? could be treated as if it were linear, the plan was to implement an ideal gas equation. However investigation into producing charts using Python uncovered a method of computationally producing a linear equation. This led to the application’s process being rearranged so that it takes in two images, one of the shock loaded at 100psi and another at 150psi. Using this data it can produce a virtual plot and linear equation with which to calculate a value for the optimal sag setting.
+			Having established that the relationship between the pressure in the shock and movement from weighting the shock could be treated as if it were linear, the plan was to implement an ideal gas equation. However investigation into producing charts using Python uncovered a method of computationally producing a linear equation. This led to the application’s process being rearranged so that it takes in two images, one of the shock loaded at 100psi and another at 150psi. Using this data it can produce a virtual plot and linear equation with which to calculate a value for the optimal sag setting.
 	\subsection{Application}
 		\subsubsection{Images}
 			The application requires two images to measure and produce calculations from. The application can process images in different lighting conditions and ones where a flash has been used though there are some criteria which are needed. There must be a red, circular, 7.5mm diameter sticker on the shock, preferably just above the shock seal. The image should also be taken so that the shock seal is around 1/3 down in the image. Examples of the images used are shown in Figure \ref{fig:application_images}.
