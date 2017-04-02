@@ -84,7 +84,7 @@
 				\caption{Reference point found using findContours (left) with boundingCircle applied (right)}
 				\label{fig:find_ref}
 			\end{figure}
-		\subsubsection{Pressure Calculation}
+		\subsubsection{Pressure Calculation}\label{sec:results_pressure_calculation}
 			The original method for producing a suggested pressure that would give the optimal amount of sag was to calculate a \todo{more explanation} psi per millimetre metric from the measurement of the shock shaft and the current pressure of the shock supplied by the user. The equation for this metric is as follows:
 			\begin{equation}
 				\label{equ:pxpermm}
@@ -245,12 +245,16 @@
 			% Display test results
 			% Explain they work and have suitable coverage
 			% Explain not full coverage
+			Figure \ref{fig:test_results} shows an extract from the testing report produced by the Pycharm IDE. It includes each test from both test modules and clearly indicates that all tests are passing in the final prototype application. These tests include checks to see if the outputs produced by the application are within an expected range, validating not only that the application works but that it also produces expected results.
 			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.5]{../images/results/test_results.png}
 				\caption{Unit test results}
 				\label{fig:test_results}
-			\end{figure}
+			\end{figure}\\
+			Figure \ref{fig:coverage} shows the test coverage report for the application. As stated in section \ref{sec:project_testing_scope} a goal for this project was 100\% test coverage of the application. This has not been achieved but has come close with 97\% of the application being covered. 
+			\\\\
+			The main.py file has no coverage as it is a script as opposed to a testable Class; this is not an issue as it contains the argument parsing and calls to other classes which are not vital to test as the Argparse module is well tested already and the lower level classes have their own testing. The image\_processor.py class does not have full coverage as this includes lines which check if outputs provided by OpenCV are valid and close the application if something has gone wrong. The conditions under which these lines are hit could not be recreated due to the irregularity with which problems occur. However testing these lines would not validate the application's normal functionality.
 			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.7]{../images/results/coverage.png}
@@ -261,13 +265,15 @@
 		% Describe calculation for two shocks
 			% Describe differences between HV and LV
 		% Explain why results are good (Working in rounded numbers)
+			Table \ref{tab:uncertainty} shows the results of calculating uncertainty for the application under different conditions. The calculations were carried out for two different shocks with two different colour O-rings, and for two sag settings on each. For the tests the application was run 10 times using the same images and arguments with every output collected, using these the uncertainty was then produced.
 			\begin{table}[h!]
+				
 				\centering
 				\caption{Table of uncertainty calculation results}
 				\label{tab:uncertainty}
 				\begin{tabular}{|l|r|r|r|r|}
 					\hline
-					\multirow{12}{7em}{\bfseries Measurements}&\multicolumn{2}{|l|}{\bfseries Rockshox}&\multicolumn{2}{|l|}{\bfseries Fox}\\
+					\multirow{12}{7em}{\bfseries Measurements (PSI)}&\multicolumn{2}{|l|}{\bfseries High Volume, Red O-Ring}&\multicolumn{2}{|l|}{\bfseries Low Volume, Black O-Ring}\\
 					\cline{2-5}&\bfseries 25\%&\bfseries 30\%&\bfseries 25\%&\bfseries 30\%\\
 					\hline
 					&175.02&160.97&133.31&120.54\\
@@ -287,11 +293,35 @@
 					\hline
 				\end{tabular}
 			\end{table}
+			\\
+			For each test the results are low, the highest being $\pm$0.27, which indicates that the application is capable of producing correct sag settings which will be consistent. If these uncertainty measures were much higher then the settings produced by the application could not be trusted. The setting produced by the application is also rounded to the nearest whole number, this is because a change of less than 1 PSI in a mountain bike shock has a negligible effect. Even the most advanced, digital shock pumps do not display fractions of a PSI and professional race teams do not make changes of less than 1 PSI. This knowledge further reinforces the capabilities of the application.
+			\\\\
+			The results for the shock with a red O-ring are higher than those for the black O-ring. This is due to the method for finding and applying a boundary to the red O-ring producing a larger variance in results than the method which finds the black O-ring; the source of the variance is unknown. However, the difference between the results is outweighed by their accuracy and correct figures are produced for both colours meaning that this is not an issue.
 		\subsubsection{Comparison to Alternatives}
 		% Compare results to manual setup
-			% Describe steps for manual setup
-			% Describe steps for using application
-			% Compare
-				% Two pressures to put in are known so easy
-				% No trial and error, you just do it
+			% Two pressures to put in are known so easy
+			% No trial and error, you just do it
 		\subsubsection{Professional Opinion}
+			\todo{adapt once statement comes in}
+			% Say who you met with
+				% Mark thingy and Geraint
+				% Mechanical engineer
+				% Made his own frame
+				% Fimiliar with similar products
+			As outlined in section \ref{sec:methodology_professional_opinion}, once the application was complete the Mountain Bike Centre of Scotland were contacted to arrange a meeting with an individual from the industry to demonstrate the application to and collect their feedback. The meeting was arranged with Geraint Florida-Jones of the centre and Mark \todo{last name} who works as a mechanical engineer and has ventured into the design and manufacture of his own full suspension frame. Both Mark and Geraint are familiar with the current products similar to the application produced by this project, like Shockwiz \citep{shockwizweb} and the Fox IRD application \citep{foxird}.
+			\\\\
+			% Say what they said
+				% Good
+				% Produces correct results
+				% Would be easy to use in an app
+				% Would reccomend for target demographic
+			Once Mark and Geraint were familiar with the context of the project and operation of the application, they were asked for their feedback. They both stated that the project had been well executed and the application was simple to operate. Both verified that the setting produced appeared correct for the given shock, bike, and rider weight. Furthermore, both agreed that they would recommend the application to the target audience of beginner and intermediate riders though a more professional setup was required for racers.
+			\\\\
+			% Needs accompanying features
+			% Only gripe was non-linearity of air springs (addressed)
+			It was unanimous that the application produced in this project should be released as a mobile application if it were pushed to market as this would make it much more user friendly. Additionally, both stated that more features should be added to provide a rounded user experience, these features will be explained in section \ref{sec:conclusion_future_work}. Mark questioned the application of a linear equation to a non-linear air shock though once the experiments into linearity, outlined in section \ref{sec:results_pressure_calculation}, were explained he agreed that the shock could be considered linear within the range of its stroke that sag can be adjusted.
+			\\\\
+			% Same for Pedals
+			The application was also demonstrated to the staff at Pedals\footnote{\url{http://pedalsbikecare.co.uk/}} bike shop in Edinburgh. This received the same feedback which was given during the meeting with Mark and Geraint, it is a good execution of the concept, it is suitable for the target demographic, should be a mobile application, and should include more features.
+			\\\\
+			The positive reception that the application received from professionals within the cycling industry demonstrates that it is a suitable prototype which produces correct settings in an easy to use manner. The only issues suggested were the lack of additional features and functionality which is addressed in section \ref{sec:conclusion_future_work}.
