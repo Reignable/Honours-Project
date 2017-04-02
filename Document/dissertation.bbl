@@ -1,6 +1,60 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Adams%
+, Khan%
+, Raeside%
+\BCBL {}\ \BBA {} White%
+}{%
+Adams%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+adams2007research}
+\APACinsertmetastar {%
+adams2007research}%
+\begin{APACrefauthors}%
+Adams, J.%
+, Khan, H\BPBI T.%
+, Raeside, R.%
+\BCBL {}\ \BBA {} White, D\BPBI I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2007}.
+\newblock
+\APACrefbtitle {Research methods for graduate business and social science
+  students} {Research methods for graduate business and social science
+  students}.
+\newblock
+\APACaddressPublisher{}{SAGE publications India}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Adobe}%
+}{%
+{Adobe}%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+photoshop}
+\APACinsertmetastar {%
+photoshop}%
+\begin{APACrefauthors}%
+{Adobe}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {Adobe Photoshop.} {Adobe photoshop.}
+\newblock
+\begin{APACrefURL}
+  [{02/04/2017}]\url{http://www.adobe.com/uk/products/photoshop.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Ahmad%
 , Boufama%
 , Habashi%
@@ -58,6 +112,36 @@ Aston, P.%
 \begin{APACrefURL}
   [{24/09/2016}]\url{http://www.pinkbike.com/news/sussmybike-data-acquisition-eurobike-2016.html}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Aydin%
+, Harmsen%
+, Van~Slooten%
+\BCBL {}\ \BBA {} STEGWEE%
+}{%
+Aydin%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+aydin2004agile}
+\APACinsertmetastar {%
+aydin2004agile}%
+\begin{APACrefauthors}%
+Aydin, M\BPBI N.%
+, Harmsen, F.%
+, Van~Slooten, K.%
+\BCBL {}\ \BBA {} STEGWEE, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An agile information systems development method in use}
+  {An agile information systems development method in use}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Turkish Journal of Electrical Engineering \& Computer
+  Sciences}{12}{2}{127--138}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -289,6 +373,28 @@ imbasurv}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Bittner%
+}{%
+Bittner%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+bittner2002use}
+\APACinsertmetastar {%
+bittner2002use}%
+\begin{APACrefauthors}%
+Bittner, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2002}.
+\newblock
+\APACrefbtitle {Use case modeling} {Use case modeling}.
+\newblock
+\APACaddressPublisher{}{Addison-Wesley Longman Publishing Co., Inc.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Blake%
 \ \protect \BOthers {.}}{%
 Blake%
@@ -324,6 +430,32 @@ Blake, D\BPBI F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Bradski%
+\ \BBA {} Kaehler%
+}{%
+Bradski%
+\ \BBA {} Kaehler%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+bradski2008opencv}
+\APACinsertmetastar {%
+bradski2008opencv}%
+\begin{APACrefauthors}%
+Bradski, G.%
+\BCBT {}\ \BBA {} Kaehler, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2008}.
+\newblock
+\APACrefbtitle {Learning OpenCV: Computer vision with the OpenCV library}
+  {Learning opencv: Computer vision with the opencv library}.
+\newblock
+\APACaddressPublisher{}{" O'Reilly Media, Inc."}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Callaham%
 }{%
 Callaham%
@@ -347,6 +479,57 @@ Callaham, J.%
 \begin{APACrefURL}
   [{25/09/2016}]\url{http://www.androidcentral.com/google-says-there-are-now-14-billion-active-android-devices-worldwide}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Cane Creek}%
+}{%
+{Cane Creek}%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+creek2016curves}
+\APACinsertmetastar {%
+creek2016curves}%
+\begin{APACrefauthors}%
+{Cane Creek}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACrefbtitle {How to choose the right rear shock.} {How to choose the right
+  rear shock.}
+\newblock
+\begin{APACrefURL}
+  [{02/04/2017}]\url{https://www.canecreek.com/culture/blog-news/how-to-choose-the-right-rear-shock}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cao%
+\ \BBA {} Ramesh%
+}{%
+Cao%
+\ \BBA {} Ramesh%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+cao2008agile}
+\APACinsertmetastar {%
+cao2008agile}%
+\begin{APACrefauthors}%
+Cao, L.%
+\BCBT {}\ \BBA {} Ramesh, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Agile requirements engineering practices: An empirical
+  study} {Agile requirements engineering practices: An empirical study}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE software}{25}{1}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -470,6 +653,31 @@ Garvin, J\BPBI B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+{Goodyear}%
+}{%
+{Goodyear}%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+goodyear2014air}
+\APACinsertmetastar {%
+goodyear2014air}%
+\begin{APACrefauthors}%
+{Goodyear}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Basic Principles of Air Springs} {Basic principles of
+  air springs}.{\BBCQ}
+\newblock
+\begin{APACrefURL}
+  [{02/04/2017}]\url{http://www.lhtech.com/pdf/automation/pneumatic/Goodyear-Air-Spring-Data.pdf}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Harker%
 }{%
 Harker%
@@ -553,6 +761,82 @@ Kim, S\BHBI W.%
 \newblock
 \begin{APACrefDOI} \doi{http://dx.doi.org/10.1016/j.ndteint.2013.05.002}
   \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kitchenham%
+\ \protect \BOthers {.}}{%
+Kitchenham%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+kitchenham2009systematic}
+\APACinsertmetastar {%
+kitchenham2009systematic}%
+\begin{APACrefauthors}%
+Kitchenham, B.%
+, Brereton, O\BPBI P.%
+, Budgen, D.%
+, Turner, M.%
+, Bailey, J.%
+\BCBL {}\ \BBA {} Linkman, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Systematic literature reviews in software engineering--a
+  systematic literature review} {Systematic literature reviews in software
+  engineering--a systematic literature review}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Information and software technology}{51}{1}{7--15}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Klarica%
+}{%
+Klarica%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+klarica2001performance}
+\APACinsertmetastar {%
+klarica2001performance}%
+\begin{APACrefauthors}%
+Klarica, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Performance in motor sports} {Performance in motor
+  sports}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{British journal of sports medicine}{35}{5}{290--291}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kuhlman%
+}{%
+Kuhlman%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+kuhlman2009python}
+\APACinsertmetastar {%
+kuhlman2009python}%
+\begin{APACrefauthors}%
+Kuhlman, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2009}.
+\newblock
+\APACrefbtitle {A Python Book: Beginning Python, Advanced Python, and Python
+  Exercises} {A python book: Beginning python, advanced python, and python
+  exercises}.
+\newblock
+\APACaddressPublisher{}{Dave Kuhlman}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -642,6 +926,30 @@ Masad, E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+{MatLab}%
+}{%
+{MatLab}%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+matlabedge}
+\APACinsertmetastar {%
+matlabedge}%
+\begin{APACrefauthors}%
+{MatLab}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {Edge Detection.} {Edge detection.}
+\newblock
+\begin{APACrefURL}
+  [{02/04/2017}]\url{https://uk.mathworks.com/discovery/edge-detection.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Moeslund%
 }{%
 Moeslund%
@@ -691,6 +999,29 @@ curiosity_image_calibration}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+{OpenCV.org}%
+}{%
+{OpenCV.org}%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+opencvsite}
+\APACinsertmetastar {%
+opencvsite}%
+\begin{APACrefauthors}%
+{OpenCV.org}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {OpenCV.} {Opencv.}
+\newblock
+\begin{APACrefURL} [{02/04/2017}]\url{http://opencv.org/about.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Potter%
 }{%
 Potter%
@@ -719,6 +1050,77 @@ Potter, C.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1007/s11852-013-0255-2} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Pythonprogramming}%
+}{%
+{Pythonprogramming}%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+pythonprogramming}
+\APACinsertmetastar {%
+pythonprogramming}%
+\begin{APACrefauthors}%
+{Pythonprogramming}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACrefbtitle {Pythonprogramming.net.} {Pythonprogramming.net.}
+\newblock
+\begin{APACrefURL} [{02/04/2017}]\url{www.pythonprogramming.net}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rising%
+\ \BBA {} Janoff%
+}{%
+Rising%
+\ \BBA {} Janoff%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+rising2000scrum}
+\APACinsertmetastar {%
+rising2000scrum}%
+\begin{APACrefauthors}%
+Rising, L.%
+\BCBT {}\ \BBA {} Janoff, N\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Scrum software development process for small teams}
+  {The scrum software development process for small teams}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE software}{17}{4}{26--32}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rosebrock%
+}{%
+Rosebrock%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+pyimagesearch}
+\APACinsertmetastar {%
+pyimagesearch}%
+\begin{APACrefauthors}%
+Rosebrock, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {Pyimagesearch.} {Pyimagesearch.}
+\newblock
+\begin{APACrefURL} [{02/04/2017}]\url{www.pyimagesearch.com} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -780,6 +1182,53 @@ Schröder, S.%
 \newblock
 \begin{APACrefDOI} \doi{http://dx.doi.org/10.1016/j.icarus.2014.08.029}
   \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Segers%
+}{%
+Segers%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+segers2008analysis}
+\APACinsertmetastar {%
+segers2008analysis}%
+\begin{APACrefauthors}%
+Segers, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+\APACrefbtitle {Analysis techniques for racecar data acquisition} {Analysis
+  techniques for racecar data acquisition}\ \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACaddressInstitution{}{SAE Technical Paper}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Shneiderman%
+}{%
+Shneiderman%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+shneiderman2010designing}
+\APACinsertmetastar {%
+shneiderman2010designing}%
+\begin{APACrefauthors}%
+Shneiderman, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle {Designing the user interface: strategies for effective
+  human-computer interaction} {Designing the user interface: strategies for
+  effective human-computer interaction}.
+\newblock
+\APACaddressPublisher{}{Pearson Education India}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

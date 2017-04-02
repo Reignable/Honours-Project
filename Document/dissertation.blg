@@ -12,6 +12,18 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bibliography.bib
+Warning--entry type for "creek2016curves" isn't style-file defined
+--line 399 of file bibliography.bib
+Warning--entry type for "photoshop" isn't style-file defined
+--line 416 of file bibliography.bib
+Warning--entry type for "matlabedge" isn't style-file defined
+--line 425 of file bibliography.bib
+Warning--entry type for "opencvsite" isn't style-file defined
+--line 482 of file bibliography.bib
+Warning--entry type for "pyimagesearch" isn't style-file defined
+--line 491 of file bibliography.bib
+Warning--entry type for "pythonprogramming" isn't style-file defined
+--line 500 of file bibliography.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in sussmybike
 ptr=1, stack=
@@ -39,6 +51,11 @@ ptr=1, stack=
 
 ---the literal stack isn't empty for entry androidusers
 while executing---line 5079 of file apacite.bst
+Warning--No journal in goodyear2014air
+ptr=1, stack=
+
+---the literal stack isn't empty for entry goodyear2014air
+while executing---line 5079 of file apacite.bst
 Warning--No journal in roseonline
 ptr=1, stack=
 
@@ -49,50 +66,51 @@ ptr=1, stack=
 
 ---the literal stack isn't empty for entry catphone
 while executing---line 5079 of file apacite.bst
+Warning--No address in segers2008analysis
 Warning--No journal in ytonline
 ptr=1, stack=
 
 ---the literal stack isn't empty for entry ytonline
 while executing---line 5079 of file apacite.bst
-You've used 34 entries,
+You've used 52 entries,
             6951 wiz_defined-function locations,
-            1479 strings with 18330 characters,
-and the built_in function-call counts, 62454 in all, are:
-= -- 7634
-> -- 530
-< -- 2996
-+ -- 2939
-- -- 90
-* -- 4029
-:= -- 11417
-add.period$ -- 138
-call.type$ -- 34
-change.case$ -- 615
+            1565 strings with 20696 characters,
+and the built_in function-call counts, 91870 in all, are:
+= -- 11491
+> -- 765
+< -- 4169
++ -- 4022
+- -- 138
+* -- 5666
+:= -- 16206
+add.period$ -- 211
+call.type$ -- 52
+change.case$ -- 921
 chr.to.int$ -- 0
-cite$ -- 77
-duplicate$ -- 1604
-empty$ -- 2557
-format.name$ -- 833
-if$ -- 11951
+cite$ -- 115
+duplicate$ -- 2368
+empty$ -- 3846
+format.name$ -- 1209
+if$ -- 17961
 int.to.chr$ -- 0
-int.to.str$ -- 108
+int.to.str$ -- 162
 missing$ -- 0
-newline$ -- 852
-num.names$ -- 272
-pop$ -- 1282
+newline$ -- 1274
+num.names$ -- 416
+pop$ -- 1828
 preamble$ -- 1
-purify$ -- 148
+purify$ -- 220
 quote$ -- 0
-skip$ -- 3936
+skip$ -- 6301
 stack$ -- 0
-substring$ -- 3251
-swap$ -- 925
-text.length$ -- 125
+substring$ -- 4436
+swap$ -- 1319
+text.length$ -- 167
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2784
-warning$ -- 9
-while$ -- 302
+type$ -- 4656
+warning$ -- 11
+while$ -- 428
 width$ -- 0
-write$ -- 1014
-(There were 8 error messages)
+write$ -- 1510
+(There were 9 error messages)
