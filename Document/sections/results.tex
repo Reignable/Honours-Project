@@ -63,7 +63,7 @@
 				\caption{Reference point found using HoughCircles}
 				\label{fig:hough_circle}
 			\end{figure}
-			\\
+			\\\\
 			To overcome this issue it was necessary to again use OpenCV’s findContours in exactly the same way it used to successfully locate the O-ring. Once a contour is found that encompasses the entire reference point, a bounding circle can be drawn around it as shown in Figure \ref{fig:find_ref}. Although the bounding circle appears to be slightly larger than the reference point, experimentation with a variety of images showed that this method produced measurements that were within acceptable tolerances for the pixel per millimetre calculation.
 			\\\\
 			The reason the Hough Circle method produced a bounding circle that is slightly difference to the reference point is because the reference point captured in the image is not a uniform circle. Although the thresholds of the Hough Circle method can be adjusted, applying the reference point to the cylindrical shaft of the shock unit means it is too misshapen to be detected correctly without the use of OpenCV’s findContours.
@@ -297,11 +297,11 @@
 			For each test the results are low, the highest being $\pm$0.27, which indicates that the application is capable of producing correct sag settings which will be consistent. If these uncertainty measures were much higher then the settings produced by the application could not be trusted. The setting produced by the application is also rounded to the nearest whole number, this is because a change of less than 1 PSI in a mountain bike shock has a negligible effect. Even the most advanced, digital shock pumps do not display fractions of a PSI and professional race teams do not make changes of less than 1 PSI. This knowledge further reinforces the capabilities of the application.
 			\\\\
 			The results for the shock with a red O-ring are higher than those for the black O-ring. This is due to the method for finding and applying a boundary to the red O-ring producing a larger variance in results than the method which finds the black O-ring; the source of the variance is unknown. However, the difference between the results is outweighed by their accuracy and correct figures are produced for both colours meaning that this is not an issue.
-		\subsubsection{Comparison to Alternatives}
+		\subsubsection{Comparison to Alternative Methods}
 			% Compare results to manual setup
 				% Two pressures to put in are known so easy
 				% No trial and error, you just do it
-			As outlined in section \ref{sec:methodology_manual}, the manual trial and error setup process was carried out on a bike to compare this to using the application. For this experiment the target sag was 30\% of a 57mm shock stroke equalling a target measurement of 17.1mm. To begin the rider wearing their normal riding clothing and equipment were weighed, the result of this being a total weight of 160lbs. As per the manufacturers recommended process the shock is then pressurised to the equivalent pressure of 160 PSI and weighted by the rider. Each trial and error stage following this is documented in Table \ref{tab:manual_process}.
+			As outlined in section \ref{sec:methodology_manual}, the manual trial and error setup process was carried out on a bike to compare this to using the application. For this experiment the target sag was 30\% of a 57mm shock stroke equalling a target measurement of 17.1mm. To begin the rider wearing their normal riding clothing and equipment were weighed, the result of this being a total weight of approximately 160lbs. As per the manufacturers recommended process the shock is then pressurised to the equivalent pressure of 160 PSI and weighted by the rider. Each trial and error stage following this is documented in Table \ref{tab:manual_process}.
 			\begin{table}[h!]
 				\centering
 				\caption{Stages of manual sag setting process}
@@ -318,7 +318,11 @@
 					\hline
 				\end{tabular}
 			\end{table}\\
-			To produce the correct sag setting using the manual process took five stages each including pressurisation of the shock, weighting of the bike, and measurement of the marker O-ring.  
+			To produce the correct sag setting using the manual process required 5 adjustments each including pressurisation of the shock, weighting of the bike, and measurement of the marker O-ring. For this shock, small changes in pressure made no noticeable difference to the amount of movement which resulted in adding 20 PSI in stage 2. Even though there is a chance that the manufacturers recommended setting will be correct or very close, the majority of the time a manual set-up will need more than 3 adjustments. When compared to the application's 3 set stages it proves quicker and easier to carry out the measurements computationally. The application also removes the need to initially weigh the rider and use the manufacturers pressure which further simplifies the process.
+			\\\\
+			It should be noted that there is disparity between the resulting pressure of the manual process (seen in Table \ref{tab:manual_process}) and that produced by the application (seen in Table \ref{tab:uncertainty}). As the images used during development of the application were of a shock that had not been weighted while the rider was wearing correct clothing and equipment, new images were produced to match the conditions during the manual process and the application retested. This produced a result of 176 PSI closer to that produced by the manual process but still lower than the manually produced result. However, when the shock is pressurised to this setting, the sag appears correct.
+			\\\\
+			A manual setting was produced for the low volume shock to further investigate this issue. It was found that under these conditions both the manual and application's results were extremely similar, both at approximately 120 PSI. As high volume shocks require much higher pressures than low volume shocks, it is believed that as the manual pressure of 200 PSI lies above the two pressures which the shock is pressurised to when using the application, this creates an inaccuracy in the results. For comparison, the low volume target pressure of 120 PSI lies between the 100 and 150 PSI required by the application. A solution to this will be discussed in section \ref{sec:conclusion_future_work}.
 		\subsubsection{Professional Opinion}
 			\todo{adapt once statement comes in}
 			% Say who you met with
