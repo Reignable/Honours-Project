@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  2 APR 2017 15:40
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  3 APR 2017 12:16
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1455,18 +1455,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2
 
-])
-\tf@toc=\write10
-\openout10 = `dissertation.toc'.
-
-
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3]
+[3])
+\tf@toc=\write10
+\openout10 = `dissertation.toc'.
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2729,7 +2729,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [70]
 (./_minted-dissertation/8D6E6C53658902DFEA9B89BD507D391FC4FEAD054C1EDC68584A339
-C098D439E.pygtex))
+C098D439E.pygtex)
+(./_minted-dissertation/15849D5EFCA237360934D27ED861F7AFF9388BA6E44AC57ACEAAAA2
+DF42734B2.pygtex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2739,6 +2741,63 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [71
 
 ]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[72])
+(./_minted-dissertation/AADE3CF6B7EEF60BDE35C7ABA9C4B9BF9F89FA0C786D9AA87B9BBAE
+82B561A38.pygtex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[73]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[74])
+(./_minted-dissertation/B4CDAD52F1DEBE6979D51C181B218543EE89922A52CA73C71C7E58C
+F6ECB1734.pygtex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[75])
+(./_minted-dissertation/7B552060EA5BC49DB7EBC656E9BA11547CF7BD4F98CA769EA2B46B1
+D937FC2AA.pygtex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[76]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[77])
+(./_minted-dissertation/32C649B1800CEBB23A43C3B008FD6251D0982B7898A5709F47EC4D6
+AE3271DCC.pygtex))
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[78]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
 
 
@@ -2747,7 +2806,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[72
+[79
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
@@ -2759,12 +2818,12 @@ runsystem(rm dissertation.pyg)...executed.
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 33678 strings out of 493589
- 590007 string characters out of 6145555
- 734638 words of memory out of 5000000
- 36479 multiletter control sequences out of 15000+600000
+ 33699 strings out of 493589
+ 591694 string characters out of 6145555
+ 735509 words of memory out of 5000000
+ 36485 multiletter control sequences out of 15000+600000
  13810 words of font info for 86 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  47i,14n,77p,10385b,751s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (82 pages).
+Output written on dissertation.pdf (89 pages).
