@@ -11,26 +11,26 @@
 \contentsline {subsubsection}{\numberline {2.1.4}Sag}{7}{subsubsection.2.1.4}
 \contentsline {subsubsection}{\numberline {2.1.5}Damping}{8}{subsubsection.2.1.5}
 \contentsline {paragraph}{\numberline {2.1.5.1}Compression Damping}{8}{paragraph.2.1.5.1}
-\contentsline {paragraph}{\numberline {2.1.5.2}Rebound Damping}{8}{paragraph.2.1.5.2}
+\contentsline {paragraph}{\numberline {2.1.5.2}Rebound Damping}{9}{paragraph.2.1.5.2}
 \contentsline {paragraph}{\numberline {2.1.5.3}High and Low Speed Damping}{9}{paragraph.2.1.5.3}
 \contentsline {subsubsection}{\numberline {2.1.6}Optimal Setup}{9}{subsubsection.2.1.6}
-\contentsline {subsection}{\numberline {2.2}Image Analysis}{9}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.2}Image Analysis}{10}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}Digital Camera Operation}{10}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}Lighting Conditions}{10}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2}Lighting Conditions}{11}{subsubsection.2.2.2}
 \contentsline {subsubsection}{\numberline {2.2.3}Usages}{11}{subsubsection.2.2.3}
-\contentsline {paragraph}{\numberline {2.2.3.1}Medical}{11}{paragraph.2.2.3.1}
-\contentsline {paragraph}{\numberline {2.2.3.2}Transport}{11}{paragraph.2.2.3.2}
+\contentsline {paragraph}{\numberline {2.2.3.1}Medical}{12}{paragraph.2.2.3.1}
+\contentsline {paragraph}{\numberline {2.2.3.2}Transport}{12}{paragraph.2.2.3.2}
 \contentsline {paragraph}{\numberline {2.2.3.3}Engineering}{12}{paragraph.2.2.3.3}
-\contentsline {paragraph}{\numberline {2.2.3.4}Space}{12}{paragraph.2.2.3.4}
-\contentsline {subsubsection}{\numberline {2.2.4}Image Analysis Techniques}{12}{subsubsection.2.2.4}
+\contentsline {paragraph}{\numberline {2.2.3.4}Space}{13}{paragraph.2.2.3.4}
+\contentsline {subsubsection}{\numberline {2.2.4}Image Analysis Techniques}{13}{subsubsection.2.2.4}
 \contentsline {paragraph}{\numberline {2.2.4.1}Thresholding}{13}{paragraph.2.2.4.1}
-\contentsline {paragraph}{\numberline {2.2.4.2}Edge Detection}{13}{paragraph.2.2.4.2}
-\contentsline {paragraph}{\numberline {2.2.4.3}Hough Transform}{13}{todo.4}
-\contentsline {subparagraph}{Linear Hough Transform}{14}{section*.21}
-\contentsline {subparagraph}{Circular Hough Transform}{14}{section*.22}
-\contentsline {paragraph}{\numberline {2.2.4.4}Taking Measurements}{14}{paragraph.2.2.4.4}
+\contentsline {paragraph}{\numberline {2.2.4.2}Edge Detection}{14}{paragraph.2.2.4.2}
+\contentsline {paragraph}{\numberline {2.2.4.3}Hough Transform}{14}{todo.6}
+\contentsline {subparagraph}{Linear Hough Transform}{15}{section*.22}
+\contentsline {subparagraph}{Circular Hough Transform}{15}{section*.23}
+\contentsline {paragraph}{\numberline {2.2.4.4}Taking Measurements}{15}{paragraph.2.2.4.4}
 \contentsline {subsection}{\numberline {2.3}Image Analysis in Sports Science}{16}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Image Analysis for Optimizing Mountain Bike Suspension}{16}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.4}Image Analysis for Optimizing Mountain Bike Suspension}{17}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Conclusion}{17}{subsection.2.5}
 \contentsline {section}{\numberline {3}Methodology}{18}{section.3}
 \contentsline {subsection}{\numberline {3.1}Introduction}{18}{subsection.3.1}
@@ -51,7 +51,7 @@
 \contentsline {subsubsection}{\numberline {3.6.1}Agile Development}{23}{subsubsection.3.6.1}
 \contentsline {paragraph}{\numberline {3.6.1.1}Requirements Analysis}{23}{paragraph.3.6.1.1}
 \contentsline {paragraph}{\numberline {3.6.1.2}MoSCoW}{24}{paragraph.3.6.1.2}
-\contentsline {paragraph}{\numberline {3.6.1.3}Sprint Cycles}{24}{todo.9}
+\contentsline {paragraph}{\numberline {3.6.1.3}Sprint Cycles}{24}{todo.11}
 \contentsline {subsubsection}{\numberline {3.6.2}Organic Development}{25}{subsubsection.3.6.2}
 \contentsline {subsubsection}{\numberline {3.6.3}Version Control}{25}{subsubsection.3.6.3}
 \contentsline {subsubsection}{\numberline {3.6.4}Milestones}{26}{subsubsection.3.6.4}
@@ -86,10 +86,14 @@
 \contentsline {subsubsection}{\numberline {4.3.4}Professional Opinion}{41}{subsubsection.4.3.4}
 \contentsline {section}{\numberline {5}Conclusions}{42}{section.5}
 \contentsline {subsection}{\numberline {5.1}Meeting Aims}{42}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Aim 1}{42}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Aim 2}{42}{subsubsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.3}Aim 3}{42}{subsubsection.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.4}Aim 4}{42}{subsubsection.5.1.4}
 \contentsline {subsection}{\numberline {5.2}Comparison to other Products}{42}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Future Work}{42}{subsection.5.3}
 \contentsline {subsection}{\numberline {5.4}Self Appraisal}{42}{subsection.5.4}
-\contentsline {section}{References}{43}{section*.41}
+\contentsline {section}{References}{43}{section*.42}
 \contentsline {section}{\numberline {A}Android Experiments}{48}{appendix.A}
 \contentsline {subsection}{\numberline {A.1}Table of Android Experiments}{48}{subsection.A.1}
 \contentsline {subsection}{\numberline {A.2}Hello CV}{49}{subsection.A.2}
@@ -112,3 +116,5 @@
 \contentsline {subsection}{\numberline {G.3}pressure\_calculator.py}{76}{subsection.G.3}
 \contentsline {subsection}{\numberline {G.4}test\_image\_processor.py}{77}{subsection.G.4}
 \contentsline {subsection}{\numberline {G.5}test\_pressure\_calculator.py}{79}{subsection.G.5}
+\contentsline {section}{\numberline {H}IPO}{79}{appendix.H}
+\contentsline {section}{\numberline {I}Week 9 Report}{79}{appendix.I}
