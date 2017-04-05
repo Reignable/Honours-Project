@@ -12,7 +12,7 @@
 		\subsubsection{Use of EXIF Data and Reference Point}
 			As mentioned in section \ref{sec:taking_measurements}, the process which the application would use to produce measurements was undecided and required experimentation. Initially \gls{exif} data from the image was used, which was successful until collection of data about the sensor size was required. Due to this being uncommon in \gls{exif} data, particularly in images taken with smartphone cameras, this method was abandoned in favour of using a reference point. The code produced during this experimentation phase can be seen in Appendix \ref{app:exif_code} where the function {\ttfamily get\_sensor\_size} is incomplete as this is the point where this approach was dropped.
 			\\\\
-			The reference point chosen is a red circular sticker as these are cheap, freely available in store or online and being round do not need to be orientated to the object as a square or rectangular sticker would. This sticker is applied directly to the shock unit where it can be easily picked out in the image due to its prominent by its colour. But although locating the reference point was simple, issues were encountered in the measuring process and these will be discussed in a following section.
+			The reference point chosen is a red circular sticker as these are cheap, freely available in store or online and being round do not need to be orientated to the object as a square or rectangular sticker would. This sticker is applied directly to the shock unit where it can be easily picked out in the image due to its prominent colour. But although locating the reference point was simple, issues were encountered in the measuring process and these will be discussed in a following section.
 		\subsubsection{Colour Quantification}
 			For initial experimentation with using a reference point, a similar sized red circle was manually added to images using an image processing application. This allowed for tuning of the colour masking process and refining the process before using a real reference point stuck on the shock. However when images with a real reference point were used, the application could not detect it. This was because the colour range for the masking process was using perfect red (RGB 255,0,0) and the non-standard reds of the sticker as captured in the image were not within this range.
 			\\\\
@@ -25,7 +25,7 @@
 				\label{fig:quantified_colours}
 			\end{figure}
 		\subsubsection{Dynamic Measurement Limits}
-			It was decided that the application should utilise the distance between the shock wiper seal and the marker o-ring for providing the measurement. This was deemed suitable as the manual process to calculate sag also uses the O-ring which is a prominent feature on most shocks, unless removed by the owner. Initial versions of the application assumed it would find the O-ring somewhere about two thirds of the way up the image height although once multiple images were used from two different makes of shocks this assumption proved to be incorrect.
+			It was decided that the application should utilise the distance between the shock wiper seal and the marker O-ring for providing the sag measurement. This was deemed suitable as the manual process to calculate sag also uses the O-ring which is a prominent feature on most shocks, unless removed by the owner. Initial versions of the application assumed it would find the O-ring somewhere about two thirds of the way up the image height although once multiple images were used from two different makes of shocks this assumption proved to be incorrect.
 			\\\\
 			To address this and ensure the application is always able to find the O-ring no matter where it appears in the image, it was necessary to use a dynamic method to detect it. In much the same way that using quantified colours solved the issues of detecting the reference point, OpenCV’s findContours can be used to find an O-ring of a known colour as long as it is present in the image. When located, a bounding box is drawn around the contour as shown in Figure \ref{fig:find_oring} and this can be used to determine the lowest point at which the O-ring appears in the image to establish the limit of measurement.
 			\begin{figure}[h!]
@@ -66,7 +66,7 @@
 			\\\\
 			To overcome this issue it was necessary to again use OpenCV’s findContours in exactly the same way it used to successfully locate the O-ring. Once a contour is found that encompasses the entire reference point, a bounding circle can be drawn around it as shown in Figure \ref{fig:find_ref}. Although the bounding circle appears to be slightly larger than the reference point, experimentation with a variety of images showed that this method produced measurements that were within acceptable tolerances for the pixel per millimetre calculation.
 			\\\\
-			The reason the Hough Circle method produced a bounding circle that is slightly difference to the reference point is because the reference point captured in the image is not a uniform circle. Although the thresholds of the Hough Circle method can be adjusted, applying the reference point to the cylindrical shaft of the shock unit means it is too misshapen to be detected correctly without the use of OpenCV’s findContours.
+			The reason the Hough Circle method produced a bounding circle that is slightly difference to the reference point is because the reference point captured in the image is not a uniform circle. Although the thresholds of the Hough Circle method can be adjusted, applying the sticker to the cylindrical body of the shock unit means it is too misshapen to be detected correctly without the use of OpenCV’s findContours.
 			\begin{figure}[h!]
 				\centering
 				\begin{minipage}{0.4\textwidth}
@@ -85,7 +85,7 @@
 				\label{fig:find_ref}
 			\end{figure}
 		\subsubsection{Pressure Calculation}\label{sec:results_pressure_calculation}
-			The original method for producing a suggested pressure that would give the optimal amount of sag was to calculate a psi per millimetre metric from the measurement of the shock shaft and the current pressure of the shock supplied by the user. The assumption being that for every 1 PSI added to the shock, this would reduce the movement by a fixed amount proportionate to the original pressure. The equation for this metric is as follows:
+			The original method for producing a suggested pressure that would give the optimal amount of sag was to calculate a pressure per millimetre metric in pounds per square inch (PSI) from the measurement of the shock shaft and the current pressure of the shock supplied by the user. The assumption being that for every 1 PSI of pressure added to the shock, this would reduce the movement by a fixed amount proportionate to the original pressure. The equation for this metric is as follows:
 			\begin{equation}
 				\label{equ:pxpermm}
 				P_s = \Bigg(\frac{P_c}{M_c}\Bigg)M_s
@@ -97,7 +97,7 @@
 				\item $M_c$ is the current measurement of the shock shaft
 			\end{where}
 			\vspace{5mm}
-			Though this hypothesised method had produced reliable results when tested manually, if failed to do so in the application both when different images, reference points and desired sag value were test and even when these values were hard-coded. Further investigation and discussion suggested the cause of this problem was the non-linearity of air springs as previously discussed in \ref{sec:lit_review_rear_suspension}.
+			Though this hypothesised method had produced reliable results when tested manually, it failed to do so in the application both when different images, reference points, and desired sag values were tested and even when these values were hard-coded. Further investigation and discussion suggested the cause of this problem was the non-linearity of air springs as previously discussed in \ref{sec:lit_review_rear_suspension}.
 			\\\\
 			When an air spring is compressed the spring rate increases through its travel as the particles of air become increasingly compressed \citep{goodyear2014air}; While this effect still allows the shock unit to be fine tuned, applying a linear equation to a non-linear phenomenon is clearly going to produce some degree of error. However as the range of measurement in this project is small compared to the full stroke of an air shock, it was considered that the spring rate can be considered as linear within the limited range of compression under consideration.
 			\\\\
@@ -115,12 +115,12 @@
 				\caption{Sag measurements for standard air shock (left) and high volume air shock (right)}
 				\label{fig:scatters}
 			\end{figure}\\
-			From this data it could be concluded that, within the range of measurements, the compression of the air spring linear. The data-points in Figure \ref{fig:scatters} do occasionally vary though and this thought to be due to it being a non-sterile test environment. Both shocks were well-used potentially containing age-related defects and loading the bike was done simply by using body weight.
+			From this data it could be concluded that, within the range of measurements, the compression rate of the air spring is linear. The data-points in Figure \ref{fig:scatters} do occasionally vary though and this thought to be due to it being a non-sterile test environment. Both shocks were well-used potentially containing age-related defects and loading the bike was done simply by using body weight.
 			\\\\
 			Having established that the relationship between the pressure in the shock and movement from weighting the shock could be treated as if it were linear, the plan was to implement an ideal gas equation. However investigation into producing charts using Python uncovered a method of computationally producing a linear equation. This led to the application’s process being rearranged so that it takes in two images, one of the shock loaded at 100psi and another at 150psi. Using this data it can produce a virtual plot and linear equation with which to calculate a value for the optimal sag setting.
 	\subsection{Application}
 		\subsubsection{Images}
-			The application requires two images to measure and produce calculations from. The application can process images in different lighting conditions and ones where a flash has been used though there are some criteria which are needed. There must be a red, circular, 7.5mm diameter sticker on the shock, preferably just above the shock seal. The image should also be taken so that the shock seal is around 1/3 down in the image. Examples of the images used are shown in Figure \ref{fig:application_images}.
+			The application requires two images to generate the measurements needed for the calculation. The application can process images in different lighting conditions and ones where a flash has been used though there are some criteria which must be adhered to. There must be a red, circular, 7.5mm diameter sticker on the shock, preferably sited just above the shock seal. The image should also be taken so that the shock seal is around 1/3 down in the image. Examples of the images used are shown in Figure \ref{fig:application_images}.
 			\\\\
 			The user must supply one image of the shock which has been pressurised to 100psi and a second with the shock pressurised to 150psi both loaded under the normal riding weight, i.e. complete with helmet,  body armour and hydration pack. Each time the marker O-ring should be returned to the top of the shock shaft before weight is applied to the shock.
 			\begin{figure}[h!]
@@ -239,9 +239,9 @@
 		\paragraph{Produce Setting}
 			To produce the final setting the optimal distance that the shock should move to give the desired sag setting is first calculated using data input by the user. For example if the shock stroke is 57mm and the desired sag is 30\% then the desired movement is 17.1mm. This and  the equation produced in the  previous are used to calculate the optimal pressure.  \todo{add source reference} For example if the equation is $-5:017x+246.426$ then the pressure required to give optimal sag is 161psi.
 \clearpage
-	\subsection{Evaluation}
+	\subsection{Evaluation}\label{sec:evaluation}
 		The following section will describe the results of applying the evaluation techniques outlined in section \ref{sec:methodology_evaluation} to the final prototype application. The outcome of the evaluation presents an indication of how successful the application is at its intended goals and how successful the project was in producing it.
-		\subsubsection{Validation}
+		\subsubsection{Validation}\label{sec:evaluation_validation}
 			% Display test results
 			% Explain they work and have suitable coverage
 			% Explain not full coverage

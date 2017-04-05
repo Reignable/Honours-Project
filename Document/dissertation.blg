@@ -24,6 +24,14 @@ Warning--entry type for "pyimagesearch" isn't style-file defined
 --line 491 of file bibliography.bib
 Warning--entry type for "pythonprogramming" isn't style-file defined
 --line 500 of file bibliography.bib
+Warning--entry type for "quarq2017shockwiz" isn't style-file defined
+--line 577 of file bibliography.bib
+Warning--entry type for "fox2015ird" isn't style-file defined
+--line 586 of file bibliography.bib
+Warning--entry type for "kivy2015python" isn't style-file defined
+--line 595 of file bibliography.bib
+Warning--entry type for "asl" isn't style-file defined
+--line 604 of file bibliography.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in sussmybike
 ptr=1, stack=
@@ -72,45 +80,45 @@ ptr=1, stack=
 
 ---the literal stack isn't empty for entry ytonline
 while executing---line 5079 of file apacite.bst
-You've used 53 entries,
+You've used 57 entries,
             6951 wiz_defined-function locations,
-            1569 strings with 20784 characters,
-and the built_in function-call counts, 93425 in all, are:
-= -- 11695
-> -- 779
-< -- 4221
-+ -- 4082
-- -- 140
-* -- 5744
-:= -- 16447
-add.period$ -- 215
-call.type$ -- 53
-change.case$ -- 938
+            1585 strings with 21090 characters,
+and the built_in function-call counts, 99276 in all, are:
+= -- 12586
+> -- 819
+< -- 4366
++ -- 4182
+- -- 154
+* -- 5981
+:= -- 17158
+add.period$ -- 231
+call.type$ -- 57
+change.case$ -- 1006
 chr.to.int$ -- 0
-cite$ -- 117
-duplicate$ -- 2420
-empty$ -- 3920
-format.name$ -- 1233
-if$ -- 18289
+cite$ -- 125
+duplicate$ -- 2550
+empty$ -- 4192
+format.name$ -- 1289
+if$ -- 19628
 int.to.chr$ -- 0
-int.to.str$ -- 165
+int.to.str$ -- 177
 missing$ -- 0
-newline$ -- 1299
-num.names$ -- 424
-pop$ -- 1877
+newline$ -- 1387
+num.names$ -- 456
+pop$ -- 1956
 preamble$ -- 1
-purify$ -- 224
+purify$ -- 240
 quote$ -- 0
-skip$ -- 6402
+skip$ -- 7085
 stack$ -- 0
-substring$ -- 4507
-swap$ -- 1340
-text.length$ -- 169
+substring$ -- 4625
+swap$ -- 1397
+text.length$ -- 180
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 4736
+type$ -- 5344
 warning$ -- 11
-while$ -- 435
+while$ -- 455
 width$ -- 0
-write$ -- 1541
+write$ -- 1637
 (There were 9 error messages)

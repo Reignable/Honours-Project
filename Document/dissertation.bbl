@@ -624,6 +624,29 @@ Formosa, N.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+{Fox Factory Inc.}%
+}{%
+{Fox Factory Inc.}%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+fox2015ird}
+\APACinsertmetastar {%
+fox2015ird}%
+\begin{APACrefauthors}%
+{Fox Factory Inc.}%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {Fox IRD Application.} {Fox ird application.}
+\newblock
+\begin{APACrefURL} [{05/04/2017}]\url{http://www.ridefox.com/content.php?c=app}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Garvin%
 , Malin%
 \BCBL {}\ \BBA {} Minitti%
@@ -818,6 +841,30 @@ Kitchenham, B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+{Kivy}%
+}{%
+{Kivy}%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+kivy2015python}
+\APACinsertmetastar {%
+kivy2015python}%
+\begin{APACrefauthors}%
+{Kivy}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {Python-for-Android.} {Python-for-android.}
+\newblock
+\begin{APACrefURL}
+  [{05/04/2017}]\url{https://github.com/kivy/python-for-android}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Klarica%
 }{%
 Klarica%
@@ -838,6 +885,29 @@ Klarica, A.%
   sports}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{British journal of sports medicine}{35}{5}{290--291}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kohler%
+}{%
+Kohler%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+asl}
+\APACinsertmetastar {%
+asl}%
+\begin{APACrefauthors}%
+Kohler, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {Android Scripting Layer.} {Android scripting layer.}
+\newblock
+\begin{APACrefURL} [{05/04/2017}]\url{https://github.com/damonkohler/sl4a}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1097,6 +1167,29 @@ pythonprogramming}%
 \APACrefbtitle {Pythonprogramming.net.} {Pythonprogramming.net.}
 \newblock
 \begin{APACrefURL} [{02/04/2017}]\url{www.pythonprogramming.net}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Quarq}%
+}{%
+{Quarq}%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+quarq2017shockwiz}
+\APACinsertmetastar {%
+quarq2017shockwiz}%
+\begin{APACrefauthors}%
+{Quarq}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {Shockwiz.} {Shockwiz.}
+\newblock
+\begin{APACrefURL} [{05/04/2017}]\url{https://www.quarq.com/shockwiz/}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 

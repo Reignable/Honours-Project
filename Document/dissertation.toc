@@ -51,7 +51,7 @@
 \contentsline {subsubsection}{\numberline {3.6.1}Agile Development}{23}{subsubsection.3.6.1}
 \contentsline {paragraph}{\numberline {3.6.1.1}Requirements Analysis}{23}{paragraph.3.6.1.1}
 \contentsline {paragraph}{\numberline {3.6.1.2}MoSCoW}{24}{paragraph.3.6.1.2}
-\contentsline {paragraph}{\numberline {3.6.1.3}Sprint Cycles}{24}{todo.11}
+\contentsline {paragraph}{\numberline {3.6.1.3}Sprint Cycles}{24}{todo.10}
 \contentsline {subsubsection}{\numberline {3.6.2}Organic Development}{25}{subsubsection.3.6.2}
 \contentsline {subsubsection}{\numberline {3.6.3}Version Control}{25}{subsubsection.3.6.3}
 \contentsline {subsubsection}{\numberline {3.6.4}Milestones}{26}{subsubsection.3.6.4}
@@ -88,33 +88,37 @@
 \contentsline {subsection}{\numberline {5.1}Meeting Aims}{42}{subsection.5.1}
 \contentsline {subsubsection}{\numberline {5.1.1}Aim 1}{42}{subsubsection.5.1.1}
 \contentsline {subsubsection}{\numberline {5.1.2}Aim 2}{42}{subsubsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.3}Aim 3}{42}{subsubsection.5.1.3}
-\contentsline {subsubsection}{\numberline {5.1.4}Aim 4}{42}{subsubsection.5.1.4}
-\contentsline {subsection}{\numberline {5.2}Comparison to other Products}{42}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Future Work}{42}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Self Appraisal}{42}{subsection.5.4}
-\contentsline {section}{References}{43}{section*.42}
-\contentsline {section}{\numberline {A}Android Experiments}{48}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Table of Android Experiments}{48}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Hello CV}{49}{subsection.A.2}
-\contentsline {subsection}{\numberline {A.3}15tile}{50}{subsection.A.3}
-\contentsline {subsection}{\numberline {A.4}BLOB Analysis}{58}{subsection.A.4}
-\contentsline {subsection}{\numberline {A.5}Face Detection}{63}{subsection.A.5}
-\contentsline {section}{\numberline {B}Python Experiments}{69}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}Table of Python Experiments}{69}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}find\_game.py}{70}{subsection.B.2}
-\contentsline {subsection}{\numberline {B.3}thresholding.py}{70}{subsection.B.3}
-\contentsline {subsection}{\numberline {B.4}img\_ops.py}{70}{subsection.B.4}
-\contentsline {subsection}{\numberline {B.5}distance\_to\_camera.py}{71}{subsection.B.5}
-\contentsline {section}{\numberline {C}Development Log}{72}{appendix.C}
-\contentsline {section}{\numberline {D}EXIF Extraction Code}{72}{appendix.D}
-\contentsline {section}{\numberline {E}Commit Log}{72}{appendix.E}
-\contentsline {section}{\numberline {F}Photos}{72}{appendix.F}
-\contentsline {section}{\numberline {G}Source Code}{72}{appendix.G}
-\contentsline {subsection}{\numberline {G.1}main.py}{72}{subsection.G.1}
-\contentsline {subsection}{\numberline {G.2}image\_processor.py}{74}{subsection.G.2}
-\contentsline {subsection}{\numberline {G.3}pressure\_calculator.py}{76}{subsection.G.3}
-\contentsline {subsection}{\numberline {G.4}test\_image\_processor.py}{77}{subsection.G.4}
-\contentsline {subsection}{\numberline {G.5}test\_pressure\_calculator.py}{79}{subsection.G.5}
-\contentsline {section}{\numberline {H}IPO}{79}{appendix.H}
-\contentsline {section}{\numberline {I}Week 9 Report}{79}{appendix.I}
+\contentsline {subsubsection}{\numberline {5.1.3}Aim 3}{43}{subsubsection.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.4}Aim 4}{43}{subsubsection.5.1.4}
+\contentsline {subsection}{\numberline {5.2}Comparison to similar Products}{43}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Shockwiz}{43}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Fox IRD}{43}{subsubsection.5.2.2}
+\contentsline {subsection}{\numberline {5.3}Future Work}{44}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Mobile Application}{44}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}Expanded Functionality}{44}{subsubsection.5.3.2}
+\contentsline {subsection}{\numberline {5.4}Self Appraisal}{45}{subsection.5.4}
+\contentsline {section}{References}{46}{section*.42}
+\contentsline {section}{\numberline {A}Android Experiments}{51}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Table of Android Experiments}{51}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Hello CV}{52}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}15tile}{53}{subsection.A.3}
+\contentsline {subsection}{\numberline {A.4}BLOB Analysis}{61}{subsection.A.4}
+\contentsline {subsection}{\numberline {A.5}Face Detection}{66}{subsection.A.5}
+\contentsline {section}{\numberline {B}Python Experiments}{72}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Table of Python Experiments}{72}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}find\_game.py}{73}{subsection.B.2}
+\contentsline {subsection}{\numberline {B.3}thresholding.py}{73}{subsection.B.3}
+\contentsline {subsection}{\numberline {B.4}img\_ops.py}{73}{subsection.B.4}
+\contentsline {subsection}{\numberline {B.5}distance\_to\_camera.py}{74}{subsection.B.5}
+\contentsline {section}{\numberline {C}Development Log}{75}{appendix.C}
+\contentsline {section}{\numberline {D}EXIF Extraction Code}{75}{appendix.D}
+\contentsline {section}{\numberline {E}Commit Log}{75}{appendix.E}
+\contentsline {section}{\numberline {F}Photos}{75}{appendix.F}
+\contentsline {section}{\numberline {G}Source Code}{75}{appendix.G}
+\contentsline {subsection}{\numberline {G.1}main.py}{75}{subsection.G.1}
+\contentsline {subsection}{\numberline {G.2}image\_processor.py}{77}{subsection.G.2}
+\contentsline {subsection}{\numberline {G.3}pressure\_calculator.py}{79}{subsection.G.3}
+\contentsline {subsection}{\numberline {G.4}test\_image\_processor.py}{80}{subsection.G.4}
+\contentsline {subsection}{\numberline {G.5}test\_pressure\_calculator.py}{82}{subsection.G.5}
+\contentsline {section}{\numberline {H}IPO}{82}{appendix.H}
+\contentsline {section}{\numberline {I}Week 9 Report}{82}{appendix.I}
