@@ -111,14 +111,13 @@
 \contentsline {subsection}{\numberline {B.4}img\_ops.py}{73}{subsection.B.4}
 \contentsline {subsection}{\numberline {B.5}distance\_to\_camera.py}{74}{subsection.B.5}
 \contentsline {section}{\numberline {C}Development Log}{75}{appendix.C}
-\contentsline {section}{\numberline {D}EXIF Extraction Code}{75}{appendix.D}
-\contentsline {section}{\numberline {E}Commit Log}{75}{appendix.E}
-\contentsline {section}{\numberline {F}Photos}{75}{appendix.F}
-\contentsline {section}{\numberline {G}Source Code}{75}{appendix.G}
-\contentsline {subsection}{\numberline {G.1}main.py}{75}{subsection.G.1}
-\contentsline {subsection}{\numberline {G.2}image\_processor.py}{77}{subsection.G.2}
-\contentsline {subsection}{\numberline {G.3}pressure\_calculator.py}{79}{subsection.G.3}
-\contentsline {subsection}{\numberline {G.4}test\_image\_processor.py}{80}{subsection.G.4}
-\contentsline {subsection}{\numberline {G.5}test\_pressure\_calculator.py}{82}{subsection.G.5}
-\contentsline {section}{\numberline {H}IPO}{82}{appendix.H}
-\contentsline {section}{\numberline {I}Week 9 Report}{82}{appendix.I}
+\contentsline {section}{\numberline {D}EXIF Extraction Code}{79}{appendix.D}
+\contentsline {section}{\numberline {E}Commit Log}{80}{appendix.E}
+\contentsline {section}{\numberline {F}Source Code}{87}{appendix.F}
+\contentsline {subsection}{\numberline {F.1}main.py}{87}{subsection.F.1}
+\contentsline {subsection}{\numberline {F.2}image\_processor.py}{88}{subsection.F.2}
+\contentsline {subsection}{\numberline {F.3}pressure\_calculator.py}{91}{subsection.F.3}
+\contentsline {subsection}{\numberline {F.4}test\_image\_processor.py}{92}{subsection.F.4}
+\contentsline {subsection}{\numberline {F.5}test\_pressure\_calculator.py}{93}{subsection.F.5}
+\contentsline {section}{\numberline {G}Initial Project Overview}{95}{appendix.G}
+\contentsline {section}{\numberline {H}Week 9 Report}{97}{appendix.H}

@@ -1,0 +1,279 @@
+* 2017-04-05 - Wrote lots of conclusion
+* 2017-04-04 - More writing, more proofing
+* 2017-04-03 - Completed final eval section
+* 2017-04-03 - Started last eval section
+* 2017-04-03 - Added source code
+* 2017-04-02 - Added reign image
+* 2017-04-02 - Ticked off a load of todos
+* 2017-04-02 - Added all citations from todo
+* 2017-04-02 - Wrote most eval sections
+* 2017-04-01 - Final proofing
+* 2017-03-31 - Added bit for eval intro
+* 2017-03-31 - Finished proofing with current material
+* 2017-03-31 - Proofed to moscow
+* 2017-03-31 - Proofed lit review
+* 2017-03-31 - Proofed ia in sport
+* 2017-03-31 - Proofed analysis techniques
+* 2017-03-31 - Proofed analysis fundamentals and uses section
+* 2017-03-30 - Added images of 3 bikes
+* 2017-03-30 - Added testing figures to document
+* 2017-03-28 - Removed poster subrepo
+* 2017-03-28 - Finished proofing and adding content
+* 2017-03-28 - Making changes from proofing, committing before large change
+* 2017-03-27 - Cont. writing
+* 2017-03-26 - Some fixes
+* 2017-03-26 - Cleaned todos
+* 2017-03-20 - Added some figures
+* 2017-03-20 - Work on results
+* 2017-03-17 - Work on results section including figures, Move appendicies into section
+* 2017-03-16 - Added images into results section for oring finding and ref point finding
+* 2017-03-16 - Created final sections, added uncertainty table
+* 2017-03-14 - Finished first draft of evaluation
+* 2017-03-13 - Work on eval section
+* 2017-03-11 - Updated Plan
+* 2017-03-07 - Started organic development method and eval method
+* 2017-03-06 - Updated plan following meeting / Wrote about threshold
+* 2017-03-06 - Wrote variable naming and OO method
+* 2017-03-06 - Finished lit review methodology / Added thresholds to pm method
+* 2017-03-05 - Plan, writing, work
+* 2017-03-03 - Cleaned up notes / Added notes
+* 2017-03-01 - Added pedals feedback
+* 2017-02-27 - Started eval plan
+* 2017-02-15 - Continued
+* 2017-02-12 - Wrote pythonic bit
+* 2017-02-12 - Small addition
+* 2017-02-12 - Finished first draft of testing methodology
+* 2017-02-12 - Small changes
+* 2017-02-11 - Wrote about testing
+* 2017-02-10 - ?
+* 2017-02-09 - Cont.
+* 2017-01-29 - Added methodology parts
+* 2017-01-21 - Cont.
+* 2017-01-15 - Small change
+* 2017-01-15 - Added todos
+* 2017-01-14 - Added todos
+* 2017-01-14 - Requirements methodology section
+* 2017-01-13 - Changes
+* 2017-01-13 - Cont.
+* 2017-01-11 - Cont.
+* 2017-01-11 - Synced pdf
+* 2017-01-10 - Changes from meeting
+* 2017-01-10 - Added notes for second wave
+* 2017-01-10 - Small changes
+* 2017-01-09 - Cont.
+* 2017-01-09 - Some work
+* 2017-01-07 - Cont.
+* 2017-01-06 - Cont.
+* 2017-01-05 - Cont.
+* 2017-01-04 - Cont.
+* 2017-01-03 - Cont.
+* 2017-01-02 - Cont.
+* 2017-01-02 - Started agile bit
+* 2017-01-01 - First draft of vcs section
+* 2017-01-01 - Started vcs section
+* 2016-12-24 - Started methodology
+* 2016-12-24 - Updated notes
+* 2016-12-13 - Method notes
+* 2016-11-30 - Finished first exp log
+* 2016-11-30 - removed test file
+* 2016-11-30 - testing script
+* 2016-11-30 - Added to exp log
+* 2016-11-30 - More md messing
+* 2016-11-30 - Working on md
+* 2016-11-30 - Started experiment log
+* 2016-11-15 - Finished referencing figures
+* 2016-11-14 - Added some figure references
+* 2016-11-14 - Wrote about horses and that
+* 2016-11-08 - Added sport science refs
+* 2016-10-31 - Added paragraphs to lit review, added declarations
+* 2016-10-29 - Cont.
+*   2016-10-28 - Fixed merge
+|\  
+| * 2016-10-27 - Cont.
+* | 2016-10-26 - First proof
+|/  
+* 2016-10-24 - Finished? section on cameras
+* 2016-10-18 - Continued camera operation
+* 2016-10-18 - Added second camera operation image
+* 2016-10-18 - Added image of camera operation
+* 2016-10-18 - Added combination section, started on image capturing
+* 2016-10-16 - Finished analysis techniques section
+* 2016-10-13 - cont
+* 2016-10-09 - Added to measuring
+* 2016-10-08 - Started obj recognition
+* 2016-10-08 - Finished edge detection
+* 2016-10-07 - I wrote a sentence, woop
+* 2016-10-07 - Changed analysis struct, moved figure, added ignore
+* 2016-10-06 - Added techniques section file
+* 2016-10-05 - Added images and schematics
+* 2016-10-05 - Added images for figures
+* 2016-10-04 - Added to image analysis bit
+* 2016-10-04 - Saving before worktree
+* 2016-10-03 - Continued analysis bit
+* 2016-10-03 - Added sections dir
+* 2016-10-03 - Started imagery bit
+* 2016-10-02 - Added aims and structure
+* 2016-10-02 - Split document into files, added to intro
+* 2016-09-29 - Added to physics
+* 2016-09-27 - Added glossary entries where required
+* 2016-09-27 - Finished physics
+* 2016-09-27 - Added image
+* 2016-09-27 - Continued physics
+* 2016-09-27 - Continued work on physics
+* 2016-09-25 - Started physics section
+* 2016-09-25 - Finished(?) context
+* 2016-09-25 - Continued context
+* 2016-09-24 - Continued context
+* 2016-09-24 - Continued work on context
+* 2016-09-24 - Started context, added bib
+* 2016-09-24 - Added major headings
+* 2016-09-21 - Added missing from prev push
+* 2016-09-21 - Created title page
+* 2016-09-21 - Added template
+* 2016-09-21 - Created tex documents for full diss, title, and declaration
+| * 2017-04-03 - Added images with kit
+| * 2017-03-30 - Re-implemented coloured debug
+| * 2017-03-28 - Created unittest results
+| * 2017-03-27 - Produced some new images
+| * 2017-03-17 - Created plots for dissitation
+| * 2017-03-16 - Created images for dissertation
+| * 2017-03-14 - Added check for missing color argument / Calculated uncertainty for 25% sag
+| * 2017-03-09 - Added scatter for demonstration
+| * 2017-03-09 - Created images for poster and dissertation
+| * 2017-03-06 - Calculated uncertainty for fox and rs
+| * 2017-03-06 - Protected class variables
+| * 2017-03-03 - Added unit test for black oring / Fixed failing unit tests due to new structure
+| * 2017-03-03 - Reinforced a bit / Added more descriptive messages
+| * 2017-03-01 - Added black o-ring functionality / Prepped images for eval
+| * 2017-03-01 - Made script to find black oring
+| * 2017-02-28 - Measure tests
+| * 2017-02-28 - Added fox images
+| * 2017-02-23 - Small adjustments for improved measuring
+| * 2017-02-23 - Fixed test fails / Added result checking tests
+| * 2017-02-22 - No change
+| * 2017-02-21 - Added more images for testing / tweaked red bounds
+| * 2017-02-21 - Created method to find ref and oring from contours / Adapted to measure to limit of oring
+| * 2017-02-21 - Added params to houghcircles \ created hough methods for each image as test
+| * 2017-02-20 - Experimentation
+| * 2017-02-19 - Added colored debug printing / Added color quantification into program
+| * 2017-02-17 - dded images with flash for testing / Made code to reduce colors for easier ref point finding / Tested with 100 and 150 flash and no flash images
+| * 2017-02-16 - Moved dev log to code branch
+| * 2017-02-16 - Created pressure calculator unit tests
+| * 2017-02-15 - Tuned circle detection
+| * 2017-02-15 - Cont.
+| * 2017-02-15 - Added images
+| * 2017-02-15 - Adapted to work with linear regression
+| * 2017-02-15 - Added physics folder
+| | * 2017-03-20 - Ready for printing
+| | * 2017-03-17 - Changed text in method
+| | * 2017-03-16 - Unknown change
+| | * 2017-03-16 - Added high res background and exported
+| | * 2017-03-15 - Added mtb centre qr code
+| | * 2017-03-15 - Added mtb centre logo
+| | * 2017-03-14 - Spellchecked
+| | * 2017-03-13 - Finished first draft
+| | * 2017-03-13 - Lots of work on poster
+| | * 2017-03-12 - Created hex version of poster
+| | * 2017-03-11 - Created background
+| | * 2017-03-11 - Continued
+| | * 2017-03-11 - Updated plan
+| | * 2017-03-09 - Updated plan
+| | *   2017-03-08 - Merge branch 'poster' of github.com:Reignable/Honours-Project into poster
+| | |\  
+| | | * 2017-03-07 - Played with layout
+| | * | 2017-03-08 - Added to plan
+| | |/  
+| | * 2017-03-07 - Added to plan, added to poster
+| | * 2017-03-05 - work on poster
+| | * 2017-03-03 - Started poster
+| | | * 2017-02-16 - Removed dev log
+| | | * 2017-02-16 - Added dev log
+| | | * 2017-02-14 - Added to figures
+| | | * 2017-02-13 - Created equation workings spreadsheet
+| | | * 2017-02-02 - started collecting requirements
+| | | * 2017-02-02 - updated plan
+| | | * 2017-01-29 - Updated Plan
+| | | * 2017-01-08 - Updated plan
+| | | * 2016-10-31 - Added pdf plan
+| | | * 2016-10-31 - Adjusted plan, made image
+| | | * 2016-10-30 - Updated Plan
+| | | * 2016-10-24 - Added project plan
+| | | * 2016-09-15 - Added dates
+| | | * 2016-09-15 - Created Timeline
+| |_|/  
+|/| |   
+| | | * 2017-02-15 - Checking measurement process
+| | | * 2017-02-15 - Work on calculating equation
+| | |/  
+| |/|   
+| * | 2017-02-15 - Unknown change
+| * | 2017-02-13 - Added presssure calculation script
+| * | 2017-02-13 - Removed redundant script
+| * | 2017-02-13 - Changes
+| * | 2017-02-12 - Cleaned file, created api function, added test
+| * | 2017-02-12 - Adapted all tests to use unittest2
+| * | 2017-02-12 - Changed to using unittest2
+| * | 2017-02-10 - Finished tests
+| * | 2017-02-09 - Fixed math
+| * | 2017-02-09 - More unit tests
+| * | 2017-02-08 - Made test
+| * | 2017-02-07 - Created v4
+| * | 2017-02-06 - Added debug printing, fixed maths
+| * | 2017-02-03 - Found and measured ref point, added calculations
+| * | 2017-02-01 - Started ref point finding
+| * | 2017-02-01 - Added stuff
+| * | 2017-02-01 - Added arguments
+| * | 2017-01-31 - Start of official code branch
+| * | 2017-01-31 - Progress
+| * | 2017-01-31 - Added paramemters
+| * | 2017-01-29 - Cont.
+| * | 2017-01-29 - Added own images
+| * | 2017-01-29 - Progress
+| * | 2017-01-15 - Started on shock
+| * | 2017-01-12 - Found the wheels
+| * | 2017-01-12 - Progress
+| * | 2017-01-12 - ?
+| * | 2017-01-10 - Measure obj
+| * | 2016-11-29 - Added distance to camera images
+| * | 2016-11-21 - New script
+| * | 2016-11-18 - Playing with python opencv
+| * | 2016-11-12 - Started user stories
+| |/  
+| | *   2016-11-30 - Fix merge
+| | |\  
+| | | * 2016-11-08 - Finished 15tile game
+| | | * 2016-11-07 - Started copying 15tile example
+| | * |   2016-11-30 - Fix merge
+| | |\ \  
+| | | * | 2016-11-12 - Copied sample
+| | | |/  
+| | * |   2016-11-30 - Fix conflict
+| | |\ \  
+| | | * | 2016-11-08 - Wrote facial recognition app, doesn't work
+| | | |/  
+| | * | 2016-11-05 - Started hellocv app
+| | |/  
+| | * 2016-11-05 - Created app with opencv installed
+| |/  
+| * 2016-09-28 - Changed title in readme
+| * 2016-09-28 - Added lit review document
+| * 2016-09-22 - Added book
+| * 2016-09-21 - Updated readme
+| * 2016-09-21 - Notes post 21/09/2016 lecture
+|/  
+| * 2016-09-21 - Removed hyperlinks
+| * 2016-09-21 - Finished IPO after supervisor review
+| * 2016-09-20 - Finished first ipo draft
+| * 2016-09-20 - Continued work on ipo
+| * 2016-09-18 - Continued work on ipo
+| * 2016-09-17 - merge stash
+| * 2016-09-17 - merging stash
+| *   2016-09-17 - Merge branch 'ipo' of github.com:Reignable/Honours-Project into ipo
+| |\  
+| | * 2016-09-15 - Small Change
+| * | 2016-09-17 - Added content to overview, deliverable, and audience
+| |/  
+| * 2016-09-14 - Completed headings - Added headers and footers
+| * 2016-09-14 - Began IPO document
+|/  
+* 2016-09-14 - Initial commit
