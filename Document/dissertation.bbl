@@ -935,6 +935,29 @@ Kuhlman, D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Leavers%
+}{%
+Leavers%
+}{%
+{\protect \APACyear {1992}}%
+}]{%
+hough}
+\APACinsertmetastar {%
+hough}%
+\begin{APACrefauthors}%
+Leavers, V\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1992}.
+\newblock
+\APACrefbtitle {Shape Detection In Computer Vision Using The Hough Transform}
+  {Shape detection in computer vision using the hough transform}.
+\newblock
+\APACaddressPublisher{}{Springer-Verlag}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Liszewski%
 }{%
 Liszewski%

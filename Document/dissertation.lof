@@ -9,16 +9,16 @@
 \contentsline {figure}{\numberline {10}{\ignorespaces Uses of image analysis}}{12}{figure.caption.18}
 \contentsline {figure}{\numberline {11}{\ignorespaces A copy of Figure \ref {fig:fsandht} with thresholding applied\relax }}{13}{figure.caption.19}
 \contentsline {figure}{\numberline {12}{\ignorespaces Edge detection applied to an image for number plate recognition\relax }}{14}{figure.caption.21}
-\contentsline {figure}{\numberline {13}{\ignorespaces Contact Instrument Calibration Targets on Mars Rover Curiosity \citep {curiosity_image_calibration}\relax }}{16}{figure.caption.24}
-\contentsline {figure}{\numberline {14}{\ignorespaces Normal image (top) versus quantified colours (bottom)\relax }}{30}{figure.caption.26}
-\contentsline {figure}{\numberline {15}{\ignorespaces Red O-ring found using {\ttfamily findContours} (left) with {\ttfamily boundingBox} applied (right)\relax }}{31}{figure.caption.27}
-\contentsline {figure}{\numberline {16}{\ignorespaces Black o-ring found\relax }}{31}{figure.caption.28}
-\contentsline {figure}{\numberline {17}{\ignorespaces Reference point found using HoughCircles\relax }}{32}{figure.caption.29}
-\contentsline {figure}{\numberline {18}{\ignorespaces Reference point found using findContours (left) with boundingCircle applied (right)\relax }}{32}{figure.caption.30}
-\contentsline {figure}{\numberline {19}{\ignorespaces Sag measurements for standard air shock (left) and high volume air shock (right)\relax }}{33}{figure.caption.31}
-\contentsline {figure}{\numberline {20}{\ignorespaces Images suitable for processing\relax }}{34}{figure.caption.32}
-\contentsline {figure}{\numberline {21}{\ignorespaces Processed images for finding reference point\relax }}{35}{figure.caption.34}
-\contentsline {figure}{\numberline {22}{\ignorespaces Locating process for black o-ring\relax }}{36}{figure.caption.35}
-\contentsline {figure}{\numberline {24}{\ignorespaces Example of linear equation plot\relax }}{37}{figure.caption.37}
-\contentsline {figure}{\numberline {25}{\ignorespaces Unit test results\relax }}{38}{figure.caption.38}
-\contentsline {figure}{\numberline {26}{\ignorespaces Test coverage results\relax }}{39}{figure.caption.39}
+\contentsline {figure}{\numberline {13}{\ignorespaces Contact Instrument Calibration Targets on Mars Rover Curiosity \citep {curiosity_image_calibration}\relax }}{16}{figure.caption.22}
+\contentsline {figure}{\numberline {14}{\ignorespaces Normal image (top) versus quantified colours (bottom)\relax }}{30}{figure.caption.24}
+\contentsline {figure}{\numberline {15}{\ignorespaces Red O-ring found using {\ttfamily findContours} (left) with {\ttfamily boundingBox} applied (right)\relax }}{31}{figure.caption.25}
+\contentsline {figure}{\numberline {16}{\ignorespaces Black o-ring found\relax }}{31}{figure.caption.26}
+\contentsline {figure}{\numberline {17}{\ignorespaces Reference point found using HoughCircles\relax }}{32}{figure.caption.27}
+\contentsline {figure}{\numberline {18}{\ignorespaces Reference point found using findContours (left) with boundingCircle applied (right)\relax }}{32}{figure.caption.28}
+\contentsline {figure}{\numberline {19}{\ignorespaces Sag measurements for standard air shock (left) and high volume air shock (right)\relax }}{33}{figure.caption.29}
+\contentsline {figure}{\numberline {20}{\ignorespaces Images suitable for processing\relax }}{34}{figure.caption.30}
+\contentsline {figure}{\numberline {21}{\ignorespaces Processed images for finding reference point\relax }}{35}{figure.caption.32}
+\contentsline {figure}{\numberline {22}{\ignorespaces Locating process for black o-ring\relax }}{36}{figure.caption.33}
+\contentsline {figure}{\numberline {24}{\ignorespaces Example of linear equation plot\relax }}{37}{figure.caption.35}
+\contentsline {figure}{\numberline {25}{\ignorespaces Unit test results\relax }}{38}{figure.caption.36}
+\contentsline {figure}{\numberline {26}{\ignorespaces Test coverage results\relax }}{39}{figure.caption.37}

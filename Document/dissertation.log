@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  5 APR 2017 18:18
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  6 APR 2017 11:41
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1775,7 +1775,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 38--42
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
 
  []
 
@@ -1789,17 +1794,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: ../images/curiosity_calibration_chart.jpg Graphic file (type QTm)
  <use  "../images/curiosity_calibration_chart.jpg" >)
 (./sections/analysis_and_sport.tex
-Underfull \hbox (badness 10000) in paragraph at lines 61--1
+Underfull \hbox (badness 10000) in paragraph at lines 59--1
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--1
+Underfull \hbox (badness 10000) in paragraph at lines 59--1
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--1
+Underfull \hbox (badness 10000) in paragraph at lines 59--1
 
  []
 
@@ -2530,19 +2535,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [47]
-Underfull \hbox (badness 1874) in paragraph at lines 1233--1243
+Underfull \hbox (badness 1874) in paragraph at lines 1256--1266
 []\EU1/Arial(0)/m/n/12 Rosebrock, A.  (2017).  \EU1/Arial(0)/m/it/12 Pyimagesea
 rch.  \EU1/Arial(0)/m/n/12 Retrieved 02/04/2017, from []$[][][] []
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 1363--1377
+Underfull \hbox (badness 2990) in paragraph at lines 1386--1400
 \EU1/Arial(0)/m/n/12 ica, oceania.  Retrieved 24/09/2015, from []$[][][][] [][]
 [] [][][] [] [][][][][][][][][][][][][][][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1363--1377
+Underfull \hbox (badness 10000) in paragraph at lines 1386--1400
 [][][][][][][][] [] [][][][][] [] [][][][] [] [][] [] [][] [] [][] [] [][][][][
 ][][][][][][] [] [][][][][][][][][] [] [][][][][][][][][] [] [][][][][][][] [] 
 [][][][][][] [] [][][][][][] []
@@ -3151,10 +3156,10 @@ runsystem(rm dissertation.pyg)...executed.
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 34339 strings out of 493589
- 602375 string characters out of 6145555
- 749470 words of memory out of 5000000
- 37098 multiletter control sequences out of 15000+600000
+ 34342 strings out of 493589
+ 602411 string characters out of 6145555
+ 749447 words of memory out of 5000000
+ 37101 multiletter control sequences out of 15000+600000
  13810 words of font info for 86 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  47i,19n,77p,10385b,751s stack positions out of 5000i,500n,10000p,200000b,80000s

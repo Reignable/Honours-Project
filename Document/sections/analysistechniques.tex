@@ -9,40 +9,38 @@
 			\label{fig:threshold}
 		\end{figure}
 	\paragraph{Edge Detection}
-	This is the application of mathematical algorithms to locate and highlight the edges of features in an image. There are multiple algorithms which can be used for edge detection, including Sobel, Roberts, Canny, and fuzzy logic, although all utilise the same basic concept of comparing the data values of adjacent pixels to find discontinuities from one value to another.
-	\begin{table}[h!]
-		\centering
-		\caption{Table of pixel data showing an edge}
-		\label{tab:edgePixels}
-		\begin{tabular}{|c|c|c|c|c|c|c|}
-			\hline
-			5&7&6&4&152&148&149\\
-			\hline
-			\cellcolor[HTML]{0D0D0D}&
-			\cellcolor[HTML]{121212}&
-			\cellcolor[HTML]{0F0F0F}&
-			\cellcolor[HTML]{0a0a0a}&
-			\cellcolor[HTML]{989898}&
-			\cellcolor[HTML]{949494}&
-			\cellcolor[HTML]{959595}\\
-			\hline
-		\end{tabular}
-	\end{table}\\
-	Table \ref{tab:edgePixels} represents possible pixel values of an edge indicated by the large difference between 4 and 152. The applied algorithm will pick up this discontinuity which will be highlighted on the resulting image. A common application for edge detection is text recognition such as in automatic number plate recognition (ANPR) \citep{anpr} where unwanted background data is automatically excluded using thresholding techniques to highlight the block shapes of the vehicle registration plate. Figure \ref{fig:anpr} shows an image which has had edge detection applied with the number plate of the car clearly visible.
-	\begin{figure}[h!]
-		\centering
-		\includegraphics[width=10cm]{../images/anpr.jpg}
-		\caption{Edge detection applied to an image for number plate recognition}
-		\label{fig:anpr}
-	\end{figure} 
-	\paragraph{Hough Transform}\label{sec:lit_review_hough}\todo{complete hough transform section}
-	Originally created in 1962 by Paul Hough, the Hough transform methods offer techniques for the discovery of imperfect objects in images. The original algorithms were created for the detection of lines but have since been improved and adapted to find circles, ellipses, and other basic shapes. 
-	\\\\
-	While edge detection is suitable for highlighting critical points in an image, it can be problematic if the base image is not well lit or sharply focussed causing an edge detector to produce imperfect lines. Such artefacts can make rudimentary feature detection techniques difficult but the Hough Transformation techniques circumvent such issues by considering points as a part of an object through a voting procedure.
-	\subparagraph{Linear Hough Transform}
-	To locate straight lines in an image, the linear Hough transform utilises Hesse normal form $r = x cos \theta + y sin \theta$. Lines, or planes, in an image are expressed as pairs of $(r, \theta)$ 
-	\subparagraph{Circular Hough Transform}
-	
+		This is the application of mathematical algorithms to locate and highlight the edges of features in an image. There are multiple algorithms which can be used for edge detection, including Sobel, Roberts, Canny, and fuzzy logic, although all utilise the same basic concept of comparing the data values of adjacent pixels to find discontinuities from one value to another.
+		\begin{table}[h!]
+			\centering
+			\caption{Table of pixel data showing an edge}
+			\label{tab:edgePixels}
+			\begin{tabular}{|c|c|c|c|c|c|c|}
+				\hline
+				5&7&6&4&152&148&149\\
+				\hline
+				\cellcolor[HTML]{0D0D0D}&
+				\cellcolor[HTML]{121212}&
+				\cellcolor[HTML]{0F0F0F}&
+				\cellcolor[HTML]{0a0a0a}&
+				\cellcolor[HTML]{989898}&
+				\cellcolor[HTML]{949494}&
+				\cellcolor[HTML]{959595}\\
+				\hline
+			\end{tabular}
+		\end{table}\\
+		Table \ref{tab:edgePixels} represents possible pixel values of an edge indicated by the large difference between 4 and 152. The applied algorithm will pick up this discontinuity which will be highlighted on the resulting image. A common application for edge detection is text recognition such as in automatic number plate recognition (ANPR) \citep{anpr} where unwanted background data is automatically excluded using thresholding techniques to highlight the block shapes of the vehicle registration plate. Figure \ref{fig:anpr} shows an image which has had edge detection applied with the number plate of the car clearly visible.
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[width=10cm]{../images/anpr.jpg}
+			\caption{Edge detection applied to an image for number plate recognition}
+			\label{fig:anpr}
+		\end{figure} 
+	\paragraph{Hough Transform}\label{sec:lit_review_hough}
+		Originally created in 1962 by Paul Hough, the Hough transform methods offer techniques for the discovery of imperfect objects in images. The original algorithms were created for the detection of lines but have since been improved and adapted to find circles, ellipses, and other basic shapes. 
+		\\\\
+		While edge detection is suitable for highlighting critical points in an image, it can be problematic if the base image is not well lit or sharply focussed causing an edge detector to produce imperfect lines. Such artefacts can make rudimentary feature detection techniques difficult but the Hough Transformation techniques circumvent such issues by considering points as a part of an object through a voting procedure.
+		\\\\
+		The collection of Hough transform algorithms are separated by the objects which they are capable of finding, such as linear Hough transform or circular Hough transform, and have been well described by \cite{hough}. The Hough transform methods could be used in this project for the detection of suspension units in images or sections of the whole bike depending on the chosen process for the application.	
 	\paragraph{Taking Measurements}\label{sec:taking_measurements}
 		To measure the dimensions of an object in an image, certain data about the camera and its location are required. By using digital imagery, the majority of this information is automatically provided as each image contains metadata or EXchangeable Image Format (EXIF) data which includes information such as camera manufacturer, focal length, image size, and location if available.
 	\begin{equation}
