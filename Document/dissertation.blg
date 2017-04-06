@@ -44,11 +44,6 @@ ptr=1, stack=
 
 ---the literal stack isn't empty for entry foxird
 while executing---line 5079 of file apacite.bst
-Warning--No journal in shockwizweb
-ptr=1, stack=
-
----the literal stack isn't empty for entry shockwizweb
-while executing---line 5079 of file apacite.bst
 Warning--No journal in hondanightvision
 ptr=1, stack=
 
@@ -82,43 +77,43 @@ ptr=1, stack=
 while executing---line 5079 of file apacite.bst
 You've used 58 entries,
             6951 wiz_defined-function locations,
-            1590 strings with 21187 characters,
-and the built_in function-call counts, 100941 in all, are:
-= -- 12797
-> -- 829
-< -- 4448
-+ -- 4262
-- -- 156
-* -- 6076
-:= -- 17471
+            1591 strings with 21321 characters,
+and the built_in function-call counts, 101818 in all, are:
+= -- 12898
+> -- 833
+< -- 4529
++ -- 4351
+- -- 154
+* -- 6155
+:= -- 17720
 add.period$ -- 235
 call.type$ -- 58
 change.case$ -- 1023
 chr.to.int$ -- 0
-cite$ -- 127
-duplicate$ -- 2590
-empty$ -- 4262
-format.name$ -- 1303
-if$ -- 19952
+cite$ -- 126
+duplicate$ -- 2607
+empty$ -- 4269
+format.name$ -- 1313
+if$ -- 20067
 int.to.chr$ -- 0
 int.to.str$ -- 180
 missing$ -- 0
-newline$ -- 1409
+newline$ -- 1412
 num.names$ -- 464
-pop$ -- 2002
+pop$ -- 2007
 preamble$ -- 1
 purify$ -- 244
 quote$ -- 0
-skip$ -- 7187
+skip$ -- 7200
 stack$ -- 0
-substring$ -- 4712
-swap$ -- 1414
-text.length$ -- 182
+substring$ -- 4804
+swap$ -- 1422
+text.length$ -- 181
 text.prefix$ -- 0
 top$ -- 1
 type$ -- 5424
-warning$ -- 11
-while$ -- 460
+warning$ -- 10
+while$ -- 462
 width$ -- 0
-write$ -- 1661
-(There were 9 error messages)
+write$ -- 1668
+(There were 8 error messages)

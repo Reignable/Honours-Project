@@ -199,29 +199,6 @@ Benedict, T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-\bibcorporate{Dusty Dynamics}%
-}{%
-\bibcorporate{Dusty Dynamics}%
-}{%
-{\protect \APACyear {2016}}%
-}]{%
-shockwizweb}
-\APACinsertmetastar {%
-shockwizweb}%
-\begin{APACrefauthors}%
-\bibcorporate{Dusty Dynamics}.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2016}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Introducing Shockwiz} {Introducing shockwiz}.{\BBCQ}
-\newblock
-\begin{APACrefURL} [{24/09/2016}]\url{http://www.shockwiz.com/pages/shockwiz}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 \bibcorporate{European Science Foundation}%
 }{%
 \bibcorporate{European Science Foundation}%
@@ -1137,6 +1114,35 @@ opencvsite}%
 \newblock
 \begin{APACrefURL} [{02/04/2017}]\url{http://opencv.org/about.html}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Patil%
+\ \BBA {} Dhanvijay%
+}{%
+Patil%
+\ \BBA {} Dhanvijay%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+blob}
+\APACinsertmetastar {%
+blob}%
+\begin{APACrefauthors}%
+Patil, A.%
+\BCBT {}\ \BBA {} Dhanvijay, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {BLOB Detection Technique using Image Processing for
+  Identificationu of Machine Printed Characters} {Blob detection technique
+  using image processing for identificationu of machine printed
+  characters}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Innovations in Engineering
+  Research and Technology}{2}{}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

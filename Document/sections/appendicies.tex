@@ -188,13 +188,6 @@
 						frame=lines,
 						fontsize=\footnotesize]{python}{../code/python/distance_to_camera.py}
 \clearpage
-\includepdf[scale=0.8,
-			pages=1,
-			pagecommand=\section{Development Log}\label{app:dev_log}]
-			{../dev_log.pdf}
-\includepdf[scale=0.8,
-			pages=2-]{../dev_log.pdf}
-\clearpage
 \section{EXIF Extraction Code}\label{app:exif_code}
 	\inputminted[breaklines,
 				linenos,
@@ -203,8 +196,18 @@
 				firstline=36,
 				lastline=63]{python}{../code/program/v2.py}
 \clearpage
-\section{Commit Log}\label{app:commit_log}
+\includepdf[scale=0.8,
+pages=1,
+pagecommand=\section{Development Log}\label{app:dev_log}]
+{../dev_log.pdf}
+\includepdf[scale=0.8,
+pages=2-]{../dev_log.pdf}
+\clearpage
+\section{Git Commit Log}\label{app:commit_log}
 \inputminted[breaklines=true]{text}{../git_log.txt}
+\clearpage
+\section{Gantt Charts}
+\todo{Add Gantt charts}
 \clearpage
 \section{Source Code}
 	\subsection{main.py}

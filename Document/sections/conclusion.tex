@@ -1,11 +1,5 @@
 \section{Conclusions}\label{sec:conclusion}
 	This section will conclude the project by evaluating how well the original aims have been met to determine the success of the project, compare the prototype application to current products on the market, and outline any future work which can be potentially completed in subsequent projects. Finally a self appraisal will be carried out to discuss this author's performance during the project.
-	\\\\
-	% General conclusion
-		% Success
-		% Unsure of methods
-		% Switching of IA methods
-		
 	\subsection{Meeting Aims}
 		% How well does the solution relate to the original aims and objectives
 			% Very well
@@ -16,7 +10,9 @@
 			The second aim was to implement the prototype application using identified and researched methods. This aim has been met using methods selected from those outlined in section \ref{sec:methodology} and the resulting application is documented in section \ref{sec:results}.
 			\\\\
 			% Dev process
-			The development approach chosen allowed for the project to run smoothly and produce the application on time. Though an agile approach may have been able to identify potential issues earlier in the development stage, using design and analysis techniques, it was felt that this would have put unnecessary pressure on the project in the form of excessive documentation and structure. The lose organic approach taken let issues be resolved as they arose to maintain momentum in the process.
+			The development approach chosen allowed for the project to run smoothly and produce the application on time. Though an agile approach may have been able to identify potential issues earlier in the development stage, using design and analysis techniques, it was felt that this would have put unnecessary pressure on the project in the form of excessive documentation and structure. The lose organic approach taken let issues be resolved as they arose to maintain momentum in the process. 
+			\\\\
+			This process also allowed the project to continue despite not knowing the exact algorithmic approach the application would take. It was felt that, with the time available, it was best to begin development as soon as possible and allow the project to adapt accordingly as time went on rather than rigorously structure the process. This lead to a change in the image analysis techniques used for reference point finding and a complete change from trying to create a pressure per millimetre metric to utilising two images and the linear equation. It is believed that if the project had included extensive analysis and design of the application then the creative freedom would have been reduced and these solutions may not have been discovered. For larger projects with real stakeholders this would not be suitable but in this experimental context the approach worked well.
 			\\\\
 			% Other PM, git, gantt
 			Using the Git version control system outlined in section \ref{sec:methodology_version_control} allowed for the project's documents and source code to be easily backed up and tracked. Indicated by the commit logs shown in appendix \ref{app:commit_log}, the system was well used with regular commits and numerous branches. The Gantt charting described in section \ref{sec:methodology_gantt} were regularly checked and updated throughout the project to track each stage and its completion. Multiple versions were produced as the chart was updated whenever the timeline was significantly adjusted, this included putting the project on hold for a period of 2 weeks and moving the deadline forward.
@@ -63,6 +59,8 @@
 			Additional work would also be to expand the functionality of the application. Currently it can process images of rear shocks but this should be expanded to include the fork, allowing users to set up both suspension units. This would be a case of adapting the current image analysis to work on the different images. The application has also been tested on two varieties of shock, this should be expanded to other manufacturers and models in a variety of situations and adapted accordingly to assure its capabilities.
 			\\\\
 			Secondly the application should be adapted to work with coil shocks as opposed to working with only air suspension. This could be done by locating the bolts which hold the shock into the frame and measuring the distance between them, which could be simple as they are circular though commonly have other components blocking them from view. A further difficulty arises as there are no marker O-rings on coil shocks so the rider would have to be seated on the bike when the image is taken.
+			\\\\
+			\todo{Add section on allowing user specified pressures}
 			\\\\
 			Finally the application could be expanded to suggest compression and rebound damping settings alongside the sag setting. This would allow the user to setup every aspect of their suspension before riding for the first time. One method would be to dynamically predict a suitable setting using the produced sag setting, intended riding style, and current suspension design. Alternatively, an online database of suggested settings could be collated and queried with the user's data. This database could be included as part of a wider scoped project including a website allowing users to look up settings from those contributed by other users rather than using the application.
 	\subsection{Self Appraisal}

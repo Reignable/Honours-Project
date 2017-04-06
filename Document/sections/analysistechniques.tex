@@ -35,6 +35,10 @@
 			\caption{Edge detection applied to an image for number plate recognition}
 			\label{fig:anpr}
 		\end{figure} 
+	\paragraph{BLOB Analysis}
+		\gls{blob} analysis is a method of feature detection used in image analysis \cite{introtoprocessing}. Typically carried out after thresholding, the pixels in an image are inspected and compared to their neighbours based on colour and intensity. If they are considered similar, the pixel locations are logged within some data structure which once complete will define all pixels within a single object.
+		\\\\
+		Once all \glspl{blob} are identified they can then be analysed based on some metric, which may be shape, colour, or size for example. What is done with the results of this is dependant on the project context though some uses include identification of pedestrians as shown in Figure \ref{fig:analysis_uses}, finding a reference point for measurements as explained in section \ref{sec:taking_measurements}, or reading characters in type \citep{blob}.		
 	\paragraph{Hough Transform}\label{sec:lit_review_hough}
 		Originally created in 1962 by Paul Hough, the Hough transform methods offer techniques for the discovery of imperfect objects in images. The original algorithms were created for the detection of lines but have since been improved and adapted to find circles, ellipses, and other basic shapes. 
 		\\\\
@@ -58,7 +62,7 @@
 	\vspace{5mm}
 	The process to calculate the height of an object in an image is shown in Equation \ref{equ:measureobj}. Necessary data, such as $f$, $H_i$, and $H_s$ can be acquired from EXIF data. However $D$ and $H_c$ are not collected by the camera and must be measured. When dealing with image analysis this means that this data has to be collected at the time the image is taken.
 	\\\\
-	However it is not necessary to collect data for $H_o$ - the distance of the object being measured from the ground - as the size of the object is in direct proportion to its size on the camera’s sensor so is not required. To test this equation, data was created from known object heights which was then re-used to see if the calculated height was equal to the actual height. For example:\todo{What is going on here?}
+	However it is not necessary to collect data for $H_o$ - the distance of the object being measured from the ground - as the size of the object is in direct proportion to its size on the camera’s sensor so is not required. To briefly test this equation, data was manufactured for each parameter and passed through the equation. This process was then reversed using the now known object height to see if the result matched the manufactured one, which it did.
 	\\\\
 	To circumvent the need to collect data for $H_c$ - the height of the camera -, a reference object of a known size can be included in the image as this allows a comparison to be made between the height of the object to be measured and the reference object. The previously mentioned Mars rover, Curiosity, carries a United States penny as a reference object so that its cameras can be precisely calibrated using reference charts as shown in Figure \ref{fig:curiosity_calibration_chart}.
 	\begin{figure}[h!]
@@ -67,6 +71,6 @@
 		\caption{Contact Instrument Calibration Targets on Mars Rover Curiosity \citep{curiosity_image_calibration}}
 		\label{fig:curiosity_calibration_chart}
 	\end{figure}\\
-	However, the reference object must be located in the image using a technique such as \todo{Add section or briefly explain} BLOB analysis or Hough transforms. Once the object is found, its width or height in pixels in the image is collected and compared against its actual size to give a ratio for applying to the pixel count of the object to calculate its real world height. For example, if a reference object that is 2mm wide measures 200 pixels across in an image then it can be concluded that 100 pixels in the image corresponds to 1mm in the real world. Knowing this ratio, any other objects that can be measured in pixels can have the real world measurement estimated as long as they are approximately the same distance from the camera as the reference object.
+	However, the reference object must be located in the image using a technique such as \gls{blob} analysis or Hough transforms. Once the object is found, its width or height in pixels in the image is collected and compared against its actual size to give a ratio for applying to the pixel count of the object to calculate its real world height. For example, if a reference object that is 2mm wide measures 200 pixels across in an image then it can be concluded that 100 pixels in the image corresponds to 1mm in the real world. Knowing this ratio, any other objects that can be measured in pixels can have the real world measurement estimated as long as they are approximately the same distance from the camera as the reference object.
 	\\\\
 	This process will be applied during this project in some manner. Either a reference object will be used or measurements for $H_c$ (the height of the camera from the ground) will be taken at the time the image is captured as knowing these measurements is vital to achieving reliable results that will ensure that suspension units are correctly configured as previously discussed. But while incorporating Equation \ref{equ:measureobj} in an application will be relatively simple, collecting the necessary data without too much user interaction may be more difficult.
