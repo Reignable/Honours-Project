@@ -96,26 +96,26 @@
 \contentsline {subsubsection}{\numberline {5.3.2}Expanded Functionality}{44}{subsubsection.5.3.2}
 \contentsline {subsection}{\numberline {5.4}Self Appraisal}{45}{subsection.5.4}
 \contentsline {section}{References}{46}{section*.40}
-\contentsline {section}{\numberline {A}Android Experiments}{51}{appendix.A}
-\contentsline {subsection}{\numberline {A.1}Table of Android Experiments}{51}{subsection.A.1}
-\contentsline {subsection}{\numberline {A.2}Hello CV}{52}{subsection.A.2}
-\contentsline {subsection}{\numberline {A.3}15tile}{53}{subsection.A.3}
-\contentsline {subsection}{\numberline {A.4}BLOB Analysis}{61}{subsection.A.4}
-\contentsline {subsection}{\numberline {A.5}Face Detection}{66}{subsection.A.5}
-\contentsline {section}{\numberline {B}Python Experiments}{72}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}Table of Python Experiments}{72}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}find\_game.py}{73}{subsection.B.2}
-\contentsline {subsection}{\numberline {B.3}thresholding.py}{73}{subsection.B.3}
-\contentsline {subsection}{\numberline {B.4}img\_ops.py}{73}{subsection.B.4}
-\contentsline {subsection}{\numberline {B.5}distance\_to\_camera.py}{74}{subsection.B.5}
-\contentsline {section}{\numberline {C}Development Log}{75}{appendix.C}
-\contentsline {section}{\numberline {D}EXIF Extraction Code}{79}{appendix.D}
-\contentsline {section}{\numberline {E}Commit Log}{80}{appendix.E}
-\contentsline {section}{\numberline {F}Source Code}{87}{appendix.F}
-\contentsline {subsection}{\numberline {F.1}main.py}{87}{subsection.F.1}
-\contentsline {subsection}{\numberline {F.2}image\_processor.py}{88}{subsection.F.2}
-\contentsline {subsection}{\numberline {F.3}pressure\_calculator.py}{91}{subsection.F.3}
-\contentsline {subsection}{\numberline {F.4}test\_image\_processor.py}{92}{subsection.F.4}
-\contentsline {subsection}{\numberline {F.5}test\_pressure\_calculator.py}{93}{subsection.F.5}
-\contentsline {section}{\numberline {G}Initial Project Overview}{95}{appendix.G}
-\contentsline {section}{\numberline {H}Week 9 Report}{97}{appendix.H}
+\contentsline {section}{\numberline {A}Initial Project Overview}{51}{appendix.A}
+\contentsline {section}{\numberline {B}Week 9 Report}{53}{appendix.B}
+\contentsline {section}{\numberline {C}Android Experiments}{55}{appendix.C}
+\contentsline {subsection}{\numberline {C.1}Table of Android Experiments}{55}{subsection.C.1}
+\contentsline {subsection}{\numberline {C.2}Hello CV}{56}{subsection.C.2}
+\contentsline {subsection}{\numberline {C.3}15tile}{57}{subsection.C.3}
+\contentsline {subsection}{\numberline {C.4}BLOB Analysis}{65}{subsection.C.4}
+\contentsline {subsection}{\numberline {C.5}Face Detection}{70}{subsection.C.5}
+\contentsline {section}{\numberline {D}Python Experiments}{76}{appendix.D}
+\contentsline {subsection}{\numberline {D.1}Table of Python Experiments}{76}{subsection.D.1}
+\contentsline {subsection}{\numberline {D.2}find\_game.py}{77}{subsection.D.2}
+\contentsline {subsection}{\numberline {D.3}thresholding.py}{77}{subsection.D.3}
+\contentsline {subsection}{\numberline {D.4}img\_ops.py}{77}{subsection.D.4}
+\contentsline {subsection}{\numberline {D.5}distance\_to\_camera.py}{78}{subsection.D.5}
+\contentsline {section}{\numberline {E}Development Log}{79}{appendix.E}
+\contentsline {section}{\numberline {F}EXIF Extraction Code}{83}{appendix.F}
+\contentsline {section}{\numberline {G}Commit Log}{84}{appendix.G}
+\contentsline {section}{\numberline {H}Source Code}{91}{appendix.H}
+\contentsline {subsection}{\numberline {H.1}main.py}{91}{subsection.H.1}
+\contentsline {subsection}{\numberline {H.2}image\_processor.py}{92}{subsection.H.2}
+\contentsline {subsection}{\numberline {H.3}pressure\_calculator.py}{95}{subsection.H.3}
+\contentsline {subsection}{\numberline {H.4}test\_image\_processor.py}{96}{subsection.H.4}
+\contentsline {subsection}{\numberline {H.5}test\_pressure\_calculator.py}{97}{subsection.H.5}
