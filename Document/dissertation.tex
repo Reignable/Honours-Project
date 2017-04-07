@@ -53,27 +53,15 @@
 	\input{../Title/title.tex}
 	\input{../Declaration/declaration.tex}
 	\setcounter{page}{1}
-	\input{sections/ack}
-	\clearpage
 	\begin{abstract}\noindent
-		\todo{Write abstract}
-		% Mountain bikes are hard to set up
-		
-		% Need to be setup
-		% Make it easy for beginners
-		% Image analysis can remove need to measure
-		% Examined bike concepts and image analysis techniques
-		% Identified methods for development and platform
-		% Produced python app
-			% Takes two images, desired setting, and shock stroke
-			% Uses image analysis for measurements
-			% Plots values and uses equation to output setting
-		% Evaluated
-			% Worked correctly, well received
-		% Conclusion
-			% Allows expansion with more features
-			% Improve 
+		With some mountain bike suspension units costing upwards of £1000, it is vital that they are correctly set up to the rider's weight and riding style. An improper setup can result in damage to the suspension unit and/or injury to the rider. The most basic setting which should be set for every rider is sag, this is the amount the suspension sits into its travel under normal load. Calculated from a percentage of the shock's stroke, setting sag requires knowledge of suspension and repeated measurements which beginner mountain bikers may not know about.
+		\\\\
+		Image analysis techniques are capable of measuring objects in images computationally without interfering with the subject. By researching the concepts of mountain bike suspension along with the various image analysis techniques and their uses, this project devised an application which could calculate a sag setting for rear suspension with minimal knowledge and input from the rider.
+		\\\\
+		The application produced was written in Python as it allows for simple use of the chosen imaging library OpenCV. By supplying two images of the rear shock at different pressures, the desired sag percentage, and the shock's stroke length this application is capable of outputting a pressure setting for a baseline setup. By using various evaluative techniques it was proven that the application functions correctly, the results are reliable, and it would be well received by the industry. This application also presents the groundwork for additional projects to extend the functionality and migrate to a mobile platform.
 	\end{abstract}
+	\clearpage
+	\input{sections/ack}
 	\clearpage
 	\tableofcontents
 	\clearpage
