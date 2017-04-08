@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  7 APR 2017 11:40
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  8 APR 2017 16:58
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1464,7 +1464,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[1] (./sections/ack.tex
+[1] (./dissertation.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1474,7 +1474,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1483,15 +1483,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2
 
-] (./dissertation.toc
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[3
-
 ]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1499,7 +1490,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4]
+[3]
 Overfull \hbox (1.42145pt too wide) detected at line 125
  []\EU1/Arial(0)/m/n/12 100
  []
@@ -1515,7 +1506,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5] (./dissertation.lot)
+[4] (./dissertation.lot)
 \tf@lot=\write11
 \openout11 = `dissertation.lot'.
 
@@ -1526,7 +1517,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6
+[5
 
 ] (./dissertation.lof)
 \tf@lof=\write12
@@ -1539,13 +1530,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7
+[6
 
 ] (./dissertation.lol)
 \tf@lol=\write13
 \openout13 = `dissertation.lol'.
 
 
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7
+
+] (./sections/ack.tex)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2494,18 +2494,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45])
-Underfull \hbox (badness 10000) in paragraph at lines 67--84
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--84
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--84
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
 
  []
 
@@ -2515,7 +2510,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46]
+[46])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3202,7 +3197,7 @@ runsystem(rm dissertation.pyg)...executed.
 Here is how much of TeX's memory you used:
  34354 strings out of 493589
  602644 string characters out of 6145555
- 749460 words of memory out of 5000000
+ 749547 words of memory out of 5000000
  37109 multiletter control sequences out of 15000+600000
  12262 words of font info for 80 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
