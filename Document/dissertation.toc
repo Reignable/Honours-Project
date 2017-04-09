@@ -97,6 +97,8 @@
 \contentsline {subsubsection}{\numberline {5.3.2}Expanded Functionality}{46}{subsubsection.5.3.2}
 \contentsline {subsection}{\numberline {5.4}Self Appraisal}{46}{subsection.5.4}
 \contentsline {section}{References}{48}{section*.40}
+\contentsline {section}{Acronyms}{52}{section*.41}
+\contentsline {section}{Glossary}{52}{section*.43}
 \contentsline {section}{\numberline {A}Initial Project Overview}{53}{appendix.A}
 \contentsline {section}{\numberline {B}Week 9 Report}{55}{appendix.B}
 \contentsline {section}{\numberline {C}Android Experiments}{57}{appendix.C}

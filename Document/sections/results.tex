@@ -50,7 +50,7 @@
 			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.1,trim={20cm 40cm 20cm 70cm},clip]{../images/results/fox_oring.jpg}
-				\caption{Black o-ring found using thresholding and {\ttfamily findContours}}
+				\caption{Black O-ring found using thresholding and {\ttfamily findContours}}
 				\label{fig:black_oring}
 			\end{figure}
 		\subsubsection{Reference Point Measurement Method}
@@ -66,7 +66,7 @@
 			\\\\
 			To overcome this issue it was necessary to again use OpenCV’s findContours in exactly the same way it used to successfully locate the O-ring. Once a contour is found that encompasses the entire reference point, a bounding circle can be drawn around it as shown in Figure \ref{fig:find_ref}. Although the bounding circle appears to be slightly larger than the reference point, experimentation with a variety of images showed that this method produced measurements that were within acceptable tolerances for the pixel per millimetre calculation.
 			\\\\
-			The reason the Hough Circle method produced a bounding circle that is slightly difference to the reference point is because the reference point captured in the image is not a uniform circle. Although the thresholds of the Hough Circle method can be adjusted, applying the sticker to the cylindrical body of the shock unit means it is too misshapen to be detected correctly without the use of OpenCV’s findContours.
+			The reason the Hough Circle method produced a bounding circle that is slightly different to the reference point is because the reference point captured in the image is not a uniform circle. Although the thresholds of the Hough Circle method can be adjusted, applying the sticker to the cylindrical body of the shock unit means it is too misshapen to be detected correctly without the use of OpenCV’s findContours.
 			\begin{figure}[h!]
 				\centering
 				\begin{minipage}{0.4\textwidth}
@@ -81,7 +81,7 @@
 					trim={30cm 140cm 25cm 0},
 					clip]{../images/results/raw_refs.jpg}				
 				\end{minipage}\hfill
-				\caption{Reference point found using findContours (left) with boundingCircle applied (right)}
+				\caption{Reference point found using {\ttfamily findContours} (left) with {\ttfamily boundingCircle} applied (right)}
 				\label{fig:find_ref}
 			\end{figure}
 		\subsubsection{Pressure Calculation}\label{sec:results_pressure_calculation}
@@ -115,9 +115,9 @@
 				\caption{Sag measurements for standard air shock (left) and high volume air shock (right)}
 				\label{fig:scatters}
 			\end{figure}\\
-			From this data it could be concluded that, within the range of measurements, the compression rate of the air spring is linear. The data-points in Figure \ref{fig:scatters} do occasionally vary though and this thought to be due to it being a non-sterile test environment. Both shocks were well-used potentially containing age-related defects and loading the bike was done simply by using body weight.
+			From this data it could be concluded that, within the range of measurements, the compression rate of the air spring is linear. The data-points in Figure \ref{fig:scatters} do occasionally vary though this thought to be due to it being a non-sterile test environment. Both shocks were well-used potentially containing age-related defects and loading the bike was done simply by using body weight.
 			\\\\
-			Having established that the relationship between the pressure in the shock and movement from weighting the shock could be treated as if it were linear, the plan was to implement an ideal gas equation. However investigation into producing charts using Python uncovered a method of computationally producing a linear equation. This led to the application’s process being rearranged so that it takes in two images, one of the shock loaded at 100 PSI and another at 150 PSI. Using this data it can produce a virtual plot and linear equation with which to calculate a value for the optimal sag setting.
+			Having established that the relationship between the pressure in the shock and movement from weighting the shock could be treated as if it were linear, the plan was to implement an ideal gas equation\todo{ref this}. However investigation into producing charts using Python uncovered a method of computationally producing a linear equation. This led to the application’s process being rearranged so that it takes in two images, one of the shock loaded at 100 PSI and another at 150 PSI. Using this data it can produce a virtual plot and linear equation with which to calculate a value for the optimal sag setting.
 	\subsection{Application}
 		\subsubsection{Images}
 			The application requires two images to generate the measurements needed for the calculation. The application can process images in different lighting conditions and ones where a flash has been used though there are some criteria which must be adhered to. There must be a red, circular, 7.5mm diameter sticker on the shock, preferably sited just above the shock seal. The image should also be taken so that the shock seal is around 1/3 down in the image. Examples of the images used are shown in Figure \ref{fig:application_images}.
@@ -138,6 +138,7 @@
 		\subsubsection{Arguments}
 			The application operates from a command line interface allowing the user to supply data through arguments; these are described in Table \ref{tab:arguments}. This system uses Python's Argparse package and a full command to run the application would be as follows:
 			{\centering \ttfamily program -i user/images/100.jpg user/images/150.jpg -s 30 -t 57 -c red}
+			\todo{alternate grey and white lines}
 			\begin{table}[h!]
 				\centering
 				\caption{Table of application arguments}
@@ -147,9 +148,13 @@
 					\bfseries Argument&\bfseries Description&\bfseries Usage\\
 					\hline
 					{\ttfamily -i,--image <path1 path2>}&The paths to the two images to be used for analysis&{\ttfamily -i path/to/img/1 path/to/img/2}\\
+					\hline
 					{\ttfamily -s,--sag <percentage>}&The desired sag percentage&{\ttfamily -s 30}\\
+					\hline
 					{\ttfamily -t,--stroke}&The stroke length of the shock being analysed&{\ttfamily -t 57}\\
+					\hline
 					{\ttfamily -c,--colour}&The colour of the marker o-ring&{\ttfamily -c red}\\
+					\hline
 					{\ttfamily -d,--debug}&This produces outputs from each stage to the terminal for debugging purposes&\\
 					\hline
 				\end{tabular}
@@ -158,7 +163,7 @@
 			\paragraph{Reference Point}
 				The first process which the application must complete is to find the reference point for measurement. This is done by first colour quantifying the image to 8 bit colour so that the reference point becomes uniform in colour. The result of this process is shown in Figure \ref{subfig:quantified}. So the application can find the red colour of the reference point within the entire image, a mask is applied for any colour within a range. The output of this process is shown in Figure \ref{subfig:mask}. If an alternative colour reference point were to be used, this colour range could be easily adapted.
 				\\\\
-				The contours,or shapes in this image are then found and sorted by their area in decreasing order. By doing this it can be assumed with a high level of confidence that the largest will be the reference point. The found contour can be seen in Figure \ref{subfig:contours}. A bounding circle is created around the reference point contour, as is shown in Figure \ref{subfig:boundaries}, and this can be used to calculate the pixel per millimetre metric.
+				The contours, or shapes in this image are then found and sorted by their area in decreasing order. By doing this it can be assumed with a high level of confidence that the largest will be the reference point. The found contour can be seen in Figure \ref{subfig:contours}. A bounding circle is created around the reference point contour, as shown in Figure \ref{subfig:boundaries}, and this can be used to calculate the pixel per millimetre metric.
 			\begin{figure}[h!]
 				\centering
 				\begin{subfigure}[t]{0.2\textwidth}
@@ -191,7 +196,7 @@
 		\paragraph{O-Ring}
 			If a red coloured O-ring is specified then the same process to find the reference point is used. The second largest contour found will be the O-ring so a bounding box can be drawn round it from which a measurement limit can be collected. The red O-ring mask, contour, and bounding box can be seen in Figure \ref{fig:ref_point_process}. 
 			\\\\
-			If a black O-ring is specified, an alternative process is used. Thresholding is applied to the image which highlights any shadows or highlights on the shock shaft. As these are intersected by the O-ring it is simple to select a contour which ends at the O-ring to use as a measurement limit. This process is shown in Figure \ref{fig:fox_oring}.
+			If a black O-ring is specified, an alternative process is used. Thresholding is applied to the image which emphasises any shadows or highlights on the shock shaft. As these are intersected by the O-ring it is simple to select a contour which ends at the O-ring to use as a measurement limit. This process is shown in Figure \ref{fig:fox_oring}.
 			\begin{figure}[h!]
 				\centering
 				\begin{subfigure}[t]{0.4\textwidth}
@@ -206,7 +211,7 @@
 					\subcaption{O-ring indicator}
 					\label{subfig:fox_oring}
 				\end{subfigure}
-				\caption{Locating process for black o-ring}
+				\caption{Locating process for black O-ring}\todo{make better}
 				\label{fig:fox_oring}
 			\end{figure}
 		\paragraph{Measurement}
@@ -227,6 +232,7 @@
 					\caption{Vertical lines in measurement area}
 					\label{subfig:lines}
 				\end{subfigure}
+				\todo{caption}
 			\end{figure}
 		\paragraph{Equation}
 			Once the measurements for the shock pressurised to 100 PSI and 150 PSI are produced, they can then be utilised to create a linear equation. This is carried out using Python’s Scipy package and its linregress method which accepts two arrays of data and returns the slope and intercept of the linear equation. An example equation which is visually described in the chart shown in Figure \ref{fig:equation_plot} is only produced virtually and never output to the user.
@@ -240,11 +246,12 @@
 			To produce the final setting the optimal distance that the shock should move to give the desired sag setting is first calculated using data input by the user. For example if the shock stroke is 57mm and the desired sag is 30\% then the desired movement is 17.1mm. This and the equation produced in the previous section are used to calculate the optimal pressure. For example if the equation is $-5:017x+246.426$ then the pressure required to give optimal sag is 161 PSI.
 \clearpage
 	\subsection{Evaluation}\label{sec:evaluation}
-		The following section will describe the results of applying the evaluation techniques outlined in section \ref{sec:methodology_evaluation} to the final prototype application. The outcome of the evaluation gives an indication of how successful the application is at meeting its intended goals and how successful methods used in the project were in producing the application.
+		The following section will describe the results of applying the evaluation techniques outlined in section \ref{sec:methodology_evaluation} to the final prototype application. The outcome of the evaluation gives an indication of how successful the application is at meeting its intended goals and the success of the methods used in the project.
 		\subsubsection{Validation}\label{sec:evaluation_validation}
 			% Display test results
 			% Explain they work and have suitable coverage
 			% Explain not full coverage
+			\todo{revise par}
 			Figure \ref{fig:test_results} shows an extract from the testing report produced by the Pycharm \gls{ide}. It includes each test from both test modules and clearly indicates that the final prototype application successfully passed all the tests including checks to see whether the outputs produced by the application are within an expected range, validating not only that the application works but that it also produces results within the anticipated range.
 			\begin{figure}[h!]
 				\centering
@@ -293,14 +300,15 @@
 				\end{tabular}
 			\end{table}
 			\\
+			\todo{fix second sentence}
 			For each test the variances are low, (the highest being $\pm$0.27), which indicates that the application is capable of consistently producing correct sag settings. If these uncertainty measures had been much higher than the settings produced by the application would not have been reliable. The calculated setting produced by the application is also rounded to the nearest whole number as increments of less than 1 PSI in a mountain bike shock have negligible effect. Even the most advanced, digital shock pumps do not display fractions of PSI and professional race teams do not make changes of less than 1 PSI. This knowledge further reinforces the capabilities of the application.
 			\\\\
-			The results for the shock with a red O-ring are slightly higher than those for the black O-ring. This is because the method for finding and applying a boundary to the red O-ring produces a larger variance in results than the method for finding and applying a boundary to s the black O-ring. However, the minor difference between the results is insignificant as both colours of O-ring produce accurate results so this is not an issue.
+			The results for the shock with a red O-ring are slightly higher than those for the black O-ring. This is because the method for finding and applying a boundary to the red O-ring produces a larger variance in results than the method for finding and applying a boundary to the black O-ring. However, the minor difference between the results is insignificant as both colours of O-ring produce accurate results so this is not an issue.
 		\subsubsection{Comparison to Alternative Methods}\label{sec:alt_methods}
 			% Compare results to manual setup
 				% Two pressures to put in are known so easy
 				% No trial and error, you just do it
-			As outlined in section \ref{sec:methodology_manual}, the results generated by the application were compared with the manual, trial and error, method of setting up sag. For this experiment the target sag was 30\% of a 57mm shock stroke equalling a target measurement of 17.1mm. To begin the rider was weighed wearing their normal riding clothing and equipment with the result being approximately 160lbs. Following the manufacturer’s recommended process, the shock was then pressurised to the equivalent pressure of 160 PSI and loaded with the rider in the saddle with the feet off the ground. Each of the subsequent steps followed in the trial and error process that are shown in Table \ref{tab:manual_process}.
+			As outlined in section \ref{sec:methodology_manual}, the results generated by the application were compared with the manual, trial and error, method of setting up sag. For this experiment the target sag was 30\% of a 57mm shock stroke equalling a target measurement of 17.1mm. To begin the rider was weighed wearing their normal riding clothing and equipment with the result being approximately 160lbs.\todo{fix sentence} Following the manufacturer’s recommended process, the shock was then pressurised to the equivalent pressure of 160 PSI and loaded with the rider in the saddle with the feet off the ground. Each of the subsequent steps followed in the trial and error process are shown in Table \ref{tab:manual_process}.
 			\begin{table}[h!]
 				\centering
 				\caption{Stages of manual sag setting process}
@@ -317,13 +325,13 @@
 					\hline
 				\end{tabular}
 			\end{table}\\
-			To produce the correct sag setting using the manual process required 5 separate adjustments each including pressurisation of the shock, weighting of the bike, and measurement of the marker O-ring. For this particular shock, small changes in pressure made no noticeable difference to the amount of movement so an additional 20 PSI was added in stage 2. Even though there is a chance that the manufacturer’s recommended setting will be correct or very close, the majority of the time a manual set-up needs 4 or more adjustments. Conversely, using the application only involves 3 set easy to follow stages and produced reliable results meaning optimal setup can be achieved quicker and with far less effort. The application also removes both the need to weigh the rider and to refer to the manufacturer’s recommended pressure setting which further simplifies the process and saves time. 
+			To produce the correct sag setting using the manual process required 5 separate adjustments each including pressurisation of the shock, weighting of the bike, and measurement of the marker O-ring. For this particular shock, small changes in pressure made no noticeable difference to the amount of movement so an additional 20 PSI was added in stage 2. Even though there is a chance that the manufacturer’s recommended setting will be correct or very close, the majority of the time a manual set-up needs 4 or more adjustments. Conversely, using the application only involves 3 easy to follow stages and produced reliable results meaning optimal setup can be achieved quicker and with far less effort. The application also removes both the need to weigh the rider and to refer to the manufacturer’s recommended pressure setting which further simplifies the process and saves time. 
 			\\\\
-			It should be noted that there is disparity between the pressure that results from following the manual process (seen in Table \ref{tab:manual_process}) and that produced by the application (seen in Table \ref{tab:uncertainty}). As the images used during development of the application were of a shock that had not been weighted while the rider was wearing correct clothing and equipment, new images were produced to match the conditions during the manual process and the application retested. This produced a result of 176 PSI which was closer to that produced by the manual process but still lower than the manually produced result. However, when the shock is pressurised to this setting, the sag appears correct. 
+			It should be noted that there is disparity between the pressure that results from following the manual process (seen in Table \ref{tab:manual_process}) and that produced by the application (seen in Table \ref{tab:uncertainty}). As the images used during development of the application were of a shock that had not been weighted while the rider was wearing correct clothing and equipment, new images were produced to match the conditions during the manual process and the application retested. This produced a result of 176 PSI which was closer to, but still lower than, the manually produced result. However, when the shock is pressurised to this setting, the sag appears correct. 
 			\\\\
 			A manual setting was produced for the low volume shock to further investigate this issue. It was found that under these conditions both the manual and application’s results were extremely close at approximately 120 PSI. As high volume shocks require much higher pressures than low volume shocks, it is believed that as the manual pressure of 200 PSI lies above the two pressures which the shock is pressurised to when using the application, this creates inaccurate results. For comparison, the low volume target pressure of 120 PSI lies between the 100 and 150 PSI required by the application. A solution to this will be discussed in section \ref{sec:conclusion_future_work}.
 		\subsubsection{Professional Opinion}
-			As outlined in section \ref{sec:methodology_professional_opinion}, once the application was complete the Mountain Bike Centre of Scotland were contacted to arrange a meeting with an individual from the industry to demonstrate the application to and collect their feedback. The meeting was arranged with Geraint Florida-Jones of the Centre and Mark Ravilious who is a mechanical engineer who has ventured into the design and manufacture of his own full suspension frame. Both Mark and Geraint are familiar with the current products that are similar to the application produced by this project such as Shockwiz \citep{quarq2017shockwiz} and the Fox IRD application \citep{foxird}.
+			As outlined in section \ref{sec:methodology_professional_opinion}, once the application was complete the Mountain Bike Centre of Scotland were contacted to arrange a meeting with an individual from the industry to demonstrate the application and collect their feedback. The meeting was arranged with Geraint Florida-Jones of the Centre and Mark Ravilious who is a mechanical engineer who has ventured into the design and manufacture of his own full suspension frame. Both Mark and Geraint are familiar with the current products that are similar to the application produced by this project such as Shockwiz \citep{quarq2017shockwiz} and the Fox IRD application \citep{foxird}.
 			\\\\
 			Once Mark and Geraint were familiar with the context of the project and operation of the application, they were asked for their feedback. They both stated that the project had been well executed and the application was simple to operate. Both verified that the setting produced appeared correct for the given shock, bike, and rider’s weight. Furthermore, both agreed that they would recommend the application to the target audience of beginner and intermediate riders though a more professional setup was required for those at the competitive end of the sport.
 			\\\\
