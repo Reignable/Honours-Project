@@ -21,7 +21,7 @@
 				\centering
 				\includegraphics[scale=0.1,trim={0 140cm 0 0}, clip]{../images/results/100_rs.jpg}
 				\includegraphics[scale=0.1,trim={0 140cm 0 0},clip]{../images/results/quant.jpg}
-				\caption{Normal image (top) versus quantified colours (bottom)}
+				\caption[Normal image versus quantified colours]{Normal image (top) versus quantified colours (bottom)}
 				\label{fig:quantified_colours}
 			\end{figure}
 		\subsubsection{Dynamic Measurement Limits}
@@ -42,7 +42,7 @@
 					trim={20cm 30cm 15cm 110cm},
 					clip]{../images/results/raw_refs.jpg}				
 				\end{minipage}\hfill
-				\caption{Red O-ring found using {\ttfamily findContours} (left) with {\ttfamily boundingBox} applied (right)}
+				\caption[Red O-ring found using {\ttfamily findContours} with {\ttfamily boundingBox} applied]{Red O-ring found using {\ttfamily findContours} (left) with {\ttfamily boundingBox} applied (right)}
 				\label{fig:find_oring}
 			\end{figure}
 			\\
@@ -81,7 +81,7 @@
 					trim={30cm 140cm 25cm 0},
 					clip]{../images/results/raw_refs.jpg}				
 				\end{minipage}\hfill
-				\caption{Reference point found using {\ttfamily findContours} (left) with {\ttfamily boundingCircle} applied (right)}
+				\caption[Reference point found using {\ttfamily findContours} with {\ttfamily boundingCircle} applied]{Reference point found using {\ttfamily findContours} (left) with {\ttfamily boundingCircle} applied (right)}
 				\label{fig:find_ref}
 			\end{figure}
 		\subsubsection{Pressure Calculation}\label{sec:results_pressure_calculation}
@@ -112,12 +112,12 @@
 					\centering
 					\includegraphics[width=\textwidth]{../images/results/rs_scatter.eps}
 				\end{minipage}
-				\caption{Sag measurements for standard air shock (left) and high volume air shock (right)}
+				\caption[Sag measurements for standard air shock and high volume air shock]{Sag measurements for standard air shock (left) and high volume air shock (right)}
 				\label{fig:scatters}
 			\end{figure}\\
 			From this data it could be concluded that, within the range of measurements, the compression rate of the air spring is linear. The data-points in Figure \ref{fig:scatters} do occasionally vary though this thought to be due to it being a non-sterile test environment. Both shocks were well-used potentially containing age-related defects and loading the bike was done simply by using body weight.
 			\\\\
-			Having established that the relationship between the pressure in the shock and movement from weighting the shock could be treated as if it were linear, the plan was to implement an ideal gas equation\todo{ref this}. However investigation into producing charts using Python uncovered a method of computationally producing a linear equation. This led to the application’s process being rearranged so that it takes in two images, one of the shock loaded at 100 PSI and another at 150 PSI. Using this data it can produce a virtual plot and linear equation with which to calculate a value for the optimal sag setting.
+			Having established that the relationship between the pressure in the shock and movement from weighting the shock could be treated as if it were linear, the plan was to implement an ideal gas equation \citep{burdette2012ideal}. However investigation into producing charts using Python uncovered a method of computationally producing a linear equation. This led to the application’s process being rearranged so that it takes in two images, one of the shock loaded at 100 PSI and another at 150 PSI. Using this data it can produce a virtual plot and linear equation with which to calculate a value for the optimal sag setting.
 	\subsection{Application}
 		\subsubsection{Images}
 			The application requires two images to generate the measurements needed for the calculation. The application can process images in different lighting conditions and ones where a flash has been used though there are some criteria which must be adhered to. There must be a red, circular, 7.5mm diameter sticker on the shock, preferably sited just above the shock seal. The image should also be taken so that the shock seal is around 1/3 down in the image. Examples of the images used are shown in Figure \ref{fig:application_images}.
@@ -138,23 +138,20 @@
 		\subsubsection{Arguments}
 			The application operates from a command line interface allowing the user to supply data through arguments; these are described in Table \ref{tab:arguments}. This system uses Python's Argparse package and a full command to run the application would be as follows:
 			{\centering \ttfamily program -i user/images/100.jpg user/images/150.jpg -s 30 -t 57 -c red}
-			\todo{alternate grey and white lines}
+			\rowcolors{2}{gray!25}{white}
 			\begin{table}[h!]
 				\centering
 				\caption{Table of application arguments}
 				\label{tab:arguments}
 				\begin{tabular}{|l|p{0.35\columnwidth}|p{0.25\columnwidth}|}
 					\hline
+					\rowcolor{gray!50}
 					\bfseries Argument&\bfseries Description&\bfseries Usage\\
 					\hline
 					{\ttfamily -i,--image <path1 path2>}&The paths to the two images to be used for analysis&{\ttfamily -i path/to/img/1 path/to/img/2}\\
-					\hline
 					{\ttfamily -s,--sag <percentage>}&The desired sag percentage&{\ttfamily -s 30}\\
-					\hline
 					{\ttfamily -t,--stroke}&The stroke length of the shock being analysed&{\ttfamily -t 57}\\
-					\hline
-					{\ttfamily -c,--colour}&The colour of the marker o-ring&{\ttfamily -c red}\\
-					\hline
+					{\ttfamily -c,--colour}&The colour of the marker O-ring&{\ttfamily -c red}\\
 					{\ttfamily -d,--debug}&This produces outputs from each stage to the terminal for debugging purposes&\\
 					\hline
 				\end{tabular}
@@ -211,7 +208,7 @@
 					\subcaption{O-ring indicator}
 					\label{subfig:fox_oring}
 				\end{subfigure}
-				\caption{Locating process for black O-ring}\todo{make better}
+				\caption{Locating process for black O-ring}
 				\label{fig:fox_oring}
 			\end{figure}
 		\paragraph{Measurement}
@@ -232,7 +229,7 @@
 					\caption{Vertical lines in measurement area}
 					\label{subfig:lines}
 				\end{subfigure}
-				\todo{caption}
+				\caption{Measurement process using edge detection and Hough lines}
 			\end{figure}
 		\paragraph{Equation}
 			Once the measurements for the shock pressurised to 100 PSI and 150 PSI are produced, they can then be utilised to create a linear equation. This is carried out using Python’s Scipy package and its linregress method which accepts two arrays of data and returns the slope and intercept of the linear equation. An example equation which is visually described in the chart shown in Figure \ref{fig:equation_plot} is only produced virtually and never output to the user.
@@ -251,8 +248,7 @@
 			% Display test results
 			% Explain they work and have suitable coverage
 			% Explain not full coverage
-			\todo{revise par}
-			Figure \ref{fig:test_results} shows an extract from the testing report produced by the Pycharm \gls{ide}. It includes each test from both test modules and clearly indicates that the final prototype application successfully passed all the tests including checks to see whether the outputs produced by the application are within an expected range, validating not only that the application works but that it also produces results within the anticipated range.
+			Figure \ref{fig:test_results} shows an extract from the testing report produced by the Pycharm \gls{ide}. It includes each unit test for both classes and clearly indicates that the final prototype application successfully passed them all. These included checks to see whether the outputs produced by the application are within an expected range. By doing so this validates not only that the application works but that it also produces results within the anticipated range.
 			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.5]{../images/results/test_results.png}
@@ -273,48 +269,58 @@
 			% Describe differences between HV and LV
 		% Explain why results are good (Working in rounded numbers)
 			Table \ref{tab:uncertainty} shows the results of calculating uncertainty for the application under different conditions. The calculations were carried out for two different shocks with two different coloured O-rings, and for two sag settings on each. For the tests the application was run 10 times using the same images and arguments with every output collected, and used in the calculation.
+			\rowcolors{2}{white}{white}
 			\begin{table}[h!]
 				\centering
 				\caption{Table of uncertainty calculation results}
 				\label{tab:uncertainty}
 				\begin{tabular}{|l|r|r|r|r|}
 					\hline
-					\multirow{12}{7em}{\bfseries Measurements (PSI)}&\multicolumn{2}{|l|}{\bfseries High Volume, Red O-Ring}&\multicolumn{2}{|l|}{\bfseries Low Volume, Black O-Ring}\\
+					\rowcolor{gray!50}
+					&\multicolumn{2}{|l|}{\bfseries High Volume, Red O-Ring}&\multicolumn{2}{|l|}{\bfseries Low Volume, Black O-Ring}\\
 					\cline{2-5}&\bfseries 25\%&\bfseries 30\%&\bfseries 25\%&\bfseries 30\%\\
 					\hline
-					&175.02&160.97&133.31&120.54\\
+					\rowcolor{gray!25}
+					\cellcolor{white}&175.02&160.97&133.31&120.54\\
 					&174.84&160.52&133.28&120.47\\
-					&174.95&160.41&133.42&120.48\\
+					\rowcolor{gray!25}
+					\cellcolor{white}&174.95&160.41&133.42&120.48\\
 					&174.83&160.65&133.42&120.46\\
-					&174.94&160.75&133.29&120.53\\
+					\rowcolor{gray!25}
+					\cellcolor{white}{\bfseries Measurements}&174.94&160.75&133.29&120.53\\
 					&174.86&160.50&133.38&120.51\\
-					&175.63&160.48&133.35&120.50\\
+					\rowcolor{gray!25}
+					\cellcolor{white}&175.63&160.48&133.35&120.50\\
 					&174.78&160.77&133.36&120.46\\
-					&175.29&160.57&133.36&120.46\\
+					\rowcolor{gray!25}
+					\cellcolor{white}&175.29&160.57&133.36&120.46\\
 					&174.84&160.74&133.42&120.50\\
 					\hline
+					\rowcolor{gray!25}
 					\bfseries Average&175.00&160.64&133.36&120.49\\
 					\bfseries Standard Deviation&0.27&0.17&0.05&0.03\\
+					\rowcolor{gray!25}
 					\bfseries Uncertainty&175 $\pm$ 0.27&160.64 $\pm$ 0.17&133.36 $\pm$ 0.05&120.49 $\pm$ 0.03\\
 					\hline
 				\end{tabular}
 			\end{table}
 			\\
-			\todo{fix second sentence}
-			For each test the variances are low, (the highest being $\pm$0.27), which indicates that the application is capable of consistently producing correct sag settings. If these uncertainty measures had been much higher than the settings produced by the application would not have been reliable. The calculated setting produced by the application is also rounded to the nearest whole number as increments of less than 1 PSI in a mountain bike shock have negligible effect. Even the most advanced, digital shock pumps do not display fractions of PSI and professional race teams do not make changes of less than 1 PSI. This knowledge further reinforces the capabilities of the application.
+			For each test the variances are low, (the highest being $\pm$0.27), which indicates that the application is capable of consistently producing correct sag settings. If these uncertainty measures had been much higher then the settings produced by the application could not have been considered reliable. The calculated setting produced by the application is also rounded to the nearest whole number as increments of less than 1 PSI in a mountain bike shock have negligible effect. Even the most advanced, digital shock pumps do not display fractions of PSI and professional race teams do not make changes of less than 1 PSI. This knowledge further reinforces the capabilities of the application.
 			\\\\
 			The results for the shock with a red O-ring are slightly higher than those for the black O-ring. This is because the method for finding and applying a boundary to the red O-ring produces a larger variance in results than the method for finding and applying a boundary to the black O-ring. However, the minor difference between the results is insignificant as both colours of O-ring produce accurate results so this is not an issue.
 		\subsubsection{Comparison to Alternative Methods}\label{sec:alt_methods}
 			% Compare results to manual setup
 				% Two pressures to put in are known so easy
 				% No trial and error, you just do it
-			As outlined in section \ref{sec:methodology_manual}, the results generated by the application were compared with the manual, trial and error, method of setting up sag. For this experiment the target sag was 30\% of a 57mm shock stroke equalling a target measurement of 17.1mm. To begin the rider was weighed wearing their normal riding clothing and equipment with the result being approximately 160lbs.\todo{fix sentence} Following the manufacturer’s recommended process, the shock was then pressurised to the equivalent pressure of 160 PSI and loaded with the rider in the saddle with the feet off the ground. Each of the subsequent steps followed in the trial and error process are shown in Table \ref{tab:manual_process}.
+			As outlined in section \ref{sec:methodology_manual}, the results generated by the application were compared with the manual, trial and error, method of setting up sag. For this experiment the target sag was 30\% of a 57mm shock stroke equalling a target measurement of 17.1mm. To begin the rider was weighed wearing their normal riding clothing and equipment with the result being approximately 160lbs. Following the manufacturer’s recommended process, the shock was then pressurised to 160 PSI and loaded by the rider. Each of the subsequent steps followed in the trial and error process are shown in Table \ref{tab:manual_process}.
+			\rowcolors{2}{gray!25}{white}
 			\begin{table}[h!]
 				\centering
 				\caption{Stages of manual sag setting process}
 				\label{tab:manual_process}
 				\begin{tabular}{|r|r|l|r|}
 					\hline
+					\rowcolor{gray!50}
 					\bfseries Stage&\bfseries Pressure(PSI)&\bfseries Outcome&\bfseries Action\\
 					\hline
 					1&160&Too little&+5\\

@@ -433,6 +433,31 @@ Bradski, G.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Burdette%
+\ \BBA {} Thompson%
+}{%
+Burdette%
+\ \BBA {} Thompson%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+burdette2012ideal}
+\APACinsertmetastar {%
+burdette2012ideal}%
+\begin{APACrefauthors}%
+Burdette, D.%
+\BCBT {}\ \BBA {} Thompson, T\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Ideal Gas Law} {Ideal gas law}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Callaham%
 }{%
 Callaham%

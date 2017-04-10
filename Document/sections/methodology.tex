@@ -84,7 +84,7 @@ public List<int[]> getFlaggedCells() {
 }
 		\end{minted}
 	\end{minipage}
-	\captionof{listing}{Examples of bad naming (left) and proper naming (right) taken from Clean Code \citep{martin2009clean}}
+	\captionof{listing}[Examples of bad naming and proper naming]{Examples of bad naming (left) and proper naming (right) taken from Clean Code \citep{martin2009clean}}
 	\label{lst:bad_naming_examples}
 \end{figure}
 	\subsubsection{Object Orientation}
@@ -98,8 +98,7 @@ public List<int[]> getFlaggedCells() {
 		\\\\
 		As unit tests are simple in structure and quick to run they are commonly executed when changes are made to the source code. This verifies that the changes made have not broken other sections of code and can be committed into the master branch successfully. If a test failure does occur then each unit test should be concise and descriptive enough to aid the debugging process by indicating what has failed and where.
 		\\\\
-		\todo{sort par, mess around 85\%}
-		A metric of quality for unit testing is code coverage. To confirm that a class is of good quality and functional, every possible path through the code must be tested. Testers should aim for 100\% coverage of a module meaning every possible piece of functionality has an associated test with a coverage of 85\% for example meaning that 15\% of a module is not under test and could cause undetected problems if any changes are made. Many integrated developers environments (IDEs) or testing suites provide coverage checking functionality to make this process simple.
+		A metric of quality and completeness for unit testing is code coverage. To confirm that a class is of good quality and functional, every possible path through the code must be tested. Testers should aim for 100\% coverage of a module meaning every possible piece of functionality has an associated test. A coverage of 85\% for example means that 15\% of a module is not under test and could cause undetected problems if any changes are made. Many integrated developers environments (IDEs) or testing suites provide coverage checking to make this process simple.
 		\paragraph{Python Unit Testing}
 			Due to the package based and open-sourced nature of the Python programming language there are many implementations of unit testing frameworks to choose from. Each has its own advantages and disadvantages and there is much debate over which framework is the best to use. A good unit testing framework should provide the necessary functions to create simple unit tests for each path in the source code and be substantial enough to ensure the class or module is correctly tested.
 	\subsubsection{Project Testing Scope}\label{sec:project_testing_scope}
@@ -140,8 +139,7 @@ public List<int[]> getFlaggedCells() {
 			\\\\
 			There are advantages and disadvantages to using this method over an agile process. Due to the size of the software being produced the amount of management work inherent in an agile process could mean the development process is over managed
 		\subsubsection{Version Control}\label{sec:methodology_version_control}
-			\todo{to to to to to}
-			Large software projects produce multiple files of code, data and documentation. These are vital to the overall success of a project and should be kept safe. Were these files to be lost then the project could easily be delayed or drawn to a close as the time and resources may not be available to recreate the lost data. To combat this any data relating to the project must be backed up, preferably on a cloud based system, to avoid loss and allow the project to continue should anything happen to the local copy of the data.
+			Large software projects produce multiple files of code, data, and documentation. These are vital to the overall success of a project and should be kept safe. If these files are lost then the project could easily be delayed or halted as the time and resources may not be available to recreate the lost data. Action against this can be taken by backing up any data, preferably on a cloud based system, to avoid loss and allow the project to continue should the local copy of the data be lost.
 			\\\\
 			For this project the Git \gls{vcs} will be used. Git uses a cloud hosted repository to store any files relating to a project and allows for work to be carried out locally by cloning the repository on a computer. However \glspl{vcs} also enable the management of the previous versions of files including information such as the individual changes made, details of when those changes were made, and who made them This is a powerful tool as it means the various sections of the project can be worked on without the risk of damaging the project and should a change prove unsuccessful then the repository can be reverted to a functional point.
 			\\\\
@@ -177,10 +175,7 @@ public List<int[]> getFlaggedCells() {
 		\subsubsection{Comparison to Alternatives}\label{sec:methodology_manual}
 			Comparing the process of using the application to produce a sag setting against other available methods will show how simple the application is to use and whether it is more effective than other methods. For this comparison, outputs from the application will be compared with a trial and error process that is a common practice for a beginner or intermediate rider setting their suspension for the first time as described in section \ref{sec:sag}. If the manufacturer's recommended setting proves to be incorrect, then pressure is increased or removed by set increments. Comparison to this process will indicate whether the application presents a benefit over the manual approach.
 		\subsubsection{Professional Opinion}\label{sec:methodology_professional_opinion}
-			\todo{long sentence}
-			The final method of evaluation will be to seek the opinion of the application from professionals working within the mountain bike and cycling industry. This will provide further indication of how well the application achieves its goal and how it might be received were it to be commercialized as well as suggesting areas for future work which may not have been seen without outside consultation.
+			The final method of evaluation will be to seek the opinion of professionals working within the mountain bike and cycling industry. This will provide further indication of how well the application achieves its goal and how it might be received were it to be commercialized. This process could also suggest areas for future work which may not have been seen without outside consultation.
 			\\\\
-			The Mountain Bike Research Centre of Scotland\footnote{http://www.napier.ac.uk/about-us/our-schools/school-of-applied-sciences/research/mountain-bike-centre-of-scotland} will be approached to recommend an individual who they deem suitable to provide such expert assessment once the application can be demonstrated. Although it is anticipated that the meeting will take a semi-formal approach, general evaluative questions will be posed with responses recorded. 
-			\\\\
-			\todo{fix par, it's one sentence}
-			In addition to this meeting, the application will also be demonstrated to staff at a local bike shop to gain their feedback using the same approach as the meeting with the individual designated by The Mountain Bike Research Centre.
+			The Mountain Bike Research Centre of Scotland\footnote{http://www.napier.ac.uk/about-us/our-schools/school-of-applied-sciences/research/mountain-bike-centre-of-scotland} will be approached to recommend an individual who they deem suitable to provide such expert assessment once the application can be demonstrated. Although it is anticipated that the meeting will take a semi-formal approach, general evaluative questions will be posed with responses recorded. In addition to this meeting, the application will also be demonstrated to staff at a local bike shop to gain their feedback. This will take the same approach as the first meeting.
+			

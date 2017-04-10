@@ -49,6 +49,7 @@ ptr=1, stack=
 
 ---the literal stack isn't empty for entry hondanightvision
 while executing---line 5079 of file apacite.bst
+Warning--No journal in burdette2012ideal
 Warning--No journal in androidusers
 ptr=1, stack=
 
@@ -75,45 +76,45 @@ ptr=1, stack=
 
 ---the literal stack isn't empty for entry ytonline
 while executing---line 5079 of file apacite.bst
-You've used 58 entries,
+You've used 59 entries,
             6951 wiz_defined-function locations,
-            1591 strings with 21321 characters,
-and the built_in function-call counts, 101818 in all, are:
-= -- 12898
-> -- 833
-< -- 4529
-+ -- 4351
-- -- 154
-* -- 6155
-:= -- 17720
-add.period$ -- 235
-call.type$ -- 58
-change.case$ -- 1023
+            1594 strings with 21388 characters,
+and the built_in function-call counts, 103174 in all, are:
+= -- 13078
+> -- 847
+< -- 4567
++ -- 4391
+- -- 156
+* -- 6223
+:= -- 17915
+add.period$ -- 239
+call.type$ -- 59
+change.case$ -- 1040
 chr.to.int$ -- 0
-cite$ -- 126
-duplicate$ -- 2607
-empty$ -- 4269
-format.name$ -- 1313
-if$ -- 20067
+cite$ -- 129
+duplicate$ -- 2647
+empty$ -- 4333
+format.name$ -- 1337
+if$ -- 20361
 int.to.chr$ -- 0
-int.to.str$ -- 180
+int.to.str$ -- 183
 missing$ -- 0
-newline$ -- 1412
-num.names$ -- 464
-pop$ -- 2007
+newline$ -- 1437
+num.names$ -- 472
+pop$ -- 2028
 preamble$ -- 1
-purify$ -- 244
+purify$ -- 248
 quote$ -- 0
-skip$ -- 7200
+skip$ -- 7319
 stack$ -- 0
-substring$ -- 4804
-swap$ -- 1422
-text.length$ -- 181
+substring$ -- 4853
+swap$ -- 1444
+text.length$ -- 183
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 5424
-warning$ -- 10
-while$ -- 462
+type$ -- 5504
+warning$ -- 11
+while$ -- 469
 width$ -- 0
-write$ -- 1668
+write$ -- 1699
 (There were 8 error messages)

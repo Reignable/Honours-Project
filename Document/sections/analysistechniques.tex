@@ -68,7 +68,7 @@
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=7cm]{../images/curiosity_calibration_chart.jpg}
-		\caption{Contact Instrument Calibration Targets on Mars Rover Curiosity \citep{curiosity_image_calibration}}
+		\caption[Contact Instrument Calibration Targets on Mars Rover Curiosity]{Contact Instrument Calibration Targets on Mars Rover Curiosity \citep{curiosity_image_calibration}}
 		\label{fig:curiosity_calibration_chart}
 	\end{figure}\\
 	However, the reference object must be located in the image using a technique such as \gls{blob} analysis or Hough transforms. Once the object is found, its width or height in pixels in the image is collected and compared against its actual size to give a ratio for applying to the pixel count of the object to calculate its real world height. For example, if a reference object that is 2mm wide measures 200 pixels across in an image then it can be concluded that 100 pixels in the image corresponds to 1mm in the real world. Knowing this ratio, any other objects that can be measured in pixels can have the real world measurement estimated as long as they are approximately the same distance from the camera as the reference object.

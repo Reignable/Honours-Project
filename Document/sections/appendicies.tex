@@ -13,71 +13,53 @@
 			pages=2-,
 			pagecommand={}]{../week_9_report.pdf}
 \clearpage
-\thispagestyle{empty}
-\newgeometry{margin=1cm}
-\begin{landscape}
-	\section{Android Experiments}\label{app:android_experiments}
-		\subsection{Table of Android Experiments}
-		\begin{table}[h!]
-			\centering
-			\label{tab:android_experiments}
-			\begin{tabular}{|l|p{0.4\textwidth}|l|p{0.4\textwidth}|r|r|}
-				\hline
-				\bfseries Experiment&\bfseries Purpose&\bfseries Functional&\bfseries Issues&\bfseries Files&\bfseries LOC\\
-				\hline
-				Hello CV&
-				\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
-					\item{Introduction to the android OpenCV library}
-					\item{Displays camera feed with fps}
-				\end{itemize}&
-				Yes&
-				\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
-					\item{Not fullscreen}
-					\item{Incorrect orientation}
-				\end{itemize}&
-				2&
-				101\\
-				\hline
-				15Tile&
-				\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
-					\item{Sliding tile game}
-					\item{Uses camera feed as puzzle}
-				\end{itemize}&
-				Yes&
-				\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
-					\item{Not fullscreen}
-				\end{itemize}&
-				3&
-				492\\
-				\hline
-				Blob Detection&
-				\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
-					\item{Demonstrates blob detection}
-					\item{Runs blob detection on tapped area from camera}
-				\end{itemize}&
-				No&
-				\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
-					\item{Crash on screen tap}
-				\end{itemize}&
-				3&
-				311\\
-				\hline
-				Face Detection&
-				\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
-					\item{Detects faces in camera view}
-					\item{Puts boundary around detected faces}
-				\end{itemize}&
-				No&
-				\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
-					\item{Crash on load}
-				\end{itemize}&
-				3&
-				279\\
-				\hline
-			\end{tabular}
-		\end{table}
-	\end{landscape}
-\restoregeometry
+\section{Android Experiments}\label{app:android_experiments}
+	\subsection{Table of Android Experiments}
+	\rowcolors{2}{gray!25}{white}
+	\begin{table}[h!]
+		\centering
+		\label{tab:android_experiments}
+		\begin{tabular}{|l|p{0.3\textwidth}|l|p{0.2\textwidth}|r|r|}
+			\hline
+			\rowcolor{gray!50}
+			\bfseries Experiment&\bfseries Purpose&\bfseries Works&\bfseries Issues&\bfseries Files&\bfseries LOC\\
+			\hline
+			Hello CV&
+			Introduction to the android OpenCV library. Displays camera feed with fps.&
+			\checkmark&
+			\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
+				\item{Not fullscreen}
+				\item{Incorrect orientation}
+			\end{itemize}&
+			2&
+			101\\
+			15Tile&
+			Sliding tile game. Uses camera feed as puzzle.&
+			\checkmark&
+			\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
+				\item{Not fullscreen}
+			\end{itemize}&
+			3&
+			492\\
+			Blob Detection&
+			Demonstrates blob detection. Runs blob detection on tapped area from camera.&
+			X&
+			\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
+				\item{Crash on screen tap}
+			\end{itemize}&
+			3&
+			311\\
+			Face Detection&
+			Detects faces in camera view. Puts boundary around detected faces.&
+			X&
+			\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
+				\item{Crash on load}
+			\end{itemize}&
+			3&
+			279\\
+			\hline
+		\end{tabular}
+	\end{table}
 \subsection{Hello CV}
 	\inputminted[breaklines,
 					linenos,
@@ -110,63 +92,44 @@
 					linenos,
 					frame=lines,
 					fontsize=\footnotesize]{java}{../code/android/face_recognition/FrActivity.java}
-	\clearpage
-		\thispagestyle{empty}
-		\newgeometry{margin=1cm}
-		\begin{landscape}
-			\section{Python Experiments}\label{app:python_experiments}
-			\subsection{Table of Python Experiments}
-			\begin{table}[h!]
-				\centering
-				\label{tab:python_experiments}
-				\begin{tabular}{|l|p{0.4\textwidth}|l|p{0.4\textwidth}|r|r|}
-					\hline
-					\bfseries Experiment&\bfseries Purpose&\bfseries Functional&\bfseries Issues&\bfseries Files&\bfseries LOC\\
-					\hline
-					Find Game&
-					\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
-						\item{Identify red game cartridge out of 3}
-						\item{Displays boundary around correct part of image}
-					\end{itemize}&
-					Yes&
-					N/A&
-					1&
-					18\\
-					\hline
-					Threshold Methods&
-					\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
-						\item{Demonstrates various thresholding methods on an image}
-						\item{Original image text unreadable but clear after techniques are applied}
-					\end{itemize}&
-					Yes&
-					N/A&
-					1&
-					14\\
-					\hline
-					Image Operations&
-					\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
-						\item{Moves parts of an image to other locations using arrays}
-						\item{Demonstrates how pixel data is stored}
-					\end{itemize}&
-					Yes&
-					N/A&
-					1&
-					15\\
-					\hline
-					Distance to Camera&
-					\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt]
-						\item{Calculates distance to the camera from an identified object}
-						\item{Displays various distances using 3 images}
-					\end{itemize}&
-					Yes&
-					N/A&
-					1&
-					38\\
-					\hline
-				\end{tabular}
-			\end{table}
-		\end{landscape}
-		\restoregeometry
+\clearpage
+\section{Python Experiments}\label{app:python_experiments}
+		\subsection{Table of Python Experiments}
+		\begin{table}[h!]
+			\centering
+			\label{tab:python_experiments}
+			\begin{tabular}{|l|p{0.4\textwidth}|l|l|r|r|}
+				\hline
+				\rowcolor{gray!50}
+				\bfseries Experiment&\bfseries Purpose&\bfseries Works&\bfseries Issues&\bfseries Files&\bfseries LOC\\
+				\hline
+				Find Game&
+				Identify red game cartridge out of 3. Displays boundary around correct part of image.&
+				\checkmark&
+				N/A&
+				1&
+				18\\
+				Threshold Methods&
+				Demonstrates various thresholding methods on an image. Original image text unreadable but clear after techniques are applied.&
+				\checkmark&
+				N/A&
+				1&
+				14\\
+				Image Operations&
+				Moves parts of an image to other locations using Arrays. Demonstrates how pixel data is stored.&
+				\checkmark&
+				N/A&
+				1&
+				15\\
+				Distance to Camera&
+				Calculates distance to the camera from an identified object. Displays various distances using 3 images.&
+				\checkmark&
+				N/A&
+				1&
+				38\\
+				\hline
+			\end{tabular}
+		\end{table}
 		\subsection{find\_game.py}
 		\inputminted[breaklines,
 						linenos,
