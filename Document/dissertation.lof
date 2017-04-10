@@ -13,7 +13,7 @@
 \contentsline {figure}{\numberline {14}{\ignorespaces Normal image versus quantified colours}}{31}{figure.caption.25}
 \contentsline {figure}{\numberline {15}{\ignorespaces Red O-ring found using {\ttfamily findContours} with {\ttfamily boundingBox} applied}}{32}{figure.caption.26}
 \contentsline {figure}{\numberline {16}{\ignorespaces Black O-ring found using thresholding and {\ttfamily findContours}\relax }}{32}{figure.caption.27}
-\contentsline {figure}{\numberline {17}{\ignorespaces Reference point found using HoughCircles\relax }}{33}{figure.caption.28}
+\contentsline {figure}{\numberline {17}{\ignorespaces Reference point found using Hough Circle Transform\relax }}{33}{figure.caption.28}
 \contentsline {figure}{\numberline {18}{\ignorespaces Reference point found using {\ttfamily findContours} with {\ttfamily boundingCircle} applied}}{33}{figure.caption.29}
 \contentsline {figure}{\numberline {19}{\ignorespaces Sag measurements for standard air shock and high volume air shock}}{34}{figure.caption.30}
 \contentsline {figure}{\numberline {20}{\ignorespaces Images suitable for processing\relax }}{35}{figure.caption.31}

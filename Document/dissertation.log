@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  10 APR 2017 13:09
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2016.10.25)  10 APR 2017 16:58
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1491,18 +1491,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
-Overfull \hbox (1.42145pt too wide) detected at line 127
- []\EU1/Arial(0)/m/n/12 101
- []
-
-
-Overfull \hbox (1.42145pt too wide) detected at line 128
+Overfull \hbox (1.42145pt too wide) detected at line 129
  []\EU1/Arial(0)/m/n/12 102
  []
 
 
-Overfull \hbox (1.42145pt too wide) detected at line 129
+Overfull \hbox (1.42145pt too wide) detected at line 130
  []\EU1/Arial(0)/m/n/12 103
+ []
+
+
+Overfull \hbox (1.42145pt too wide) detected at line 131
+ []\EU1/Arial(0)/m/n/12 104
  []
 
 )
@@ -1801,23 +1801,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--42
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 43--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--48
+
+ []
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 43--48
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--48
-
- []
-
 File: ../images/curiosity_calibration_chart.jpg Graphic file (type QTm)
-<use  "../images/curiosity_calibration_chart.jpg" >)
+ <use  "../images/curiosity_calibration_chart.jpg" >)
 (./sections/analysis_and_sport.tex
 Underfull \hbox (badness 10000) in paragraph at lines 63--1
 
@@ -1832,6 +1833,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--1
 Underfull \hbox (badness 10000) in paragraph at lines 63--1
 
  []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2120,10 +2124,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 162--165
-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2131,13 +2131,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
 [][][]\EU1/Arial(0)/m/n/10 http://www.napier.ac.uk/about-us/our-schools/school-
 of-applied-sciences/research/mountain-bike-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--181
+Underfull \hbox (badness 10000) in paragraph at lines 176--179
 
  []
 
@@ -2281,35 +2281,6 @@ Overfull \hbox (4.73557pt too wide) in paragraph at lines 146--158
  [][] 
  []
 
-File: ../images/results/quant.jpg Graphic file (type QTm)
-<use  "../images/results/quant.jpg" >
-Overfull \hbox (14.18146pt too wide) in paragraph at lines 168--169
- [][] 
- []
-
-File: ../images/results/mask.jpg Graphic file (type QTm)
-<use  "../images/results/mask.jpg" >
-Overfull \hbox (14.18146pt too wide) in paragraph at lines 174--175
- [][] 
- []
-
-File: ../images/results/contours.jpg Graphic file (type QTm)
-<use  "../images/results/contours.jpg" >
-Overfull \hbox (14.18146pt too wide) in paragraph at lines 180--181
- [][] 
- []
-
-File: ../images/results/raw_refs.jpg Graphic file (type QTm)
-<use  "../images/results/raw_refs.jpg" >
-Overfull \hbox (14.18146pt too wide) in paragraph at lines 186--187
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--193
-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2317,12 +2288,51 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [35]
+File: ../images/results/quant.jpg Graphic file (type QTm)
+ <use  "../images/results/quant.jpg" >
+Overfull \hbox (14.18146pt too wide) in paragraph at lines 169--170
+ [][] 
+ []
+
+File: ../images/results/mask.jpg Graphic file (type QTm)
+<use  "../images/results/mask.jpg" >
+Overfull \hbox (14.18146pt too wide) in paragraph at lines 175--176
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+[]\EU1/Arial(0)/m/n/10.95 (b) |Red image
+ []
+
+File: ../images/results/contours.jpg Graphic file (type QTm)
+<use  "../images/results/contours.jpg" >
+Overfull \hbox (14.18146pt too wide) in paragraph at lines 181--182
+ [][] 
+ []
+
+File: ../images/results/raw_refs.jpg Graphic file (type QTm)
+<use  "../images/results/raw_refs.jpg" >
+Overfull \hbox (14.18146pt too wide) in paragraph at lines 187--188
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
+\EU1/Arial(0)/m/n/10.95 and box applied
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--194
+
+ []
+
 File: ../images/results/threshold.jpg Graphic file (type QTm)
- <use  "../images/results/threshold.jpg" >
+<use  "../images/results/threshold.jpg" >
 File: ../images/results/fox_oring.jpg Graphic file (type QTm)
 
 <use  "../images/results/fox_oring.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 194--214
+Underfull \hbox (badness 10000) in paragraph at lines 195--215
 
  []
 
@@ -2344,9 +2354,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: ../images/results/scatter_dotted.png Graphic file (type QTm)
  <use  "../images/results/scatter_dotted.png" >
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
@@ -2365,7 +2372,7 @@ File: ../images/results/test_results.png Graphic file (type QTm)
 File: ../images/results/coverage.png Graphic file (type QTm)
 
 <use  "../images/results/coverage.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 251--267
+Underfull \hbox (badness 10000) in paragraph at lines 252--268
 
  []
 
@@ -2378,12 +2385,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [39
 
 ]
-Overfull \hbox (6.34363pt too wide) in paragraph at lines 277--306
+Overfull \hbox (6.34363pt too wide) in paragraph at lines 278--307
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--311
+Underfull \hbox (badness 10000) in paragraph at lines 272--312
 
  []
 
@@ -2394,12 +2401,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 315--339
+Underfull \hbox (badness 10000) in paragraph at lines 316--340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--339
+Underfull \hbox (badness 10000) in paragraph at lines 316--340
 
  []
 
@@ -2410,22 +2417,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [41])
-Underfull \hbox (badness 10000) in paragraph at lines 340--81
+Underfull \hbox (badness 10000) in paragraph at lines 341--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--81
+Underfull \hbox (badness 10000) in paragraph at lines 341--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--81
+Underfull \hbox (badness 10000) in paragraph at lines 341--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--81
+Underfull \hbox (badness 10000) in paragraph at lines 341--81
 
  []
 
@@ -3158,8 +3165,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [96
 
 ]
-(./_minted-dissertation/15849D5EFCA237360934D27ED861F7AFF9388BA6E44AC57ACEAAAA2
-DF42734B2.pygtex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3168,16 +3173,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [97
 
-])
-(./_minted-dissertation/AADE3CF6B7EEF60BDE35C7ABA9C4B9BF9F89FA0C786D9AA87B9BBAE
-82B561A38.pygtex
+]
+(./_minted-dissertation/15849D5EFCA237360934D27ED861F7AFF9388BA6E44AC57ACEAAAA2
+DF42734B2.pygtex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[98]
+[98
+
+])
+(./_minted-dissertation/AADE3CF6B7EEF60BDE35C7ABA9C4B9BF9F89FA0C786D9AA87B9BBAE
+82B561A38.pygtex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3191,7 +3200,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[100])
+[100]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[101])
 (./_minted-dissertation/B4CDAD52F1DEBE6979D51C181B218543EE89922A52CA73C71C7E58C
 F6ECB1734.pygtex)
 (./_minted-dissertation/7B552060EA5BC49DB7EBC656E9BA11547CF7BD4F98CA769EA2B46B1
@@ -3202,14 +3218,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[101]
+[102]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[102])
+[103])
 (./_minted-dissertation/32C649B1800CEBB23A43C3B008FD6251D0982B7898A5709F47EC4D6
 AE3271DCC.pygtex
 
@@ -3218,7 +3234,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[103]))
+[104]))
 
 Package todo Warning: Nothing \todo! I'm ignoring the \todos command on input l
 ine 89.
@@ -3230,7 +3246,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[104]
+[105]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
  (./dissertation.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 90.
@@ -3240,12 +3256,12 @@ runsystem(rm dissertation.pyg)...executed.
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 34363 strings out of 493589
- 602920 string characters out of 6145555
- 750645 words of memory out of 5000000
- 37114 multiletter control sequences out of 15000+600000
+ 34367 strings out of 493589
+ 602997 string characters out of 6145555
+ 751016 words of memory out of 5000000
+ 37118 multiletter control sequences out of 15000+600000
  10701 words of font info for 72 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  47i,19n,77p,10385b,729s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (115 pages).
+Output written on dissertation.pdf (116 pages).
